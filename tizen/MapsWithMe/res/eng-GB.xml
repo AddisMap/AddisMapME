@@ -78,15 +78,15 @@
 	<!-- Warning message when doing search around current position -->
 	<text id="IDS_UNKNOWN_CURRENT_POSITION">Your location hasn\&#39;t been determined yet</text>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_BOOKMARK_SHARE_SMS">Hey, check out my pin at MAPS.ME! %1$s or %2$s Don\&#39;t have offline maps installed? Download here: http://maps.me/get</text>
+	<text id="IDS_BOOKMARK_SHARE_SMS">Hey, check out my pin at AddisMapME! %1$s or %2$s Don\&#39;t have offline maps installed? Download here: http://maps.me/get</text>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_MY_POSITION_SHARE_SMS">Hey, check out my current location at MAPS.ME! %1$s or %2$s Don\&#39;t have offline maps? Download here: http://maps.me/get</text>
+	<text id="IDS_MY_POSITION_SHARE_SMS">Hey, check out my current location at AddisMapME! %1$s or %2$s Don\&#39;t have offline maps? Download here: http://maps.me/get</text>
 	<!-- Subject for emailed bookmark -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Hey, check out my pin at MAPS.ME map!</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Hey, check out my pin at AddisMapME map!</text>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL">Hi,\n\nI pinned: %1$s at MAPS.ME, world offline maps. Click this link %2$s or this one %3$s to see the place on the map.\n\nThanks.</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL">Hi,\n\nI pinned: %1$s at AddisMapME, world offline maps. Click this link %2$s or this one %3$s to see the place on the map.\n\nThanks.</text>
 	<!-- Subject for emailed position -->
-	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Hey, check out my current location at MAPS.ME map!</text>
+	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Hey, check out my current location at AddisMapME map!</text>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<text id="IDS_MY_POSITION_SHARE_EMAIL">Hi,\n\nI\&#39;m here now: %1$s. Click this link %2$s or this one %3$s to see the place on the map.\n\nThanks.</text>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -117,7 +117,7 @@
 	<!-- Update map suggestion -->
 	<text id="IDS_ROUTING_MAP_OUTDATED">Please update the map to create a route</text>
 	<!-- Update maps suggestion -->
-	<text id="IDS_ROUTING_UPDATE_MAPS">The new version of MAPS.ME allows creating routes from your current position to a destination point. Please update maps to use this feature.</text>
+	<text id="IDS_ROUTING_UPDATE_MAPS">The new version of AddisMapME allows creating routes from your current position to a destination point. Please update maps to use this feature.</text>
 	<!-- Update all button text -->
 	<text id="IDS_DOWNLOADER_UPDATE_ALL">Update all</text>
 	<!-- Cancel all button text -->
@@ -131,7 +131,7 @@
 	<!-- Country queued for download -->
 	<text id="IDS_DOWNLOADER_QUEUED">queued</text>
 	<!-- Disclaimer message -->
-	<text id="IDS_ROUTING_DISCLAIMER">Creating routes in MAPS.ME app, please keep in mind the following:\n\n  - Suggested routes can be considered as recommendations only.\n - Road conditions, traffic rules and signs have higher priority than navigation advice.\n - The map may be incorrect or outdated, and routes may not be created the best possible way.\n\n  Be safe on roads and take care of yourself!</text>
+	<text id="IDS_ROUTING_DISCLAIMER">Creating routes in AddisMapME app, please keep in mind the following:\n\n  - Suggested routes can be considered as recommendations only.\n - Road conditions, traffic rules and signs have higher priority than navigation advice.\n - The map may be incorrect or outdated, and routes may not be created the best possible way.\n\n  Be safe on roads and take care of yourself!</text>
 	<!-- Outdated maps category -->
 	<text id="IDS_DOWNLOADER_OUTDATED_MAPS">Outdated</text>
 	<!-- Up to date maps category -->

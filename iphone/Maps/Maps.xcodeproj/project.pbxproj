@@ -4250,9 +4250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6741A93D1BF340DE002C974C /* MAPS.ME */ = {
+		6741A93D1BF340DE002C974C /* AddisMapME */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6741AA541BF340DE002C974C /* Build configuration list for PBXNativeTarget "MAPS.ME" */;
+			buildConfigurationList = 6741AA541BF340DE002C974C /* Build configuration list for PBXNativeTarget "AddisMapME" */;
 			buildPhases = (
 				6741A9411BF340DE002C974C /* Resources */,
 				6741A9A01BF340DE002C974C /* Sources */,
@@ -4265,7 +4265,7 @@
 			dependencies = (
 				3470403B1EA6628700038379 /* PBXTargetDependency */,
 			);
-			name = MAPS.ME;
+			name = AddisMapME;
 			productName = Maps;
 			productReference = 6741AA5D1BF340DE002C974C /* maps.me dbg.app */;
 			productType = "com.apple.product-type.application";
@@ -4348,7 +4348,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				6741A93D1BF340DE002C974C /* MAPS.ME */,
+				6741A93D1BF340DE002C974C /* AddisMapME */,
 			);
 		};
 /* End PBXProject section */
@@ -5404,7 +5404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6741AA541BF340DE002C974C /* Build configuration list for PBXNativeTarget "MAPS.ME" */ = {
+		6741AA541BF340DE002C974C /* Build configuration list for PBXNativeTarget "AddisMapME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6741AA571BF340DE002C974C /* Debug */,

@@ -1,4 +1,4 @@
-# MAPS.ME Development
+# AddisMapME Development
 
 ## Issues
 
@@ -6,7 +6,7 @@ The simplest way to contribute is to [submit an issue](https://github.com/mapsme
 Please give developers as much information as possible: OS and application versions,
 list of actions leading to a bug, a log file produced by the app.
 
-When using the MAPS.ME app on a device, use the built-in "Report a bug" option:
+When using the AddisMapME app on a device, use the built-in "Report a bug" option:
 it creates a new e-mail with a log file attached. Your issue will be processed much
 faster if you send it to bugs@maps.me.
 
@@ -52,7 +52,7 @@ you'll need to create a "data" symlink in the shadow-dir path to the /repo/data 
 * Install [Homebrew](http://brew.sh/) and run `brew install qt5`.
 * Install Carthage: `brew install carthage`.
 * Run XCode, open `xcode/omim.xcworkspace`.
-* Select "xcMAPS.ME" scheme and run the product.
+* Select "xcAddisMapME" scheme and run the product.
 
 ## Coding Style
 
@@ -60,8 +60,8 @@ See [CPP_STYLE.md](CPP_STYLE.md). Use `clang-format` when in doubt.
 
 ## Pull Requests
 
-All contributions to MAPS.ME source code should be submitted via github pull requests.
-Each pull request is reviewed by MAPS.ME employees, to ensure consistent code style
+All contributions to AddisMapME source code should be submitted via github pull requests.
+Each pull request is reviewed by AddisMapME employees, to ensure consistent code style
 and quality. Sometimes the review process even for smallest commits can be
 very thorough.
 
@@ -115,5 +115,5 @@ Some of these contain their own README files.
 
 ## Questions?
 
-For any questions about developing MAPS.ME and relevant services - virtually about anything related,
+For any questions about developing AddisMapME and relevant services - virtually about anything related,
 please write to us at bugs@maps.me, we'll be happy to help.

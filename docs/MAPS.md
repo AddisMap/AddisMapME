@@ -1,6 +1,6 @@
 # MWM Files
 
-MAPS.ME uses maps in its own vector format, MWM. It contains classified features sorted and simplified by zoom level.
+AddisMapME uses maps in its own vector format, MWM. It contains classified features sorted and simplified by zoom level.
 It also can include a pre-calculated routing index for car routing. We build maps for the entire planet:
 
 * [daily.mapswithme.com/direct/latest](http://direct.mapswithme.com/direct/latest/) - official maps bundled with releases.
@@ -25,7 +25,7 @@ Specify `TARGET` variable for changing that (e.g. `TARGET=.`). The script runs `
 see `find_generator_tool.sh` script for an algorithm on how it finds it. All temporary files are created
 with `mktemp` and then removed.
 
-The resulting file won't have any coastlines, though MAPS.ME will overlay zoomed-in map with a low-quality
+The resulting file won't have any coastlines, though AddisMapME will overlay zoomed-in map with a low-quality
 generalized coastline. To add a detailed coastline, you would need a `WorldCoasts.geom` file and
 a [border polygon](https://wiki.openstreetmap.org/wiki/Osmosis/Polygon_Filter_File_Format) for a source
 file area. Having that, run (and prepare to wait a bit longer):
