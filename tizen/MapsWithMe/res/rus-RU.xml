@@ -82,13 +82,13 @@
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<text id="IDS_MY_POSITION_SHARE_SMS">Смотри где я сейчас. Жми %1$s или %2$s</text>
 	<!-- Subject for emailed bookmark -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Смотри мою метку на карте MAPS.ME</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Смотри мою метку на карте AddisMapME</text>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL">Привет!\n\nОткрой эту ссылку %2$s либо эту %3$s, для того, чтобы увидеть мою метку %1$s на карте MAPS.ME.\n\nСпасибо.</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL">Привет!\n\nОткрой эту ссылку %2$s либо эту %3$s, для того, чтобы увидеть мою метку %1$s на карте AddisMapME.\n\nСпасибо.</text>
 	<!-- Subject for emailed position -->
-	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Посмотри на карте MAPS.ME, где я сейчас нахожусь</text>
+	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Посмотри на карте AddisMapME, где я сейчас нахожусь</text>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
-	<text id="IDS_MY_POSITION_SHARE_EMAIL">Привет!\n\nЯ сейчас здесь: %1$s. Чтобы увидеть это место на карте MAPS.ME, открой эту ссылку %2$s или эту %3$s\n\nСпасибо.</text>
+	<text id="IDS_MY_POSITION_SHARE_EMAIL">Привет!\n\nЯ сейчас здесь: %1$s. Чтобы увидеть это место на карте AddisMapME, открой эту ссылку %2$s или эту %3$s\n\nСпасибо.</text>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
 	<text id="IDS_SHARE">Поделиться</text>
 	<!-- iOS share by Message button text (including SMS) -->
@@ -117,7 +117,7 @@
 	<!-- Update map suggestion -->
 	<text id="IDS_ROUTING_MAP_OUTDATED">Пожалуйста, обновите карту для того, чтобы проложить маршрут.</text>
 	<!-- Update maps suggestion -->
-	<text id="IDS_ROUTING_UPDATE_MAPS">В новой версии MAPS.ME вы сможете строить маршруты от текущего местоположения до точки назначения. Чтобы воспользоваться этой функцией, обновите, пожалуйста, карты.</text>
+	<text id="IDS_ROUTING_UPDATE_MAPS">В новой версии AddisMapME вы сможете строить маршруты от текущего местоположения до точки назначения. Чтобы воспользоваться этой функцией, обновите, пожалуйста, карты.</text>
 	<!-- Update all button text -->
 	<text id="IDS_DOWNLOADER_UPDATE_ALL">Обновить все</text>
 	<!-- Cancel all button text -->
@@ -131,7 +131,7 @@
 	<!-- Country queued for download -->
 	<text id="IDS_DOWNLOADER_QUEUED">в очереди</text>
 	<!-- Disclaimer message -->
-	<text id="IDS_ROUTING_DISCLAIMER">Используя маршруты в приложении MAPS.ME, пожалуйста, учитывайте следующее:\n\n  - Предлагаемые маршруты могут рассматриваться только в качестве рекомендации.\n - Дорожная обстановка, правила дорожного движения, знаки являются более приоритетными по сравнению с советами навигационной программы.\n - Карта может быть неточной или неактуальной, а предложенный маршрут не самым оптимальным.\n\n  Будьте внимательны на дорогах и берегите себя!</text>
+	<text id="IDS_ROUTING_DISCLAIMER">Используя маршруты в приложении AddisMapME, пожалуйста, учитывайте следующее:\n\n  - Предлагаемые маршруты могут рассматриваться только в качестве рекомендации.\n - Дорожная обстановка, правила дорожного движения, знаки являются более приоритетными по сравнению с советами навигационной программы.\n - Карта может быть неточной или неактуальной, а предложенный маршрут не самым оптимальным.\n\n  Будьте внимательны на дорогах и берегите себя!</text>
 	<!-- Outdated maps category -->
 	<text id="IDS_DOWNLOADER_OUTDATED_MAPS">Неактуальные</text>
 	<!-- Up to date maps category -->

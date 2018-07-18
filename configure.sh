@@ -23,7 +23,7 @@ if [ -f "$SAVED_PRIVATE_REPO_FILE" ]; then
   PRIVATE_REPO=`cat "$SAVED_PRIVATE_REPO_FILE"`
   echo "Using stored private repository URL: $PRIVATE_REPO"
 else
-  echo "If you are developer from MAPS.ME team, please specify a private repository url here."
+  echo "If you are developer from AddisMapME team, please specify a private repository url here."
   echo "If not [yet :)], then just press Enter."
   echo -n "> "
   read PRIVATE_REPO

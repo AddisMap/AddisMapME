@@ -76,11 +76,11 @@
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<text id="IDS_MY_POSITION_SHARE_SMS">Mira dónde estoy. Abre %1$s o %2$s</text>
 	<!-- Subject for emailed bookmark -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Mira mi alfiler en el mapa de MAPS.ME</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Mira mi alfiler en el mapa de AddisMapME</text>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL">¡Hola!\n\nMarqué con un alfiler: %1$s en MAPS.ME, mapas del mundo sin conexión. Haz clic en este enlace %2$s o este %3$s para ver el sitio en el mapa.\n\nGracias.</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL">¡Hola!\n\nMarqué con un alfiler: %1$s en AddisMapME, mapas del mundo sin conexión. Haz clic en este enlace %2$s o este %3$s para ver el sitio en el mapa.\n\nGracias.</text>
 	<!-- Subject for emailed position -->
-	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Mira mi ubicación actual en el mapa en MAPS.ME</text>
+	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Mira mi ubicación actual en el mapa en AddisMapME</text>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<text id="IDS_MY_POSITION_SHARE_EMAIL">Hola:\n\nAhora estoy aquí: %1$s. Haz clic en este enlace %2$s o esta %3$s para verlo en el mapa.\n\nGracias.</text>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -105,7 +105,7 @@
 	<!-- Update map suggestion -->
 	<text id="IDS_ROUTING_MAP_OUTDATED">Por favor, actualiza el mapa para crear una ruta.</text>
 	<!-- Update maps suggestion -->
-	<text id="IDS_ROUTING_UPDATE_MAPS">La nueva versión de MAPS.ME permite crear rutas desde tu ubicación actual hasta un punto de destino. Por favor, actualiza los mapas para utilizar esta característica.</text>
+	<text id="IDS_ROUTING_UPDATE_MAPS">La nueva versión de AddisMapME permite crear rutas desde tu ubicación actual hasta un punto de destino. Por favor, actualiza los mapas para utilizar esta característica.</text>
 	<!-- Update all button text -->
 	<text id="IDS_DOWNLOADER_UPDATE_ALL">Actualizar todos</text>
 	<!-- Cancel all button text -->
@@ -119,7 +119,7 @@
 	<!-- Country queued for download -->
 	<text id="IDS_DOWNLOADER_QUEUED">En cola</text>
 	<!-- Disclaimer message -->
-	<text id="IDS_ROUTING_DISCLAIMER">Creando rutas en la aplicación MAPS.ME, por favor, tenga en cuenta lo siguiente:\n\n  - Las rutas sugeridas se pueden considerar únicamente como recomendaciones.\n - Las condiciones de la carretera, las normas y las señales de tráfico tienen mayor prioridad que el consejo de navegación.\n - El mapa podría ser incorrecto o estar obsoleto y las rutas pueden no crear el mejor camino posible.\n\n  ¡Esté seguro en las carreteras y cuídese!</text>
+	<text id="IDS_ROUTING_DISCLAIMER">Creando rutas en la aplicación AddisMapME, por favor, tenga en cuenta lo siguiente:\n\n  - Las rutas sugeridas se pueden considerar únicamente como recomendaciones.\n - Las condiciones de la carretera, las normas y las señales de tráfico tienen mayor prioridad que el consejo de navegación.\n - El mapa podría ser incorrecto o estar obsoleto y las rutas pueden no crear el mejor camino posible.\n\n  ¡Esté seguro en las carreteras y cuídese!</text>
 	<!-- Outdated maps category -->
 	<text id="IDS_DOWNLOADER_OUTDATED_MAPS">Anticuado</text>
 	<!-- Up to date maps category -->
