@@ -273,10 +273,12 @@ void FindAllLocalMapsAndCleanup(int64_t latestVersion, string const & dataDir,
 
   // World and WorldCoasts can be stored in app bundle or in resources
   // directory, thus it's better to get them via Platform.
-  string const world(WORLD_FILE_NAME);
-  string const worldCoasts(migrate::NeedMigrate() ? WORLD_COASTS_OBSOLETE_FILE_NAME
+    string const world(WORLD_FILE_NAME);
+    string const worldCoasts(migrate::NeedMigrate() ? WORLD_COASTS_OBSOLETE_FILE_NAME
                                                   : WORLD_COASTS_FILE_NAME);
-  for (string const & file : {world, worldCoasts})
+
+    // as well as Ethiopia and Eritrea (AddisMap special)
+    for (string const & file : {world, "Ethiopia", "Eritrea", worldCoasts})
   {
     auto i = localFiles.begin();
     for (; i != localFiles.end(); ++i)
