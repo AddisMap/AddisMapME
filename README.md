@@ -1,6 +1,6 @@
-# MAPS.ME
+# AddisMapME
 
-[MAPS.ME](http://maps.me) is an open source cross-platform offline maps application,
+[AddisMapME](http://maps.me) is an open source cross-platform offline maps application,
 built on top of crowd-sourced OpenStreetMap data. It was publicly released
 for [iOS](https://itunes.apple.com/app/id510623322) and
 [Android](https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro).
@@ -37,12 +37,12 @@ in [MAPS.md](https://github.com/mapsme/omim/tree/master/docs/MAPS.md).
 
 ## Map styles
 
-MAPS.ME uses its own binary format for map styles, `drules_proto.bin`, which is compiled from
+AddisMapME uses its own binary format for map styles, `drules_proto.bin`, which is compiled from
 [MapCSS](https://wiki.openstreetmap.org/wiki/MapCSS) using modified Kothic library.
 Feature set in MWM files depends on a compiled style, so make sure to rebuild maps after
 releasing a style.
 
-For development, use MAPS.ME Designer app along with its generator tool: these allow
+For development, use AddisMapME Designer app along with its generator tool: these allow
 for quick rebuilding of a style and symbols, and for producing a zoom-independent
 feature set in MWM files.
 

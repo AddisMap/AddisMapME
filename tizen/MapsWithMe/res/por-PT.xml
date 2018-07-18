@@ -76,15 +76,15 @@
 	<!-- Warning message when doing search around current position -->
 	<text id="IDS_UNKNOWN_CURRENT_POSITION">A sua localização ainda não foi determinada</text>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_BOOKMARK_SHARE_SMS">Veja o meu marcador no mapa do MAPS.ME. Abra a hiperligação: %1$s ou %2$s</text>
+	<text id="IDS_BOOKMARK_SHARE_SMS">Veja o meu marcador no mapa do AddisMapME. Abra a hiperligação: %1$s ou %2$s</text>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<text id="IDS_MY_POSITION_SHARE_SMS">Veja onde estou agora. Abra a hiperligação: %1$s ou %2$s</text>
 	<!-- Subject for emailed bookmark -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Veja o meu marcador no mapa do MAPS.ME.</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Veja o meu marcador no mapa do AddisMapME.</text>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<text id="IDS_BOOKMARK_SHARE_EMAIL">Olá,\n\nFixei:%1$s na MAPS.ME, mapas offline mundiais. Clique nesta ligação %2$s ou nesta %3$s para ver o local no mapa.\n\nObrigado.</text>
+	<text id="IDS_BOOKMARK_SHARE_EMAIL">Olá,\n\nFixei:%1$s na AddisMapME, mapas offline mundiais. Clique nesta ligação %2$s ou nesta %3$s para ver o local no mapa.\n\nObrigado.</text>
 	<!-- Subject for emailed position -->
-	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Veja a minha localização atual em MAPS.ME map</text>
+	<text id="IDS_MY_POSITION_SHARE_EMAIL_SUBJECT">Veja a minha localização atual em AddisMapME map</text>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<text id="IDS_MY_POSITION_SHARE_EMAIL">Olá,\n\nEstou aqui agora: %1$s. Clique nesta ligação %2$s ou nesta %3$s para ver o local no mapa.\n\nObrigado.</text>
 	<!-- Share button text which opens menu with more buttons, like Message, EMail, Facebook etc. -->
@@ -109,7 +109,7 @@
 	<!-- Update map suggestion -->
 	<text id="IDS_ROUTING_MAP_OUTDATED">Por favor, atualize o mapa para criar uma rota.</text>
 	<!-- Update maps suggestion -->
-	<text id="IDS_ROUTING_UPDATE_MAPS">A nova versão do MAPS.ME permite criar rotas a partir da sua posição atual para um ponto de destino. Por favor, atualize o maps para utilizar esta funcionalidade.</text>
+	<text id="IDS_ROUTING_UPDATE_MAPS">A nova versão do AddisMapME permite criar rotas a partir da sua posição atual para um ponto de destino. Por favor, atualize o maps para utilizar esta funcionalidade.</text>
 	<!-- Update all button text -->
 	<text id="IDS_DOWNLOADER_UPDATE_ALL">Atualizar tudo</text>
 	<!-- Cancel all button text -->
@@ -123,7 +123,7 @@
 	<!-- Country queued for download -->
 	<text id="IDS_DOWNLOADER_QUEUED">Na fila</text>
 	<!-- Disclaimer message -->
-	<text id="IDS_ROUTING_DISCLAIMER">Ao criar rotas na aplicação MAPS.ME, por favor, lembre-se do seguinte:\n\n  - As rotas sugeridas podem apenas ser consideradas como recomendações.\n - As condições da estrada, regras de trânsito e sinais têm maior prioridade do que os conselhos de navegação.\n - O mapa poderá estar errado, ou desatualizado, e as rotas poderão não ser criadas da melhor forma possível.\n\n  Circule em segurança nas estradas e cuide do seu bem estar!</text>
+	<text id="IDS_ROUTING_DISCLAIMER">Ao criar rotas na aplicação AddisMapME, por favor, lembre-se do seguinte:\n\n  - As rotas sugeridas podem apenas ser consideradas como recomendações.\n - As condições da estrada, regras de trânsito e sinais têm maior prioridade do que os conselhos de navegação.\n - O mapa poderá estar errado, ou desatualizado, e as rotas poderão não ser criadas da melhor forma possível.\n\n  Circule em segurança nas estradas e cuide do seu bem estar!</text>
 	<!-- Outdated maps category -->
 	<text id="IDS_DOWNLOADER_OUTDATED_MAPS">Desatualizado</text>
 	<!-- Up to date maps category -->

@@ -15,17 +15,17 @@
 
 namespace routing
 {
-/// URL string generator for MAPS.ME OSRM server request.
+/// URL string generator for AddisMapME OSRM server request.
 /// \param serverURL http server url with protocol, name and port if needed. For example:
 /// http://mail.ru:12345
 /// \param startPoint Coordinates of a start point.
 /// \param finalPoint Coordinates of a finish point.
-/// \return URL for OSRM MAPS.ME server request.
+/// \return URL for OSRM AddisMapME server request.
 /// \see MapsMePlugin.hpp for REST protocol.
 string GenerateOnlineRequest(string const & serverURL, ms::LatLon const & startPoint,
                              ms::LatLon const & finalPoint);
 
-/// \brief ParseResponse MAPS.ME OSRM server response parser.
+/// \brief ParseResponse AddisMapME OSRM server response parser.
 /// \param serverResponse Server response data.
 /// \param outPoints Mwm map points.
 /// \return true if there are some maps in a server's response.
