@@ -755,7 +755,7 @@ void KmlParser::Pop(std::string const & tag)
   {
     // This code assumes that <Style> is stored inside <Placemark>.
     // It is a violation of KML format, but it must be here to support
-    // loading of KML files which were stored by older versions of MAPS.ME.
+    // loading of KML files which were stored by older versions of AddisMapME.
     TrackLayer layer;
     layer.m_lineWidth = m_trackWidth;
     layer.m_color.m_predefinedColor = PredefinedColor::None;

@@ -50,7 +50,7 @@
 "get_it_now" = "احصل عليه الآن";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "شكرا لاستخدامك MAPS.ME! هل يعجبك التطبيق؟ أخبر أصدقاءك عن التطبيق! سيكون ذلك هو غاية الامتنان بالنسبة لنا.";
+"share_on_facebook_text" = "شكرا لاستخدامك AddisMapME! هل يعجبك التطبيق؟ أخبر أصدقاءك عن التطبيق! سيكون ذلك هو غاية الامتنان بالنسبة لنا.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "ك.ب.";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "محاولة مرة أخرى";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "حول MAPS.ME";
+"about_menu_title" = "حول AddisMapME";
 
 "downloading_touch_to_cancel" = "جاري تنزيل %d%% ، انقر للإلغاء";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "خاصية التخزين بواسطة البطاقة الرقمية الآمنة\الناقل التسلسلي الشامل غير متاحة مع الخرائط التي تم تنزيلها.";
 
-"disconnect_usb_cable" = "الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام MAPS.ME.";
+"disconnect_usb_cable" = "الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام AddisMapME.";
 
 "not_enough_free_space_on_sdcard" = "الرجاء إخلاء بعض المساحة في تخزين البطاقة الرقمية الآمنة\الناقل التسلسلي الشامل أولا من أجل استخدام هذا التطبيق.";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "هناك تحديثات متوافرة للخرائط التالية:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "أنت لست بحاجة الى  MAPS.ME Lite بعد الآن، لذلك يمكنك إلغاء تثبيته.";
+"suggest_uninstall_lite" = "أنت لست بحاجة الى  AddisMapME Lite بعد الآن، لذلك يمكنك إلغاء تثبيته.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "تم تنزيل %@ بنجاح.";
@@ -257,10 +257,10 @@
 "set" = "المجموعة";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "ليس لديك أي إشارات مرجعية بعد.\nانقر على أي مكان على الخريطة لإضافة إشارة مرجعية.\nيمكنك أيضا استيراد الإشارات المرجعية من المصادر الأخرى وعرضها في MAPS.ME. افتح ملف KML/KMZ الذي يحتوي على الدبابيس المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.";
+"bookmarks_usage_hint" = "ليس لديك أي إشارات مرجعية بعد.\nانقر على أي مكان على الخريطة لإضافة إشارة مرجعية.\nيمكنك أيضا استيراد الإشارات المرجعية من المصادر الأخرى وعرضها في AddisMapME. افتح ملف KML/KMZ الذي يحتوي على الدبابيس المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "يمكن استيراد الإشارات المرجعية من المصادر الأخرى و عرضها على MAPS.ME. افتح ملف KML/KMZ الذي يحتوي على الإشارات المرجعية المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.";
+"bookmarks_usage_hint_import_only" = "يمكن استيراد الإشارات المرجعية من المصادر الأخرى و عرضها على AddisMapME. افتح ملف KML/KMZ الذي يحتوي على الإشارات المرجعية المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.";
 
 /* Settings button in system menu */
 "settings" = "الإعدادات";
@@ -353,7 +353,7 @@
 "share_by_email" = "مشاركة بواسطة البريد الالكتروني";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "تم مشاركة اشارات MAPS.ME المرجعية معك";
+"share_bookmarks_email_subject" = "تم مشاركة اشارات AddisMapME المرجعية معك";
 
 "share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
 
@@ -385,7 +385,7 @@
 "downloading_is_active" = "جاري الآن تنزيل الدولة";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "نأمل أن تكون قد استمتعت باستخدام MAPS.ME! إذا كان الأمر كذلك، الرجاء تقييم التطبيق في App Store. يستغرق ذلك أقل من دقيقة لكنه يفيدنا بالفعل. شكرا لك على دعمك!";
+"appStore_message" = "نأمل أن تكون قد استمتعت باستخدام AddisMapME! إذا كان الأمر كذلك، الرجاء تقييم التطبيق في App Store. يستغرق ذلك أقل من دقيقة لكنه يفيدنا بالفعل. شكرا لك على دعمك!";
 
 /* No, thanks */
 "no_thanks" = "لا، شكرا";
@@ -397,13 +397,13 @@
 "my_position_share_sms" = "هاي، تفقد الموقع الخاص بي على MAPS.ME! %1$@ أو %2$@. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "هاي، تفقد الدبوس الخاص بي على خريطة MAPS.ME!";
+"bookmark_share_email_subject" = "هاي، تفقد الدبوس الخاص بي على خريطة AddisMapME!";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "مرحبا،\n\nقمت بوضع دبوس: %1$@ على MAPS.ME، خرائط العالم بدون الاتصال مع الانترنت. انقر على هذا الرابط %2$@ أو الرابط التالي %3$@ لمشاهدة الموقع على الخريطة.\n\nشكرا لك.";
+"bookmark_share_email" = "مرحبا،\n\nقمت بوضع دبوس: %1$@ على AddisMapME، خرائط العالم بدون الاتصال مع الانترنت. انقر على هذا الرابط %2$@ أو الرابط التالي %3$@ لمشاهدة الموقع على الخريطة.\n\nشكرا لك.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "يا هلا، تحقق من موقعي الحالي على خريطة MAPS.ME!";
+"my_position_share_email_subject" = "يا هلا، تحقق من موقعي الحالي على خريطة AddisMapME!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "مرحبا،\n\nأنا هنا الآن: %1$@. انقر على هذا الرابط %2$@ أو ذلك الرابط %3$@ لمشاهدة المكان على الخريطة.\n\nشكرا لك.";
@@ -551,7 +551,7 @@
 "search_show_on_map" = "مشاهدة على الخريطة";
 
 /* Used to warn user when fixing KitKat issue */
-"kitkat_migrate_ok" = "تم تحسين وسيلة تخزين بيانات الخريطة. الرجاء اعادة تشغيل التطبيق .\n\nلا حاجة بعد الآن لمجلد MAPS.ME في البطاقة الرقمية الآمنة، يمكنك حذفه.";
+"kitkat_migrate_ok" = "تم تحسين وسيلة تخزين بيانات الخريطة. الرجاء اعادة تشغيل التطبيق .\n\nلا حاجة بعد الآن لمجلد AddisMapME في البطاقة الرقمية الآمنة، يمكنك حذفه.";
 
 /* Used to warn user when fixing KitKat issue */
 "kitkat_migrate_failed" = "بسبب التغييرات في نظام أندرويد4.4 ، نحن بحاجة لتحسين وسيلة تخزين بيانات الخريطة، لكن لا يوجد حيز كافٍ لنسخ بيانات الخريطة.\n\nالرجاء إخلاء الذاكرة، وإلا ستتوافر الخرائط في وضع القراءة فقط.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "تنزيل خريطة المكان الذي توجد فيه";
 
 /* text of notification */
-"pro_version_is_free_today" = "تطبيق MAPS.ME مجاني اليوم! قم بتنزيله الآن وأخبر أصدقائك.";
+"pro_version_is_free_today" = "تطبيق AddisMapME مجاني اليوم! قم بتنزيله الآن وأخبر أصدقائك.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "نحن ننقل خرائط التنزيلات الخاصة بك من MAPS.ME Lite إلى MAPS.ME. يمكن أن يستغرق بضع دقائق";
+"move_lite_maps_to_pro" = "نحن ننقل خرائط التنزيلات الخاصة بك من AddisMapME Lite إلى AddisMapME. يمكن أن يستغرق بضع دقائق";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "تم بنجاح نقل خرائطك التي تم تنزيلها إلى MAPS.ME.";
+"move_lite_maps_to_pro_ok" = "تم بنجاح نقل خرائطك التي تم تنزيلها إلى AddisMapME.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "فشل نقل خرائطك يُرجى حذف MAPS.ME Lite وتنزيل الخرائط مرة أخرى.";
+"move_lite_maps_to_pro_failed" = "فشل نقل خرائطك يُرجى حذف AddisMapME Lite وتنزيل الخرائط مرة أخرى.";
 
 /* Text in menu */
 "settings_and_more" = "الإعدادات والمزيد";
@@ -611,7 +611,7 @@
 "website" = "الموقع الإلكتروني";
 
 /* Text in menu */
-"maps_me_community" = "مجتمع MAPS.ME";
+"maps_me_community" = "مجتمع AddisMapME";
 
 /* Text in menu */
 "like_on_facebook" = "أعجبني على الفيسبوك";
@@ -641,7 +641,7 @@
 "report_a_bug" = "الإبلاغ عن خطأ";
 
 /* Email subject */
-"subscribe_me_subject" = "يرجى اشتراكي في النشرة البريدية لدى MAPS.ME";
+"subscribe_me_subject" = "يرجى اشتراكي في النشرة البريدية لدى AddisMapME";
 
 /* Email body */
 "subscribe_me_body" = "أريد أن أكون أول من يعرف آخر الأخبار والتحديثات والترقيات. يمكنني إلغاء اشتراكي في أي وقت.";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "يرجى تحديث الخريطة لإنشاء مسار.";
 
 /* Update maps suggestion */
-"routing_update_maps" = "إصدار MAPS.ME الجديد يسمح بإنشاء مسارات انطلاقاً من موقعك الحالي نحو المكان الذي تتجه إليه. يرجى تحديث الخرائط لاستخدام هذه الميزة.";
+"routing_update_maps" = "إصدار AddisMapME الجديد يسمح بإنشاء مسارات انطلاقاً من موقعك الحالي نحو المكان الذي تتجه إليه. يرجى تحديث الخرائط لاستخدام هذه الميزة.";
 
 /* Update all button text */
 "downloader_update_all_button" = "تحديث الكل";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "تم العثور على";
 
 /* Disclaimer message */
-"routing_disclaimer" = "عند إنشاء مسارات الطرق في تطبيق MAPS.ME، يرجى أخذ التالي في الحسبان:\n\n  - المسارات المقترحة تعتبر مجرد اقتراحات فقط.\n - حالة الطريق وقوانينه والإشارات الموجودة فيه لها الأولولية أثناء تقديم نصائح الملاحة.\n - قد تكون الخريطة خاطئة أو قديمة، لذا فإنه يمكن ألا تُرسم المسارات بالشكل الأمثل.\n\n  كن آمنا على الطريق وانتبه لتفسك!";
+"routing_disclaimer" = "عند إنشاء مسارات الطرق في تطبيق AddisMapME، يرجى أخذ التالي في الحسبان:\n\n  - المسارات المقترحة تعتبر مجرد اقتراحات فقط.\n - حالة الطريق وقوانينه والإشارات الموجودة فيه لها الأولولية أثناء تقديم نصائح الملاحة.\n - قد تكون الخريطة خاطئة أو قديمة، لذا فإنه يمكن ألا تُرسم المسارات بالشكل الأمثل.\n\n  كن آمنا على الطريق وانتبه لتفسك!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "انتهت صلاحيته";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "لقد قمت بتقييم تطبيقك للتو";
 
 /* Text for rating dialog */
-"rating_user_since" = "أنا مستخدم لتطبيق MAPS.ME منذ %@";
+"rating_user_since" = "أنا مستخدم لتطبيق AddisMapME منذ %@";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "هل تطبيق MAPS.ME يعجبك؟";
+"rating_do_like_maps" = "هل تطبيق AddisMapME يعجبك؟";
 
 /* Text for rating dialog */
 "rating_tap_star" = "انقر على النجمة لتقييم التطبيق.";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Scarica la mappa";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Scarica la mappa aggiornata e i dati del percorso per ottenere tutte le funzionalità MAPS.ME.";
+"routing_download_map_and_routing" = "Scarica la mappa aggiornata e i dati del percorso per ottenere tutte le funzionalità AddisMapME.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Ottieni i dati del percorso";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "يعجبك التطبيق؟";
 
-"rate_alert_default_message" = "شكرا لاستخدامك MAPS.ME. من فضلك، أَعْطِ تقييمك للتطبيق. ملاحظاتك تساعدنا على أن نصبح أفضل.";
+"rate_alert_default_message" = "شكرا لاستخدامك AddisMapME. من فضلك، أَعْطِ تقييمك للتطبيق. ملاحظاتك تساعدنا على أن نصبح أفضل.";
 
 "rate_alert_five_star_message" = "مرحا! نحن أيضا نحبك!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "مكان متكرر";
 
-"first_launch_congrats_title" = "MAPS.ME جاهز للاستخدام";
+"first_launch_congrats_title" = "AddisMapME جاهز للاستخدام";
 
 "first_launch_congrats_text" = "ابحث وتصفح كل مكان في العالم بدون اتصال, مجانا.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "قم بإضافة أماكن جديدة للخريطة، وعدل أماكن حالية مباشرة من التطبيق.";
 
-"whatsnew_editor_message_2" = "*تستخدم MAPS.ME البيانات الخاصة بخريطة OpenStreetMap.";
+"whatsnew_editor_message_2" = "*تستخدم AddisMapME البيانات الخاصة بخريطة OpenStreetMap.";
 
 "onboarding_offline_navigation_title" = "لن تضل الطريق أبدا بعد الآن";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "خطط أفضل طرق السيارات والمشاة.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — وصول إلى الخرائط على مستوى العالم دون إنترنت";
+"onboarding_offline_maps_title" = "AddisMapME — وصول إلى الخرائط على مستوى العالم دون إنترنت";
 
 "onboarding_offline_maps_message" = "قم بتنزيل خرائط للمنطقة المطلوب مرة واحدة، واستخدم وظائف الملاحة والبحث دون الحاجة للاتصال بالإنترنت.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "لاستخدام الملاحة والميزات الأخرى، فنحن بحاجة إلى تحديد موقعك الجغرافي.";
 
-"onboarding_permissions_title" = "السماح لـ MAPS.ME بالوصول إلى ذاكرة التخزين والموقع";
+"onboarding_permissions_title" = "السماح لـ AddisMapME بالوصول إلى ذاكرة التخزين والموقع";
 
 "onboarding_permissions_message" = "من ثم يمكنك تنزيل الخرائط وعرض الأماكن وحركة المرور القريبة منك استخدام الملاحة.";
 
-"onboarding_welcome_title" = "مرحبًا بك في MAPS.ME";
+"onboarding_welcome_title" = "مرحبًا بك في AddisMapME";
 
 "onboarding_welcome_first_subtitle" = "خرائط تفصيلية مجانية وسريعة وتفصيلية وبدون اتصال بالكامل مع الملاحة منعطف بمنعطف.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "للتنزيل، فأنت تحتاج إلى توفير مساحة أكبر. من فضلك، احذف البيانات غير الضرورية.";
 
-"editor_sharing_title" = "لقد قمت بتحديث خرائط تطبيق MAPS.ME";
+"editor_sharing_title" = "لقد قمت بتحديث خرائط تطبيق AddisMapME";
 
 "editor_comment_will_be_sent" = "سوف نرسل تعليقك إلى فريق رسم الخرائط.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "تعليق مفصل";
 
-"editor_detailed_description" = "سيتم إرسال التغييرات التي اقترحتها إلى مجتمع OpenStreetMap. اذكر التفاصيل التي لا يمكن تحريرها في MAPS.ME";
+"editor_detailed_description" = "سيتم إرسال التغييرات التي اقترحتها إلى مجتمع OpenStreetMap. اذكر التفاصيل التي لا يمكن تحريرها في AddisMapME";
 
 "editor_more_about_osm" = "المزيد عن OpenStreetMap";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "لقد قمنا بتحديث محرر الخريطة";
 
-"whatsnew_update_editor_message" = "قام مستخدمو MAPS.ME بإجراء 200000 تغيير على الخرائط. معًا سنحصل على الخرائط الأكثر تفصيلاً في العالم. انضم إلينا!";
+"whatsnew_update_editor_message" = "قام مستخدمو AddisMapME بإجراء 200000 تغيير على الخرائط. معًا سنحصل على الخرائط الأكثر تفصيلاً في العالم. انضم إلينا!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "لاستخدام مُحَرّر الخريطة، يرجى تحديث جميع الخرائط.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "استمرار";
 
-"recent_track_background_dialog_message" = "يستخدم MAPS.ME موقعك الجغرافي في الخلفية لتسجيل مسار سفرك الأخير.";
+"recent_track_background_dialog_message" = "يستخدم AddisMapME موقعك الجغرافي في الخلفية لتسجيل مسار سفرك الأخير.";
 
 "whatsnew_car_navigation_header" = "ملاحة المركبات سهلة الاستخدام";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "التوجيه الملاحي مع الدراجات (إصدار تجريبي)";
 
-"whatsnew_cycle_navigation_message" = "نختبر الآن التوجيه الملاحي مع الدراجات للموسم الجديد. جرب طريق الدراجات المفضل لديك باستخدام MAPS.ME، واطلعنا على رأيك.";
+"whatsnew_cycle_navigation_message" = "نختبر الآن التوجيه الملاحي مع الدراجات للموسم الجديد. جرب طريق الدراجات المفضل لديك باستخدام AddisMapME، واطلعنا على رأيك.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "تصنيف على Google Play";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "أخبر صديق";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "مرحبًا! تثبيت MAPS.ME!";
+"tell_friends_text" = "مرحبًا! تثبيت AddisMapME!";
 
 /* About short text (below logo) */
-"about_description" = "MAPS.ME هو تطبيق أساسي للسفر بدون اتصال بالإنترنت. يعتمد برنامج MAPS.ME على بيانات OpenStreetMap ويتيح تحريرها.";
+"about_description" = "AddisMapME هو تطبيق أساسي للسفر بدون اتصال بالإنترنت. يعتمد برنامج AddisMapME على بيانات OpenStreetMap ويتيح تحريرها.";
 
 /* Text in menu */
 "blog" = "المدونة";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "فتح";
 
-"whatsnew_uber_header" = "MAPS.ME وUber";
+"whatsnew_uber_header" = "AddisMapME وUber";
 
 "whatsnew_uber_message" = "اطلب تاكسي Uber مباشرة من التطبيق!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "زيادة حجم الخط على الخريطة";
 
-"traffic_update_app" = "الرجاء تحديث MAPS.ME";
+"traffic_update_app" = "الرجاء تحديث AddisMapME";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "لعرض البيانات المرورية، يجب تحديث التطبيق.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "منح حق الوصول";
 
-"onboarding_storage_permissions_message" = "قم بتغيير إعدادات الأذونات في جهازك. يلزم الوصول إلى ذاكرة التخزين لاستخدام MAPS.ME.";
+"onboarding_storage_permissions_message" = "قم بتغيير إعدادات الأذونات في جهازك. يلزم الوصول إلى ذاكرة التخزين لاستخدام AddisMapME.";
 
 "button_exit" = "خروج";
 
-"onboarding_detail_permissions_title" = "MAPS.ME يحتاج إلى الوصول إلى";
+"onboarding_detail_permissions_title" = "AddisMapME يحتاج إلى الوصول إلى";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "ذاكرة التخزين";
@@ -2332,11 +2332,11 @@
 
 "sign_agree_tof_gdpr" = "أوافق على <a href=\"%s\">شروط الاستخدام</a>";
 
-"sign_agree_news_gdpr" = "أوافق على تلقي آخر الأخبار حول منتجات MAPS.ME";
+"sign_agree_news_gdpr" = "أوافق على تلقي آخر الأخبار حول منتجات AddisMapME";
 
 "whats_new_localbiz_title" = "تستحق الأعمال الصغيرة العناية";
 
-"whats_new_localbiz_message" = "ومن المقاهي المحلية والفنادق المريحة والمحلات التجارية التي من خلالها لم ننسى رحلاتنا. سنقوم بتحسين صفحتك في MAPS.ME لنجعلها ذات تميز.";
+"whats_new_localbiz_message" = "ومن المقاهي المحلية والفنادق المريحة والمحلات التجارية التي من خلالها لم ننسى رحلاتنا. سنقوم بتحسين صفحتك في AddisMapME لنجعلها ذات تميز.";
 
 "whats_new_order_button" = "اترك طلب";
 
@@ -2350,7 +2350,7 @@
 
 "cached_bookmarks_placeholder_title" = "تحميل أماكن جديدة";
 
-"cached_bookmarks_placeholder_subtitle" = "اضغط على الزر لتحميل الآلاف من الأماكن المثيرة للاهتمام والطرق التي تم إنشاؤها من قبل لمستخدمين MAPS.ME. سوف تحتاج إلى اتصال بالإنترنت.";
+"cached_bookmarks_placeholder_subtitle" = "اضغط على الزر لتحميل الآلاف من الأماكن المثيرة للاهتمام والطرق التي تم إنشاؤها من قبل لمستخدمين AddisMapME. سوف تحتاج إلى اتصال بالإنترنت.";
 
 "downloader_download_routers" = "تحميل الإشارات";
 
@@ -2366,7 +2366,7 @@
 
 "opt_out_fabric" = "تقرير الحادث";
 
-"opt_out_fabric_description" = "قد نستخدم بياناتك لتحسين تجربة MAPS.ME. سوف تكون التغييرات نافذة المفعول بعد إعادة تشغيل التطبيق.";
+"opt_out_fabric_description" = "قد نستخدم بياناتك لتحسين تجربة AddisMapME. سوف تكون التغييرات نافذة المفعول بعد إعادة تشغيل التطبيق.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2412,7 +2412,7 @@
 
 "subtitle_error_downloading_bookmarks" = "لم يتم تنزيل الإشارات";
 
-"whats_new_bookmarks_catalog_title" = "MAPS.ME لديها الآن كتاب الطريق";
+"whats_new_bookmarks_catalog_title" = "AddisMapME لديها الآن كتاب الطريق";
 
 "whats_new_bookmarks_catalog_message" = "تحدد المئات من الطرق التفصيلية في جميع أنحاء العالم: إلى أين نذهب و ماذا نرى و مكان لتناول الطعام.";
 

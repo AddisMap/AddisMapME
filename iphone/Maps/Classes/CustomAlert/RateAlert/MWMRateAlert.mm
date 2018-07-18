@@ -149,7 +149,7 @@ static NSString * const kStatisticsEvent = @"Rate Alert";
         displayNameForKey:NSLocaleCountryCode
                     value:locale];
     NSString * bundleVersion = AppInfo.sharedInfo.bundleVersion;
-    NSString * text = [NSString stringWithFormat:@"\n\n\n\n- %@ (%@)\n- MAPS.ME %@\n- %@/%@",
+    NSString * text = [NSString stringWithFormat:@"\n\n\n\n- %@ (%@)\n- AddisMapME %@\n- %@/%@",
                                                  deviceModel, UIDevice.currentDevice.systemVersion,
                                                  bundleVersion, language, country];
     MWMMailViewController * mailController = [[MWMMailViewController alloc] init];

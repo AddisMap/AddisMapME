@@ -50,7 +50,7 @@
 "get_it_now" = "Установить";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "Спасибо, что пользуетесь MAPS.ME! Нравится приложение? Расскажите о нём своим друзьям. Это будет лучшей благодарностью для нас.";
+"share_on_facebook_text" = "Спасибо, что пользуетесь AddisMapME! Нравится приложение? Расскажите о нём своим друзьям. Это будет лучшей благодарностью для нас.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "кБ";
@@ -146,7 +146,7 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Попробуйте еще раз";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
 "about_menu_title" = "О программе";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Доступно обновление для следующих карт:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "MAPS.ME Lite больше не нужна. Рекомендуем её удалить.";
+"suggest_uninstall_lite" = "AddisMapME Lite больше не нужна. Рекомендуем её удалить.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@ успешно загружена";
@@ -257,10 +257,10 @@
 "set" = "Группа";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "У вас пока нет меток.\nВыберите любое место на карте, чтобы добавить его.\nТакже метки можно импортировать из MAPS.ME либо других приложений и сайтов. Для этого откройте KML/KMZ файл из Dropbox, почты или по веб-ссылке.";
+"bookmarks_usage_hint" = "У вас пока нет меток.\nВыберите любое место на карте, чтобы добавить его.\nТакже метки можно импортировать из AddisMapME либо других приложений и сайтов. Для этого откройте KML/KMZ файл из Dropbox, почты или по веб-ссылке.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Метки можно импортировать из MAPS.ME либо других приложений и сайтов. Для этого откройте KML/KMZ файл из Dropbox, почты или по веб-ссылке.";
+"bookmarks_usage_hint_import_only" = "Метки можно импортировать из AddisMapME либо других приложений и сайтов. Для этого откройте KML/KMZ файл из Dropbox, почты или по веб-ссылке.";
 
 /* Settings button in system menu */
 "settings" = "Настройки";
@@ -353,7 +353,7 @@
 "share_by_email" = "Послать по email";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "С вами поделились метками MAPS.ME";
+"share_bookmarks_email_subject" = "С вами поделились метками AddisMapME";
 
 "share_bookmarks_email_body" = "Здравствуйте!\n\nВ прикрепленном файле мои метки из офлайновых карт MAPS.ME. Для того, чтобы открыть этот файл, вам потребуется приложение MAPS.ME, которое можно установить по ссылке: http://maps.me/get?kmz\n\nСпасибо!";
 
@@ -385,7 +385,7 @@
 "downloading_is_active" = "Идет процесс загрузки карт.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "Надеемся, вам нравится пользоваться MAPS.ME! Если так, то оставьте, пожалуйста, отзыв в магазине приложений. Это занимает меньше минуты, но может нам реально помочь. Спасибо вам за поддержку!";
+"appStore_message" = "Надеемся, вам нравится пользоваться AddisMapME! Если так, то оставьте, пожалуйста, отзыв в магазине приложений. Это занимает меньше минуты, но может нам реально помочь. Спасибо вам за поддержку!";
 
 /* No, thanks */
 "no_thanks" = "Нет, спасибо";
@@ -397,16 +397,16 @@
 "my_position_share_sms" = "Смотри где я сейчас. Жми %1$@ или %2$@";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Смотри мою метку на карте MAPS.ME";
+"bookmark_share_email_subject" = "Смотри мою метку на карте AddisMapME";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Привет!\n\nОткрой эту ссылку %2$@ либо эту %3$@, для того, чтобы увидеть мою метку %1$@ на карте MAPS.ME.\n\nСпасибо.";
+"bookmark_share_email" = "Привет!\n\nОткрой эту ссылку %2$@ либо эту %3$@, для того, чтобы увидеть мою метку %1$@ на карте AddisMapME.\n\nСпасибо.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Посмотри на карте MAPS.ME, где я сейчас нахожусь";
+"my_position_share_email_subject" = "Посмотри на карте AddisMapME, где я сейчас нахожусь";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
-"my_position_share_email" = "Привет!\n\nЯ сейчас здесь: %1$@. Чтобы увидеть это место на карте MAPS.ME, открой эту ссылку %2$@ или эту %3$@\n\nСпасибо.";
+"my_position_share_email" = "Привет!\n\nЯ сейчас здесь: %1$@. Чтобы увидеть это место на карте AddisMapME, открой эту ссылку %2$@ или эту %3$@\n\nСпасибо.";
 
 /* Android share by Message/SMS button text (including SMS) */
 "share_by_message" = "Отправить сообщением";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Скачайте карту места, где вы находитесь";
 
 /* text of notification */
-"pro_version_is_free_today" = "Полная версия MAPS.ME сегодня бесплатна! Скачай сейчас и расскажи друзьям.";
+"pro_version_is_free_today" = "Полная версия AddisMapME сегодня бесплатна! Скачай сейчас и расскажи друзьям.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "Мы переносим загруженные карты из MAPS.ME Lite в MAPS.ME. Это может занять несколько минут.";
+"move_lite_maps_to_pro" = "Мы переносим загруженные карты из AddisMapME Lite в AddisMapME. Это может занять несколько минут.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "Ваши карты успешно перенесены в MAPS.ME.";
+"move_lite_maps_to_pro_ok" = "Ваши карты успешно перенесены в AddisMapME.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "При переносе карт возникла ошибка. Пожалуйста, удалите MAPS.ME Lite и загрузите карты заново.";
+"move_lite_maps_to_pro_failed" = "При переносе карт возникла ошибка. Пожалуйста, удалите AddisMapME Lite и загрузите карты заново.";
 
 /* Text in menu */
 "settings_and_more" = "Настройки и другое";
@@ -611,13 +611,13 @@
 "website" = "Вебсайт";
 
 /* Text in menu */
-"maps_me_community" = "Сообщество MAPS.ME";
+"maps_me_community" = "Сообщество AddisMapME";
 
 /* Text in menu */
-"like_on_facebook" = "MAPS.ME в Facebook";
+"like_on_facebook" = "AddisMapME в Facebook";
 
 /* Text in menu */
-"follow_on_twitter" = "MAPS.ME в Twitter";
+"follow_on_twitter" = "AddisMapME в Twitter";
 
 /* Text in menu */
 "contact_us" = "Свяжитесь с нами";
@@ -641,7 +641,7 @@
 "report_a_bug" = "Сообщить о проблеме";
 
 /* Email subject */
-"subscribe_me_subject" = "Подпишите меня на email-рассылку MAPS.ME";
+"subscribe_me_subject" = "Подпишите меня на email-рассылку AddisMapME";
 
 /* Email body */
 "subscribe_me_body" = "Я хочу первым узнавать обо всех новостях, обновлениях приложения и акциях. Я могу отписаться от рассылки в любой момент.";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Пожалуйста, обновите карту для того, чтобы проложить маршрут.";
 
 /* Update maps suggestion */
-"routing_update_maps" = "В новой версии MAPS.ME вы сможете строить маршруты от текущего местоположения до точки назначения. Чтобы воспользоваться этой функцией, обновите, пожалуйста, карты.";
+"routing_update_maps" = "В новой версии AddisMapME вы сможете строить маршруты от текущего местоположения до точки назначения. Чтобы воспользоваться этой функцией, обновите, пожалуйста, карты.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Обновить все";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "Найдено";
 
 /* Disclaimer message */
-"routing_disclaimer" = "Используя маршруты в приложении MAPS.ME, пожалуйста, учитывайте следующее:\n\n  - Предлагаемые маршруты могут рассматриваться только в качестве рекомендации.\n - Дорожная обстановка, правила дорожного движения, знаки являются более приоритетными по сравнению с советами навигационной программы.\n - Карта может быть неточной или неактуальной, а предложенный маршрут не самым оптимальным.\n\n  Будьте внимательны на дорогах и берегите себя!";
+"routing_disclaimer" = "Используя маршруты в приложении AddisMapME, пожалуйста, учитывайте следующее:\n\n  - Предлагаемые маршруты могут рассматриваться только в качестве рекомендации.\n - Дорожная обстановка, правила дорожного движения, знаки являются более приоритетными по сравнению с советами навигационной программы.\n - Карта может быть неточной или неактуальной, а предложенный маршрут не самым оптимальным.\n\n  Будьте внимательны на дорогах и берегите себя!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Неактуальные";
@@ -773,16 +773,16 @@
 "pref_use_google_play" = "Использовать Google Play Services для определения позиции";
 
 /* Text for rating dialog */
-"rating_just_rated" = "Я только что оценил MAPS.ME";
+"rating_just_rated" = "Я только что оценил AddisMapME";
 
 /* Text for rating dialog */
-"rating_user_since" = "Я пользуюсь MAPS.ME c %@";
+"rating_user_since" = "Я пользуюсь AddisMapME c %@";
 
 /* Text for rating dialog */
 "rating_do_like_maps" = "Нравится приложение?";
 
 /* Text for rating dialog */
-"rating_tap_star" = "Оцените MAPS.ME.";
+"rating_tap_star" = "Оцените AddisMapME.";
 
 /* Text for rating dialog */
 "rating_thanks" = "Спасибо!";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Нравится приложение?";
 
-"rate_alert_default_message" = "Спасибо что пользуетесь картами MAPS.ME. Пожалуйста, оцените приложение. Ваши оценки и отзывы помогают нам становиться лучше.";
+"rate_alert_default_message" = "Спасибо что пользуетесь картами AddisMapME. Пожалуйста, оцените приложение. Ваши оценки и отзывы помогают нам становиться лучше.";
 
 "rate_alert_five_star_message" = "Ура! Мы вас тоже любим!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Повторяющееся место";
 
-"first_launch_congrats_title" = "MAPS.ME готов к работе";
+"first_launch_congrats_title" = "AddisMapME готов к работе";
 
 "first_launch_congrats_text" = "Пользуйтесь поиском и навигацией по всему миру без интернета и бесплатно.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Добавляйте новые объекты и редактируйте старые прямо из приложения.";
 
-"whatsnew_editor_message_2" = "* MAPS.ME использует данные открытых карт сообщества OpenStreetMap.";
+"whatsnew_editor_message_2" = "* AddisMapME использует данные открытых карт сообщества OpenStreetMap.";
 
 "onboarding_offline_navigation_title" = "Вы никогда больше не заблудитесь";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "Прокладывайте оптимальные автомобильные и пешеходные маршруты.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — используй карты всего мира без интернета";
+"onboarding_offline_maps_title" = "AddisMapME — используй карты всего мира без интернета";
 
 "onboarding_offline_maps_message" = "Загрузите карты необходимого региона один раз и пользуйтесь навигацией и поиском без подключения к интернету.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "Чтобы пользоваться навигацией и другими функциями приложения, нам необходим доступ к вашей геопозиции.";
 
-"onboarding_permissions_title" = "Предоставьте MAPS.ME доступ к памяти и местоположению.";
+"onboarding_permissions_title" = "Предоставьте AddisMapME доступ к памяти и местоположению.";
 
 "onboarding_permissions_message" = "Чтобы скачивать карты, смотреть места вокруг вас и пользоваться навигацией.";
 
-"onboarding_welcome_title" = "Добро пожаловать в MAPS.ME";
+"onboarding_welcome_title" = "Добро пожаловать в AddisMapME";
 
 "onboarding_welcome_first_subtitle" = "Бесплатные, быстрые, подробные и полностью автономные карты с пошаговой навигацией.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Для загрузки требуется больше свободного места. Пожалуйста, удалите ненужные данные.";
 
-"editor_sharing_title" = "Я улучшил карты MAPS.ME";
+"editor_sharing_title" = "Я улучшил карты AddisMapME";
 
 "editor_comment_will_be_sent" = "Мы обязательно отправим ваш комментарий картографам.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Подробный комментарий";
 
-"editor_detailed_description" = "Предложенные вами изменения на карте будут отправлены в OpenStreetMap. Опишите дополнительные сведения об объекте, которые MAPS.ME не позволяет отредактировать.";
+"editor_detailed_description" = "Предложенные вами изменения на карте будут отправлены в OpenStreetMap. Опишите дополнительные сведения об объекте, которые AddisMapME не позволяет отредактировать.";
 
 "editor_more_about_osm" = "Подробнее об OpenStreetMap";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Мы обновили редактор";
 
-"whatsnew_update_editor_message" = "Пользователи MAPS.ME внесли уже 200 000 правок на карту. Вместе мы сделаем карты самыми подробными в мире. Присоединяйся!";
+"whatsnew_update_editor_message" = "Пользователи AddisMapME внесли уже 200 000 правок на карту. Вместе мы сделаем карты самыми подробными в мире. Присоединяйся!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "Обновите все карты, чтобы использовать редактор.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Продолжить";
 
-"recent_track_background_dialog_message" = "MAPS.ME использует вашу геопозицию в фоновом режиме для записи недавно пройденного пути.";
+"recent_track_background_dialog_message" = "AddisMapME использует вашу геопозицию в фоновом режиме для записи недавно пройденного пути.";
 
 "whatsnew_car_navigation_header" = "Режим автонавигации стал удобнее";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Велонавигация (бета-версия)";
 
-"whatsnew_cycle_navigation_message" = "К открытию сезона мы тестируем велонавигацию. Прокатитесь по своему любимому веломаршруту с MAPS.ME и поделитесь с нами впечатлениями.";
+"whatsnew_cycle_navigation_message" = "К открытию сезона мы тестируем велонавигацию. Прокатитесь по своему любимому веломаршруту с AddisMapME и поделитесь с нами впечатлениями.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Оценить в Google Play";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Рассказать друзьям";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Привет! Установи MAPS.ME!";
+"tell_friends_text" = "Привет! Установи AddisMapME!";
 
 /* About short text (below logo) */
-"about_description" = "MAPS.ME — незаменимое приложение для путешествий, работающее без подключения к интернету. MAPS.ME использует данные OpenStreetMap и позволяет их улучшать.";
+"about_description" = "AddisMapME — незаменимое приложение для путешествий, работающее без подключения к интернету. AddisMapME использует данные OpenStreetMap и позволяет их улучшать.";
 
 /* Text in menu */
 "blog" = "Блог";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Открыть";
 
-"whatsnew_uber_header" = "MAPS.ME и Uber";
+"whatsnew_uber_header" = "AddisMapME и Uber";
 
 "whatsnew_uber_message" = "Закажите такси прямо из приложения!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Увеличить шрифт на карте";
 
-"traffic_update_app" = "Обновите MAPS.ME";
+"traffic_update_app" = "Обновите AddisMapME";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "Для отображения пробок необходимо обновить приложение.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Предоставьте доступ";
 
-"onboarding_storage_permissions_message" = "Предоставьте MAPS.ME доступ к памяти в настройках вашего устройства, иначе использовать MAPS.ME будет невозможно.";
+"onboarding_storage_permissions_message" = "Предоставьте AddisMapME доступ к памяти в настройках вашего устройства, иначе использовать AddisMapME будет невозможно.";
 
 "button_exit" = "Выход";
 
-"onboarding_detail_permissions_title" = "MAPS.ME нужен доступ к";
+"onboarding_detail_permissions_title" = "AddisMapME нужен доступ к";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Память";
@@ -2332,11 +2332,11 @@
 
 "sign_agree_tof_gdpr" = "Я согласен с <a href=\"%s\">Условиями использования</a>";
 
-"sign_agree_news_gdpr" = "Я согласен получать последние новости о MAPS.ME";
+"sign_agree_news_gdpr" = "Я согласен получать последние новости о AddisMapME";
 
 "whats_new_localbiz_title" = "Малый бизнес заслуживает внимания";
 
-"whats_new_localbiz_message" = "Именно локальные кафе, хостелы и магазинчики делают путешествия незабываемыми. Мы бесплатно оптимизируем страницу вашего бизнеса в MAPS.ME, чтобы его заметили.";
+"whats_new_localbiz_message" = "Именно локальные кафе, хостелы и магазинчики делают путешествия незабываемыми. Мы бесплатно оптимизируем страницу вашего бизнеса в AddisMapME, чтобы его заметили.";
 
 "whats_new_order_button" = "Оставить заявку";
 
@@ -2350,7 +2350,7 @@
 
 "cached_bookmarks_placeholder_title" = "Загрузите новые места";
 
-"cached_bookmarks_placeholder_subtitle" = "Нажмите кнопку, чтобы загрузить тысячи интересных мест и маршрутов, созданных пользователями MAPS.ME. Вам понадобится подключение к интернету.";
+"cached_bookmarks_placeholder_subtitle" = "Нажмите кнопку, чтобы загрузить тысячи интересных мест и маршрутов, созданных пользователями AddisMapME. Вам понадобится подключение к интернету.";
 
 "downloader_download_routers" = "Загрузить метки";
 
@@ -2366,7 +2366,7 @@
 
 "opt_out_fabric" = "Отчеты об ошибках";
 
-"opt_out_fabric_description" = "Мы можем использовать ваши данные, чтобы развивать и улучшать MAPS.ME. Изменения вступят в силу после перезапуска приложения.";
+"opt_out_fabric_description" = "Мы можем использовать ваши данные, чтобы развивать и улучшать AddisMapME. Изменения вступят в силу после перезапуска приложения.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2412,7 +2412,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Метки не были загружены";
 
-"whats_new_bookmarks_catalog_title" = "В MAPS.ME появился каталог маршрутов";
+"whats_new_bookmarks_catalog_title" = "В AddisMapME появился каталог маршрутов";
 
 "whats_new_bookmarks_catalog_message" = "Десятки подробных маршрутов по всем миру: куда сходить, что посмотреть, где поесть.";
 

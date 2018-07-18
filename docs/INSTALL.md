@@ -1,4 +1,4 @@
-# Building MAPS.ME
+# Building AddisMapME
 
 First, do not forget to initialize a cloned repository, see
 [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -73,7 +73,7 @@ Then do a git clone, run `configure.sh` and compile with linux-clang spec:
 
 ### Windows
 
-We haven't compiled MAPS.ME on Windows in a long time, though it is possible. It is likely
+We haven't compiled AddisMapME on Windows in a long time, though it is possible. It is likely
 some make files should be updated. If you succeed, please submit a tutorial.
 
 See also [Android compilation instructions](android_toolchain_windows.txt) (also possibly outdated).
@@ -89,7 +89,7 @@ For an Android application, place maps into `/MapsWithMe` directory on a device.
 iOS devices, use iTunes.
 
 `World.mwm` and `WorldCoasts.mwm` are low-zoom overview maps and should be placed
-into a resource directory, e.g. `/Applications/MAPS.ME/Content/Resources` on macOS.
+into a resource directory, e.g. `/Applications/AddisMapME/Content/Resources` on macOS.
 Placing these into a maps directory should also work.
 
 For instructions on making your own maps, see [MAPS.md](MAPS.md).
@@ -124,7 +124,7 @@ find a line with `hdiutil` in the script, copy it to a console, and if needed, i
 
 * Build both the generator_tool and the designer tool
 * Generate data as usual (either with `generate_mwm.sh` or `generate_planet.sh`).
-* For MAPS.ME employees, publish planet data to http://designer.mapswithme.com/mac/DATA_VERSION
+* For AddisMapME employees, publish planet data to http://designer.mapswithme.com/mac/DATA_VERSION
 (via a ticket to admins, from `mapsme4:/opt/mapsme/designers`).
 
 ## Android
@@ -164,7 +164,7 @@ to SDK and NDK. Or specify these in command line:
 
 * Install [Homebrew](http://brew.sh/) and run `brew install carthage`.
 * Open `xcode/omim.xcworkspace` in XCode.
-* Select "xcMAPS.ME" product scheme for developing, or "MAPS.ME" to make a distribution package.
+* Select "xcAddisMapME" product scheme for developing, or "AddisMapME" to make a distribution package.
 * Run the project (Product → Run).
 
 If a script has trouble finding your Qt 5 installation, edit `omim/tools/autobuild/detect_qmake.sh`,

@@ -64,7 +64,7 @@
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lZi-fE-uf3">
                     <rect key="frame" x="16" y="41" width="343" height="50.5"/>
-                    <string key="text">Press the button to download thousands of intresting places and routes created by MAPS.ME users. You will need the internet connection.</string>
+                    <string key="text">Press the button to download thousands of intresting places and routes created by AddisMapME users. You will need the internet connection.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" white="0.0" alpha="0.54010595034246578" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -126,7 +126,7 @@
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gY-vv-QfN">
                             <rect key="frame" x="16" y="285.5" width="343" height="50.5"/>
-                            <string key="text">Press the button to download thousands of intresting places and routes created by MAPS.ME users. You will need the internet connection.</string>
+                            <string key="text">Press the button to download thousands of intresting places and routes created by AddisMapME users. You will need the internet connection.</string>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <color key="textColor" white="0.0" alpha="0.53735017123287676" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
