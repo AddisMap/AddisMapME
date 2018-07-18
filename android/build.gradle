@@ -118,7 +118,7 @@ def getDate() {
 def osName = System.properties['os.name'].toLowerCase()
 
 project.ext.versionCodes = ['armeabi-v7a': 1, 'x86': 2]
-project.ext.appId = 'com.mapswithme.maps.pro'
+project.ext.appId = 'com.addismap.me'
 
 crashlytics {
   enableNdk true
