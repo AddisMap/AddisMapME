@@ -105,7 +105,7 @@ std::string GetCustomIcon(osm::MapObject const & mapObject)
   auto const bannerUrl = metadata.Get(feature::Metadata::FMD_BANNER_URL);
   if (bannerUrl.find("mcarthurglen") != std::string::npos)
     return "partner1-l";
-  
+
   if (bannerUrl.find("sixt") != std::string::npos)
     return "partner2-l";
 
@@ -149,7 +149,8 @@ std::string MakeCampaignPageURL(FeatureID const & featureId)
 
   std::ostringstream ss;
   ss << kCampaignPageUrl << "/" << featureId.m_mwmId.GetInfo()->GetVersion() << "/"
-     << UrlEncode(featureId.m_mwmId.GetInfo()->GetCountryName()) << "/" << featureId.m_index;
+     << UrlEncode(featureId.m_mwmId.GetInfo()->GetCountryName()) << "/" << featureId.m_index
+     << "#advertiseModal";
 
   url::Params params;
   params.reserve(kMarketingParameters.size());
