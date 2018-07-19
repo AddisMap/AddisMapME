@@ -33,6 +33,8 @@ namespace migrate
 uint32_t constexpr kMinRequiredVersion = 160302;
 bool NeedMigrate()
 {
+  return false;
+  
   uint32_t version;
   if (!settings::Get("LastMigration", version))
     return true;
