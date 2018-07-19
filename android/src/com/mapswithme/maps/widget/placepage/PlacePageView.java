@@ -1254,7 +1254,7 @@ public class PlacePageView extends RelativeLayout
         mUgcController.getUGC(mMapObject);
 
       String country = MapManager.nativeGetSelectedCountry();
-      if (country != null && !RoutingController.get().isNavigating())
+      if (!country.equals("Ethiopia") && country != null && !RoutingController.get().isNavigating())
         attachCountry(country);
     }
 
