@@ -1534,7 +1534,10 @@ public class PlacePageView extends RelativeLayout
   {
     LocalAdInfo localAdInfo = mapObject.getLocalAdInfo();
     boolean isLocalAdAvailable = localAdInfo != null && localAdInfo.isAvailable();
-    if (isLocalAdAvailable && !TextUtils.isEmpty(localAdInfo.getUrl()))
+
+    // addismap quickfix
+    if (true)
+//    if (isLocalAdAvailable && !TextUtils.isEmpty(localAdInfo.getUrl()))
     {
       mTvLocalAd.setText(localAdInfo.isCustomer() ? R.string.view_campaign_button
                                                   : R.string.create_campaign_button);

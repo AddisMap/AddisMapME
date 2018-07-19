@@ -253,7 +253,8 @@ std::string MakeCampaignPageURL(FeatureID const & featureId)
 
   std::ostringstream ss;
   ss << kCampaignPageUrl << "/" << featureId.m_mwmId.GetInfo()->GetVersion() << "/"
-     << UrlEncode(featureId.m_mwmId.GetInfo()->GetCountryName()) << "/" << featureId.m_index;
+     << UrlEncode(featureId.m_mwmId.GetInfo()->GetCountryName()) << "/" << featureId.m_index
+     << "#advertiseModal";
 
   url::Params params;
   params.reserve(kMarketingParameters.size());
