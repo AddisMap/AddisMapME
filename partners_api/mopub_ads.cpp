@@ -11,10 +11,10 @@ namespace
   auto const kNonTourismPlacementId = "67ebcbd0af8345f18cccfb230ca08a17";
   auto const kSponsoredBannerPlacementId = "e0c1d4d9c88c4670b9541116bcb75c5f";
 #else
-  auto const kTourismPlacementId = "d298f205fb8a47aaafb514d2b5b8cf55";
-  auto const kNavigationPlacementId = "fbd54c31a20347a6b5d6654510c542a4";
-  auto const kNonTourismPlacementId = "94b8d70370a643929aa4c8c764d25e5b";
-  auto const kSponsoredBannerPlacementId = "2bab47102d38485996788ab9b602ce2c";
+  auto const kTourismPlacementId = "3fce55a072e244d9af4c7324828599e2";
+  auto const kNavigationPlacementId = "fb6d568c5e1c44da9708bc8f74ec3543";
+  auto const kNonTourismPlacementId = "70cbf346ce7c4498896e69df52ec76a6";
+  auto const kSponsoredBannerPlacementId = "a3d1a98651614e708e04d3c1f4b56e8d";
 #endif
 }  // namespace
 
