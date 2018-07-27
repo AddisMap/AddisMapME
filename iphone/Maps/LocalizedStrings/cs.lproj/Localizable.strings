@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Sdílené záložky AddisMapME";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Nahrávání záložek";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Chci se vždy jako první dozvídat o nejnovějších zprávách, aktualizacích a akčních nabídkách. Své přihlášení k odběru mohu kdykoli zrušit.";
 
 /* About text */
-"about_text" = "AddisMapME nabízí nejrychlejší offline mapy všech měst a zemí po celém světě. Cestujte s naprostou důvěrou: kdekoliv jste, AddisMapME vám pomůže se najít na mapě, vyhledat nejbližší restauraci, hotel, banku, benzínovou pumpu atd. Nevyžaduje připojení k Internetu.\n\nNeustále pracujeme na nových funkcích a rádi bychom slyšeli také váš názor, jak můžeme AddisMapME vylepšit. Pokud máte s touto aplikací jakékoliv problémy, pak nás neváhejte kontaktovat na support@maps.me. Odpovídáme na každý požadavek!\n\nLíbí se vám AddisMapME a chcete nás podpořit? Existuje několik snadných způsobů zcela zdarma:\n\n• napište recenzi ve svém obchodu s aplikacemi\n• označte naši facebookovou stránku http://www.facebook.com/mapswithme pomocí To se mi líbí\n• nebo jen řekněte o AddisMapME své mámě, kamarádům a kolegům :)\n\nDěkujeme, že jste s námi. Velmi si ceníme vaší podpory!\n\nP.S. Mapové podklady získáváme z OpenStreetMap, což je mapový projekt podobný Wikipedii, který umožňuje uživatelům vytvářet a upravovat mapy. Pokud zjistíte, že na mapě něco chybí nebo je špatně, pak můžete mapy opravit přímo na https://www.openstreetmap.org, a vaše změny se objeví v příští verzi AddisMapME. Díky!";
+"about_text" = "AddisMapME nabízí nejrychlejší offline mapy všech měst a zemí po celém světě. Cestujte s naprostou důvěrou: kdekoliv jste, AddisMapME vám pomůže se najít na mapě, vyhledat nejbližší restauraci, hotel, banku, benzínovou pumpu atd. Nevyžaduje připojení k Internetu.\n\nNeustále pracujeme na nových funkcích a rádi bychom slyšeli také váš názor, jak můžeme AddisMapME vylepšit. Pokud máte s touto aplikací jakékoliv problémy, pak nás neváhejte kontaktovat na support@me.addismap.com. Odpovídáme na každý požadavek!\n\nLíbí se vám AddisMapME a chcete nás podpořit? Existuje několik snadných způsobů zcela zdarma:\n\n• napište recenzi ve svém obchodu s aplikacemi\n• označte naši facebookovou stránku http://www.facebook.com/mapswithme pomocí To se mi líbí\n• nebo jen řekněte o AddisMapME své mámě, kamarádům a kolegům :)\n\nDěkujeme, že jste s námi. Velmi si ceníme vaší podpory!\n\nP.S. Mapové podklady získáváme z OpenStreetMap, což je mapový projekt podobný Wikipedii, který umožňuje uživatelům vytvářet a upravovat mapy. Pokud zjistíte, že na mapě něco chybí nebo je špatně, pak můžete mapy opravit přímo na https://www.openstreetmap.org, a vaše změny se objeví v příští verzi AddisMapME. Díky!";
 
 /* Alert text */
 "email_error_body" = "Emailový klient nebyl ještě nakonfigurován. Nastavte ho, prosím, nebo použijte jiný způsob k našemu kontaktování na %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Mezi zvoleným počátkem a cílem nebyla nalezena žádná trasa. Vyberte jiný počáteční nebo koncový bod.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Došlo k vnitřní chybě. Zkuste, prosím, mapu smazat a znovu stáhnout. Jestliže problém přetrvává, kontaktujte nás na support@maps.me.";
+"routing_failed_internal_error" = "Došlo k vnitřní chybě. Zkuste, prosím, mapu smazat a znovu stáhnout. Jestliže problém přetrvává, kontaktujte nás na support@me.addismap.com.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Stáhnout mapu + trasy";
@@ -2142,7 +2142,7 @@
 
 "dialog_error_storage_title" = "Problém s přístupem k úložišti";
 
-"dialog_error_storage_message" = "Externí úložiště není k dispozici, pravděpodobně byla vyjmuta nebo poškozena SD karta, nebo je systém souborů pouze pro čtení. Zkontrolujte to prosím a kontaktujte nás na support@maps.me";
+"dialog_error_storage_message" = "Externí úložiště není k dispozici, pravděpodobně byla vyjmuta nebo poškozena SD karta, nebo je systém souborů pouze pro čtení. Zkontrolujte to prosím a kontaktujte nás na support@me.addismap.com";
 
 "setting_emulate_bad_storage" = "Emulovat špatné úložiště";
 
