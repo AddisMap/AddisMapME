@@ -251,7 +251,7 @@
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<string name="bookmark_share_sms">เฮ้ ตรวจสอบหมุดของฉันที่ AddisMapME! %1$s หรือ %2$s</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">เฮ้อ ตรวจสอบตำแหน่งที่ตั้งปัจจุบันของฉันที่ AddisMapME! %1$s หรือ %2$s ไม่มีการติดตั้งแผนที่แบบออฟไลน์? ดาวน์โหลดที่นี่: http://maps.me/get</string>
+	<string name="my_position_share_sms">เฮ้อ ตรวจสอบตำแหน่งที่ตั้งปัจจุบันของฉันที่ AddisMapME! %1$s หรือ %2$s ไม่มีการติดตั้งแผนที่แบบออฟไลน์? ดาวน์โหลดที่นี่: http://me.addismap.com/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ AddisMapME!</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
@@ -401,7 +401,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">ฉันอยากเป็นคนแรกที่รู้เกี่ยวกับข่าว อัปเดตและโปรโมชั่นล่าสุด ฉันสามารถยกเลิกการเป็นสมาชิกของฉันได้ตลอดเวลา</string>
 	<!-- About text -->
-	<string name="about_text">AddisMapME ขอเสนอแผนที่ออฟไลน์ของทุกเมือง ทุกประเทศในโลกที่รวดเร็วที่สุด เดินทางด้วยความมั่นใจ: ไม่ว่าคุณจะอยู่ที่ไหน AddisMapME จะช่วยระบุตำแหน่งที่ตั้งของตัวคุณบนแผนที่ ค้นหาร้านอาหาร โรงแรม ธนาคาร ปั๊มน้ำมัน และอื่น ๆ ที่ใกล้ที่สุด โดยไม่จำเป็นต้องใช้การเชื่อมต่ออินเทอร์เน็ต\n\nเราทำงานเพื่อพัฒนาฟีเจอร์ใหม่ ๆ อยู่เสมอและยินดีรับฟังว่าคุณมีความคิดเห็นว่าเราจะพัฒนา AddisMapME ได้อย่างไร หากคุณมีปัญหาใด ๆ กับแอป อย่าลังเลที่จะติดต่อเราที่ support\@maps.me โดยเราจะตอบรับทุกคำขอ!\n\nคุณชอบ AddisMapME และต้องการสนับสนุนเราหรือไม่? มีวิธีง่าย ๆ และฟรีอยู่บ้าง:\n\n- โพสต์คำวิจารณ์ของคุณที่ ตลาดแอป (App Market)\n- ถูกใจเพจ Facebook ของเรา http://www.facebook.com/mapswithme\n- หรือเพียงแค่บอกแม่ เพื่อน ๆ และเพื่อนร่วมงานของคุณเกี่ยวกับ AddisMapME :)\n\nขอบคุณที่ใช้บริการของเรา เราซาบซึ้งในการสนับสนุนของคุณมาก!\n\nป.ล. เรานำข้อมูลแผนที่มาจาก OpenStreetMap ซึ่งเป็นโครงการจัดทำแผนที่ที่เหมือนกับ Wikipedia ที่ช่วยให้ผู้ใช้สามารถสร้างและแก้ไขแผนที่ได้ หากคุณเห็นว่ามีสิ่งใดที่ขาดหายหรือไม่ถูกต้องบนแผนที่ คุณสามารถแก้ไขแผนที่ได้โดยตรงที่ https://www.openstreetmap.org และการเปลี่ยนแปลงของคุณจะปรากฏในแอป AddisMapME ในการปล่อยเวอร์ชันถัดไป</string>
+	<string name="about_text">AddisMapME ขอเสนอแผนที่ออฟไลน์ของทุกเมือง ทุกประเทศในโลกที่รวดเร็วที่สุด เดินทางด้วยความมั่นใจ: ไม่ว่าคุณจะอยู่ที่ไหน AddisMapME จะช่วยระบุตำแหน่งที่ตั้งของตัวคุณบนแผนที่ ค้นหาร้านอาหาร โรงแรม ธนาคาร ปั๊มน้ำมัน และอื่น ๆ ที่ใกล้ที่สุด โดยไม่จำเป็นต้องใช้การเชื่อมต่ออินเทอร์เน็ต\n\nเราทำงานเพื่อพัฒนาฟีเจอร์ใหม่ ๆ อยู่เสมอและยินดีรับฟังว่าคุณมีความคิดเห็นว่าเราจะพัฒนา AddisMapME ได้อย่างไร หากคุณมีปัญหาใด ๆ กับแอป อย่าลังเลที่จะติดต่อเราที่ support\@me.addismap.com โดยเราจะตอบรับทุกคำขอ!\n\nคุณชอบ AddisMapME และต้องการสนับสนุนเราหรือไม่? มีวิธีง่าย ๆ และฟรีอยู่บ้าง:\n\n- โพสต์คำวิจารณ์ของคุณที่ ตลาดแอป (App Market)\n- ถูกใจเพจ Facebook ของเรา http://www.facebook.com/mapswithme\n- หรือเพียงแค่บอกแม่ เพื่อน ๆ และเพื่อนร่วมงานของคุณเกี่ยวกับ AddisMapME :)\n\nขอบคุณที่ใช้บริการของเรา เราซาบซึ้งในการสนับสนุนของคุณมาก!\n\nป.ล. เรานำข้อมูลแผนที่มาจาก OpenStreetMap ซึ่งเป็นโครงการจัดทำแผนที่ที่เหมือนกับ Wikipedia ที่ช่วยให้ผู้ใช้สามารถสร้างและแก้ไขแผนที่ได้ หากคุณเห็นว่ามีสิ่งใดที่ขาดหายหรือไม่ถูกต้องบนแผนที่ คุณสามารถแก้ไขแผนที่ได้โดยตรงที่ https://www.openstreetmap.org และการเปลี่ยนแปลงของคุณจะปรากฏในแอป AddisMapME ในการปล่อยเวอร์ชันถัดไป</string>
 	<!-- Alert text -->
 	<string name="email_error_body">อีเมลลูกค้ายังไม่ได้รับการจัดตั้งขึ้น กรุณาตั้งค่าหรือใช้วิธีอื่นที่จะติดต่อเราที่ %s</string>
 	<!-- Alert title -->
@@ -454,7 +454,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">ไม่พบเส้นทางที่อยู่ระหว่างต้นทางและปลายทางที่เลือก โปรดเลือกจุดเริ่มต้นและจุดสิ้นสุดอื่น</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">เกิดข้อผิดพลาดขึ้นภายใน โปรดลองลบและดาวน์โหลดแผนที่อีกครั้ง โปรดติดต่อเราได้ที่ support\@maps.me.</string>
+	<string name="routing_failed_internal_error">เกิดข้อผิดพลาดขึ้นภายใน โปรดลองลบและดาวน์โหลดแผนที่อีกครั้ง โปรดติดต่อเราได้ที่ support\@me.addismap.com.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">ดาวน์โหลดแผนที่ + การเลือกเส้นทาง</string>
 	<!-- Context menu item for downloader. -->
@@ -1193,7 +1193,7 @@
 	<string name="whats_new_ugc_title_updated_v840">อันดับคะแนนและรีวิว</string>
 	<string name="whats_new_ugc_message">ขณะนี้คุณสามารถให้คะแนนและรีวิวได้แม้กระทั่งออฟไลน์อยู่! อย่าลืมอัปเดตแผนที่ของคุณเพื่อจะได้เห็นการเปลี่ยนแปลง</string>
 	<string name="dialog_error_storage_title">ปัญหาการเข้าถึงที่เก็บข้อมูล</string>
-	<string name="dialog_error_storage_message">ที่เก็บข้อมูลภายนอกไม่พร้อมใช้งาน อาจเป็นเพราะการ์ด SD ถูกถอดออกไป ได้รับความเสียหาย หรือระบบไฟล์ให้เขียนได้อย่างเดียว กรุณาตรวจสอบและติดต่อเราได้ที่ support\@maps.me</string>
+	<string name="dialog_error_storage_message">ที่เก็บข้อมูลภายนอกไม่พร้อมใช้งาน อาจเป็นเพราะการ์ด SD ถูกถอดออกไป ได้รับความเสียหาย หรือระบบไฟล์ให้เขียนได้อย่างเดียว กรุณาตรวจสอบและติดต่อเราได้ที่ support\@me.addismap.com</string>
 	<string name="setting_emulate_bad_storage">จำลองแบบที่เก็บข้อมูลที่ไม่ดี</string>
 	<string name="discovery_button_title">ค้นหาบริเวณใกล้เคียง</string>
 	<string name="discovery_button_subtitle_things_to_do">สิ่งที่จะทำ</string>

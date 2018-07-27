@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Marcaje AddisMapME partajate";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Se încarcă marcajele";
@@ -391,10 +391,10 @@
 "no_thanks" = "Nu, mulțumesc";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hei, poți vedea care este poziția mea pe AddisMapME! %1$@ sau %2$@ Nu ai instalate hărțile offline? Descarcă de aici: http://maps.me/get";
+"bookmark_share_sms" = "Hei, poți vedea care este poziția mea pe AddisMapME! %1$@ sau %2$@ Nu ai instalate hărțile offline? Descarcă de aici: http://me.addismap.com/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hei, îmi poți vedea poziția actuală pe AddisMapME! %1$@ sau %2$@ Nu ai hărțile offline? Descarcă de aici: http://maps.me/get";
+"my_position_share_sms" = "Hei, îmi poți vedea poziția actuală pe AddisMapME! %1$@ sau %2$@ Nu ai hărțile offline? Descarcă de aici: http://me.addismap.com/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Hei, poți vedea care este poziția mea pe harta AddisMapME!";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Vreau să fiu primul care află despre cele mai recente actualizări și promoții. Îmi pot anula abonamentul în orice moment.";
 
 /* About text */
-"about_text" = "AddisMapME oferă cele mai rapide hărți offline ale tuturor orașelor, tuturor țărilor din lume. Călătoriți cu încredere deplină: oriunde v-ați afla, AddisMapME vă ajută să vă reperați poziția pe hartă, să găsiți cel mai apropiat restaurant sau hotel, cea mai apropiată bancă sau benzinărie etc. Nu necesită conexiune la internet.\n\nLucrăm încontinuu să introducem funcții noi și ne-ar face mare plăcere să ne comunicați cum credeți dvs. că am putea îmbunătăți AddisMapME. Dacă aveți probleme cu aplicația, nu ezitați să ne contactați la adresa support@maps.me. Răspundem la fiecare solicitare!\n\nVă place AddisMapME și doriți să ne susțineți? Iată câteva moduri simple și complet gratuite:\n- publicați o recenzie în magazinul de aplicații\n- apreciați-ne pagina de Facebook: http://www.facebook.com/mapswithme\n- sau spuneți și mamei, prietenilor și colegilor despre AddisMapME. :)\n\nVă mulțumim că ne sunteți alături. Vă apreciem foarte mult susținerea!\n\nP.S. Noi preluăm datele din OpenStreetMap, un proiect de cartografiere similar Wikipediei, ce permite utilizatorilor să creeze și să editeze hărți. Dacă vedeți că ceva lipsește sau este greșit pe hartă, puteți corecta hărțile direct la adresa: https://www.openstreetmap.org, iar modificările dvs. vor apărea în aplicația AddisMapME atunci când va fi lansată versiunea următoare.";
+"about_text" = "AddisMapME oferă cele mai rapide hărți offline ale tuturor orașelor, tuturor țărilor din lume. Călătoriți cu încredere deplină: oriunde v-ați afla, AddisMapME vă ajută să vă reperați poziția pe hartă, să găsiți cel mai apropiat restaurant sau hotel, cea mai apropiată bancă sau benzinărie etc. Nu necesită conexiune la internet.\n\nLucrăm încontinuu să introducem funcții noi și ne-ar face mare plăcere să ne comunicați cum credeți dvs. că am putea îmbunătăți AddisMapME. Dacă aveți probleme cu aplicația, nu ezitați să ne contactați la adresa support@me.addismap.com. Răspundem la fiecare solicitare!\n\nVă place AddisMapME și doriți să ne susțineți? Iată câteva moduri simple și complet gratuite:\n- publicați o recenzie în magazinul de aplicații\n- apreciați-ne pagina de Facebook: http://www.facebook.com/mapswithme\n- sau spuneți și mamei, prietenilor și colegilor despre AddisMapME. :)\n\nVă mulțumim că ne sunteți alături. Vă apreciem foarte mult susținerea!\n\nP.S. Noi preluăm datele din OpenStreetMap, un proiect de cartografiere similar Wikipediei, ce permite utilizatorilor să creeze și să editeze hărți. Dacă vedeți că ceva lipsește sau este greșit pe hartă, puteți corecta hărțile direct la adresa: https://www.openstreetmap.org, iar modificările dvs. vor apărea în aplicația AddisMapME atunci când va fi lansată versiunea următoare.";
 
 /* Alert text */
 "email_error_body" = "Nu a fost setat clientul de email. Vă rugăm să o configurați sau să utilizați un alt mod de a ne contacta la %@.";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Nu am găsit nicio rută între punctul de pornire și destinația selectată. Vă rugăm să alegeți un alt punct de pornire sau de destinație.";
 
 /* InternalError */
-"routing_failed_internal_error" = "A survenit o eroare internă. Vă rugăm să încercați să ștergeți și să descărcați harta din nou. Dacă problema persistă, vă rugăm să ne contactați la adresa support@maps.me.";
+"routing_failed_internal_error" = "A survenit o eroare internă. Vă rugăm să încercați să ștergeți și să descărcați harta din nou. Dacă problema persistă, vă rugăm să ne contactați la adresa support@me.addismap.com.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Descărcare hartă + traseu";
@@ -2104,7 +2104,7 @@
 
 "dialog_error_storage_title" = "Problemă de accesare spațiu de stocare";
 
-"dialog_error_storage_message" = "Spațiul de stocare extern nu este disponibil. Probabil cardul SD nu este introdus, este deteriorat sau sistemul de fișiere este read-only. Verifică și contactează-ne la support@maps.me";
+"dialog_error_storage_message" = "Spațiul de stocare extern nu este disponibil. Probabil cardul SD nu este introdus, este deteriorat sau sistemul de fișiere este read-only. Verifică și contactează-ne la support@me.addismap.com";
 
 "setting_emulate_bad_storage" = "Emulare stocare eronată";
 

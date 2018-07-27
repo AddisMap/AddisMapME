@@ -243,9 +243,9 @@
 	<!-- No, thanks -->
 	<string name="no_thanks">Không, cảm ơn</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Này, hãy xem ghim của tôi tại AddisMapME! %1$s hoặc %2$s Bạn chưa cài đặt bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get</string>
+	<string name="bookmark_share_sms">Này, hãy xem ghim của tôi tại AddisMapME! %1$s hoặc %2$s Bạn chưa cài đặt bản đồ ngoại tuyến? Tải xuống tại đây: http://me.addismap.com/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại AddisMapME! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get</string>
+	<string name="my_position_share_sms">Này, hãy xem vị trí hiện tại của tôi tại AddisMapME! %1$s hoặc %2$s Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: http://me.addismap.com/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">Này, hãy xem ghim của tôi tại AddisMapME map</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
@@ -395,7 +395,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">Tôi muốn là người đầu tiên được biết về các thông tin cập nhật và quảng bá mới nhất. Tôi có thể hủy bỏ đăng ký nhận tin của mình bất cứ lúc nào.</string>
 	<!-- About text -->
-	<string name="about_text">AddisMapME cung cấp bản đồ ngoại tuyến của tất cả các thành phố và quốc gia trên thế giới một cách nhanh nhất. Hoàn toàn tự tin đi du lịch: dù bạn ở đâu, AddisMapME vẫn sẽ giúp bạn định vị bản thân trên bản đồ, tìm các nhà hàng, khách sạn, ngân hàng, trạm xăng, v.v… gần nhất. Ứng dụng này không yêu cầu kết nối Internet.\n\nChúng tôi luôn phát triển các tính năng mới và rất chào đón ý kiến của bạn về cách mà chúng tôi có thể cải thiện AddisMapME. Nếu bạn có bất cứ vấn đề nào với ứng dụng, hãy liên hệ với chúng tôi qua địa chỉ support\@maps.me. Chúng tôi sẽ trả lời mọi yêu cầu!\n\nBạn có thích AddisMapME và muốn hỗ trợ chúng tôi hay không? Sau đây là một số cách đơn giản và hoàn toàn miễn phí:\n\n- viết đánh giá trên Chợ Ứng dụng mà bạn sử dụng\n- thích trang Facebook của chúng tôi http://www.facebook.com/mapswithme\n- hoặc chỉ đơn giản là kể về AddisMapME với mẹ, bạn bè và đồng nghiệp của bạn :)\n\nCảm ơn bạn đã ủng hộ chúng tôi. Chúng tôi rất cảm ơn sự giúp đỡ của bạn!\n\nT.B. Chúng tôi lấy dữ liệu bản đồ từ OpenStreetMap, một dự án bản đồ tương đương với Wikipedia, cho phép người dùng có thể tạo và sửa bản đồ. Nếu bạn thấy có thông tin bị thiếu hoặc sai trên bản đồ, bạn có thể sửa trực tiếp tại https://www.openstreetmap.org, và các thay đổi của bạn sẽ xuất hiện trong ứng dụng AddisMapME ở phiên bản kế tiếp.</string>
+	<string name="about_text">AddisMapME cung cấp bản đồ ngoại tuyến của tất cả các thành phố và quốc gia trên thế giới một cách nhanh nhất. Hoàn toàn tự tin đi du lịch: dù bạn ở đâu, AddisMapME vẫn sẽ giúp bạn định vị bản thân trên bản đồ, tìm các nhà hàng, khách sạn, ngân hàng, trạm xăng, v.v… gần nhất. Ứng dụng này không yêu cầu kết nối Internet.\n\nChúng tôi luôn phát triển các tính năng mới và rất chào đón ý kiến của bạn về cách mà chúng tôi có thể cải thiện AddisMapME. Nếu bạn có bất cứ vấn đề nào với ứng dụng, hãy liên hệ với chúng tôi qua địa chỉ support\@me.addismap.com. Chúng tôi sẽ trả lời mọi yêu cầu!\n\nBạn có thích AddisMapME và muốn hỗ trợ chúng tôi hay không? Sau đây là một số cách đơn giản và hoàn toàn miễn phí:\n\n- viết đánh giá trên Chợ Ứng dụng mà bạn sử dụng\n- thích trang Facebook của chúng tôi http://www.facebook.com/mapswithme\n- hoặc chỉ đơn giản là kể về AddisMapME với mẹ, bạn bè và đồng nghiệp của bạn :)\n\nCảm ơn bạn đã ủng hộ chúng tôi. Chúng tôi rất cảm ơn sự giúp đỡ của bạn!\n\nT.B. Chúng tôi lấy dữ liệu bản đồ từ OpenStreetMap, một dự án bản đồ tương đương với Wikipedia, cho phép người dùng có thể tạo và sửa bản đồ. Nếu bạn thấy có thông tin bị thiếu hoặc sai trên bản đồ, bạn có thể sửa trực tiếp tại https://www.openstreetmap.org, và các thay đổi của bạn sẽ xuất hiện trong ứng dụng AddisMapME ở phiên bản kế tiếp.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Trình khách email này chưa được thiết lập. Bạn vui lòng cấu hình nó hoặc sử dụng một cách khác để liên hệ với chúng tôi tại %s</string>
 	<!-- Alert title -->
@@ -448,7 +448,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">Không tìm thấy tuyến đường nào giữa điểm gốc và điểm đến được chọn. Vui lòng chọn điểm bắt đầu hoặc điểm cuối khác.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">Đã xảy ra lỗi nội bộ. Vui lòng thử xóa và tải lại xuống bản đồ. Nếu vấn đề vẫn còn tồn tại, vui lòng liên hệ với chúng tôi tại support\@maps.me.</string>
+	<string name="routing_failed_internal_error">Đã xảy ra lỗi nội bộ. Vui lòng thử xóa và tải lại xuống bản đồ. Nếu vấn đề vẫn còn tồn tại, vui lòng liên hệ với chúng tôi tại support\@me.addismap.com.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">Tải xuống Bản đồ + Định tuyến</string>
 	<!-- Context menu item for downloader. -->
@@ -1187,7 +1187,7 @@
 	<string name="whats_new_ugc_title_updated_v840">Điểm và đánh giá</string>
 	<string name="whats_new_ugc_message">Giờ đây bạn có thể để lại điểm và đánh giá kể cả khi ngoại tuyến! Đừng quên cập nhật bản đồ của bạn để có thể thấy các thay đổi.</string>
 	<string name="dialog_error_storage_title">Vấn đề truy cập ổ lưu trữ</string>
-	<string name="dialog_error_storage_message">Ổ lưu trữ bên ngoài không khả dụng, có thể Thẻ SD đã bị tháo, bị hỏng hoặc hệ thống tập tin được thiết lập chỉ đọc. Hãy kiểm tra và liên hệ với chúng tôi qua support\@maps.me</string>
+	<string name="dialog_error_storage_message">Ổ lưu trữ bên ngoài không khả dụng, có thể Thẻ SD đã bị tháo, bị hỏng hoặc hệ thống tập tin được thiết lập chỉ đọc. Hãy kiểm tra và liên hệ với chúng tôi qua support\@me.addismap.com</string>
 	<string name="setting_emulate_bad_storage">Giả lập ổ lưu trữ hỏng</string>
 	<string name="discovery_button_title">Khám phá gần đây</string>
 	<string name="discovery_button_subtitle_things_to_do">Những việc có thể làm</string>

@@ -185,9 +185,9 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Λήψη χάρτη σε εξέλιξη.</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME! %1$s ή %2$s εάν δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get</string>
+	<string name="bookmark_share_sms">Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME! %1$s ή %2$s εάν δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://me.addismap.com/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">Έλεγξε την τρέχουσα τοποθεσία μου στο AddisMapME! %1$s ή %2$s στην περίπτωση που δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get</string>
+	<string name="my_position_share_sms">Έλεγξε την τρέχουσα τοποθεσία μου στο AddisMapME! %1$s ή %2$s στην περίπτωση που δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://me.addismap.com/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME!</string>
 	<!-- Subject for emailed position -->
@@ -342,7 +342,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">Δεν βρέθηκε καμία διαδρομή μεταξύ της επιλεγμένης προέλευσης και προορισμού. Επιλέξτε ένα διαφορετικό σημείο έναρξης ή λήξης.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">Παρουσιάστηκε εσωτερικό σφάλμα. Δοκιμάστε να διαγράψετε και να κατεβάσετε το χάρτη ξανά. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας στη διεύθυνση support\@maps.me.</string>
+	<string name="routing_failed_internal_error">Παρουσιάστηκε εσωτερικό σφάλμα. Δοκιμάστε να διαγράψετε και να κατεβάσετε το χάρτη ξανά. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας στη διεύθυνση support\@me.addismap.com.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map">Λήψη χάρτη</string>
 	<!-- Item status in downloader. -->
@@ -951,7 +951,7 @@
 	<string name="whats_new_ugc_title_updated_v840">Βαθμολογίες και κριτικές</string>
 	<string name="whats_new_ugc_message">Μπορείτε πλέον να αφήσετε βαθμολογίεςς και κριτικές ακόμα και όταν δεν είστε συνδεδεμένοι! Μην ξεχάσετε να ενημερώσετε τους χάρτες σας για να μπορείτε να δείτε τις αλλαγές.</string>
 	<string name="dialog_error_storage_title">Πρόβλημα πρόσβασης στον αποθηκευτικό χώρο</string>
-	<string name="dialog_error_storage_message">Ο εξωτερικός απθηκευτικός χώρος δεν είναι διαθέσιμος, πιθανότατα έχει αφαιρεθεί η κάρτα SD, είναι κατεστραμμένη ή το σύστημα αρχείων είναι μόνο για ανάγνωση. Ελέγξτε το και επικοινωνήστε μαζί μας στη διεύθυνση support\@maps.me</string>
+	<string name="dialog_error_storage_message">Ο εξωτερικός απθηκευτικός χώρος δεν είναι διαθέσιμος, πιθανότατα έχει αφαιρεθεί η κάρτα SD, είναι κατεστραμμένη ή το σύστημα αρχείων είναι μόνο για ανάγνωση. Ελέγξτε το και επικοινωνήστε μαζί μας στη διεύθυνση support\@me.addismap.com</string>
 	<string name="setting_emulate_bad_storage">Εξομείωση κακού αποθηκευτικού χώρου</string>
 	<string name="discovery_button_title">Ανακαλύψτε κοντά</string>
 	<string name="discovery_button_subtitle_things_to_do">Πράγματα που πρέπει να κάνω</string>
