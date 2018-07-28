@@ -217,8 +217,8 @@ void Storage::Load()
   if (data.empty())
   {
     ASSERT(false, ());
-    map<string, string> const stat = {{"error", "empty index file"}};
-    alohalytics::Stats::Instance().LogEvent("UGC_File_error", stat);
+//    map<string, string> const stat = {{"error", "empty index file"}};
+//    alohalytics::Stats::Instance().LogEvent("UGC_File_error", {{"error", "empty index file"}});
     return;
   }
 
