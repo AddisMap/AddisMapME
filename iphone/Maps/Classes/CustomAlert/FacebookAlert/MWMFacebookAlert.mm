@@ -9,7 +9,7 @@ static NSString * const kFacebookAlertNibName = @"MWMFacebookAlert";
 static NSString * const kFacebookAppName = @"https://fb.me/958251974218933";
 static NSString * const kFacebookURL = @"http://www.facebook.com/MapsWithMe";
 static NSString * const kFacebookScheme = @"fb://profile/111923085594432";
-static NSString * const kFacebookAlertPreviewImage = @"http://me.addismap.com/images/fb_app_invite_banner.png";
+static NSString * const kFacebookAlertPreviewImage = @"http://maps.me/images/fb_app_invite_banner.png";
 static NSString * const kFacebookInviteEventName = @"facebookInviteEvent";
 extern NSString * const kUDAlreadySharedKey;
 

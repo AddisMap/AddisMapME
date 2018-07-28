@@ -394,7 +394,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">Voglio essere tra i primi a sapere delle ultime novità aggiornamenti e promozioni. Potrò annullare l\'iscrizione in ogni momento.</string>
 	<!-- About text -->
-	<string name="about_text">AddisMapME offre le più veloci mappe offline di tutte le città, di tutti i paesi del mondo. Viaggia con piena fiducia: ovunque ti trovi, AddisMapME ti aiuta a localizzarti sulla mappa, trovare ristoranti, hotel, banche, distributori di benzina ecc.., e non richiede la connessione a internet.\n\nLavoriamo sempre su nuove funzionalità e ci piacerebbe sapere da te in cosa potremmo migliorare AddisMapME. Se avessi problemi con l\'app, non esitare a contattarci a support\@me.addismap.com. Rispondiamo ad ogni richiesta!\n\nTi piace AddisMapME e vuoi sostenerci? Ci sono alcuni modi semplici e assolutamente gratuiti:\n\n- Invia una recensione al tuo App Market\n- Metti mi piace sulla nostra pagina di Facebook http://www.facebook.com/mapswithme\n- O semplicemente fai pubblicità a AddisMapME con la tua mamma, i tuoi amici e colleghi :)\n\nGrazie per essere stato con noi. Apprezziamo molto il tuo supporto!\n\nP.S. Prendiamo i dati delle mappe da OpenStreetMap, un progetto di mappatura simile a Wikipedia, che permette agli utenti di creare e modificare le mappe. Se vedi che manca qualcosa o se c\'è qualcosa di sbagliato sulla mappa, puoi correggere le mappe direttamente su https://www.openstreetmap.org, e le modifiche appariranno nella prossima versione dell\'app AddisMapME.</string>
+	<string name="about_text">AddisMapME offre le più veloci mappe offline di tutte le città, di tutti i paesi del mondo. Viaggia con piena fiducia: ovunque ti trovi, AddisMapME ti aiuta a localizzarti sulla mappa, trovare ristoranti, hotel, banche, distributori di benzina ecc.., e non richiede la connessione a internet.\n\nLavoriamo sempre su nuove funzionalità e ci piacerebbe sapere da te in cosa potremmo migliorare AddisMapME. Se avessi problemi con l\'app, non esitare a contattarci a support\@maps.me. Rispondiamo ad ogni richiesta!\n\nTi piace AddisMapME e vuoi sostenerci? Ci sono alcuni modi semplici e assolutamente gratuiti:\n\n- Invia una recensione al tuo App Market\n- Metti mi piace sulla nostra pagina di Facebook http://www.facebook.com/mapswithme\n- O semplicemente fai pubblicità a AddisMapME con la tua mamma, i tuoi amici e colleghi :)\n\nGrazie per essere stato con noi. Apprezziamo molto il tuo supporto!\n\nP.S. Prendiamo i dati delle mappe da OpenStreetMap, un progetto di mappatura simile a Wikipedia, che permette agli utenti di creare e modificare le mappe. Se vedi che manca qualcosa o se c\'è qualcosa di sbagliato sulla mappa, puoi correggere le mappe direttamente su https://www.openstreetmap.org, e le modifiche appariranno nella prossima versione dell\'app AddisMapME.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Il client email non è stato configurato. Si prega di configurarlo o di usare qualsiasi altro metodo per contattarci all\'indirizzo %s</string>
 	<!-- Alert title -->
@@ -447,7 +447,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">Non è stata trovata alcuna strada fra il punto di partenza e d\'arrivo selezionati. Seleziona un punto di partenza e d\'arrivo diversi.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">Si è verificato un errore interno. Prova ad eliminare la mappa e a scaricarla nuovamente. Se il problema dovesse persistere, contattaci all\'indirizzo support\@me.addismap.com.</string>
+	<string name="routing_failed_internal_error">Si è verificato un errore interno. Prova ad eliminare la mappa e a scaricarla nuovamente. Se il problema dovesse persistere, contattaci all\'indirizzo support\@maps.me.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">Scarica mappa e percorso</string>
 	<!-- Context menu item for downloader. -->
@@ -1186,7 +1186,7 @@
 	<string name="whats_new_ugc_title_updated_v840">Valutazioni e recensioni</string>
 	<string name="whats_new_ugc_message">Ora puoi lasciare le tue valutazioni e recensioni anche offline! Non dimenticare di aggiornare le tue mappe per vedere le modifiche.</string>
 	<string name="dialog_error_storage_title">Problema di accesso all\'archivio</string>
-	<string name="dialog_error_storage_message">Archivio esterno non disponibile, probabilmente la scheda SD è stata rimossa, è danneggiata o il file system è di sola lettura. Controllala e contattaci su support\@me.addismap.com</string>
+	<string name="dialog_error_storage_message">Archivio esterno non disponibile, probabilmente la scheda SD è stata rimossa, è danneggiata o il file system è di sola lettura. Controllala e contattaci su support\@maps.me</string>
 	<string name="setting_emulate_bad_storage">Simula archivio danneggiato</string>
 	<string name="discovery_button_title">Scopri nelle vicinanze</string>
 	<string name="discovery_button_subtitle_things_to_do">Cose da fare</string>

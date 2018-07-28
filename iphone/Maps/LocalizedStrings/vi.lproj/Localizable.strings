@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Điểm đánh dấu AddisMapME được chia sẻ";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Tải Điểm đánh dấu";
@@ -391,10 +391,10 @@
 "no_thanks" = "Không, cảm ơn";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Này, hãy xem ghim của tôi tại AddisMapME! %1$@ hoặc %2$@ Bạn chưa cài đặt bản đồ ngoại tuyến? Tải xuống tại đây: http://me.addismap.com/get";
+"bookmark_share_sms" = "Này, hãy xem ghim của tôi tại AddisMapME! %1$@ hoặc %2$@ Bạn chưa cài đặt bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Này, hãy xem vị trí hiện tại của tôi tại AddisMapME! %1$@ hoặc %2$@ Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: http://me.addismap.com/get";
+"my_position_share_sms" = "Này, hãy xem vị trí hiện tại của tôi tại AddisMapME! %1$@ hoặc %2$@ Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Này, hãy xem ghim của tôi tại AddisMapME map";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Tôi muốn là người đầu tiên được biết về các thông tin cập nhật và quảng bá mới nhất. Tôi có thể hủy bỏ đăng ký nhận tin của mình bất cứ lúc nào.";
 
 /* About text */
-"about_text" = "AddisMapME cung cấp bản đồ ngoại tuyến của tất cả các thành phố và quốc gia trên thế giới một cách nhanh nhất. Hoàn toàn tự tin đi du lịch: dù bạn ở đâu, AddisMapME vẫn sẽ giúp bạn định vị bản thân trên bản đồ, tìm các nhà hàng, khách sạn, ngân hàng, trạm xăng, v.v… gần nhất. Ứng dụng này không yêu cầu kết nối Internet.\n\nChúng tôi luôn phát triển các tính năng mới và rất chào đón ý kiến của bạn về cách mà chúng tôi có thể cải thiện AddisMapME. Nếu bạn có bất cứ vấn đề nào với ứng dụng, hãy liên hệ với chúng tôi qua địa chỉ support@me.addismap.com. Chúng tôi sẽ trả lời mọi yêu cầu!\n\nBạn có thích AddisMapME và muốn hỗ trợ chúng tôi hay không? Sau đây là một số cách đơn giản và hoàn toàn miễn phí:\n\n- viết đánh giá trên Chợ Ứng dụng mà bạn sử dụng\n- thích trang Facebook của chúng tôi http://www.facebook.com/mapswithme\n- hoặc chỉ đơn giản là kể về AddisMapME với mẹ, bạn bè và đồng nghiệp của bạn :)\n\nCảm ơn bạn đã ủng hộ chúng tôi. Chúng tôi rất cảm ơn sự giúp đỡ của bạn!\n\nT.B. Chúng tôi lấy dữ liệu bản đồ từ OpenStreetMap, một dự án bản đồ tương đương với Wikipedia, cho phép người dùng có thể tạo và sửa bản đồ. Nếu bạn thấy có thông tin bị thiếu hoặc sai trên bản đồ, bạn có thể sửa trực tiếp tại https://www.openstreetmap.org, và các thay đổi của bạn sẽ xuất hiện trong ứng dụng AddisMapME ở phiên bản kế tiếp.";
+"about_text" = "AddisMapME cung cấp bản đồ ngoại tuyến của tất cả các thành phố và quốc gia trên thế giới một cách nhanh nhất. Hoàn toàn tự tin đi du lịch: dù bạn ở đâu, AddisMapME vẫn sẽ giúp bạn định vị bản thân trên bản đồ, tìm các nhà hàng, khách sạn, ngân hàng, trạm xăng, v.v… gần nhất. Ứng dụng này không yêu cầu kết nối Internet.\n\nChúng tôi luôn phát triển các tính năng mới và rất chào đón ý kiến của bạn về cách mà chúng tôi có thể cải thiện AddisMapME. Nếu bạn có bất cứ vấn đề nào với ứng dụng, hãy liên hệ với chúng tôi qua địa chỉ support@maps.me. Chúng tôi sẽ trả lời mọi yêu cầu!\n\nBạn có thích AddisMapME và muốn hỗ trợ chúng tôi hay không? Sau đây là một số cách đơn giản và hoàn toàn miễn phí:\n\n- viết đánh giá trên Chợ Ứng dụng mà bạn sử dụng\n- thích trang Facebook của chúng tôi http://www.facebook.com/mapswithme\n- hoặc chỉ đơn giản là kể về AddisMapME với mẹ, bạn bè và đồng nghiệp của bạn :)\n\nCảm ơn bạn đã ủng hộ chúng tôi. Chúng tôi rất cảm ơn sự giúp đỡ của bạn!\n\nT.B. Chúng tôi lấy dữ liệu bản đồ từ OpenStreetMap, một dự án bản đồ tương đương với Wikipedia, cho phép người dùng có thể tạo và sửa bản đồ. Nếu bạn thấy có thông tin bị thiếu hoặc sai trên bản đồ, bạn có thể sửa trực tiếp tại https://www.openstreetmap.org, và các thay đổi của bạn sẽ xuất hiện trong ứng dụng AddisMapME ở phiên bản kế tiếp.";
 
 /* Alert text */
 "email_error_body" = "Trình khách email này chưa được thiết lập. Bạn vui lòng cấu hình nó hoặc sử dụng một cách khác để liên hệ với chúng tôi tại %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Không tìm thấy tuyến đường nào giữa điểm gốc và điểm đến được chọn. Vui lòng chọn điểm bắt đầu hoặc điểm cuối khác.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Đã xảy ra lỗi nội bộ. Vui lòng thử xóa và tải lại xuống bản đồ. Nếu vấn đề vẫn còn tồn tại, vui lòng liên hệ với chúng tôi tại support@me.addismap.com.";
+"routing_failed_internal_error" = "Đã xảy ra lỗi nội bộ. Vui lòng thử xóa và tải lại xuống bản đồ. Nếu vấn đề vẫn còn tồn tại, vui lòng liên hệ với chúng tôi tại support@maps.me.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Tải xuống Bản đồ + Định tuyến";
@@ -2104,7 +2104,7 @@
 
 "dialog_error_storage_title" = "Vấn đề truy cập ổ lưu trữ";
 
-"dialog_error_storage_message" = "Ổ lưu trữ bên ngoài không khả dụng, có thể Thẻ SD đã bị tháo, bị hỏng hoặc hệ thống tập tin được thiết lập chỉ đọc. Hãy kiểm tra và liên hệ với chúng tôi qua support@me.addismap.com";
+"dialog_error_storage_message" = "Ổ lưu trữ bên ngoài không khả dụng, có thể Thẻ SD đã bị tháo, bị hỏng hoặc hệ thống tập tin được thiết lập chỉ đọc. Hãy kiểm tra và liên hệ với chúng tôi qua support@maps.me";
 
 "setting_emulate_bad_storage" = "Giả lập ổ lưu trữ hỏng";
 

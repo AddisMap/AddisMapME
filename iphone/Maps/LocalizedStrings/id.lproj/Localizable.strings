@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Bagikan penanda AddisMapME";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Memuat Penanda";
@@ -391,10 +391,10 @@
 "no_thanks" = "Tidak, terima kasih";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hei, lihat pinku di AddisMapME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://me.addismap.com/get";
+"bookmark_share_sms" = "Hei, lihat pinku di AddisMapME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hei, lihat lokasiku saat ini di AddisMapME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://me.addismap.com/get";
+"my_position_share_sms" = "Hei, lihat lokasiku saat ini di AddisMapME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://maps.me/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Hei, lihat pinku di peta AddisMapME";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Saya ingin menjadi yang pertama untuk mengetahui kabar dan promosi terbaru. Saya dapat membatalkan langganan saya kapan saja.";
 
 /* About text */
-"about_text" = "AddisMapME menawarkan peta offline tercepat dari semua kota, semua negara di dunia. Berpergianlah dengan kepercayaan diri yang penuh: di nana pun Anda berada, AddisMapME akan membantu Anda mengetahui posisi Anda pada peta, menemukan restoran, hotel, bank, stasiun bahan bakar terdekat, dll. Tidak perlu koneksi internet.Kami selalu membuat fitur-fitur baru dan ingin mendengar pendapat Anda mengenai bagaimana kami dapat membuat AddisMapME menjadi lebih baik. Jika Anda memiliki masalah apa pun dengan aplikasinya, jangan segan untuk menghubungi kami di support@me.addismap.com. Kami akan merespons setiap permintaan!Apakah Anda menyukai AddisMapME an ingin membantu kami? Terdapat beberapa cara yang mudah dan sepenuhnya gratis:- tulis ulasan di App Market Anda";
+"about_text" = "AddisMapME menawarkan peta offline tercepat dari semua kota, semua negara di dunia. Berpergianlah dengan kepercayaan diri yang penuh: di nana pun Anda berada, AddisMapME akan membantu Anda mengetahui posisi Anda pada peta, menemukan restoran, hotel, bank, stasiun bahan bakar terdekat, dll. Tidak perlu koneksi internet.Kami selalu membuat fitur-fitur baru dan ingin mendengar pendapat Anda mengenai bagaimana kami dapat membuat AddisMapME menjadi lebih baik. Jika Anda memiliki masalah apa pun dengan aplikasinya, jangan segan untuk menghubungi kami di support@maps.me. Kami akan merespons setiap permintaan!Apakah Anda menyukai AddisMapME an ingin membantu kami? Terdapat beberapa cara yang mudah dan sepenuhnya gratis:- tulis ulasan di App Market Anda";
 
 /* Alert text */
 "email_error_body" = "Surel pelanggan belum diatur. Mohon konfigurasikan atau gunakan cara lain untuk menghubungi kami di %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Tidak ada rute yang ditemukan antara tempat asal dan tujuan yang dipilih. Mohon pilih titik mulai atau tujuan yang berbeda.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Terjadi gangguan internal. Mohon coba menghapus dan mengunduh petanya lagi. Jika masih terjadi masalah mohon hubungi kami di support@me.addismap.com.";
+"routing_failed_internal_error" = "Terjadi gangguan internal. Mohon coba menghapus dan mengunduh petanya lagi. Jika masih terjadi masalah mohon hubungi kami di support@maps.me.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Untuh Peta + Rute";

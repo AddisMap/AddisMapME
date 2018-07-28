@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "AddisMapME 书签已与您共享";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "加载书签";
@@ -391,10 +391,10 @@
 "no_thanks" = "不,谢谢";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "嘿,在 AddisMapME 上查看我标注的图钉吧! %1$@ 或%2$@ 未安装离线地图?在此下 载: http://me.addismap.com/get";
+"bookmark_share_sms" = "嘿,在 AddisMapME 上查看我标注的图钉吧! %1$@ 或%2$@ 未安装离线地图?在此下 载: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "嘿,在 AddisMapME 上查看我目前的位置 吧!%1$@ 或%2$@ 未安装离线地图?在此 下载: http://me.addismap.com/get";
+"my_position_share_sms" = "嘿,在 AddisMapME 上查看我目前的位置 吧!%1$@ 或%2$@ 未安装离线地图?在此 下载: http://maps.me/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "嘿,在 AddisMapME 上查看我标注的图钉吧!";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "我想率先了解最新新闻、更新及促销活动。订阅可随时取消。";
 
 /* About text */
-"about_text" = "AddisMapME 提供全球所有国家和所有城市的最快速的离线地图。充满自信地出行：无论您在哪，AddisMapME都能够帮助您在地图上找到您自己的位置，找到最近的餐馆、酒店、银行、加油站，等等。无需网络连接。\n\n我们始终在为添加新功能而努力，并希望能够听到您对我们应如何改进AddisMapME的想法。若您在使用本应用时遇到任何问题，请随时联系我们：support@me.addismap.com。我们会回复每一条请求！\n\n您喜欢AddisMapME并希望支持我们吗？以下为一些简单且完全免费的方法：\n\n- 在您的App Market发表评论\n- 在我们的Facebook页面http://www.facebook.com/mapswithme赞我们\n- 或者向您的母亲、朋友，以及同事介绍AddisMapME :)\n\n感谢您与我们在一起。非常感谢您的支持。\n\n附言：我们从OpenStreetMap获取地图信息，这是一个类似于Wikipedia的地图绘制项目，能够让用户创建并编辑地图。若您看到地图上缺少了什么或者有什么错误，可以直接在https://www.openstreetmap.org上进行纠正。在下一个版本发布时，您做出的更改便会出现在AddisMapME应用中。";
+"about_text" = "AddisMapME 提供全球所有国家和所有城市的最快速的离线地图。充满自信地出行：无论您在哪，AddisMapME都能够帮助您在地图上找到您自己的位置，找到最近的餐馆、酒店、银行、加油站，等等。无需网络连接。\n\n我们始终在为添加新功能而努力，并希望能够听到您对我们应如何改进AddisMapME的想法。若您在使用本应用时遇到任何问题，请随时联系我们：support@maps.me。我们会回复每一条请求！\n\n您喜欢AddisMapME并希望支持我们吗？以下为一些简单且完全免费的方法：\n\n- 在您的App Market发表评论\n- 在我们的Facebook页面http://www.facebook.com/mapswithme赞我们\n- 或者向您的母亲、朋友，以及同事介绍AddisMapME :)\n\n感谢您与我们在一起。非常感谢您的支持。\n\n附言：我们从OpenStreetMap获取地图信息，这是一个类似于Wikipedia的地图绘制项目，能够让用户创建并编辑地图。若您看到地图上缺少了什么或者有什么错误，可以直接在https://www.openstreetmap.org上进行纠正。在下一个版本发布时，您做出的更改便会出现在AddisMapME应用中。";
 
 /* Alert text */
 "email_error_body" = "电子邮件客户端尚未建立。请配置或使用任何其他方式与我们联系%@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "找不到所选起点和终点间的路程。请选择不同的起点或终点。";
 
 /* InternalError */
-"routing_failed_internal_error" = "出现内部错误。请尝试删除并再次下载地图。如果还有问题请联系我们：support@me.addismap.com。";
+"routing_failed_internal_error" = "出现内部错误。请尝试删除并再次下载地图。如果还有问题请联系我们：support@maps.me。";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "下载地图 + 路线";
@@ -2104,7 +2104,7 @@
 
 "dialog_error_storage_title" = "存储空间访问问题";
 
-"dialog_error_storage_message" = "外部存储空间不可用，可能是 SD 卡已移除、损坏，或者文件系统为只读。请检查，然后通过以下方式联系我们：support@me.addismap.com";
+"dialog_error_storage_message" = "外部存储空间不可用，可能是 SD 卡已移除、损坏，或者文件系统为只读。请检查，然后通过以下方式联系我们：support@maps.me";
 
 "setting_emulate_bad_storage" = "模拟不良存储空间";
 

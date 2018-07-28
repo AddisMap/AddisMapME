@@ -400,7 +400,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">Chcem sa vždy ako prvý dozvedať o najnovších správach, aktualizáciách a akčných ponukách. Svoje prihlásenie k odberu môžem kedykoľvek zrušiť.</string>
 	<!-- About text -->
-	<string name="about_text">AddisMapME ponúka najrýchlejšie offline mapy všetkých miest a krajín po celom svete. Cestujte s úplnou dôverou: kdekoľvek ste, AddisMapME vám pomôže sa nájsť na mape, nájsť najbližšiu reštauráciu, hotel, banku, benzínovú pumpu atď. Nevyžaduje pripojenie k internetu.\n\nNeustále pracujeme na nových funkciách a radi by sme počuli váš názor, ako môžeme vylepšiť AddisMapME. Pokiaľ máte s touto aplikáciou akékoľvek problémy, tak nás neváhajte kontaktovať na support\@me.addismap.com. Odpovedáme na každú požiadavku!\n\nPáči sa vám AddisMapME a chceli by ste nás podporiť? Existuje niekoľko ľahkých spôsobov celkom zadarmo:\n\n-napíšte recenziu vo svojom obchode s aplikáciami\n-označte našu stránku http://www.facebook.com/mapswithme pomocou Páči sa mi to\n- alebo len povedzte o AddisMapME svojej mame, priateľom a kolegom :)\n\nĎakujeme, že ste s nami. Veľmi oceňujeme vašu podporu!\n\nP.S. Mapové dáta získavame z OpenStreetMaps, čo je mapový projekt podobný Wikipédii, ktorý umožňuje užívateľom vytvárať a upravovať mapy. Pokiaľ zistíte, že na mape niečo chýba alebo je nesprávné, môžete to opraviť priamo na https://www.openstreetmap.org, a vaše zmeny sa objavia v budúcej verzii AddisMapME.</string>
+	<string name="about_text">AddisMapME ponúka najrýchlejšie offline mapy všetkých miest a krajín po celom svete. Cestujte s úplnou dôverou: kdekoľvek ste, AddisMapME vám pomôže sa nájsť na mape, nájsť najbližšiu reštauráciu, hotel, banku, benzínovú pumpu atď. Nevyžaduje pripojenie k internetu.\n\nNeustále pracujeme na nových funkciách a radi by sme počuli váš názor, ako môžeme vylepšiť AddisMapME. Pokiaľ máte s touto aplikáciou akékoľvek problémy, tak nás neváhajte kontaktovať na support\@maps.me. Odpovedáme na každú požiadavku!\n\nPáči sa vám AddisMapME a chceli by ste nás podporiť? Existuje niekoľko ľahkých spôsobov celkom zadarmo:\n\n-napíšte recenziu vo svojom obchode s aplikáciami\n-označte našu stránku http://www.facebook.com/mapswithme pomocou Páči sa mi to\n- alebo len povedzte o AddisMapME svojej mame, priateľom a kolegom :)\n\nĎakujeme, že ste s nami. Veľmi oceňujeme vašu podporu!\n\nP.S. Mapové dáta získavame z OpenStreetMaps, čo je mapový projekt podobný Wikipédii, ktorý umožňuje užívateľom vytvárať a upravovať mapy. Pokiaľ zistíte, že na mape niečo chýba alebo je nesprávné, môžete to opraviť priamo na https://www.openstreetmap.org, a vaše zmeny sa objavia v budúcej verzii AddisMapME.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Emailový klient nebol nastavený. Nakonfigurujte ho prosím alebo použite iný spôsob k tomu, abyste nás kontaktovali na %s</string>
 	<!-- Alert title -->
@@ -453,7 +453,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">Nebol nájdená trasa medzi vybraným východiskom a cieľom. Prosím vyberte iný počiatočný a koncový bod.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">Došlo k vnútornej chybe. Prosím, skúste zmazať a znovu stiahnuť mapu. Ak problém pretrvá, prosím, kontaktujte nás na support\@me.addismap.com.</string>
+	<string name="routing_failed_internal_error">Došlo k vnútornej chybe. Prosím, skúste zmazať a znovu stiahnuť mapu. Ak problém pretrvá, prosím, kontaktujte nás na support\@maps.me.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">Na stiahnutie Mapa + Trasa</string>
 	<!-- Context menu item for downloader. -->
@@ -1190,7 +1190,7 @@
 	<string name="whats_new_ugc_title_updated_v840">Hodnotenia a recenzie</string>
 	<string name="whats_new_ugc_message">Teraz môžete napísať hodnotenia a recenzie aj offline! Nezabudnite si aktualizovať mapy, aby ste videli zmeny.</string>
 	<string name="dialog_error_storage_title">Problém s prístupom k úložisku</string>
-	<string name="dialog_error_storage_message">Externý úložný priestor nie je dostupný, pravdepodobne je vytiahnutá alebo poškodená SD karta alebo je systém súborov určený iba na čítanie. Skontrolujte to, prosím, a kontaktujte nás na support\@me.addismap.com</string>
+	<string name="dialog_error_storage_message">Externý úložný priestor nie je dostupný, pravdepodobne je vytiahnutá alebo poškodená SD karta alebo je systém súborov určený iba na čítanie. Skontrolujte to, prosím, a kontaktujte nás na support\@maps.me</string>
 	<string name="setting_emulate_bad_storage">Imitovať poškodené úložisko</string>
 	<string name="discovery_button_title">Poznávajte svoje okolie</string>
 	<string name="discovery_button_subtitle_things_to_do">Aktivity</string>

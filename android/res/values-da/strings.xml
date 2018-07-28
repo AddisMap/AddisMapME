@@ -247,9 +247,9 @@
 	<!-- No, thanks -->
 	<string name="no_thanks">Nej, tak</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Hey, tjek min knappenål på AddisMapME ud! %1$s or %2$s Har du ikke offline kort? Download her: http://me.addismap.com/get</string>
+	<string name="bookmark_share_sms">Hey, tjek min knappenål på AddisMapME ud! %1$s or %2$s Har du ikke offline kort? Download her: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">Hey, tjek min nuværende lokation ud på AddisMapME! %1$s or %2$s. Har du ikke offline kort? Download her: http://me.addismap.com/get</string>
+	<string name="my_position_share_sms">Hey, tjek min nuværende lokation ud på AddisMapME! %1$s or %2$s. Har du ikke offline kort? Download her: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">Hey, tjek min knappenål på AddisMapME kortet ud!</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
@@ -399,7 +399,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">Jeg vil være den første til at høre om de seneste nyheder opdateringer og tilbud. Jeg kan opsige abonnementet når som helst.</string>
 	<!-- About text -->
-	<string name="about_text">AddisMapME tilbyder de hurtigste offline-kort over alle byer og alle lande i verden. Rejs med tillid: Hvor end du befinder dig, hjælper AddisMapME med at lokalisere din placering på kortet, finde den nærmeste restaurant, hotel, bank, benzintank og så videre. Det er ikke nødvendigt at have forbindelse til internettet.\n\nVi arbejder altid på nye funktioner, og vi vil meget gerne høre fra dig, hvis du har forslag til, hvordan vi kan forbedre AddisMapME. Hvis du oplever problemer med appen, er du meget velkommen til at kontakte os på support\@me.addismap.com. Vi besvarer alle henvendelser!\n\nSynes du om AddisMapME, og har du lyst til at støtte os? Her er nogle simple og helt gratis metoder:\n\n-post en anmeldelse i din App Store\n-like vores facebook-side http://www.facebook.com/mapswithme\n-neller fortæl din mor, venner og kollegaer om AddisMapME :)\n\nTak fordi du støtter os. Vi sætter stor pris på din støtte!\n\nPS: Vi får vores kortdata fra OpenStreetMap, som er et kortprojekt, der minder om Wikipedia, og som gør brugere i stand til at oprette og rette kort. Hvis du oplever, at noget mangler eller er forkert på kortet, kan du rette kortene direkte på https://www.openstreetmap.org, og dine ændringer vil figurere på AddisMapME-appen i forbindelse med frigivelsen af den næste version.</string>
+	<string name="about_text">AddisMapME tilbyder de hurtigste offline-kort over alle byer og alle lande i verden. Rejs med tillid: Hvor end du befinder dig, hjælper AddisMapME med at lokalisere din placering på kortet, finde den nærmeste restaurant, hotel, bank, benzintank og så videre. Det er ikke nødvendigt at have forbindelse til internettet.\n\nVi arbejder altid på nye funktioner, og vi vil meget gerne høre fra dig, hvis du har forslag til, hvordan vi kan forbedre AddisMapME. Hvis du oplever problemer med appen, er du meget velkommen til at kontakte os på support\@maps.me. Vi besvarer alle henvendelser!\n\nSynes du om AddisMapME, og har du lyst til at støtte os? Her er nogle simple og helt gratis metoder:\n\n-post en anmeldelse i din App Store\n-like vores facebook-side http://www.facebook.com/mapswithme\n-neller fortæl din mor, venner og kollegaer om AddisMapME :)\n\nTak fordi du støtter os. Vi sætter stor pris på din støtte!\n\nPS: Vi får vores kortdata fra OpenStreetMap, som er et kortprojekt, der minder om Wikipedia, og som gør brugere i stand til at oprette og rette kort. Hvis du oplever, at noget mangler eller er forkert på kortet, kan du rette kortene direkte på https://www.openstreetmap.org, og dine ændringer vil figurere på AddisMapME-appen i forbindelse med frigivelsen af den næste version.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Emailklienten er ikke blevet sat op. Venligst konfigurér den eller brug en anden måde til at kontakte os på %s</string>
 	<!-- Alert title -->
@@ -452,7 +452,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">Der blev ikke fundet en rute mellem det valgte begyndelsespunkt og destinationen. Venligst vælg et andet start- eller slutpunkt.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">Intern fejl opstod. Venligt prøv at slette og downloade kortet igen. Hvis problemet vare ved, venligst kontakt os på support\@me.addismap.com.</string>
+	<string name="routing_failed_internal_error">Intern fejl opstod. Venligt prøv at slette og downloade kortet igen. Hvis problemet vare ved, venligst kontakt os på support\@maps.me.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">Hent kort + ruteangivelse</string>
 	<!-- Context menu item for downloader. -->
@@ -1191,7 +1191,7 @@
 	<string name="whats_new_ugc_title_updated_v840">Vurderinger og anmeldelser</string>
 	<string name="whats_new_ugc_message">Du kan nu afgive vurderinger og anmeldelser, selv offline! Glem ikke at opdatere dit kort, så du kan se ændringerne.</string>
 	<string name="dialog_error_storage_title">Problem med lageradgang</string>
-	<string name="dialog_error_storage_message">Eksternt lager er ikke tilgængeligt, formentlig er SD-kortet blevet fjernet eller beskadiget, eller filsystemet er skrivebeskyttet. Kontroller det og kontakt os på support\@me.addismap.com</string>
+	<string name="dialog_error_storage_message">Eksternt lager er ikke tilgængeligt, formentlig er SD-kortet blevet fjernet eller beskadiget, eller filsystemet er skrivebeskyttet. Kontroller det og kontakt os på support\@maps.me</string>
 	<string name="setting_emulate_bad_storage">Emulere beskadiget lager</string>
 	<string name="discovery_button_title">Find noget i nærheden</string>
 	<string name="discovery_button_subtitle_things_to_do">Aktiviteter</string>

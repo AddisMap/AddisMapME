@@ -99,5 +99,5 @@ getent passwd osrm >/dev/null || useradd -r -g osrm -d /var/lib/osrm/ -s /sbin/n
 %{_datadir}/omim/data/*
 
 %changelog
-* Tue Dec 29 2015 Dragunov Lev <Lev@me.addismap.com> - 20151229.1200
+* Tue Dec 29 2015 Dragunov Lev <Lev@maps.me> - 20151229.1200
 - inital packaging
