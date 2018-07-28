@@ -1,6 +1,6 @@
 # AddisMapME
 
-[AddisMapME](http://maps.me) is an open source cross-platform offline maps application,
+[AddisMapME](http://me.addismap.com) is an open source cross-platform offline maps application,
 built on top of crowd-sourced OpenStreetMap data. It was publicly released
 for [iOS](https://itunes.apple.com/app/id510623322) and
 [Android](https://play.google.com/store/apps/details?id=com.mapswithme.maps.pro).
@@ -26,7 +26,7 @@ For detailed installation instructions and Android/iOS building process,
 see [INSTALL.md](https://github.com/mapsme/omim/tree/master/docs/INSTALL.md).
 
 Nightly builds for Android are published to [osmz.ru](http://osmz.ru/mwm/)
-and Dropbox: [release](http://maps.me/release), [debug](http://maps.me/debug).
+and Dropbox: [release](http://me.addismap.com/release), [debug](http://me.addismap.com/debug).
 
 ## Building maps
 
@@ -66,7 +66,7 @@ so both our and their rights are protected.
 ## Feedback
 
 Please report bugs and suggestions to [the issue tracker](https://github.com/mapsme/omim/issues),
-or by mail to bugs@maps.me.
+or by mail to bugs@me.addismap.com.
 
 ## Authors and License
 

@@ -37,7 +37,7 @@
 // 2017-08-14 - Moved "apply" and "create" to the header file, rewrote
 //              all routines to use MAPS.ME readers and writers instead
 //              of Courgette streams and files.
-//                --Maxim Pimenov <m@maps.me>
+//                --Maxim Pimenov <m@me.addismap.com>
 
 // Changelog for bsdiff_apply:
 // 2009-03-31 - Change to use Streams.  Move CRC code to crc.{h,cc}

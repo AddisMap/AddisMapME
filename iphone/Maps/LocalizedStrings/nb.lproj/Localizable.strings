@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Delte AddisMapME-bokmerker";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Laster inn bokmerker";
@@ -391,10 +391,10 @@
 "no_thanks" = "Nei takk";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hei, se merket mitt på AddisMapME! %1$@ eller %2$@ Har du ikke installert offline-kart? Last dem ned her: http://maps.me/get";
+"bookmark_share_sms" = "Hei, se merket mitt på AddisMapME! %1$@ eller %2$@ Har du ikke installert offline-kart? Last dem ned her: http://me.addismap.com/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hei, se posisjonen min på AddisMapME! %1$@ eller %2$@ Har du ikke offline-kart? Last dem ned her: http://maps.me/get";
+"my_position_share_sms" = "Hei, se posisjonen min på AddisMapME! %1$@ eller %2$@ Har du ikke offline-kart? Last dem ned her: http://me.addismap.com/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Hei, se merket mitt på AddisMapME-kartet";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Jeg ønsker å være den første som får vite om siste nytt og nye kampanjer. Jeg kan avbestille abonnementet når som helst.";
 
 /* About text */
-"about_text" = "AddisMapME tilbyr de raskeste offline-kartene over alle byer i alle land i verden. Reis trygt: Uansett hvor du er, kan AddisMapME hjelpe deg med å finne ut hvor du er på kartet eller finne nærmeste restaurant, hotell, bank, bensinstasjon osv. Det kreves ingen internettforbindelse.\n\nVi jobber alltid med å legge inn nye funksjoner, og vi vil gjerne høre hvordan du synes at vi kan forbedre AddisMapME. Hvis du får problemer med appen, ikke nøl med å kontakte oss på support@maps.me. Vi svarer på alle forespørsler!\n\nLiker du AddisMapME og ønsker å støtte oss? Det er noen enkle og helt gratis måter å gjøre det på:\n\n- Legg inn en vurdering på app-butikken\n- Lik Facebook-siden vår på http://www.facebook.com/mapswithme\n- Eller bare fortell mamma, venner og kolleger om AddisMapME :)\n\nTakk for at du er med oss. Vi setter stor pris på støtten!\n\nPS! Vi henter kartdata fra OpenStreetMap, et kartprosjekt som ligner på Wikipedia, der brukerne selv kan opprette og redigere kart. Hvis du finner mangler eller feil på kartet, kan du korrigere kartet direkte på https://www.openstreetmap.org, og endringene vil vises i AddisMapME-appen når neste versjon kommer.";
+"about_text" = "AddisMapME tilbyr de raskeste offline-kartene over alle byer i alle land i verden. Reis trygt: Uansett hvor du er, kan AddisMapME hjelpe deg med å finne ut hvor du er på kartet eller finne nærmeste restaurant, hotell, bank, bensinstasjon osv. Det kreves ingen internettforbindelse.\n\nVi jobber alltid med å legge inn nye funksjoner, og vi vil gjerne høre hvordan du synes at vi kan forbedre AddisMapME. Hvis du får problemer med appen, ikke nøl med å kontakte oss på support@me.addismap.com. Vi svarer på alle forespørsler!\n\nLiker du AddisMapME og ønsker å støtte oss? Det er noen enkle og helt gratis måter å gjøre det på:\n\n- Legg inn en vurdering på app-butikken\n- Lik Facebook-siden vår på http://www.facebook.com/mapswithme\n- Eller bare fortell mamma, venner og kolleger om AddisMapME :)\n\nTakk for at du er med oss. Vi setter stor pris på støtten!\n\nPS! Vi henter kartdata fra OpenStreetMap, et kartprosjekt som ligner på Wikipedia, der brukerne selv kan opprette og redigere kart. Hvis du finner mangler eller feil på kartet, kan du korrigere kartet direkte på https://www.openstreetmap.org, og endringene vil vises i AddisMapME-appen når neste versjon kommer.";
 
 /* Alert text */
 "email_error_body" = "E-postklienten har ikke blitt konfigurert. Konfigurer den eller bruk en annen måte å kontakte oss på %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Finner ingen rute mellom valgt startsted og destinasjon. Velg et annet start- eller sluttpunkt.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Det oppsto en intern feil. Prøv å slette og laste ned kartet på nytt. Hvis problemet vedvarer kan du kontakte oss på support@maps.me.";
+"routing_failed_internal_error" = "Det oppsto en intern feil. Prøv å slette og laste ned kartet på nytt. Hvis problemet vedvarer kan du kontakte oss på support@me.addismap.com.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Last ned kart + rutetilordning";
@@ -2104,7 +2104,7 @@
 
 "dialog_error_storage_title" = "Problemer med tilgang til lagring";
 
-"dialog_error_storage_message" = "Ekstern lagring er ikke tilgjengelig. Sannsynligvis er SD-kortet fjernet eller skadet eller så er filsystemet skrivebeskyttet. Undersøk og kontakt oss på support@maps.me";
+"dialog_error_storage_message" = "Ekstern lagring er ikke tilgjengelig. Sannsynligvis er SD-kortet fjernet eller skadet eller så er filsystemet skrivebeskyttet. Undersøk og kontakt oss på support@me.addismap.com";
 
 "setting_emulate_bad_storage" = "Emulere skadet lagring";
 
