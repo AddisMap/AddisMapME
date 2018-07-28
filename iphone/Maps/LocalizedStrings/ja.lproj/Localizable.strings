@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "AddisMapMEの位置情報シェア";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "ブックマークの読み込み中";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "最新ニュース、アップデートとプロモーションにすいてまず知りたいです。いつでも購読をキャンセル出来ます。";
 
 /* About text */
-"about_text" = "AddisMapMEは世界の全ての国、全ての都市が載っている最速のオフラインマップ。どこにいてもAddisMapMEの地図上でユーザーの現在地が分かり、付近のレストラン、ホテル、銀行、ガソリンスタンドなどが見つけられるので、自信を持って旅行ができます。インターネット接続は必要ありません。\n\n弊社では常に新機能の開発に取り組んでいるので、AddisMapMEの改善についてユーザーの皆様からのご意見やご感想をお待ちしています。アプリで問題点が見つかった際は、お気軽にsupport@maps.meまでご連絡ください。どのようなリクエストにでも対応いたします!\n\nAddisMapMEが好きでサポートしていただけますか。シンプルで完全無料の方法がいくつかあります。\n\n- お使いのアプリマーケットでレビューを投稿\n- 弊社のFacebookページで「いいね!」をクリック：http://www.facebook.com/mapswithme\n- AddisMapMEのことをお母様、お友達、同僚の皆様に話す (^_^)\n\n弊社アプリをご利用いただきありがとうございます。皆様からのサポートに大変感謝しております!\n\n追伸：ウィキペディアのようにユーザーによる作成や編集が可能なマッピングプロジェクトOpenStreetMapの地図データを使用しています。地図上で欠けているものや誤りを見つけた場合、https://www.openstreetmap.orgでユーザーが直接修正ができます。このような変更はAddisMapMEのその後のバージョンリリースの際に反映されます。";
+"about_text" = "AddisMapMEは世界の全ての国、全ての都市が載っている最速のオフラインマップ。どこにいてもAddisMapMEの地図上でユーザーの現在地が分かり、付近のレストラン、ホテル、銀行、ガソリンスタンドなどが見つけられるので、自信を持って旅行ができます。インターネット接続は必要ありません。\n\n弊社では常に新機能の開発に取り組んでいるので、AddisMapMEの改善についてユーザーの皆様からのご意見やご感想をお待ちしています。アプリで問題点が見つかった際は、お気軽にsupport@me.addismap.comまでご連絡ください。どのようなリクエストにでも対応いたします!\n\nAddisMapMEが好きでサポートしていただけますか。シンプルで完全無料の方法がいくつかあります。\n\n- お使いのアプリマーケットでレビューを投稿\n- 弊社のFacebookページで「いいね!」をクリック：http://www.facebook.com/mapswithme\n- AddisMapMEのことをお母様、お友達、同僚の皆様に話す (^_^)\n\n弊社アプリをご利用いただきありがとうございます。皆様からのサポートに大変感謝しております!\n\n追伸：ウィキペディアのようにユーザーによる作成や編集が可能なマッピングプロジェクトOpenStreetMapの地図データを使用しています。地図上で欠けているものや誤りを見つけた場合、https://www.openstreetmap.orgでユーザーが直接修正ができます。このような変更はAddisMapMEのその後のバージョンリリースの際に反映されます。";
 
 /* Alert text */
 "email_error_body" = "このメールクライアントはセットアップされていません。設定するか、他の方法で%@にご連絡ください。";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "選択した出発地と目的地との間にルートが見つかりません。別の出発地点と到着地点を選択してください。";
 
 /* InternalError */
-"routing_failed_internal_error" = "内部エラーが発生しました。もう一度地図をダウンロードしてください。問題が解決しない場合は、support@maps.meまでご連絡ください。";
+"routing_failed_internal_error" = "内部エラーが発生しました。もう一度地図をダウンロードしてください。問題が解決しない場合は、support@me.addismap.comまでご連絡ください。";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "地図とルートをダウンロード";
@@ -2142,7 +2142,7 @@
 
 "dialog_error_storage_title" = "ストレージアクセスの問題";
 
-"dialog_error_storage_message" = "外部ストレージは使用できません。おそらく SD カードが取り外されたか、破損している、あるいはファイルシステムが読み取り専用になっています。確認後、support@maps.me までご連絡ください。";
+"dialog_error_storage_message" = "外部ストレージは使用できません。おそらく SD カードが取り外されたか、破損している、あるいはファイルシステムが読み取り専用になっています。確認後、support@me.addismap.com までご連絡ください。";
 
 "setting_emulate_bad_storage" = "壊れたストレージをエミュレート";
 

@@ -15,8 +15,8 @@ import com.mapswithme.util.UiUtils;
 
 public class ViralEditorShareable extends BaseShareable
 {
-  private static final String FACEBOOK_SHARE_URL = "http://maps.me/fb-editor-v1?lang=" + Locale.getDefault().getLanguage();
-  private static final String VIRAL_TAIL = " http://maps.me/im_get";
+  private static final String FACEBOOK_SHARE_URL = "http://me.addismap.com/fb-editor-v1?lang=" + Locale.getDefault().getLanguage();
+  private static final String VIRAL_TAIL = " http://me.addismap.com/im_get";
 
   private final Uri mUri;
 

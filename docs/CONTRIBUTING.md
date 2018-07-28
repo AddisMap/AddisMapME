@@ -8,7 +8,7 @@ list of actions leading to a bug, a log file produced by the app.
 
 When using the AddisMapME app on a device, use the built-in "Report a bug" option:
 it creates a new e-mail with a log file attached. Your issue will be processed much
-faster if you send it to bugs@maps.me.
+faster if you send it to bugs@me.addismap.com.
 
 ## Initializing the Repository
 
@@ -116,4 +116,4 @@ Some of these contain their own README files.
 ## Questions?
 
 For any questions about developing AddisMapME and relevant services - virtually about anything related,
-please write to us at bugs@maps.me, we'll be happy to help.
+please write to us at bugs@me.addismap.com, we'll be happy to help.

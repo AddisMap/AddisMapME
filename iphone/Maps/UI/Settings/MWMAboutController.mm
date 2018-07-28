@@ -58,7 +58,7 @@ extern NSString * const kAlohalyticsTapEventKey;
   if (cell == self.websiteCell)
   {
     [Alohalytics logEvent:kAlohalyticsTapEventKey withValue:@"website"];
-    [self openUrl:[NSURL URLWithString:@"https://maps.me"]];
+    [self openUrl:[NSURL URLWithString:@"https://me.addismap.com"]];
   }
   else if (cell == self.facebookCell)
   {
