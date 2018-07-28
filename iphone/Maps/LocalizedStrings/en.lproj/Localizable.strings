@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "AddisMapME bookmarks were shared with you";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Loading Bookmarks";
@@ -391,10 +391,10 @@
 "no_thanks" = "No, thanks";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hey, check out my pin at AddisMapME! %1$@ or %2$@ Don't have offline maps installed? Download here: http://me.addismap.com/get";
+"bookmark_share_sms" = "Hey, check out my pin at AddisMapME! %1$@ or %2$@ Don't have offline maps installed? Download here: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hey, check out my current location in AddisMapME! %1$@ or %2$@ Don't have offline maps? Download here: http://me.addismap.com/get";
+"my_position_share_sms" = "Hey, check out my current location in AddisMapME! %1$@ or %2$@ Don't have offline maps? Download here: http://maps.me/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Hey, check out my pin in AddisMapME!";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "I want to be the first to learn about the latest news, app updates, and promotions. I understand that I can cancel my subscription at any time.";
 
 /* About text */
-"about_text" = "AddisMapME offers the fastest offline maps of all the cities, all countries of the world. Travel with full confidence: wherever you are, AddisMapME helps to locate yourself on the map, find the nearest restaurant, hotel, bank, gas station etc. It doesn’t require internet connection.\n\nWe are always working on new features and would love to hear from you on how you think we could improve AddisMapME. If you have any problems with the app, don't hesitate to contact us at support@me.addismap.com. We respond to every request!\n\nDo you like AddisMapME and want to support us? There are some simple and absolutely free ways:\n\n- post a review at your App Market\n- like our Facebook page http://www.facebook.com/mapswithme\n- or just tell about AddisMapME to your mom, friends and colleagues :)\n\nThank you for being with us. We appreciate your support very much!\n\nP.S. We take map data from OpenStreetMap, a mapping project similar to Wikipedia, which allows users to create and edit maps. If you see something is missing or wrong on the map, you can correct the maps directly at https://www.openstreetmap.org, and your changes will appear in AddisMapME app with the next version release.";
+"about_text" = "AddisMapME offers the fastest offline maps of all the cities, all countries of the world. Travel with full confidence: wherever you are, AddisMapME helps to locate yourself on the map, find the nearest restaurant, hotel, bank, gas station etc. It doesn’t require internet connection.\n\nWe are always working on new features and would love to hear from you on how you think we could improve AddisMapME. If you have any problems with the app, don't hesitate to contact us at support@maps.me. We respond to every request!\n\nDo you like AddisMapME and want to support us? There are some simple and absolutely free ways:\n\n- post a review at your App Market\n- like our Facebook page http://www.facebook.com/mapswithme\n- or just tell about AddisMapME to your mom, friends and colleagues :)\n\nThank you for being with us. We appreciate your support very much!\n\nP.S. We take map data from OpenStreetMap, a mapping project similar to Wikipedia, which allows users to create and edit maps. If you see something is missing or wrong on the map, you can correct the maps directly at https://www.openstreetmap.org, and your changes will appear in AddisMapME app with the next version release.";
 
 /* Alert text */
 "email_error_body" = "The email client has not been set up. Please configure it or use any other way to contact us at %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "There is no route found between the selected origin and destination. Please select a different start or end point.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Internal error occurred. Please try to delete and download the map again. If the problem persists, please contact us at support@me.addismap.com.";
+"routing_failed_internal_error" = "Internal error occurred. Please try to delete and download the map again. If the problem persists, please contact us at support@maps.me.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Download Map + Routing";
@@ -2142,7 +2142,7 @@
 
 "dialog_error_storage_title" = "Storage access problem";
 
-"dialog_error_storage_message" = "External storage is not accessible. The SD Card may have been removed, damaged, or the file system is read-only. Please, check your SD Card or contact us at support@me.addismap.com";
+"dialog_error_storage_message" = "External storage is not accessible. The SD Card may have been removed, damaged, or the file system is read-only. Please, check your SD Card or contact us at support@maps.me";
 
 "setting_emulate_bad_storage" = "Emulate bad storage";
 

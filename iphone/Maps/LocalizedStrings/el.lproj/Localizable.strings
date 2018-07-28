@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Κοινοποιήθηκαν αγαπημένα AddisMapME με σας";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Φόρτωση αγαπημένων";
@@ -391,10 +391,10 @@
 "no_thanks" = "No, thanks";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME! %1$@ ή %2$@ εάν δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://me.addismap.com/get";
+"bookmark_share_sms" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME! %1$@ ή %2$@ εάν δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Έλεγξε την τρέχουσα τοποθεσία μου στο AddisMapME! %1$@ ή %2$@ στην περίπτωση που δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://me.addismap.com/get";
+"my_position_share_sms" = "Έλεγξε την τρέχουσα τοποθεσία μου στο AddisMapME! %1$@ ή %2$@ στην περίπτωση που δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME!";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Θέλω να μαθαίνω πρώτος(η) τις τελευταίες ειδήσεις, ενημερώσεις εφαρμογών και προωθητικές ενέργειεςς. Καταλαβαίνω ότι μπορώ να ακυρώσω τη συνδρομή μου ανά πάσα στιγμή.";
 
 /* About text */
-"about_text" = "AddisMapME offers the fastest offline maps of all the cities, all countries of the world. Travel with full confidence: wherever you are, AddisMapME helps to locate yourself on the map, find the nearest restaurant, hotel, bank, gas station etc. It doesn’t require internet connection.\n\nWe are always working on new features and would love to hear from you on how you think we could improve AddisMapME. If you have any problems with the app, don't hesitate to contact us at support@me.addismap.com. We respond to every request!\n\nDo you like AddisMapME and want to support us? There are some simple and absolutely free ways:\n\n- post a review at your App Market\n- like our Facebook page http://www.facebook.com/mapswithme\n- or just tell about AddisMapME to your mom, friends and colleagues :)\n\nThank you for being with us. We appreciate your support very much!\n\nP.S. We take map data from OpenStreetMap, a mapping project similar to Wikipedia, which allows users to create and edit maps. If you see something is missing or wrong on the map, you can correct the maps directly at https://www.openstreetmap.org, and your changes will appear in AddisMapME app with the next version release.";
+"about_text" = "AddisMapME offers the fastest offline maps of all the cities, all countries of the world. Travel with full confidence: wherever you are, AddisMapME helps to locate yourself on the map, find the nearest restaurant, hotel, bank, gas station etc. It doesn’t require internet connection.\n\nWe are always working on new features and would love to hear from you on how you think we could improve AddisMapME. If you have any problems with the app, don't hesitate to contact us at support@maps.me. We respond to every request!\n\nDo you like AddisMapME and want to support us? There are some simple and absolutely free ways:\n\n- post a review at your App Market\n- like our Facebook page http://www.facebook.com/mapswithme\n- or just tell about AddisMapME to your mom, friends and colleagues :)\n\nThank you for being with us. We appreciate your support very much!\n\nP.S. We take map data from OpenStreetMap, a mapping project similar to Wikipedia, which allows users to create and edit maps. If you see something is missing or wrong on the map, you can correct the maps directly at https://www.openstreetmap.org, and your changes will appear in AddisMapME app with the next version release.";
 
 /* Alert text */
 "email_error_body" = "Το πρόγραμμα-client ηλεκτρονικού ταχυδρομείου έχει δεν έχει ρυθμιστεί. Ρυθμίστε το ή χρησιμοποιήστε άλλο τρόπο να επικοινωνήσετε μαζί μας στη διεύθυνση %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Δεν βρέθηκε καμία διαδρομή μεταξύ της επιλεγμένης προέλευσης και προορισμού. Επιλέξτε ένα διαφορετικό σημείο έναρξης ή λήξης.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Παρουσιάστηκε εσωτερικό σφάλμα. Δοκιμάστε να διαγράψετε και να κατεβάσετε το χάρτη ξανά. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας στη διεύθυνση support@me.addismap.com.";
+"routing_failed_internal_error" = "Παρουσιάστηκε εσωτερικό σφάλμα. Δοκιμάστε να διαγράψετε και να κατεβάσετε το χάρτη ξανά. Εάν το πρόβλημα παραμένει, επικοινωνήστε μαζί μας στη διεύθυνση support@maps.me.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Download Map + Routing";
@@ -2142,7 +2142,7 @@
 
 "dialog_error_storage_title" = "Πρόβλημα πρόσβασης στον αποθηκευτικό χώρο";
 
-"dialog_error_storage_message" = "Ο εξωτερικός απθηκευτικός χώρος δεν είναι διαθέσιμος, πιθανότατα έχει αφαιρεθεί η κάρτα SD, είναι κατεστραμμένη ή το σύστημα αρχείων είναι μόνο για ανάγνωση. Ελέγξτε το και επικοινωνήστε μαζί μας στη διεύθυνση support@me.addismap.com";
+"dialog_error_storage_message" = "Ο εξωτερικός απθηκευτικός χώρος δεν είναι διαθέσιμος, πιθανότατα έχει αφαιρεθεί η κάρτα SD, είναι κατεστραμμένη ή το σύστημα αρχείων είναι μόνο για ανάγνωση. Ελέγξτε το και επικοινωνήστε μαζί μας στη διεύθυνση support@maps.me";
 
 "setting_emulate_bad_storage" = "Εξομείωση κακού αποθηκευτικού χώρου";
 

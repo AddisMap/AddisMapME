@@ -78,9 +78,9 @@
 	<!-- Warning message when doing search around current position -->
 	<text id="IDS_UNKNOWN_CURRENT_POSITION">Votre position n\&#39;a pas encore été déterminée</text>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_BOOKMARK_SHARE_SMS">Hé, regarde mon épingle sur AddisMapME ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : http://me.addismap.com/get</text>
+	<text id="IDS_BOOKMARK_SHARE_SMS">Hé, regarde mon épingle sur AddisMapME ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : http://maps.me/get</text>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_MY_POSITION_SHARE_SMS">Hé, regarde ma position actuelle sur AddisMapME ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : http://me.addismap.com/get</text>
+	<text id="IDS_MY_POSITION_SHARE_SMS">Hé, regarde ma position actuelle sur AddisMapME ! %1$s ou %2$s. Les cartes hors ligne ne sont pas installées ? Les télécharger ici : http://maps.me/get</text>
 	<!-- Subject for emailed bookmark -->
 	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Hé, regarde mon épingle sur la carte AddisMapME !</text>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->

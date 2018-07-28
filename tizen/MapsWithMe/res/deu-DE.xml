@@ -78,9 +78,9 @@
 	<!-- Warning message when doing search around current position -->
 	<text id="IDS_UNKNOWN_CURRENT_POSITION">Ihr Standort konnte noch nicht ermittelt werden</text>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_BOOKMARK_SHARE_SMS">Siehe meine Markierung auf AddisMapME an. %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://me.addismap.com/get</text>
+	<text id="IDS_BOOKMARK_SHARE_SMS">Siehe meine Markierung auf AddisMapME an. %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://maps.me/get</text>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<text id="IDS_MY_POSITION_SHARE_SMS">Schau wo ich gerade bin. Klicke auf den Link %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://me.addismap.com/get</text>
+	<text id="IDS_MY_POSITION_SHARE_SMS">Schau wo ich gerade bin. Klicke auf den Link %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://maps.me/get</text>
 	<!-- Subject for emailed bookmark -->
 	<text id="IDS_BOOKMARK_SHARE_EMAIL_SUBJECT">Schau dir meine Stecknadel auf der AddisMapME-Karte an</text>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->

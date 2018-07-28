@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "Bladwijzers van AddisMapME met u gedeeld";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Bladwijzers aan het uploaden";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Ik wil graag als eerste horen over het laatste nieuws updates en acties. Ik kan mijn abonnement te allen tijde annuleren.";
 
 /* About text */
-"about_text" = "AddisMapME biedt de snelste offline kaarten van alle steden en alle landen ter wereld. Reis vol vertrouwen: waar je ook bent,\n\nAddisMapME zal je helpen om jezelf op de kaart terug te vinden en het dichstbijzijnde restaurant, hotel, bank, benzinestation etc. te vinden. Er is geen internetverbinding voor nodig.\n\nWe werken voortdurend aan nieuwe functies en we zouden graag van je willen horen hoe we AddisMapME volgens jou zouden kunnen verbeteren. Als je eventueel problemen hebt met de app, aarzel dan niet om contact met ons op te nemen op support@me.addismap.com. We reageren op elke aanvraag!\n\nVindt je AddisMapME leuk en wil je ons steunen? Dat kan op een aantal simpele en absoluut gratis manieren:\n- plaats een beoordeling op je App Market\n- like onze Facebook-pagina http://www.facebook.com/mapswithme\n- of vertel gewoon je ma, vrienden en collega’s over AddisMapME :) Dank je dat je ons steunt. Wij waarderen dit heel erg!\n\nP.S. We halen onze kaartgegevens van OpenStreetMap, een kaartproject dat lijkt op Wikipedia, waarbij gebruikers kaarten kunnen maken en aanpassen. Als je ziet dat er iets ontbreekt of een fout ontdekt in een kaart, dan kun je de kaart direct verbeteren op https://www.openstreetmap.org, en dan zullen je verbeteringen bij het uitbrengen van de volgende versie in AddisMapME verschijnen.";
+"about_text" = "AddisMapME biedt de snelste offline kaarten van alle steden en alle landen ter wereld. Reis vol vertrouwen: waar je ook bent,\n\nAddisMapME zal je helpen om jezelf op de kaart terug te vinden en het dichstbijzijnde restaurant, hotel, bank, benzinestation etc. te vinden. Er is geen internetverbinding voor nodig.\n\nWe werken voortdurend aan nieuwe functies en we zouden graag van je willen horen hoe we AddisMapME volgens jou zouden kunnen verbeteren. Als je eventueel problemen hebt met de app, aarzel dan niet om contact met ons op te nemen op support@maps.me. We reageren op elke aanvraag!\n\nVindt je AddisMapME leuk en wil je ons steunen? Dat kan op een aantal simpele en absoluut gratis manieren:\n- plaats een beoordeling op je App Market\n- like onze Facebook-pagina http://www.facebook.com/mapswithme\n- of vertel gewoon je ma, vrienden en collega’s over AddisMapME :) Dank je dat je ons steunt. Wij waarderen dit heel erg!\n\nP.S. We halen onze kaartgegevens van OpenStreetMap, een kaartproject dat lijkt op Wikipedia, waarbij gebruikers kaarten kunnen maken en aanpassen. Als je ziet dat er iets ontbreekt of een fout ontdekt in een kaart, dan kun je de kaart direct verbeteren op https://www.openstreetmap.org, en dan zullen je verbeteringen bij het uitbrengen van de volgende versie in AddisMapME verschijnen.";
 
 /* Alert text */
 "email_error_body" = "De emailcliënt is niet ingesteld. Gelieve de cliënt te configureren of op een andere manier contact met ons op te nemen op %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Er is geen route gevonden tussen het geselecteerde beginpunt en de bestemming. Gelieve een andere beginpunt of een eindbestemming te kiezen.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Er is een interne fout opgetreden. Probeer het kaart te verwijderen en opnieuw te downloaden. Indien het probleem blijft optreden, neem dan contact met ons op support@me.addismap.com.";
+"routing_failed_internal_error" = "Er is een interne fout opgetreden. Probeer het kaart te verwijderen en opnieuw te downloaden. Indien het probleem blijft optreden, neem dan contact met ons op support@maps.me.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Download kaart + routering";
@@ -2142,7 +2142,7 @@
 
 "dialog_error_storage_title" = "Probleem met opslagtoegang";
 
-"dialog_error_storage_message" = "Externe opslag is niet beschikbaar, wellicht is de SD-kaart verwijderd, beschadigd of is het bestandssysteem alleen-lezen. Gelieve het te controleren en ons te contacteren via support@me.addismap.com";
+"dialog_error_storage_message" = "Externe opslag is niet beschikbaar, wellicht is de SD-kaart verwijderd, beschadigd of is het bestandssysteem alleen-lezen. Gelieve het te controleren en ons te contacteren via support@maps.me";
 
 "setting_emulate_bad_storage" = "Slechte opslag emuleren";
 

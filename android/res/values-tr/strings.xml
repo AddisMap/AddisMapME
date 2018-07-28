@@ -249,9 +249,9 @@
 	<!-- No, thanks -->
 	<string name="no_thanks">Hayır, teşekkürler</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Hey, AddisMapME’de pinimi incele! %1$s veya %2$s Çevrimiçi haritalar sende yüklü değil mi? Buradan indir: http://me.addismap.com/get</string>
+	<string name="bookmark_share_sms">Hey, AddisMapME’de pinimi incele! %1$s veya %2$s Çevrimiçi haritalar sende yüklü değil mi? Buradan indir: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">Hey, AddisMapME’de geçerli konumumu incele! %1$s veya %2$s Çevrimiçi haritalar sende yok mu? Buradan indir: http://me.addismap.com/get</string>
+	<string name="my_position_share_sms">Hey, AddisMapME’de geçerli konumumu incele! %1$s veya %2$s Çevrimiçi haritalar sende yok mu? Buradan indir: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">Hey, AddisMapME haritasında pinimi incele!</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
@@ -401,7 +401,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">En son haberlerden güncellemelerden ve tanıtımlardan ilk önce haberdar olmak istiyorum. Aboneliğimi herhangi bir zaman iptal edebilirim.</string>
 	<!-- About text -->
-	<string name="about_text">AddisMapME dünyadaki tüm ülkelerdeki şehirlerin en hızlı çevrimdışı haritalarını sunuyor. Tam güven ile seyahat edin: nerede olursanız olun, AddisMapME harita üzerinde nerede olduğunuzu belirlemeye, en yakın restoranı, oteli, bankayı, benzin istasyonunu v.b. bulmaya yardımcı olur. İnternet bağlantısı gerektirmez.\n\nHer zaman yeni özellikler üzerinde çalışıyoruz ve sizlerin AddisMapME\'yi nasıl geliştirebileceğimize dair görüşlerinizi almaktan mutluluk duyuyoruz. Eğer uygulama ile ilgili herhangi bir probleminiz varsa, bizimle support\@me.addismap.com adresinden temasa geçmekten çekinmeyin. Her talebe cevap veriyoruz!\n\nAddisMapME\'yi beğendiniz ve bize destek olmak ister misiniz? Bunun bazı basit ve tamamıyla ücretsiz yolları var:\n\n- Uygulama Marketinizde bir yorum yazın\n- Facebook sayfamızı beğenin http://www.facebook.com/mapswithme\n- veya sadece annenize, arkadaşlarınıza ve iş arkadaşlarınıza AddisMapME\'den bahsedin :)\n\nBizi tercih ettiğiniz için teşekkür ederiz. Desteğinizden dolayı çok memnuniyet duyarız!\n\nNot: Verileri haritaları kullanıcıların yaratmasına ve düzenlemesine olanak veren Wikipedia benzeri bir proje olan OpenStreetMap\'dan almaktayız. Eğer haritada eksik ya da hatalı bir şeyler görürseniz doğrudan haritaları\n\nhttps://www.openstreetmap.org, adresinden düzeltebilirsiniz ve yaptığınız değişiklikler AddisMapME\'de bir sonraki sürüm yayınlandığında görülebilir olacaktır.</string>
+	<string name="about_text">AddisMapME dünyadaki tüm ülkelerdeki şehirlerin en hızlı çevrimdışı haritalarını sunuyor. Tam güven ile seyahat edin: nerede olursanız olun, AddisMapME harita üzerinde nerede olduğunuzu belirlemeye, en yakın restoranı, oteli, bankayı, benzin istasyonunu v.b. bulmaya yardımcı olur. İnternet bağlantısı gerektirmez.\n\nHer zaman yeni özellikler üzerinde çalışıyoruz ve sizlerin AddisMapME\'yi nasıl geliştirebileceğimize dair görüşlerinizi almaktan mutluluk duyuyoruz. Eğer uygulama ile ilgili herhangi bir probleminiz varsa, bizimle support\@maps.me adresinden temasa geçmekten çekinmeyin. Her talebe cevap veriyoruz!\n\nAddisMapME\'yi beğendiniz ve bize destek olmak ister misiniz? Bunun bazı basit ve tamamıyla ücretsiz yolları var:\n\n- Uygulama Marketinizde bir yorum yazın\n- Facebook sayfamızı beğenin http://www.facebook.com/mapswithme\n- veya sadece annenize, arkadaşlarınıza ve iş arkadaşlarınıza AddisMapME\'den bahsedin :)\n\nBizi tercih ettiğiniz için teşekkür ederiz. Desteğinizden dolayı çok memnuniyet duyarız!\n\nNot: Verileri haritaları kullanıcıların yaratmasına ve düzenlemesine olanak veren Wikipedia benzeri bir proje olan OpenStreetMap\'dan almaktayız. Eğer haritada eksik ya da hatalı bir şeyler görürseniz doğrudan haritaları\n\nhttps://www.openstreetmap.org, adresinden düzeltebilirsiniz ve yaptığınız değişiklikler AddisMapME\'de bir sonraki sürüm yayınlandığında görülebilir olacaktır.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">E-posta istemcisi henüz kurulmamış. Lütfen e-posta istemcisini yapılandırın ya da bize %s adresinden ulaşmak için başka bir yöntem deneyin</string>
 	<!-- Alert title -->
@@ -454,7 +454,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">Seçilen kalkış yeriyle varış yeri arasında hiçbir rota bulunamadı. Lütfen farklı bir başlangıç veya bitiş noktası seçin.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">Sistem içi hata oluştu. Lütfen haritayı silin ve tekrar yüklemeyi deneyin. Sorun devam ettiği takdirde lütfen support\@me.addismap.com adresinden bize ulaşın.</string>
+	<string name="routing_failed_internal_error">Sistem içi hata oluştu. Lütfen haritayı silin ve tekrar yüklemeyi deneyin. Sorun devam ettiği takdirde lütfen support\@maps.me adresinden bize ulaşın.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">Harita + Rota İndir</string>
 	<!-- Context menu item for downloader. -->
@@ -1193,7 +1193,7 @@
 	<string name="whats_new_ugc_title">Puanlamalar ve değerlendirmeler</string>
 	<string name="whats_new_ugc_message">Artık puanlamalarınızı ve değerlendirmelerinizi çevrimdışıyken bırakabilirsiniz! Değişiklikleri görebilmek için haritalarınızı güncellemeyi unutmayın.</string>
 	<string name="dialog_error_storage_title">Depolama alanı erişim sorunu</string>
-	<string name="dialog_error_storage_message">Harici bellek kullanılamıyor, muhtemelen SD Kart çıkarılmış, hasarlı veya dosya sistemi salt okunur. Lütfen kontrol edin ve support\@me.addismap.com adresinden bizimle iletişime geçin</string>
+	<string name="dialog_error_storage_message">Harici bellek kullanılamıyor, muhtemelen SD Kart çıkarılmış, hasarlı veya dosya sistemi salt okunur. Lütfen kontrol edin ve support\@maps.me adresinden bizimle iletişime geçin</string>
 	<string name="setting_emulate_bad_storage">Bozuk depolama alanını taklit et</string>
 	<string name="discovery_button_title">Yakın çevreyi keşfedin</string>
 	<string name="discovery_button_subtitle_things_to_do">Yapılacaklar</string>

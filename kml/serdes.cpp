@@ -163,7 +163,7 @@ void SaveStyle(KmlWriter::WriterWrapper & writer, std::string const & style)
   writer << kIndent2 << "<Style id=\"" << style << "\">\n"
          << kIndent4 << "<IconStyle>\n"
          << kIndent6 << "<Icon>\n"
-         << kIndent8 << "<href>http://me.addismap.com/placemarks/" << style << ".png</href>\n"
+         << kIndent8 << "<href>http://maps.me/placemarks/" << style << ".png</href>\n"
          << kIndent6 << "</Icon>\n"
          << kIndent4 << "</IconStyle>\n"
          << kIndent2 << "</Style>\n";

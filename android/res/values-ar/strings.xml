@@ -249,9 +249,9 @@
 	<!-- No, thanks -->
 	<string name="no_thanks">لا، شكرا</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">هاي، تفقد الدبوس الخاص بي على AddisMapME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://me.addismap.com/get</string>
+	<string name="bookmark_share_sms">هاي، تفقد الدبوس الخاص بي على AddisMapME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">هاي، تفقد الموقع الخاص بي على AddisMapME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://me.addismap.com/get</string>
+	<string name="my_position_share_sms">هاي، تفقد الموقع الخاص بي على AddisMapME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
 	<string name="bookmark_share_email_subject">هاي، تفقد الدبوس الخاص بي على خريطة AddisMapME!</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
@@ -401,7 +401,7 @@
 	<!-- Email body -->
 	<string name="subscribe_me_body">أريد أن أكون أول من يعرف آخر الأخبار والتحديثات والترقيات. يمكنني إلغاء اشتراكي في أي وقت.</string>
 	<!-- About text -->
-	<string name="about_text">توفر لكم AddisMapME أحدث الخرائط دون الاتصال بالإنترنت لكافة دول وكافة مدن العالم. سافر وتمتع بالثقة التامة: إينما كنت، تساعدك AddisMapME على تحديد مكانك على الخريطة، والعثور على أقرب مطعم أو فندق أو بنك أو محطة غاز الخ لا يتطلب الاتصال بالإنترنت.\n\nنحن نعمل دوماً على إدخال مزايا جديدة على التطبيق ونود أن نسمع منك رأيك عن الكيفية التي يمكن بها تحسين تطبيق AddisMapME في رأيك. إذا واجهتك أي مشاكل مع التطبيق، لا تتردد في الاتصال بنا على support\@me.addismap.com. نحن نرد على كافة الطلبات.\n\nهل أعجبك تطبيق AddisMapME وترغب في دعمنا؟ هناك بعض الطرق السهلة والمجانية بالكامل لعمل ذلك.\n\n- انشر رأيك على متجر التطبيقات الخاص بك\n- اعجب بصفحتنا على موقع Facebook http://www.facebook.com/mapswithme\n- أو أخبر والدتك وأصدقائك وزملائك عن تطبيق AddisMapME :)\n\nشكراً لك على وجودك معنا. نحن نقدر جداً دعمك لنا!\n\nيُرجى ملاحظة نحن نستقي بيانات الخرائط من OpenStreetMap، مشروع خرائط يشبه موسوعة Wikipedia ويتيح هذا المشروع للمستخدمين إنشاء وتحرير الخرائط. إذا كنت ترى أن هناك خطأ ما أو شيء غير موجود على الخريطة، يمكنك تصحيح الخرائط مباشرة على https://www.openstreetmap.org، وسوف تظهر تغييراتك على تطبيق AddisMapME في الإصدار القادم للتطبيق.</string>
+	<string name="about_text">توفر لكم AddisMapME أحدث الخرائط دون الاتصال بالإنترنت لكافة دول وكافة مدن العالم. سافر وتمتع بالثقة التامة: إينما كنت، تساعدك AddisMapME على تحديد مكانك على الخريطة، والعثور على أقرب مطعم أو فندق أو بنك أو محطة غاز الخ لا يتطلب الاتصال بالإنترنت.\n\nنحن نعمل دوماً على إدخال مزايا جديدة على التطبيق ونود أن نسمع منك رأيك عن الكيفية التي يمكن بها تحسين تطبيق AddisMapME في رأيك. إذا واجهتك أي مشاكل مع التطبيق، لا تتردد في الاتصال بنا على support\@maps.me. نحن نرد على كافة الطلبات.\n\nهل أعجبك تطبيق AddisMapME وترغب في دعمنا؟ هناك بعض الطرق السهلة والمجانية بالكامل لعمل ذلك.\n\n- انشر رأيك على متجر التطبيقات الخاص بك\n- اعجب بصفحتنا على موقع Facebook http://www.facebook.com/mapswithme\n- أو أخبر والدتك وأصدقائك وزملائك عن تطبيق AddisMapME :)\n\nشكراً لك على وجودك معنا. نحن نقدر جداً دعمك لنا!\n\nيُرجى ملاحظة نحن نستقي بيانات الخرائط من OpenStreetMap، مشروع خرائط يشبه موسوعة Wikipedia ويتيح هذا المشروع للمستخدمين إنشاء وتحرير الخرائط. إذا كنت ترى أن هناك خطأ ما أو شيء غير موجود على الخريطة، يمكنك تصحيح الخرائط مباشرة على https://www.openstreetmap.org، وسوف تظهر تغييراتك على تطبيق AddisMapME في الإصدار القادم للتطبيق.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">لم يتم تعيين البريد الإلكتروني للعميل. يرجى تكوينه أو استخدام أي وسيلة أخرى للاتصال بنا على %s</string>
 	<!-- Alert title -->
@@ -454,7 +454,7 @@
 	<!-- RouteNotFound -->
 	<string name="routing_failed_route_not_found">لم يتم العثور على مسار بين المنشأ والوُجْهَة المحددة. الرجاء تحديد نقطة بداية أو نهاية مختلفة.</string>
 	<!-- InternalError -->
-	<string name="routing_failed_internal_error">حدث خطأ داخلي. يرجى محاولة حذف الخريطة وإعادة تنزيلها مرة أخرى. إذا استمرت المشكلة يرجى الاتصال بنا على support\@me.addismap.com.</string>
+	<string name="routing_failed_internal_error">حدث خطأ داخلي. يرجى محاولة حذف الخريطة وإعادة تنزيلها مرة أخرى. إذا استمرت المشكلة يرجى الاتصال بنا على support\@maps.me.</string>
 	<!-- Context menu item for downloader. -->
 	<string name="downloader_download_map_and_routing">تنزيل الخريطة + تحديد المسار</string>
 	<!-- Context menu item for downloader. -->
@@ -1193,7 +1193,7 @@
 	<string name="whats_new_ugc_title">التقييمات والمراجعات</string>
 	<string name="whats_new_ugc_message">يمكنك الآن ترك تقييمات ومراجعات حتى عندما تكون بدون اتصال! لا تنس تحديث خرائطك لكي تتمكن من رؤية التغييرات.</string>
 	<string name="dialog_error_storage_title">مشكلة الوصول للتخزين</string>
-	<string name="dialog_error_storage_message">التخزين الخارجي غير متوفر، ربما تمت إزالة بطاقة SD، أو أنها تالفة أو ملف النظام للقراءة فقط. افحصه واتصل بنا على support\@me.addismap.com</string>
+	<string name="dialog_error_storage_message">التخزين الخارجي غير متوفر، ربما تمت إزالة بطاقة SD، أو أنها تالفة أو ملف النظام للقراءة فقط. افحصه واتصل بنا على support\@maps.me</string>
 	<string name="setting_emulate_bad_storage">محاكاة التخزين السيء</string>
 	<string name="discovery_button_title">اكتشاف الجوار</string>
 	<string name="discovery_button_subtitle_things_to_do">أشياء يمكن القيام بها</string>

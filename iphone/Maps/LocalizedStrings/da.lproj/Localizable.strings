@@ -355,7 +355,7 @@
 /* Email Subject when sharing bookmarks category */
 "share_bookmarks_email_subject" = "AddisMapME bogmærker er blevet delt med dig";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://me.addismap.com/get?kmz\n\nEnjoy traveling with AddisMapME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Indlæser Bogmærker";
@@ -391,10 +391,10 @@
 "no_thanks" = "Nej, tak";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hey, tjek min knappenål på AddisMapME ud! %1$@ or %2$@ Har du ikke offline kort? Download her: http://me.addismap.com/get";
+"bookmark_share_sms" = "Hey, tjek min knappenål på AddisMapME ud! %1$@ or %2$@ Har du ikke offline kort? Download her: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hey, tjek min nuværende lokation ud på AddisMapME! %1$@ or %2$@. Har du ikke offline kort? Download her: http://me.addismap.com/get";
+"my_position_share_sms" = "Hey, tjek min nuværende lokation ud på AddisMapME! %1$@ or %2$@. Har du ikke offline kort? Download her: http://maps.me/get";
 
 /* Subject for emailed bookmark */
 "bookmark_share_email_subject" = "Hey, tjek min knappenål på AddisMapME kortet ud!";
@@ -647,7 +647,7 @@
 "subscribe_me_body" = "Jeg vil være den første til at høre om de seneste nyheder opdateringer og tilbud. Jeg kan opsige abonnementet når som helst.";
 
 /* About text */
-"about_text" = "AddisMapME tilbyder de hurtigste offline-kort over alle byer og alle lande i verden. Rejs med tillid: Hvor end du befinder dig, hjælper AddisMapME med at lokalisere din placering på kortet, finde den nærmeste restaurant, hotel, bank, benzintank og så videre. Det er ikke nødvendigt at have forbindelse til internettet.\n\nVi arbejder altid på nye funktioner, og vi vil meget gerne høre fra dig, hvis du har forslag til, hvordan vi kan forbedre AddisMapME. Hvis du oplever problemer med appen, er du meget velkommen til at kontakte os på support@me.addismap.com. Vi besvarer alle henvendelser!\n\nSynes du om AddisMapME, og har du lyst til at støtte os? Her er nogle simple og helt gratis metoder:\n\n-post en anmeldelse i din App Store\n-like vores facebook-side http://www.facebook.com/mapswithme\n-neller fortæl din mor, venner og kollegaer om AddisMapME :)\n\nTak fordi du støtter os. Vi sætter stor pris på din støtte!\n\nPS: Vi får vores kortdata fra OpenStreetMap, som er et kortprojekt, der minder om Wikipedia, og som gør brugere i stand til at oprette og rette kort. Hvis du oplever, at noget mangler eller er forkert på kortet, kan du rette kortene direkte på https://www.openstreetmap.org, og dine ændringer vil figurere på AddisMapME-appen i forbindelse med frigivelsen af den næste version.";
+"about_text" = "AddisMapME tilbyder de hurtigste offline-kort over alle byer og alle lande i verden. Rejs med tillid: Hvor end du befinder dig, hjælper AddisMapME med at lokalisere din placering på kortet, finde den nærmeste restaurant, hotel, bank, benzintank og så videre. Det er ikke nødvendigt at have forbindelse til internettet.\n\nVi arbejder altid på nye funktioner, og vi vil meget gerne høre fra dig, hvis du har forslag til, hvordan vi kan forbedre AddisMapME. Hvis du oplever problemer med appen, er du meget velkommen til at kontakte os på support@maps.me. Vi besvarer alle henvendelser!\n\nSynes du om AddisMapME, og har du lyst til at støtte os? Her er nogle simple og helt gratis metoder:\n\n-post en anmeldelse i din App Store\n-like vores facebook-side http://www.facebook.com/mapswithme\n-neller fortæl din mor, venner og kollegaer om AddisMapME :)\n\nTak fordi du støtter os. Vi sætter stor pris på din støtte!\n\nPS: Vi får vores kortdata fra OpenStreetMap, som er et kortprojekt, der minder om Wikipedia, og som gør brugere i stand til at oprette og rette kort. Hvis du oplever, at noget mangler eller er forkert på kortet, kan du rette kortene direkte på https://www.openstreetmap.org, og dine ændringer vil figurere på AddisMapME-appen i forbindelse med frigivelsen af den næste version.";
 
 /* Alert text */
 "email_error_body" = "Emailklienten er ikke blevet sat op. Venligst konfigurér den eller brug en anden måde til at kontakte os på %@";
@@ -729,7 +729,7 @@
 "routing_failed_route_not_found" = "Der blev ikke fundet en rute mellem det valgte begyndelsespunkt og destinationen. Venligst vælg et andet start- eller slutpunkt.";
 
 /* InternalError */
-"routing_failed_internal_error" = "Intern fejl opstod. Venligt prøv at slette og downloade kortet igen. Hvis problemet vare ved, venligst kontakt os på support@me.addismap.com.";
+"routing_failed_internal_error" = "Intern fejl opstod. Venligt prøv at slette og downloade kortet igen. Hvis problemet vare ved, venligst kontakt os på support@maps.me.";
 
 /* Context menu item for downloader. */
 "downloader_download_map_and_routing" = "Hent kort + ruteangivelse";
@@ -2142,7 +2142,7 @@
 
 "dialog_error_storage_title" = "Problem med lageradgang";
 
-"dialog_error_storage_message" = "Eksternt lager er ikke tilgængeligt, formentlig er SD-kortet blevet fjernet eller beskadiget, eller filsystemet er skrivebeskyttet. Kontroller det og kontakt os på support@me.addismap.com";
+"dialog_error_storage_message" = "Eksternt lager er ikke tilgængeligt, formentlig er SD-kortet blevet fjernet eller beskadiget, eller filsystemet er skrivebeskyttet. Kontroller det og kontakt os på support@maps.me";
 
 "setting_emulate_bad_storage" = "Emulere beskadiget lager";
 

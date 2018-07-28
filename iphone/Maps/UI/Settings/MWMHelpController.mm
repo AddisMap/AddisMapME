@@ -17,7 +17,7 @@ namespace
 NSString * const kCommonReportActionTitle = L(@"feedback_general");
 NSString * const kBugReportActionTitle = L(@"report_a_bug");
 NSString * const kCancelActionTitle = L(@"cancel");
-NSString * const kiOSEmail = @"ios@me.addismap.com";
+NSString * const kiOSEmail = @"ios@maps.me";
 }
 
 @interface MWMHelpController ()<MFMailComposeViewControllerDelegate>
