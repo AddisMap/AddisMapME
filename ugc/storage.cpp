@@ -216,7 +216,7 @@ void Storage::Load()
   if (data.empty())
   {
     ASSERT(false, ());
-    alohalytics::Stats::Instance().LogEvent("UGC_File_error", {{"error", "empty index file"}});
+//    alohalytics::Stats::Instance().LogEvent("UGC_File_error", {{"error", "empty index file"}});
     return;
   }
 
