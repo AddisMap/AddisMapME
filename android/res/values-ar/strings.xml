@@ -33,7 +33,7 @@
 	<string name="downloading">جاري التنزيل…</string>
 	<string name="get_it_now">احصل عليه الآن</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">شكرا لاستخدامك MAPS.ME! هل يعجبك التطبيق؟ أخبر أصدقاءك عن التطبيق! سيكون ذلك هو غاية الامتنان بالنسبة لنا.</string>
+	<string name="share_on_facebook_text">شكرا لاستخدامك AddisMapME! هل يعجبك التطبيق؟ أخبر أصدقاءك عن التطبيق! سيكون ذلك هو غاية الامتنان بالنسبة لنا.</string>
 	<!-- Settings/Downloader - size string, only strings different from English should be translated -->
 	<string name="kb">ك.ب.</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
@@ -95,7 +95,7 @@
 	<string name="country_status_download_failed">فشلت عملية تنزيل</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">محاولة مرة أخرى</string>
-	<string name="about_menu_title">حول MAPS.ME</string>
+	<string name="about_menu_title">حول AddisMapME</string>
 	<string name="downloading_touch_to_cancel">جاري تنزيل %d%% ، انقر للإلغاء</string>
 	<string name="downloaded_touch_to_delete">تم تنزيل (%s)، انقر للحذف</string>
 	<string name="connection_settings">اعدادات الاتصال</string>
@@ -104,7 +104,7 @@
 	<string name="unsupported_phone">أنت بحاجة الى OpenGL بأجهزة تسريع. لسوء الحظ جهازك لا يدعم هذه الخاصية.</string>
 	<string name="download">تنزيل</string>
 	<string name="external_storage_is_not_available">خاصية التخزين بواسطة البطاقة الرقمية الآمنة\الناقل التسلسلي الشامل غير متاحة مع الخرائط التي تم تنزيلها.</string>
-	<string name="disconnect_usb_cable">الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام MAPS.ME.</string>
+	<string name="disconnect_usb_cable">الرجاء فصل كابل الناقل التسلسلي الشامل أو إدخال بطاقة الذاكرة من أجل استخدام AddisMapME.</string>
 	<string name="not_enough_free_space_on_sdcard">الرجاء إخلاء بعض المساحة في تخزين البطاقة الرقمية الآمنة\الناقل التسلسلي الشامل أولا من أجل استخدام هذا التطبيق.</string>
 	<string name="not_enough_memory">لا يوجد ذاكرة كافية لتشغيل التطبيق.</string>
 	<string name="free_space_for_country">الرجاء إخلاء %1$s على جهازك أولا من أجل تنزيل %2$s</string>
@@ -131,7 +131,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">هناك تحديثات متوافرة للخرائط التالية:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">أنت لست بحاجة الى  MAPS.ME Lite بعد الآن، لذلك يمكنك إلغاء تثبيته.</string>
+	<string name="suggest_uninstall_lite">أنت لست بحاجة الى  AddisMapME Lite بعد الآن، لذلك يمكنك إلغاء تثبيته.</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">تم تنزيل %s بنجاح.</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -161,9 +161,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">المجموعة</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">ليس لديك أي إشارات مرجعية بعد.\nانقر على أي مكان على الخريطة لإضافة إشارة مرجعية.\nيمكنك أيضا استيراد الإشارات المرجعية من المصادر الأخرى وعرضها في MAPS.ME. افتح ملف KML/KMZ الذي يحتوي على الدبابيس المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.</string>
+	<string name="bookmarks_usage_hint">ليس لديك أي إشارات مرجعية بعد.\nانقر على أي مكان على الخريطة لإضافة إشارة مرجعية.\nيمكنك أيضا استيراد الإشارات المرجعية من المصادر الأخرى وعرضها في AddisMapME. افتح ملف KML/KMZ الذي يحتوي على الدبابيس المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">يمكن استيراد الإشارات المرجعية من المصادر الأخرى و عرضها على MAPS.ME. افتح ملف KML/KMZ الذي يحتوي على الإشارات المرجعية المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.</string>
+	<string name="bookmarks_usage_hint_import_only">يمكن استيراد الإشارات المرجعية من المصادر الأخرى و عرضها على AddisMapME. افتح ملف KML/KMZ الذي يحتوي على الإشارات المرجعية المحفوظة من البريد الالكتروني، دروب بوكس أو ويب لينك.</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">الإعدادات</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -225,7 +225,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">مشاركة بواسطة البريد الالكتروني</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">تم مشاركة اشارات MAPS.ME المرجعية معك</string>
+	<string name="share_bookmarks_email_subject">تم مشاركة اشارات AddisMapME المرجعية معك</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">تحميل الإشارات المرجعية</string>
 	<!-- Kmz file successful loading -->
@@ -245,19 +245,19 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">جاري الآن تنزيل الدولة</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">نأمل أن تكون قد استمتعت باستخدام MAPS.ME! إذا كان الأمر كذلك، الرجاء تقييم التطبيق في App Store. يستغرق ذلك أقل من دقيقة لكنه يفيدنا بالفعل. شكرا لك على دعمك!</string>
+	<string name="appStore_message">نأمل أن تكون قد استمتعت باستخدام AddisMapME! إذا كان الأمر كذلك، الرجاء تقييم التطبيق في App Store. يستغرق ذلك أقل من دقيقة لكنه يفيدنا بالفعل. شكرا لك على دعمك!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">لا، شكرا</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">هاي، تفقد الدبوس الخاص بي على MAPS.ME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get</string>
+	<string name="bookmark_share_sms">هاي، تفقد الدبوس الخاص بي على AddisMapME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">هاي، تفقد الموقع الخاص بي على MAPS.ME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get</string>
+	<string name="my_position_share_sms">هاي، تفقد الموقع الخاص بي على AddisMapME! %1$s أو %2$s. ليس لديك أي خرائط تعمل بدون الاتصال مع الانترنت مثبتة على جهازك؟ قم بتحميلها من هنا: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">هاي، تفقد الدبوس الخاص بي على خريطة MAPS.ME!</string>
+	<string name="bookmark_share_email_subject">هاي، تفقد الدبوس الخاص بي على خريطة AddisMapME!</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">مرحبا،\n\nقمت بوضع دبوس: %1$s على MAPS.ME، خرائط العالم بدون الاتصال مع الانترنت. انقر على هذا الرابط %2$s أو الرابط التالي %3$s لمشاهدة الموقع على الخريطة.\n\nشكرا لك.</string>
+	<string name="bookmark_share_email">مرحبا،\n\nقمت بوضع دبوس: %1$s على AddisMapME، خرائط العالم بدون الاتصال مع الانترنت. انقر على هذا الرابط %2$s أو الرابط التالي %3$s لمشاهدة الموقع على الخريطة.\n\nشكرا لك.</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">يا هلا، تحقق من موقعي الحالي على خريطة MAPS.ME!</string>
+	<string name="my_position_share_email_subject">يا هلا، تحقق من موقعي الحالي على خريطة AddisMapME!</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">مرحبا،\n\nأنا هنا الآن: %1$s. انقر على هذا الرابط %2$s أو ذلك الرابط %3$s لمشاهدة المكان على الخريطة.\n\nشكرا لك.</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -343,7 +343,7 @@
 	<string name="placepage_unsorted">لم يتم فرزها</string>
 	<string name="search_show_on_map">مشاهدة على الخريطة</string>
 	<!-- Used to warn user when fixing KitKat issue -->
-	<string name="kitkat_migrate_ok">تم تحسين وسيلة تخزين بيانات الخريطة. الرجاء اعادة تشغيل التطبيق .\n\nلا حاجة بعد الآن لمجلد MAPS.ME في البطاقة الرقمية الآمنة، يمكنك حذفه.</string>
+	<string name="kitkat_migrate_ok">تم تحسين وسيلة تخزين بيانات الخريطة. الرجاء اعادة تشغيل التطبيق .\n\nلا حاجة بعد الآن لمجلد AddisMapME في البطاقة الرقمية الآمنة، يمكنك حذفه.</string>
 	<!-- Used to warn user when fixing KitKat issue -->
 	<string name="kitkat_migrate_failed">بسبب التغييرات في نظام أندرويد4.4 ، نحن بحاجة لتحسين وسيلة تخزين بيانات الخريطة، لكن لا يوجد حيز كافٍ لنسخ بيانات الخريطة.\n\nالرجاء إخلاء الذاكرة، وإلا ستتوافر الخرائط في وضع القراءة فقط.</string>
 	<!-- Used to warn user when fixing KitKat issue -->
@@ -365,19 +365,19 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">تنزيل خريطة المكان الذي توجد فيه</string>
 	<!-- text of notification -->
-	<string name="pro_version_is_free_today">تطبيق MAPS.ME مجاني اليوم! قم بتنزيله الآن وأخبر أصدقائك.</string>
+	<string name="pro_version_is_free_today">تطبيق AddisMapME مجاني اليوم! قم بتنزيله الآن وأخبر أصدقائك.</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">نحن ننقل خرائط التنزيلات الخاصة بك من MAPS.ME Lite إلى MAPS.ME. يمكن أن يستغرق بضع دقائق</string>
+	<string name="move_lite_maps_to_pro">نحن ننقل خرائط التنزيلات الخاصة بك من AddisMapME Lite إلى AddisMapME. يمكن أن يستغرق بضع دقائق</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">تم بنجاح نقل خرائطك التي تم تنزيلها إلى MAPS.ME.</string>
+	<string name="move_lite_maps_to_pro_ok">تم بنجاح نقل خرائطك التي تم تنزيلها إلى AddisMapME.</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">فشل نقل خرائطك يُرجى حذف MAPS.ME Lite وتنزيل الخرائط مرة أخرى.</string>
+	<string name="move_lite_maps_to_pro_failed">فشل نقل خرائطك يُرجى حذف AddisMapME Lite وتنزيل الخرائط مرة أخرى.</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">الإعدادات والمزيد</string>
 	<!-- Text in menu -->
 	<string name="website">الموقع الإلكتروني</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">مجتمع MAPS.ME</string>
+	<string name="maps_me_community">مجتمع AddisMapME</string>
 	<!-- Text in menu -->
 	<string name="like_on_facebook">أعجبني على الفيسبوك</string>
 	<!-- Text in menu -->
@@ -397,11 +397,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">الإبلاغ عن خطأ</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">يرجى اشتراكي في النشرة البريدية لدى MAPS.ME</string>
+	<string name="subscribe_me_subject">يرجى اشتراكي في النشرة البريدية لدى AddisMapME</string>
 	<!-- Email body -->
 	<string name="subscribe_me_body">أريد أن أكون أول من يعرف آخر الأخبار والتحديثات والترقيات. يمكنني إلغاء اشتراكي في أي وقت.</string>
 	<!-- About text -->
-	<string name="about_text">توفر لكم MAPS.ME أحدث الخرائط دون الاتصال بالإنترنت لكافة دول وكافة مدن العالم. سافر وتمتع بالثقة التامة: إينما كنت، تساعدك MAPS.ME على تحديد مكانك على الخريطة، والعثور على أقرب مطعم أو فندق أو بنك أو محطة غاز الخ لا يتطلب الاتصال بالإنترنت.\n\nنحن نعمل دوماً على إدخال مزايا جديدة على التطبيق ونود أن نسمع منك رأيك عن الكيفية التي يمكن بها تحسين تطبيق MAPS.ME في رأيك. إذا واجهتك أي مشاكل مع التطبيق، لا تتردد في الاتصال بنا على support\@maps.me. نحن نرد على كافة الطلبات.\n\nهل أعجبك تطبيق MAPS.ME وترغب في دعمنا؟ هناك بعض الطرق السهلة والمجانية بالكامل لعمل ذلك.\n\n- انشر رأيك على متجر التطبيقات الخاص بك\n- اعجب بصفحتنا على موقع Facebook http://www.facebook.com/mapswithme\n- أو أخبر والدتك وأصدقائك وزملائك عن تطبيق MAPS.ME :)\n\nشكراً لك على وجودك معنا. نحن نقدر جداً دعمك لنا!\n\nيُرجى ملاحظة نحن نستقي بيانات الخرائط من OpenStreetMap، مشروع خرائط يشبه موسوعة Wikipedia ويتيح هذا المشروع للمستخدمين إنشاء وتحرير الخرائط. إذا كنت ترى أن هناك خطأ ما أو شيء غير موجود على الخريطة، يمكنك تصحيح الخرائط مباشرة على https://www.openstreetmap.org، وسوف تظهر تغييراتك على تطبيق MAPS.ME في الإصدار القادم للتطبيق.</string>
+	<string name="about_text">توفر لكم AddisMapME أحدث الخرائط دون الاتصال بالإنترنت لكافة دول وكافة مدن العالم. سافر وتمتع بالثقة التامة: إينما كنت، تساعدك AddisMapME على تحديد مكانك على الخريطة، والعثور على أقرب مطعم أو فندق أو بنك أو محطة غاز الخ لا يتطلب الاتصال بالإنترنت.\n\nنحن نعمل دوماً على إدخال مزايا جديدة على التطبيق ونود أن نسمع منك رأيك عن الكيفية التي يمكن بها تحسين تطبيق AddisMapME في رأيك. إذا واجهتك أي مشاكل مع التطبيق، لا تتردد في الاتصال بنا على support\@maps.me. نحن نرد على كافة الطلبات.\n\nهل أعجبك تطبيق AddisMapME وترغب في دعمنا؟ هناك بعض الطرق السهلة والمجانية بالكامل لعمل ذلك.\n\n- انشر رأيك على متجر التطبيقات الخاص بك\n- اعجب بصفحتنا على موقع Facebook http://www.facebook.com/mapswithme\n- أو أخبر والدتك وأصدقائك وزملائك عن تطبيق AddisMapME :)\n\nشكراً لك على وجودك معنا. نحن نقدر جداً دعمك لنا!\n\nيُرجى ملاحظة نحن نستقي بيانات الخرائط من OpenStreetMap، مشروع خرائط يشبه موسوعة Wikipedia ويتيح هذا المشروع للمستخدمين إنشاء وتحرير الخرائط. إذا كنت ترى أن هناك خطأ ما أو شيء غير موجود على الخريطة، يمكنك تصحيح الخرائط مباشرة على https://www.openstreetmap.org، وسوف تظهر تغييراتك على تطبيق AddisMapME في الإصدار القادم للتطبيق.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">لم يتم تعيين البريد الإلكتروني للعميل. يرجى تكوينه أو استخدام أي وسيلة أخرى للاتصال بنا على %s</string>
 	<!-- Alert title -->
@@ -413,7 +413,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">يرجى تحديث الخريطة لإنشاء مسار.</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">إصدار MAPS.ME الجديد يسمح بإنشاء مسارات انطلاقاً من موقعك الحالي نحو المكان الذي تتجه إليه. يرجى تحديث الخرائط لاستخدام هذه الميزة.</string>
+	<string name="routing_update_maps">إصدار AddisMapME الجديد يسمح بإنشاء مسارات انطلاقاً من موقعك الحالي نحو المكان الذي تتجه إليه. يرجى تحديث الخرائط لاستخدام هذه الميزة.</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">تحديث الكل</string>
 	<!-- Cancel all button text -->
@@ -430,7 +430,7 @@
 	<string name="downloader_downloading">يتم تنزيل:</string>
 	<string name="downloader_search_results">تم العثور على</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">عند إنشاء مسارات الطرق في تطبيق MAPS.ME، يرجى أخذ التالي في الحسبان:\n\n  - المسارات المقترحة تعتبر مجرد اقتراحات فقط.\n - حالة الطريق وقوانينه والإشارات الموجودة فيه لها الأولولية أثناء تقديم نصائح الملاحة.\n - قد تكون الخريطة خاطئة أو قديمة، لذا فإنه يمكن ألا تُرسم المسارات بالشكل الأمثل.\n\n  كن آمنا على الطريق وانتبه لتفسك!</string>
+	<string name="routing_disclaimer">عند إنشاء مسارات الطرق في تطبيق AddisMapME، يرجى أخذ التالي في الحسبان:\n\n  - المسارات المقترحة تعتبر مجرد اقتراحات فقط.\n - حالة الطريق وقوانينه والإشارات الموجودة فيه لها الأولولية أثناء تقديم نصائح الملاحة.\n - قد تكون الخريطة خاطئة أو قديمة، لذا فإنه يمكن ألا تُرسم المسارات بالشكل الأمثل.\n\n  كن آمنا على الطريق وانتبه لتفسك!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">انتهت صلاحيته</string>
 	<!-- Up to date maps category -->
@@ -485,9 +485,9 @@
 	<!-- Text for rating dialog -->
 	<string name="rating_just_rated">لقد قمت بتقييم تطبيقك للتو</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_user_since">أنا مستخدم لتطبيق MAPS.ME منذ %s</string>
+	<string name="rating_user_since">أنا مستخدم لتطبيق AddisMapME منذ %s</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_do_like_maps">هل تطبيق MAPS.ME يعجبك؟</string>
+	<string name="rating_do_like_maps">هل تطبيق AddisMapME يعجبك؟</string>
 	<!-- Text for rating dialog -->
 	<string name="rating_tap_star">انقر على النجمة لتقييم التطبيق.</string>
 	<!-- Text for rating dialog -->
@@ -503,7 +503,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">Scarica la mappa</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">Scarica la mappa aggiornata e i dati del percorso per ottenere tutte le funzionalità MAPS.ME.</string>
+	<string name="routing_download_map_and_routing">Scarica la mappa aggiornata e i dati del percorso per ottenere tutte le funzionalità AddisMapME.</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">Ottieni i dati del percorso</string>
 	<!-- Text for routing error dialog -->
@@ -619,7 +619,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">لإنشاء مسار، يرجى تنزيل وتحديث جميع الخرائط على امتداد الطريق.</string>
 	<string name="rate_alert_title">يعجبك التطبيق؟</string>
-	<string name="rate_alert_default_message">شكرا لاستخدامك MAPS.ME. من فضلك، أَعْطِ تقييمك للتطبيق. ملاحظاتك تساعدنا على أن نصبح أفضل.</string>
+	<string name="rate_alert_default_message">شكرا لاستخدامك AddisMapME. من فضلك، أَعْطِ تقييمك للتطبيق. ملاحظاتك تساعدنا على أن نصبح أفضل.</string>
 	<string name="rate_alert_five_star_message">مرحا! نحن أيضا نحبك!</string>
 	<string name="rate_alert_four_star_message">شكرا لك، سوف نبذل قصارى جهدنا!</string>
 	<string name="rate_alert_less_than_four_star_message">لديك أي فكرة حول كيف يمكننا أن نجعله أفضل؟</string>
@@ -674,7 +674,7 @@
 	<string name="editor_report_problem_no_place_title">المكان غير موجودٍ</string>
 	<string name="editor_report_problem_under_construction_title">مغلق للصيانة</string>
 	<string name="editor_report_problem_duplicate_place_title">مكان متكرر</string>
-	<string name="first_launch_congrats_title">MAPS.ME جاهز للاستخدام</string>
+	<string name="first_launch_congrats_title">AddisMapME جاهز للاستخدام</string>
 	<string name="first_launch_congrats_text">ابحث وتصفح كل مكان في العالم بدون اتصال, مجانا.</string>
 	<string name="migrate_title">هام!</string>
 	<!-- Android uses image instead of text. -->
@@ -778,20 +778,20 @@
 	<string name="whatsnew_search_message">لقد طورنا كليا البحث بالعنوان. فلترى بنفسك.</string>
 	<string name="whatsnew_editor_title">تعديل الخريطة *</string>
 	<string name="whatsnew_editor_message_1">قم بإضافة أماكن جديدة للخريطة، وعدل أماكن حالية مباشرة من التطبيق.</string>
-	<string name="whatsnew_editor_message_2">*تستخدم MAPS.ME البيانات الخاصة بخريطة OpenStreetMap.</string>
+	<string name="whatsnew_editor_message_2">*تستخدم AddisMapME البيانات الخاصة بخريطة OpenStreetMap.</string>
 	<string name="onboarding_offline_navigation_title">لن تضل الطريق أبدا بعد الآن</string>
 	<string name="onboarding_offline_navigation_message">قم بتخطيط أفضل طرق السيارات والمشاة، حتى مع عدم وجود اتصال بالإنترنت!</string>
 	<string name="onboarding_offline_navigation_title_2">الملاحة في وضع غير متصل</string>
 	<string name="onboarding_offline_navigation_message_2">خطط أفضل طرق السيارات والمشاة.</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — وصول إلى الخرائط على مستوى العالم دون إنترنت</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — وصول إلى الخرائط على مستوى العالم دون إنترنت</string>
 	<string name="onboarding_offline_maps_message">قم بتنزيل خرائط للمنطقة المطلوب مرة واحدة، واستخدم وظائف الملاحة والبحث دون الحاجة للاتصال بالإنترنت.</string>
 	<string name="onboarding_notifications_message">تابع إخطارات التحديث للحصول على أحدث الخرائط</string>
 	<string name="onboarding_notifications_title">تفعيل إخطارات التحديث</string>
 	<string name="onboarding_location_title">ساعدنا في العثور عليك</string>
 	<string name="onboarding_location_message">لاستخدام الملاحة والميزات الأخرى، فنحن بحاجة إلى تحديد موقعك الجغرافي.</string>
-	<string name="onboarding_permissions_title">السماح لـ MAPS.ME بالوصول إلى ذاكرة التخزين والموقع</string>
+	<string name="onboarding_permissions_title">السماح لـ AddisMapME بالوصول إلى ذاكرة التخزين والموقع</string>
 	<string name="onboarding_permissions_message">من ثم يمكنك تنزيل الخرائط وعرض الأماكن وحركة المرور القريبة منك استخدام الملاحة.</string>
-	<string name="onboarding_welcome_title">مرحبًا بك في MAPS.ME</string>
+	<string name="onboarding_welcome_title">مرحبًا بك في AddisMapME</string>
 	<string name="onboarding_welcome_first_subtitle">خرائط تفصيلية مجانية وسريعة وتفصيلية وبدون اتصال بالكامل مع الملاحة منعطف بمنعطف.</string>
 	<string name="onboarding_welcome_second_subtitle">من خلال إطلاق التطبيق، فإنك توافق على &lt;a href="%1$s">شروط الاستخدام&lt;/a> و&lt;a href="%2$s">سياسة الخصوصية&lt;/a>.</string>
 	<string name="dialog_incorrect_feature_position">تغيير الموقع</string>
@@ -800,7 +800,7 @@
 	<string name="no_migration_during_navigation">التحديث ممنوع أثناء الملاحة.</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">للتنزيل، فأنت تحتاج إلى توفير مساحة أكبر. من فضلك، احذف البيانات غير الضرورية.</string>
-	<string name="editor_sharing_title">لقد قمت بتحديث خرائط تطبيق MAPS.ME</string>
+	<string name="editor_sharing_title">لقد قمت بتحديث خرائط تطبيق AddisMapME</string>
 	<string name="editor_comment_will_be_sent">سوف نرسل تعليقك إلى فريق رسم الخرائط.</string>
 	<string name="editor_unsupported_category_message">لقد قمت بإضافة مكان ينتمي لفئة غير متوفرة لدينا بعد. سوف تظهر على الخريطة لاحقا.</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -817,7 +817,7 @@
 	<string name="core_placepage_unknown_place">مكان غير معروف</string>
 	<string name="editor_other_info">أُرْسِلْتِ ملحوظة إلى وَسِيط OSM</string>
 	<string name="editor_detailed_description_hint">تعليق مفصل</string>
-	<string name="editor_detailed_description">سيتم إرسال التغييرات التي اقترحتها إلى مجتمع OpenStreetMap. اذكر التفاصيل التي لا يمكن تحريرها في MAPS.ME</string>
+	<string name="editor_detailed_description">سيتم إرسال التغييرات التي اقترحتها إلى مجتمع OpenStreetMap. اذكر التفاصيل التي لا يمكن تحريرها في AddisMapME</string>
 	<string name="editor_more_about_osm">المزيد عن OpenStreetMap</string>
 	<string name="editor_operator">معامل</string>
 	<string name="editor_tag_description">أدخل الشركة أو المؤسسة أو الشخص المسؤول عن المنشآت.</string>
@@ -838,7 +838,7 @@
 	<string name="current_location_unknown_error_title">الموقع الحالي غير معروف.</string>
 	<string name="current_location_unknown_error_message">حدث خطأ أثناء البحث عن موقعك. تأكد من أن جهازك يعمل بشكل صحيح وأعد المحاولة لاحقًا.</string>
 	<string name="whatsnew_update_editor_title">لقد قمنا بتحديث محرر الخريطة</string>
-	<string name="whatsnew_update_editor_message">قام مستخدمو MAPS.ME بإجراء 200000 تغيير على الخرائط. معًا سنحصل على الخرائط الأكثر تفصيلاً في العالم. انضم إلينا!</string>
+	<string name="whatsnew_update_editor_message">قام مستخدمو AddisMapME بإجراء 200000 تغيير على الخرائط. معًا سنحصل على الخرائط الأكثر تفصيلاً في العالم. انضم إلينا!</string>
 	<!-- Additional text in whats new -->
 	<string name="whatsnew_update_editor_message_update">لاستخدام مُحَرّر الخريطة، يرجى تحديث جميع الخرائط.</string>
 	<string name="location_services_disabled_header">تم تعطيل تحديد الموقع</string>
@@ -926,7 +926,7 @@
 	<!-- For sharing via SMS and so on -->
 	<string name="sharing_call_action_look">انظر</string>
 	<string name="continue_recent_track_background_button">استمرار</string>
-	<string name="recent_track_background_dialog_message">يستخدم MAPS.ME موقعك الجغرافي في الخلفية لتسجيل مسار سفرك الأخير.</string>
+	<string name="recent_track_background_dialog_message">يستخدم AddisMapME موقعك الجغرافي في الخلفية لتسجيل مسار سفرك الأخير.</string>
 	<string name="whatsnew_car_navigation_header">ملاحة المركبات سهلة الاستخدام</string>
 	<string name="whatsnew_car_navigation_message">• تستحوذ عناصر الملاحة على مساحة أقل.\n• نحن نعرض السرعة كما وأضفنا كذلك التكبير التلقائي.</string>
 	<string name="whatsnew_cycle_navigation_2_header">ملاحة الدراجات</string>
@@ -934,15 +934,15 @@
 	<string name="whatsnew_booking_2_header">البحث بسهولة عن فندق</string>
 	<string name="whatsnew_booking_2_message">تظهر نتائج البحث التقييم والفئة السعرية للفندق.</string>
 	<string name="whatsnew_cycle_navigation_header">التوجيه الملاحي مع الدراجات (إصدار تجريبي)</string>
-	<string name="whatsnew_cycle_navigation_message">نختبر الآن التوجيه الملاحي مع الدراجات للموسم الجديد. جرب طريق الدراجات المفضل لديك باستخدام MAPS.ME، واطلعنا على رأيك.</string>
+	<string name="whatsnew_cycle_navigation_message">نختبر الآن التوجيه الملاحي مع الدراجات للموسم الجديد. جرب طريق الدراجات المفضل لديك باستخدام AddisMapME، واطلعنا على رأيك.</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">تصنيف على Google Play</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">أخبر صديق</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">مرحبًا! تثبيت MAPS.ME!</string>
+	<string name="tell_friends_text">مرحبًا! تثبيت AddisMapME!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME هو تطبيق أساسي للسفر بدون اتصال بالإنترنت. يعتمد برنامج MAPS.ME على بيانات OpenStreetMap ويتيح تحريرها.</string>
+	<string name="about_description">AddisMapME هو تطبيق أساسي للسفر بدون اتصال بالإنترنت. يعتمد برنامج AddisMapME على بيانات OpenStreetMap ويتيح تحريرها.</string>
 	<!-- Text in menu -->
 	<string name="blog">المدونة</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -997,7 +997,7 @@
 	<string name="chat">Geochat</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">فتح</string>
-	<string name="whatsnew_uber_header">MAPS.ME وUber</string>
+	<string name="whatsnew_uber_header">AddisMapME وUber</string>
 	<string name="whatsnew_uber_message">اطلب تاكسي Uber مباشرة من التطبيق!</string>
 	<string name="dialog_taxi_offline">طلب تاكسي غير متاح في وضع الطيران.</string>
 	<string name="dialog_taxi_error">طلب تاكسي غير متاح مؤقتا.</string>
@@ -1012,7 +1012,7 @@
 	<string name="traffic_update_maps_text">لعرض البيانات المرورية، يجب تحديث الخرائط.</string>
 	<string name="traffic_outdated">البيانات المرورية قديمة.</string>
 	<string name="big_font">زيادة حجم الخط على الخريطة</string>
-	<string name="traffic_update_app">الرجاء تحديث MAPS.ME</string>
+	<string name="traffic_update_app">الرجاء تحديث AddisMapME</string>
 	<!-- "traffic" as in road congestion -->
 	<string name="traffic_update_app_message">لعرض البيانات المرورية، يجب تحديث التطبيق.</string>
 	<!-- "traffic" as in "road congestion" -->
@@ -1114,9 +1114,9 @@
 	<string name="button_accept_and_continue">قبول ومتابعة</string>
 	<string name="button_learn_more">تعلم المزيد</string>
 	<string name="onboarding_storage_permissions_title">منح حق الوصول</string>
-	<string name="onboarding_storage_permissions_message">قم بتغيير إعدادات الأذونات في جهازك. يلزم الوصول إلى ذاكرة التخزين لاستخدام MAPS.ME.</string>
+	<string name="onboarding_storage_permissions_message">قم بتغيير إعدادات الأذونات في جهازك. يلزم الوصول إلى ذاكرة التخزين لاستخدام AddisMapME.</string>
 	<string name="button_exit">خروج</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME يحتاج إلى الوصول إلى</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME يحتاج إلى الوصول إلى</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">ذاكرة التخزين</string>
 	<string name="onboarding_detail_permissions_storage_message">لحفظ الخرائط المنزلة واستخدامها بدون اتصال وحفظ الإشارات المرجعية.</string>
@@ -1293,16 +1293,16 @@
 	<string name="sign_message_gdpr">للمتابعة يجب عليك قبول شروط الاستخدام وسياسة الخصوصية الخاصة بنا. يرجى قراءتها بعناية.</string>
 	<string name="sign_agree_pp_gdpr">أوافق على &lt;a href="%s">سياسة الخصوصية&lt;/a></string>
 	<string name="sign_agree_tof_gdpr">أوافق على &lt;a href="%s">شروط الاستخدام&lt;/a></string>
-	<string name="sign_agree_news_gdpr">أوافق على تلقي آخر الأخبار حول منتجات MAPS.ME</string>
+	<string name="sign_agree_news_gdpr">أوافق على تلقي آخر الأخبار حول منتجات AddisMapME</string>
 	<string name="whats_new_localbiz_title">تستحق الأعمال الصغيرة العناية</string>
-	<string name="whats_new_localbiz_message">ومن المقاهي المحلية والفنادق المريحة والمحلات التجارية التي من خلالها لم ننسى رحلاتنا. سنقوم بتحسين صفحتك في MAPS.ME لنجعلها ذات تميز.</string>
+	<string name="whats_new_localbiz_message">ومن المقاهي المحلية والفنادق المريحة والمحلات التجارية التي من خلالها لم ننسى رحلاتنا. سنقوم بتحسين صفحتك في AddisMapME لنجعلها ذات تميز.</string>
 	<string name="whats_new_order_button">اترك طلب</string>
 	<string name="bookmarks_page_downloaded">تم تحميل</string>
 	<string name="bookmarks_page_my">الخاص بي</string>
 	<string name="routes_and_bookmarks">الطرق والإشارات</string>
 	<string name="bookmarks_webview_success_toast">تم تحميل الإشارات بنجاح</string>
 	<string name="cached_bookmarks_placeholder_title">تحميل أماكن جديدة</string>
-	<string name="cached_bookmarks_placeholder_subtitle">اضغط على الزر لتحميل الآلاف من الأماكن المثيرة للاهتمام والطرق التي تم إنشاؤها من قبل لمستخدمين MAPS.ME. سوف تحتاج إلى اتصال بالإنترنت.</string>
+	<string name="cached_bookmarks_placeholder_subtitle">اضغط على الزر لتحميل الآلاف من الأماكن المثيرة للاهتمام والطرق التي تم إنشاؤها من قبل لمستخدمين AddisMapME. سوف تحتاج إلى اتصال بالإنترنت.</string>
 	<string name="downloader_download_routers">تحميل الإشارات</string>
 	<string name="bookmarks_groups_cached">القوائم التي تم تنزيلها</string>
 	<string name="author_name_by_prefix">بواسطة٪ s</string>
@@ -1322,7 +1322,7 @@
 	<string name="opt_out_flurry">الإحصاء</string>
 	<string name="opt_out_mopub">الإعلان الشخصي</string>
 	<string name="opt_out_fabric">تقرير الحادث</string>
-	<string name="opt_out_fabric_description">قد نستخدم بياناتك لتحسين تجربة MAPS.ME. سوف تكون التغييرات نافذة المفعول بعد إعادة تشغيل التطبيق.</string>
+	<string name="opt_out_fabric_description">قد نستخدم بياناتك لتحسين تجربة AddisMapME. سوف تكون التغييرات نافذة المفعول بعد إعادة تشغيل التطبيق.</string>
 	<string name="opt_out_help_ios_1">يمكن أن يوفر جهازك الجوّال إعداد \"\"تقييد الإعلان المخصص\"\" أو \"\"تعطيل الإعلان الذي يستهدف الاهتمامات\"\".</string>
 	<string name="opt_out_help_ios_2">نظام تشغيل آي 9 فما فوق</string>
 	<string name="opt_out_help_ios_3">انتقل إلى إعداداتك ← الخصوصية ← الإعلانات ← تمكين إعداد \"\"تحديد تتبع الإعلانات\"\"</string>
@@ -1343,7 +1343,7 @@
 	<string name="category_desc_more">…المزيد</string>
 	<string name="title_error_downloading_bookmarks">حدث خطأ</string>
 	<string name="subtitle_error_downloading_bookmarks">لم يتم تنزيل الإشارات</string>
-	<string name="whats_new_bookmarks_catalog_title">MAPS.ME لديها الآن كتاب الطريق</string>
+	<string name="whats_new_bookmarks_catalog_title">AddisMapME لديها الآن كتاب الطريق</string>
 	<string name="whats_new_bookmarks_catalog_message">تحدد المئات من الطرق التفصيلية في جميع أنحاء العالم: إلى أين نذهب و ماذا نرى و مكان لتناول الطعام.</string>
 	<string name="whats_new_popularity_label_title">مواقع شعبية قريبة</string>
 	<string name="whats_new_popularity_label_message">سيساعدك قسم \"اكتشاف الجوار في العثور على الأماكن الأكثر شعبية في المدينة.</string>

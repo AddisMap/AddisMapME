@@ -33,7 +33,7 @@
 	<string name="downloading">Ladataan…</string>
 	<string name="get_it_now">Hanki nyt</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">Kiitos kun käytät MAPS.ME:tä! Pidätkö sovelluksesta? Kerro kavereillesi siitä! Se on meille paras mahdollinen kiitos.</string>
+	<string name="share_on_facebook_text">Kiitos kun käytät AddisMapME:tä! Pidätkö sovelluksesta? Kerro kavereillesi siitä! Se on meille paras mahdollinen kiitos.</string>
 	<!-- Settings/Downloader - size string, only strings different from English should be translated -->
 	<string name="kb">Kt</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
@@ -95,7 +95,7 @@
 	<string name="country_status_download_failed">Lataus epäonnistui</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Yritä uudelleen</string>
-	<string name="about_menu_title">Tietoa MAPS.ME:stä</string>
+	<string name="about_menu_title">Tietoa AddisMapME:stä</string>
 	<string name="downloading_touch_to_cancel">Ladataan %d%%, peruuta koskettamalla</string>
 	<string name="downloaded_touch_to_delete">Ladattu (%s), poista koskettamalla</string>
 	<string name="connection_settings">Yhteysasetukset</string>
@@ -104,7 +104,7 @@
 	<string name="unsupported_phone">Laitteistokiihdytetty OpenGL vaaditaan. Valitettavasti laitteesi ei ole tuettu.</string>
 	<string name="download">Lataa</string>
 	<string name="external_storage_is_not_available">SD-kortti/USB-massamuisti, jolle kartat on ladattu, ei ole käytettävissä</string>
-	<string name="disconnect_usb_cable">Irrota USB-kaapeli tai syötä muistikortti käyttääksesi MAPS.ME -sovellusta</string>
+	<string name="disconnect_usb_cable">Irrota USB-kaapeli tai syötä muistikortti käyttääksesi AddisMapME -sovellusta</string>
 	<string name="not_enough_free_space_on_sdcard">Vapauta ensin tilaa SD-kortilta/USB-massamuistilta käyttääksesi sovellusta</string>
 	<string name="not_enough_memory">Ei tarpeeksi muistia sovelluksen avaamiseksi</string>
 	<string name="free_space_for_country">Ole hyvä ja vapauta ensin %1$s laitteeltasi ladataksesi %2$s</string>
@@ -131,7 +131,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">Päivitys saatavissa seuraaville kartoille:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">Et tarvitse enää MAPS.ME Lite:ä, joten voit poistaa sen.</string>
+	<string name="suggest_uninstall_lite">Et tarvitse enää AddisMapME Lite:ä, joten voit poistaa sen.</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">%s ladattu onnistuneesti</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -161,9 +161,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">Aseta</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">Sinulla ei vielä ole kirjanmerkkejä.\nLisää kirjanmerkki napsauttamalla mitä tahansa paikkaa kartalla.\nVoit myös tuoda kirjanmerkkejä muista lähteistä MAPS.ME:ssä käytettäviksi avaamalla KML/KMZ-kirjanmerkkitiedoston sähköpostistasi, Dropbox-tililtäsi tai verkko-osoitteesta.</string>
+	<string name="bookmarks_usage_hint">Sinulla ei vielä ole kirjanmerkkejä.\nLisää kirjanmerkki napsauttamalla mitä tahansa paikkaa kartalla.\nVoit myös tuoda kirjanmerkkejä muista lähteistä AddisMapME:ssä käytettäviksi avaamalla KML/KMZ-kirjanmerkkitiedoston sähköpostistasi, Dropbox-tililtäsi tai verkko-osoitteesta.</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">Voit tuoda kirjanmerkkejä MAPS.ME:ssä käytettäväksi muista lähteistä avaamalla KML/KMZ-kirjanmerkkitiedoston sähköpostistasi, Dropbox-tililtäsi tai verkko-osoitteesta.</string>
+	<string name="bookmarks_usage_hint_import_only">Voit tuoda kirjanmerkkejä AddisMapME:ssä käytettäväksi muista lähteistä avaamalla KML/KMZ-kirjanmerkkitiedoston sähköpostistasi, Dropbox-tililtäsi tai verkko-osoitteesta.</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">Asetukset</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -219,7 +219,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">Jaa sähköpostilla</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">Jaetut MAPS.ME-kirjanmerkit</string>
+	<string name="share_bookmarks_email_subject">Jaetut AddisMapME-kirjanmerkit</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Ladataan kirjanmerkkejä</string>
 	<!-- Kmz file successful loading -->
@@ -239,19 +239,19 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Maata ladataan parhaillaan.</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">Toivottavasti nautit MAPS.ME -sovelluksen käyttämisestä! Olisimme tyytyväisiä, jos voisit arvioida sovelluksen App Storessa. Se kesää alle minuutin, ja auttaa meitä todella paljon. Kiitos tuestasi!</string>
+	<string name="appStore_message">Toivottavasti nautit AddisMapME -sovelluksen käyttämisestä! Olisimme tyytyväisiä, jos voisit arvioida sovelluksen App Storessa. Se kesää alle minuutin, ja auttaa meitä todella paljon. Kiitos tuestasi!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">Ei kiitos</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Hei, katso merkintäni MAPS.ME-sovelluksessa! %1$s tai %2$s Eikö sinulla ole offline-karttoja? Lataa ne täältä: http://maps.me/get</string>
+	<string name="bookmark_share_sms">Hei, katso merkintäni AddisMapME-sovelluksessa! %1$s tai %2$s Eikö sinulla ole offline-karttoja? Lataa ne täältä: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">Hei, katso sijaintini MAPS.ME-sovelluksessa! %1$s tai %2$s Eikö sinulla ole vielä offline-karttoja? Lataa ne täältä: http://maps.me/get</string>
+	<string name="my_position_share_sms">Hei, katso sijaintini AddisMapME-sovelluksessa! %1$s tai %2$s Eikö sinulla ole vielä offline-karttoja? Lataa ne täältä: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Hei, katso merkintäni MAPS.ME-kartalla</string>
+	<string name="bookmark_share_email_subject">Hei, katso merkintäni AddisMapME-kartalla</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">Hei,\n\nnastoitin kohteen %1$s MAPS.ME:ssä, koko maailman kattavassa offline-karttasovelluksessa. Klikkaa linkkiä %2$s tai %3$s nähdäksesi paikan kartalla. \n\nKiitos. kaikki</string>
+	<string name="bookmark_share_email">Hei,\n\nnastoitin kohteen %1$s AddisMapME:ssä, koko maailman kattavassa offline-karttasovelluksessa. Klikkaa linkkiä %2$s tai %3$s nähdäksesi paikan kartalla. \n\nKiitos. kaikki</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Hei, kurkkaa tämänhetkinen sijaintini MAPS.ME:n kartalla!</string>
+	<string name="my_position_share_email_subject">Hei, kurkkaa tämänhetkinen sijaintini AddisMapME:n kartalla!</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">Hei,n\nOlen nyt täällä: %1$s. Klikkaa linkkiä %2$s tai %3$s nähdäksesi paikan kartalla. Kiitos.</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -361,17 +361,17 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">Lataa sijaintisi kartta</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">Me siirrämme lataamasi kartat MAPS.ME Lite:stä MAPS.ME:hen. Siirtäminen voi viedä muutaman minuutin.</string>
+	<string name="move_lite_maps_to_pro">Me siirrämme lataamasi kartat AddisMapME Lite:stä AddisMapME:hen. Siirtäminen voi viedä muutaman minuutin.</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">Lataamasi kartat on siirretty onnistuneesti MAPS.ME:hen.</string>
+	<string name="move_lite_maps_to_pro_ok">Lataamasi kartat on siirretty onnistuneesti AddisMapME:hen.</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">Karttoja ei voitu siirtää. Ole hyvä ja poista MAPS.ME Lite ja lataa kartat uudelleen.</string>
+	<string name="move_lite_maps_to_pro_failed">Karttoja ei voitu siirtää. Ole hyvä ja poista AddisMapME Lite ja lataa kartat uudelleen.</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">Asetukset &amp;amp; Lisää</string>
 	<!-- Text in menu -->
 	<string name="website">Kotisivut</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">MAPS.ME -yhteisö</string>
+	<string name="maps_me_community">AddisMapME -yhteisö</string>
 	<!-- Text in menu -->
 	<string name="like_on_facebook">Tykkää meistä Facebookissa</string>
 	<!-- Text in menu -->
@@ -391,11 +391,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">Ilmoita virheestä</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">Lisätkää minut MAPS.ME:n uutiskirjeen tilaajaksi</string>
+	<string name="subscribe_me_subject">Lisätkää minut AddisMapME:n uutiskirjeen tilaajaksi</string>
 	<!-- Email body -->
-	<string name="subscribe_me_body">Liittäkää minut MAPS.ME -uutiskirjeen tilaajaksi saadakseni ensimmäisenä tietoa uusista päivityksistä ja TARJOUKSISTA. Voin peruuttaa tilaukseni koska tahansa.</string>
+	<string name="subscribe_me_body">Liittäkää minut AddisMapME -uutiskirjeen tilaajaksi saadakseni ensimmäisenä tietoa uusista päivityksistä ja TARJOUKSISTA. Voin peruuttaa tilaukseni koska tahansa.</string>
 	<!-- About text -->
-	<string name="about_text">MAPS.ME tarjoaa nopeimmat offline-kartat kaikista kaupungeista, kaikissa maissa ympäri maailman. Matkusta luottavaisin mielin - missä ikinä oletkin, MAPS.ME auttaa sinua löytämään itsesi kartalta, ohjaamaan sinut lähimpään ravintolaan, hotelliin, pankkiin, huoltoasemalle jne. Internet-yhteyttä ei tarvita.\n\nTyöskentelemme jatkuvasti uusien ominaisuuksien parissa, ja haluammekin kuulla sinulta kuinka voimme parantaa MAPS.me -sovellusta entisestään. Mikäli sinulla on ongelmia sovelluksen kanssa, älä epäröi ottaa yhteyttä asiakaspalveluumme osoitteessa support\@maps.me. Vastaamme jokaiseen yhteydenottoon!\n\nTykkäätkö MAPS.ME -sovelluksesta ja haluat tukea meitä? Siihen on muutamia helppoja ja täysin ilmaisia tapoja:\n\n- lisää sovellusarviosi käyttämääsi sovelluskauppaan\n - tykkää Facebook-sivustamme osoitteessa http://www.facebook.com/mapswithme\n- kerro MAPS.me:stä äidillesi, ystävillesi ja kollegoillesi :)\n\nKiitos sovelluksen käytöstä. Arvostamme tukeasi todella paljon!\n\nP.S. Kaikki tiedot noudetaan OpenStreetMap-palvelusta, joka on Wikipedian kaltainen karttaprojekti, jossa kuka tahansa voi lisätä ja muokata karttoja. Mikäli havaitset kartoissa virheitä ja puutteita, voit korjata ne osoitteessa https://www.openstreetmap.org, ja muutokset näkyvät sovelluksessa seuraavan MAPS.ME -päivityksen jälkeen.</string>
+	<string name="about_text">AddisMapME tarjoaa nopeimmat offline-kartat kaikista kaupungeista, kaikissa maissa ympäri maailman. Matkusta luottavaisin mielin - missä ikinä oletkin, AddisMapME auttaa sinua löytämään itsesi kartalta, ohjaamaan sinut lähimpään ravintolaan, hotelliin, pankkiin, huoltoasemalle jne. Internet-yhteyttä ei tarvita.\n\nTyöskentelemme jatkuvasti uusien ominaisuuksien parissa, ja haluammekin kuulla sinulta kuinka voimme parantaa MAPS.me -sovellusta entisestään. Mikäli sinulla on ongelmia sovelluksen kanssa, älä epäröi ottaa yhteyttä asiakaspalveluumme osoitteessa support\@maps.me. Vastaamme jokaiseen yhteydenottoon!\n\nTykkäätkö AddisMapME -sovelluksesta ja haluat tukea meitä? Siihen on muutamia helppoja ja täysin ilmaisia tapoja:\n\n- lisää sovellusarviosi käyttämääsi sovelluskauppaan\n - tykkää Facebook-sivustamme osoitteessa http://www.facebook.com/mapswithme\n- kerro MAPS.me:stä äidillesi, ystävillesi ja kollegoillesi :)\n\nKiitos sovelluksen käytöstä. Arvostamme tukeasi todella paljon!\n\nP.S. Kaikki tiedot noudetaan OpenStreetMap-palvelusta, joka on Wikipedian kaltainen karttaprojekti, jossa kuka tahansa voi lisätä ja muokata karttoja. Mikäli havaitset kartoissa virheitä ja puutteita, voit korjata ne osoitteessa https://www.openstreetmap.org, ja muutokset näkyvät sovelluksessa seuraavan AddisMapME -päivityksen jälkeen.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Sähköpostisovellusta ei ole asetettu. Ole hyvä ja määritä sähköpostiasetukset tai ota meihin yhteyttä toista kautta osoitteessa %s</string>
 	<!-- Alert title -->
@@ -407,7 +407,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">Päivitä kartta luodaksesi reitin</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">Uusi MAPS.ME -versio mahdollistaa reittien luonnin nykyisestä sijainnista määränpäähäsi.Päivitä kartat käyttääksesi tätä ominaisuutta.</string>
+	<string name="routing_update_maps">Uusi AddisMapME -versio mahdollistaa reittien luonnin nykyisestä sijainnista määränpäähäsi.Päivitä kartat käyttääksesi tätä ominaisuutta.</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">Päivitä kaikki</string>
 	<!-- Cancel all button text -->
@@ -424,7 +424,7 @@
 	<string name="downloader_downloading">Ladataan:</string>
 	<string name="downloader_search_results">Löytyi</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">Pidä mielessä seuraavat seikat luodessasi reittejä MAPS.ME -sovelluksella:\n\n- Ehdotettuja reittejä tulee pitää vain suosituksina.\n- Teiden kunto, liikennesäännöt ja -merkit on aina otettava huomioon navigointiehdotuksista huolimatta.\n - Kartassa saattaa olla virheitä, tai se saattaa olla vanhentunut, eikä reittejä sen takia voida luoda parhaalla mahdollisella tavalla.\n\nPysy valppaana liikenteessä ja pidä huolta itsestäsi!</string>
+	<string name="routing_disclaimer">Pidä mielessä seuraavat seikat luodessasi reittejä AddisMapME -sovelluksella:\n\n- Ehdotettuja reittejä tulee pitää vain suosituksina.\n- Teiden kunto, liikennesäännöt ja -merkit on aina otettava huomioon navigointiehdotuksista huolimatta.\n - Kartassa saattaa olla virheitä, tai se saattaa olla vanhentunut, eikä reittejä sen takia voida luoda parhaalla mahdollisella tavalla.\n\nPysy valppaana liikenteessä ja pidä huolta itsestäsi!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">Vanhentunut</string>
 	<!-- Up to date maps category -->
@@ -479,9 +479,9 @@
 	<!-- Text for rating dialog -->
 	<string name="rating_just_rated">Olen juuri arvostellut sovelluksesi.</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_user_since">Olen MAPS.ME käyttäjä vuodesta %s.</string>
+	<string name="rating_user_since">Olen AddisMapME käyttäjä vuodesta %s.</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_do_like_maps">Pidätkö MAPS.ME sovelluksesta?</string>
+	<string name="rating_do_like_maps">Pidätkö AddisMapME sovelluksesta?</string>
 	<!-- Text for rating dialog -->
 	<string name="rating_tap_star">Napauta tähteä arvostellaksesi sovelluksemme.</string>
 	<!-- Text for rating dialog -->
@@ -497,7 +497,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">Hanki kartta</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">Lataa päivitetty kartta ja reititysdata saadaksesi kaikki MAPS.ME -ominaisuudet.</string>
+	<string name="routing_download_map_and_routing">Lataa päivitetty kartta ja reititysdata saadaksesi kaikki AddisMapME -ominaisuudet.</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">Hanki reitityskartta</string>
 	<!-- Text for routing error dialog -->
@@ -613,7 +613,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">Lataa ja päivitä kaikki kartat reitin varrella luodaksesi reitin.</string>
 	<string name="rate_alert_title">Pidätkö sovelluksesta?</string>
-	<string name="rate_alert_default_message">Kiitos kun käytät MAPS.ME:tä. Voisitko myös arvostella sovelluksen? Palautteesi avulla tulemme vielä paremmiksi.</string>
+	<string name="rate_alert_default_message">Kiitos kun käytät AddisMapME:tä. Voisitko myös arvostella sovelluksen? Palautteesi avulla tulemme vielä paremmiksi.</string>
 	<string name="rate_alert_five_star_message">Hurraa! Mekin rakastamme sinua!</string>
 	<string name="rate_alert_four_star_message">Kiitos, teemme parhaamme!</string>
 	<string name="rate_alert_less_than_four_star_message">Kertoisitko missä voisimme parantaa?</string>
@@ -668,7 +668,7 @@
 	<string name="editor_report_problem_no_place_title">Paikkaa ei ole olemassa</string>
 	<string name="editor_report_problem_under_construction_title">Suljettu huoltoa varten</string>
 	<string name="editor_report_problem_duplicate_place_title">Paikan kaksoiskappale</string>
-	<string name="first_launch_congrats_title">MAPS.ME on valmiina käyttöön</string>
+	<string name="first_launch_congrats_title">AddisMapME on valmiina käyttöön</string>
 	<string name="first_launch_congrats_text">Etsi ja navigoi ympäri maailman ilman verkkoyhteyttä, ilmaiseksi.</string>
 	<string name="migrate_title">Tärkeää!</string>
 	<!-- Android uses image instead of text. -->
@@ -772,12 +772,12 @@
 	<string name="whatsnew_search_message">Olemme selkeästi parantaneet osoitehakua - kokeile vaikka itse.</string>
 	<string name="whatsnew_editor_title">Muokkaa karttaa*</string>
 	<string name="whatsnew_editor_message_1">Lisää karttaan uusia paikkoja ja muokkaa sovelluksessa olevia karttoja suoraan sovelluksessa.</string>
-	<string name="whatsnew_editor_message_2">* MAPS.ME käyttää OpenStreetMap -yhteisön dataa.</string>
+	<string name="whatsnew_editor_message_2">* AddisMapME käyttää OpenStreetMap -yhteisön dataa.</string>
 	<string name="onboarding_offline_navigation_title">Et eksy enää koskaan</string>
 	<string name="onboarding_offline_navigation_message">Suunnittele ihanteellinen autoilu- tai kävelyreitti jopa ilman Internet-yhteyttä!</string>
 	<string name="onboarding_offline_navigation_title_2">Offline-navigointi</string>
 	<string name="onboarding_offline_navigation_message_2">Suunnittele ihanteelliset autoilu- ja kävelyreitit.</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — koko maailman kartat ilman Internet-yhteyttä</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — koko maailman kartat ilman Internet-yhteyttä</string>
 	<string name="onboarding_offline_maps_message">Lataa haluamasi alueen kartat yhden kerran ja voit käyttää navigointi- ja hakutoimintoja ilman Internet-yhteyttä.</string>
 	<string name="onboarding_notifications_message">Ota päivitysilmoitukset käyttöön saadaksesi tuoreimmat kartat</string>
 	<string name="onboarding_notifications_title">Ota päivitysilmoitukset käyttöön</string>
@@ -785,7 +785,7 @@
 	<string name="onboarding_location_message">Tarvitsemme sijaintisi käyttääksemme navigointia ja muita ominaisuuksia.</string>
 	<string name="onboarding_permissions_title">Anna MAPS:ME:lle tallennustilan ja sijainnin käyttöoikeus</string>
 	<string name="onboarding_permissions_message">Jotta voisit ladata karttoja, nähdä lähistöllä olevat paikan ja liikenteen sekä käyttää navigointia.</string>
-	<string name="onboarding_welcome_title">Tervetuloa käyttämään MAPS.ME:tä</string>
+	<string name="onboarding_welcome_title">Tervetuloa käyttämään AddisMapME:tä</string>
 	<string name="onboarding_welcome_first_subtitle">Ilmaiset, nopeat, yksityiskohtaiset ja offline-tilassa täysin toimivat kartat käännös käännökseltä -navigoinnilla.</string>
 	<string name="onboarding_welcome_second_subtitle">Käynnistämällä sovelluksen hyväksyt &lt;a href="%1$s">käyttöehdot&lt;/a> ja &lt;a href="%2$s">tietosuojakäytännön&lt;/a>.</string>
 	<string name="dialog_incorrect_feature_position">Vaihda sijaintia</string>
@@ -794,7 +794,7 @@
 	<string name="no_migration_during_navigation">Päivittäminen ei ole mahdollista navigoinnin aikana.</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">Tarvitset lisää tilaa ladataksesi. Poista tarpeeton data.</string>
-	<string name="editor_sharing_title">Paransin MAPS.ME-karttoja</string>
+	<string name="editor_sharing_title">Paransin AddisMapME-karttoja</string>
 	<string name="editor_comment_will_be_sent">Lähetämme kommenttisi kartanpiirtäjille.</string>
 	<string name="editor_unsupported_category_message">Olet lisännyt sijainnin katergoriaan jota emme vielä tue. Se tulee näkyviin kartalle hieman myöhemmin.</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -811,7 +811,7 @@
 	<string name="core_placepage_unknown_place">Tuntematon paikka</string>
 	<string name="editor_other_info">Lähetä muistiinpano OSM-moderaattorille</string>
 	<string name="editor_detailed_description_hint">Yksityiskohtainen kommentti</string>
-	<string name="editor_detailed_description">Ehdottamasi muutokset lähetetään OpenStreetMap-yhteisöön. Kuvaa tiedot, joita ei voi muokata MAPS.ME:ssä.</string>
+	<string name="editor_detailed_description">Ehdottamasi muutokset lähetetään OpenStreetMap-yhteisöön. Kuvaa tiedot, joita ei voi muokata AddisMapME:ssä.</string>
 	<string name="editor_more_about_osm">Lisätietoja OpenStreetMap:ista</string>
 	<string name="editor_operator">Operaattori</string>
 	<string name="editor_tag_description">Syötä tiloista vastuussa oleva yhtiö, organisaatio tai henkilö</string>
@@ -832,7 +832,7 @@
 	<string name="current_location_unknown_error_title">Nykyinen sijainti on tuntematon.</string>
 	<string name="current_location_unknown_error_message">Tapahtui virhe määritettäessä sijaintiasi. Tarkista laitteesi ja yritä myöhemmin uudelleen.</string>
 	<string name="whatsnew_update_editor_title">Olemme päivittäneet karttamuokkaimen</string>
-	<string name="whatsnew_update_editor_message">MAPS.ME -käyttäjät ovat tehneet 200 000 karttavaihtoehtoa. Yhdessä teemme maailman yksityiskohtaisimmat kartat. Liity meihin!</string>
+	<string name="whatsnew_update_editor_message">AddisMapME -käyttäjät ovat tehneet 200 000 karttavaihtoehtoa. Yhdessä teemme maailman yksityiskohtaisimmat kartat. Liity meihin!</string>
 	<!-- Additional text in whats new -->
 	<string name="whatsnew_update_editor_message_update">Päivitä kaikki kartat käyttääksesi Karttamuokkainta.</string>
 	<string name="location_services_disabled_header">Sijaintipalvelut on poistettu käytöstä</string>
@@ -928,15 +928,15 @@
 	<string name="whatsnew_booking_2_header">Helppo hotellihaku</string>
 	<string name="whatsnew_booking_2_message">Hakutulokset näyttävät hotellin arvostelut ja hintaluokan.</string>
 	<string name="whatsnew_cycle_navigation_header">Polkupyöränavigointi (betaversio)</string>
-	<string name="whatsnew_cycle_navigation_message">Testaamme polkupyöränavigointia uudelle kaudelle. Kokeile suosikkipyöräilyreittiäsi MAPS.ME-sovelluksella ja jaa mielipiteesi kanssamme.</string>
+	<string name="whatsnew_cycle_navigation_message">Testaamme polkupyöränavigointia uudelle kaudelle. Kokeile suosikkipyöräilyreittiäsi AddisMapME-sovelluksella ja jaa mielipiteesi kanssamme.</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">Arvioi Google Playssa</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">Kerro kaverille</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">Hei, asenna MAPS.ME!</string>
+	<string name="tell_friends_text">Hei, asenna AddisMapME!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME on ehdoton offline-sovellus matkoja varten. MAPS.ME perustuu OpenStreetMap-dataan ja sallii sen muokkauksen.</string>
+	<string name="about_description">AddisMapME on ehdoton offline-sovellus matkoja varten. AddisMapME perustuu OpenStreetMap-dataan ja sallii sen muokkauksen.</string>
 	<!-- Text in menu -->
 	<string name="blog">Blogi</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -991,7 +991,7 @@
 	<string name="chat">Geochat</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">Avaa</string>
-	<string name="whatsnew_uber_header">MAPS.ME &amp; Uber</string>
+	<string name="whatsnew_uber_header">AddisMapME &amp; Uber</string>
 	<string name="whatsnew_uber_message">Tilaa Uber -taksi suoraan sovelluksesta!</string>
 	<string name="dialog_taxi_offline">Taksin tilaaminen ei ole mahdollista ilman verkkoyhteyttä.</string>
 	<string name="dialog_taxi_error">Taksin tilaaminen ei ole tällä hetkellä mahdollista.</string>
@@ -1006,7 +1006,7 @@
 	<string name="traffic_update_maps_text">Liikennetietojen näyttämiseksi kartat on päivitettävä.</string>
 	<string name="traffic_outdated">Liikennetiedot ovat vanhentuneet.</string>
 	<string name="big_font">Suurenna fonttikokoa kartalla</string>
-	<string name="traffic_update_app">Päivitä MAPS.ME</string>
+	<string name="traffic_update_app">Päivitä AddisMapME</string>
 	<!-- "traffic" as in road congestion -->
 	<string name="traffic_update_app_message">Liikennetietojen näyttämiseksi sovellus on päivitettävä.</string>
 	<!-- "traffic" as in "road congestion" -->
@@ -1110,7 +1110,7 @@
 	<string name="onboarding_storage_permissions_title">Myönnä käyttöoikeus</string>
 	<string name="onboarding_storage_permissions_message">Muuta laitteesi käyttöoikeusasetuksia. MAPS:ME:n käyttö edellyttää tallennustilan käyttöoikeutta.</string>
 	<string name="button_exit">Poistu</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME tarvitsee seuraavat käyttöoikeudet:</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME tarvitsee seuraavat käyttöoikeudet:</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">Tallennustila</string>
 	<string name="onboarding_detail_permissions_storage_message">Jotta voisit tallentaa ja käyttää ladattuja karttoja offline-tilassa sekä tallentaa kirjanmerkkejä.</string>
@@ -1288,16 +1288,16 @@
 	<string name="sign_message_gdpr">Jotta voit jatkaa, sinun on hyväksyttävä käyttöehdot ja tietosuojakäytäntö. Lue ne huolellisesti.</string>
 	<string name="sign_agree_pp_gdpr">Hyväksyn &lt;a href="%s">tietosuojakäytännön&lt;/a></string>
 	<string name="sign_agree_tof_gdpr">Hyväksyn &lt;a href="%s">käyttöehdot&lt;/a></string>
-	<string name="sign_agree_news_gdpr">Hyväksyn viimeisimmät uutiset MAPS.ME-tuotteista</string>
+	<string name="sign_agree_news_gdpr">Hyväksyn viimeisimmät uutiset AddisMapME-tuotteista</string>
 	<string name="whats_new_localbiz_title">Pienet yritykset ansaitsevat huomiota</string>
-	<string name="whats_new_localbiz_message">Juuri paikalliset kahvilat, kotoisat hostellit ja kaupat tekevät matkastasi unohtumattoman. Me optimoimme sivusi MAPS.ME:ssä saadaksesi sen erottumaan joukosta.</string>
+	<string name="whats_new_localbiz_message">Juuri paikalliset kahvilat, kotoisat hostellit ja kaupat tekevät matkastasi unohtumattoman. Me optimoimme sivusi AddisMapME:ssä saadaksesi sen erottumaan joukosta.</string>
 	<string name="whats_new_order_button">Jätä pyyntö</string>
 	<string name="bookmarks_page_downloaded">Ladattu</string>
 	<string name="bookmarks_page_my">Minun</string>
 	<string name="routes_and_bookmarks">Reitit ja kirjanmerkit</string>
 	<string name="bookmarks_webview_success_toast">Kirjanmerkit ladattu onnistuneesti</string>
 	<string name="cached_bookmarks_placeholder_title">Lataa uudet paikat</string>
-	<string name="cached_bookmarks_placeholder_subtitle">Paina nappulaa ladataksesi tuhansia kiinnostavia paikkoja ja reittejä joita MAPS.ME käyttäjät ovat luoneet. Tarvitset internet yhteyden.</string>
+	<string name="cached_bookmarks_placeholder_subtitle">Paina nappulaa ladataksesi tuhansia kiinnostavia paikkoja ja reittejä joita AddisMapME käyttäjät ovat luoneet. Tarvitset internet yhteyden.</string>
 	<string name="downloader_download_routers">Lataa kirjanmerkit</string>
 	<string name="bookmarks_groups_cached">Ladatut lista</string>
 	<string name="author_name_by_prefix">%s</string>
@@ -1317,7 +1317,7 @@
 	<string name="opt_out_flurry">Tilasto</string>
 	<string name="opt_out_mopub">Yksilöity mainonta</string>
 	<string name="opt_out_fabric">Kaatumisraportti</string>
-	<string name="opt_out_fabric_description">Me saatamme käyttää tietojasi parantaaksemme MAPS.ME kokemusta. Muutokset alkavat vaikuttamaan kun käynnistät sovelluksen uudestaan.</string>
+	<string name="opt_out_fabric_description">Me saatamme käyttää tietojasi parantaaksemme AddisMapME kokemusta. Muutokset alkavat vaikuttamaan kun käynnistät sovelluksen uudestaan.</string>
 	<string name="opt_out_help_ios_1">Mobiililaitteesi saattaa tarjota ”Rajoittettu Mainos Seuranta” tai ”Poistu internet-perusteisesta mainnonnasta” asetuksia.</string>
 	<string name="opt_out_help_ios_2">iOS 9 tai Korkeampi</string>
 	<string name="opt_out_help_ios_3">Mene Asetuksiisi → Yksityisyys → Mainonta → Salli ”Rajoita Mainos Seurantaa” asetus</string>
@@ -1338,7 +1338,7 @@
 	<string name="category_desc_more">…lisää</string>
 	<string name="title_error_downloading_bookmarks">Tapahtui virhe</string>
 	<string name="subtitle_error_downloading_bookmarks">Kirjanmerkkejä ei ole ladattu</string>
-	<string name="whats_new_bookmarks_catalog_title">MAPS.ME:ssä on nyt reitti katalogi</string>
+	<string name="whats_new_bookmarks_catalog_title">AddisMapME:ssä on nyt reitti katalogi</string>
 	<string name="whats_new_bookmarks_catalog_message">Satoja yksityiskohtaisia reittejä kaikkialta maailmasta: minne mennä, mitä nähdä, missä syödä.</string>
 	<string name="whats_new_popularity_label_title">Suosittuja kohteita lähellä</string>
 	<string name="whats_new_popularity_label_message">Mitä Tehdä osio auttaa sinua löytämään suosituimmat paikat kaupungissa.</string>

@@ -50,7 +50,7 @@
 "get_it_now" = "Hemen al";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "MAPS.ME’yi kullandığınız için teşekkür ederiz! Uygulamayı beğendiniz mi? Bundan arkadaşlarınıza bahsedin! Bundan büyük memnuniyet duyarız.";
+"share_on_facebook_text" = "AddisMapME’yi kullandığınız için teşekkür ederiz! Uygulamayı beğendiniz mi? Bundan arkadaşlarınıza bahsedin! Bundan büyük memnuniyet duyarız.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "kB";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Tekrar Deneyin";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "MAPS.ME Hakkında";
+"about_menu_title" = "AddisMapME Hakkında";
 
 "downloading_touch_to_cancel" = "%d%% indiriliyor, iptal etmek için dokunun";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "İndirilen haritalarla SD kart/USB depolama aygıtı kullanılamıyor";
 
-"disconnect_usb_cable" = "MAPS.ME’yi kullanabilmeniz için lütfen USB kablosunun bağlantısını kesin veya hafıza kartı takın";
+"disconnect_usb_cable" = "AddisMapME’yi kullanabilmeniz için lütfen USB kablosunun bağlantısını kesin veya hafıza kartı takın";
 
 "not_enough_free_space_on_sdcard" = "Uygulamayı kullanabilmeniz için lütfen SD kart/USB depolama aygıtında biraz alan boşaltın";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Bu haritalar için güncelleme kullanılabilir:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "MAPS.ME Lite’e artık ihtiyacınız yok; bu nedenle uygulamayı kaldırabilirsiniz.";
+"suggest_uninstall_lite" = "AddisMapME Lite’e artık ihtiyacınız yok; bu nedenle uygulamayı kaldırabilirsiniz.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@ başarılı bir şekilde indirildi";
@@ -257,10 +257,10 @@
 "set" = "Ayarla";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "Henüz hiç yer iminiz yok.\nYer imi eklemek için haritada bir yere dokunun.\nBaşka kaynaklardan da yer imleri alınıp MAPS.ME’de gösterilebilir KML/KMZ dosyasını posta, Dropbox veya web bağlantısından kaydedilen pinlerle aç.";
+"bookmarks_usage_hint" = "Henüz hiç yer iminiz yok.\nYer imi eklemek için haritada bir yere dokunun.\nBaşka kaynaklardan da yer imleri alınıp AddisMapME’de gösterilebilir KML/KMZ dosyasını posta, Dropbox veya web bağlantısından kaydedilen pinlerle aç.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Başka kaynaklardan yer imleri alınıp MAPS.ME’de gösterilebilir. KML/KMZ dosyasını posta, Dropbox veya web bağlantısından kaydedilen yer imleriyle aç.";
+"bookmarks_usage_hint_import_only" = "Başka kaynaklardan yer imleri alınıp AddisMapME’de gösterilebilir. KML/KMZ dosyasını posta, Dropbox veya web bağlantısından kaydedilen yer imleriyle aç.";
 
 /* Settings button in system menu */
 "settings" = "Ayarlar";
@@ -353,9 +353,9 @@
 "share_by_email" = "E-postayla paylaş";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "Paylaşılan MAPS.ME yer imleri";
+"share_bookmarks_email_subject" = "Paylaşılan AddisMapME yer imleri";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Yer İmleri Yükleniyor";
@@ -385,25 +385,25 @@
 "downloading_is_active" = "Ülke indirme işlemi şu anda sürüyor.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "MAPS.ME kullanmaktan keyif aldığınızı umuyoruz! Öyleyse, lütfen App Store’da uygulamaya puan verin veya uygulama hakkında yorum yapın. Bir dakikadan daha kısa sürer ama bize gerçekten yardımcı olabilir. Desteğiniz için teşekkürler!";
+"appStore_message" = "AddisMapME kullanmaktan keyif aldığınızı umuyoruz! Öyleyse, lütfen App Store’da uygulamaya puan verin veya uygulama hakkında yorum yapın. Bir dakikadan daha kısa sürer ama bize gerçekten yardımcı olabilir. Desteğiniz için teşekkürler!";
 
 /* No, thanks */
 "no_thanks" = "Hayır, teşekkürler";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hey, MAPS.ME’de pinimi incele! %1$@ veya %2$@ Çevrimiçi haritalar sende yüklü değil mi? Buradan indir: http://maps.me/get";
+"bookmark_share_sms" = "Hey, AddisMapME’de pinimi incele! %1$@ veya %2$@ Çevrimiçi haritalar sende yüklü değil mi? Buradan indir: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hey, MAPS.ME’de geçerli konumumu incele! %1$@ veya %2$@ Çevrimiçi haritalar sende yok mu? Buradan indir: http://maps.me/get";
+"my_position_share_sms" = "Hey, AddisMapME’de geçerli konumumu incele! %1$@ veya %2$@ Çevrimiçi haritalar sende yok mu? Buradan indir: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hey, MAPS.ME haritasında pinimi incele!";
+"bookmark_share_email_subject" = "Hey, AddisMapME haritasında pinimi incele!";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Merhaba,\n\nDünyanın çevrimdışı haritaları MAPS.ME’d: %1$@ pinledim. Yeri haritadan görmek için bu bağlantıya %2$@ veya şuna %3$@ tıkla.\n\nTeşekkürler.";
+"bookmark_share_email" = "Merhaba,\n\nDünyanın çevrimdışı haritaları AddisMapME’d: %1$@ pinledim. Yeri haritadan görmek için bu bağlantıya %2$@ veya şuna %3$@ tıkla.\n\nTeşekkürler.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hey, MAPS.ME’de geçerli konumumu incele!";
+"my_position_share_email_subject" = "Hey, AddisMapME’de geçerli konumumu incele!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "Merhaba,\n\nŞu anda bulunduğum yer: %1$@. Yeri haritada görmek için bu bağlantıya %2$@ veya şuna %3$@ tıkla.\n\nTeşekkürler.";
@@ -551,7 +551,7 @@
 "search_show_on_map" = "Haritada görüntüle";
 
 /* Used to warn user when fixing KitKat issue */
-"kitkat_migrate_ok" = "Harita veri depolama optimize edildi. Lütfen uygulamayı yeniden başlatın.\n\nSD kart kaynağındaki MAPS.ME klasörüne artık ihtiyaç yok; silebilirsiniz.";
+"kitkat_migrate_ok" = "Harita veri depolama optimize edildi. Lütfen uygulamayı yeniden başlatın.\n\nSD kart kaynağındaki AddisMapME klasörüne artık ihtiyaç yok; silebilirsiniz.";
 
 /* Used to warn user when fixing KitKat issue */
 "kitkat_migrate_failed" = "Android 4.4’de yapılan değişikliklerden dolayı harita veri depolamasını optimize etmemiz gerekiyor ancak harita verilerini kopyalayacak yeterli alan yok.\n\nLütfen hafızayı boşaltın, aksi takdirde haritalar salt okunur modda kullanılabilir olacaktır.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Bulunduğun yerin haritasını indir";
 
 /* text of notification */
-"pro_version_is_free_today" = "MAPS.ME tam sürümü bugün ücretsiz! İndir ve arkadaşlarına haber ver.";
+"pro_version_is_free_today" = "AddisMapME tam sürümü bugün ücretsiz! İndir ve arkadaşlarına haber ver.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "MAPS.ME Lite'den indirmiş olduğunuz haritaları MAPS.ME'ye aktarıyoruz. Bu bir kaç dakika sürebilir.";
+"move_lite_maps_to_pro" = "AddisMapME Lite'den indirmiş olduğunuz haritaları AddisMapME'ye aktarıyoruz. Bu bir kaç dakika sürebilir.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "İndirmiş olduğunuz haritalar başarılı bir şekilde MAPS.ME'ye aktarıldı.";
+"move_lite_maps_to_pro_ok" = "İndirmiş olduğunuz haritalar başarılı bir şekilde AddisMapME'ye aktarıldı.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "Haritanızın aktarımı başarısız oldu. Lütfen MAPS.ME Lite'yi silin ve haritaları tekrar indirin.";
+"move_lite_maps_to_pro_failed" = "Haritanızın aktarımı başarısız oldu. Lütfen AddisMapME Lite'yi silin ve haritaları tekrar indirin.";
 
 /* Text in menu */
 "settings_and_more" = "Ayarlar & Fazlası";
@@ -611,7 +611,7 @@
 "website" = "Web Sitesi";
 
 /* Text in menu */
-"maps_me_community" = "MAPS.ME Topluluğu";
+"maps_me_community" = "AddisMapME Topluluğu";
 
 /* Text in menu */
 "like_on_facebook" = "Facebook'da beğen";
@@ -641,13 +641,13 @@
 "report_a_bug" = "Hata bildir";
 
 /* Email subject */
-"subscribe_me_subject" = "Lütfen MAPS.ME haber bültenine beni abone yap";
+"subscribe_me_subject" = "Lütfen AddisMapME haber bültenine beni abone yap";
 
 /* Email body */
 "subscribe_me_body" = "En son haberlerden güncellemelerden ve tanıtımlardan ilk önce haberdar olmak istiyorum. Aboneliğimi herhangi bir zaman iptal edebilirim.";
 
 /* About text */
-"about_text" = "MAPS.ME dünyadaki tüm ülkelerdeki şehirlerin en hızlı çevrimdışı haritalarını sunuyor. Tam güven ile seyahat edin: nerede olursanız olun, MAPS.ME harita üzerinde nerede olduğunuzu belirlemeye, en yakın restoranı, oteli, bankayı, benzin istasyonunu v.b. bulmaya yardımcı olur. İnternet bağlantısı gerektirmez.\n\nHer zaman yeni özellikler üzerinde çalışıyoruz ve sizlerin MAPS.ME'yi nasıl geliştirebileceğimize dair görüşlerinizi almaktan mutluluk duyuyoruz. Eğer uygulama ile ilgili herhangi bir probleminiz varsa, bizimle support@maps.me adresinden temasa geçmekten çekinmeyin. Her talebe cevap veriyoruz!\n\nMAPS.ME'yi beğendiniz ve bize destek olmak ister misiniz? Bunun bazı basit ve tamamıyla ücretsiz yolları var:\n\n- Uygulama Marketinizde bir yorum yazın\n- Facebook sayfamızı beğenin http://www.facebook.com/mapswithme\n- veya sadece annenize, arkadaşlarınıza ve iş arkadaşlarınıza MAPS.ME'den bahsedin :)\n\nBizi tercih ettiğiniz için teşekkür ederiz. Desteğinizden dolayı çok memnuniyet duyarız!\n\nNot: Verileri haritaları kullanıcıların yaratmasına ve düzenlemesine olanak veren Wikipedia benzeri bir proje olan OpenStreetMap'dan almaktayız. Eğer haritada eksik ya da hatalı bir şeyler görürseniz doğrudan haritaları\n\nhttps://www.openstreetmap.org, adresinden düzeltebilirsiniz ve yaptığınız değişiklikler MAPS.ME'de bir sonraki sürüm yayınlandığında görülebilir olacaktır.";
+"about_text" = "AddisMapME dünyadaki tüm ülkelerdeki şehirlerin en hızlı çevrimdışı haritalarını sunuyor. Tam güven ile seyahat edin: nerede olursanız olun, AddisMapME harita üzerinde nerede olduğunuzu belirlemeye, en yakın restoranı, oteli, bankayı, benzin istasyonunu v.b. bulmaya yardımcı olur. İnternet bağlantısı gerektirmez.\n\nHer zaman yeni özellikler üzerinde çalışıyoruz ve sizlerin AddisMapME'yi nasıl geliştirebileceğimize dair görüşlerinizi almaktan mutluluk duyuyoruz. Eğer uygulama ile ilgili herhangi bir probleminiz varsa, bizimle support@maps.me adresinden temasa geçmekten çekinmeyin. Her talebe cevap veriyoruz!\n\nAddisMapME'yi beğendiniz ve bize destek olmak ister misiniz? Bunun bazı basit ve tamamıyla ücretsiz yolları var:\n\n- Uygulama Marketinizde bir yorum yazın\n- Facebook sayfamızı beğenin http://www.facebook.com/mapswithme\n- veya sadece annenize, arkadaşlarınıza ve iş arkadaşlarınıza AddisMapME'den bahsedin :)\n\nBizi tercih ettiğiniz için teşekkür ederiz. Desteğinizden dolayı çok memnuniyet duyarız!\n\nNot: Verileri haritaları kullanıcıların yaratmasına ve düzenlemesine olanak veren Wikipedia benzeri bir proje olan OpenStreetMap'dan almaktayız. Eğer haritada eksik ya da hatalı bir şeyler görürseniz doğrudan haritaları\n\nhttps://www.openstreetmap.org, adresinden düzeltebilirsiniz ve yaptığınız değişiklikler AddisMapME'de bir sonraki sürüm yayınlandığında görülebilir olacaktır.";
 
 /* Alert text */
 "email_error_body" = "E-posta istemcisi henüz kurulmamış. Lütfen e-posta istemcisini yapılandırın ya da bize %@ adresinden ulaşmak için başka bir yöntem deneyin";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Yeni bir rota oluşturmak için lütfen haritayı güncelleyin.";
 
 /* Update maps suggestion */
-"routing_update_maps" = "MAPS.ME'nin yeni sürümü mevcut pozisyonunuzdan varış noktasına rotalar oluşturmanıza imkan verir. Lütfen bu özelliği kullanmak için haritaları güncelleyin.";
+"routing_update_maps" = "AddisMapME'nin yeni sürümü mevcut pozisyonunuzdan varış noktasına rotalar oluşturmanıza imkan verir. Lütfen bu özelliği kullanmak için haritaları güncelleyin.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Hepsini güncelle";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "Bulundu";
 
 /* Disclaimer message */
-"routing_disclaimer" = "MAPS.ME uygulamasında rota yaratırken lütfen aşağıdakileri dikkate alın:\n\n  - Önerilen rotalar sadece tavsiyeler olarak düşünülmelidir.\n - Yol koşulları, trafik kuralları ve işaretleri navigasyon tavsiyelerden daha önceliklidir.\n - Harita doğru olmayabilir ya da eskimiş olabilir ve rotalar en iyi mümkün yola göre oluşturulmamış olabilir.\n\n  Yollarda güvende olun ve kendinize dikkat edin!";
+"routing_disclaimer" = "AddisMapME uygulamasında rota yaratırken lütfen aşağıdakileri dikkate alın:\n\n  - Önerilen rotalar sadece tavsiyeler olarak düşünülmelidir.\n - Yol koşulları, trafik kuralları ve işaretleri navigasyon tavsiyelerden daha önceliklidir.\n - Harita doğru olmayabilir ya da eskimiş olabilir ve rotalar en iyi mümkün yola göre oluşturulmamış olabilir.\n\n  Yollarda güvende olun ve kendinize dikkat edin!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Güncel değil";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "Uygulamanıza az önce puan verdim";
 
 /* Text for rating dialog */
-"rating_user_since" = "%@ yılından beri MAPS.ME kullanıcısıyım";
+"rating_user_since" = "%@ yılından beri AddisMapME kullanıcısıyım";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "MAPS.ME'yi beğeniyor musunuz?";
+"rating_do_like_maps" = "AddisMapME'yi beğeniyor musunuz?";
 
 /* Text for rating dialog */
 "rating_tap_star" = "Uygulamamıza puan vermek için bir yıldıza dokunun.";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Harita alın";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Tüm MAPS.ME özelliklerini edinmek için güncellenmiş harita ve rota verilerini indirin.";
+"routing_download_map_and_routing" = "Tüm AddisMapME özelliklerini edinmek için güncellenmiş harita ve rota verilerini indirin.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Rota verileri edin";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Uygulamayı beğendiniz mi?";
 
-"rate_alert_default_message" = "MAPS.ME’yi kullandığınız için teşekkür ederiz. Lütfen uygulamaya puan verin. Geri bildiriminiz daha iyi hale gelebilmemize yardımcı olur.";
+"rate_alert_default_message" = "AddisMapME’yi kullandığınız için teşekkür ederiz. Lütfen uygulamaya puan verin. Geri bildiriminiz daha iyi hale gelebilmemize yardımcı olur.";
 
 "rate_alert_five_star_message" = "Yaşasın! Biz de sizi seviyoruz!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Kopyalanmış yer";
 
-"first_launch_congrats_title" = "MAPS.ME kullanıma hazır";
+"first_launch_congrats_title" = "AddisMapME kullanıma hazır";
 
 "first_launch_congrats_text" = "Dünyanın her yerinde çevrimdışı olarak ücretsiz arama yapın ve gezinin.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Doğrudan uygulamadan haritaya yeni yerler ekle ve mevcut yerleri düzenleyin.";
 
-"whatsnew_editor_message_2" = "* MAPS.ME, OpenStreetMap topluluğu verilerini kullanmaktadır.";
+"whatsnew_editor_message_2" = "* AddisMapME, OpenStreetMap topluluğu verilerini kullanmaktadır.";
 
 "onboarding_offline_navigation_title" = "Bir daha asla kaybolmayacaksınız";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "En iyi araba ve yaya rotalarını planlayın.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — dünya genelinde haritaya internetsiz erişim";
+"onboarding_offline_maps_title" = "AddisMapME — dünya genelinde haritaya internetsiz erişim";
 
 "onboarding_offline_maps_message" = "İlk önce istenilen alanın haritasını indirin ve internet bağlantısı olmadan navigasyonu ve arama fonksiyonlarını kullanın.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "Navigasyon ve diğer özellikleri kullanmak için konum belirlemenize erişmeye ihtiyacımız var.";
 
-"onboarding_permissions_title" = "MAPS.ME'nin depolama alanına ve konum bilgilerine erişmesine izin verin";
+"onboarding_permissions_title" = "AddisMapME'nin depolama alanına ve konum bilgilerine erişmesine izin verin";
 
 "onboarding_permissions_message" = "Böylece haritaları indirebilir, size yakın olan yerleri ve trafik bilgilerini görebilir ve navigasyonu kullanabilirsiniz.";
 
-"onboarding_welcome_title" = "MAPS.ME'ye Hoş Geldiniz";
+"onboarding_welcome_title" = "AddisMapME'ye Hoş Geldiniz";
 
 "onboarding_welcome_first_subtitle" = "Gideceğiniz yeri adım adım gösteren navigasyon ile birlikte ücretsiz, hızlı, detaylı ve tamamen çevrimdışı haritalar.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "İndirmek için daha fazla alana ihtiyacınız var. Lütfen gereksiz verileri silin.";
 
-"editor_sharing_title" = "MAPS.ME haritalarını iyileştirdim";
+"editor_sharing_title" = "AddisMapME haritalarını iyileştirdim";
 
 "editor_comment_will_be_sent" = "Yorumunuzu haritacılara göndereceğiz.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Ayrıntılı yorum";
 
-"editor_detailed_description" = "Önerdiğiniz değişiklikler OpenStreetMap topluluğuna gönderilecek. MAPS.ME’de düzenlenemeyen ayrıntıları açıklayın.";
+"editor_detailed_description" = "Önerdiğiniz değişiklikler OpenStreetMap topluluğuna gönderilecek. AddisMapME’de düzenlenemeyen ayrıntıları açıklayın.";
 
 "editor_more_about_osm" = "OpenStreetMap hakkında ek bilgi";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Harita düzenleyicisini güncelledik";
 
-"whatsnew_update_editor_message" = "MAPS.ME kullanıcıları, haritalar üzerinde 200.000 değişiklik yaptı. Birlikte, dünyanın en detaylı haritalarını yaratıyoruz. Bize katılın!";
+"whatsnew_update_editor_message" = "AddisMapME kullanıcıları, haritalar üzerinde 200.000 değişiklik yaptı. Birlikte, dünyanın en detaylı haritalarını yaratıyoruz. Bize katılın!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "Harita Editörü'nü kullanmak için lütfen tüm haritaları güncelleyin.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Devam Et";
 
-"recent_track_background_dialog_message" = "MAPS.ME, en son seyahat ettiğiniz rotayı kaydetmek için arka planda coğrafi konumunuzu kullanır.";
+"recent_track_background_dialog_message" = "AddisMapME, en son seyahat ettiğiniz rotayı kaydetmek için arka planda coğrafi konumunuzu kullanır.";
 
 "whatsnew_car_navigation_header" = "Kullanıcı dostu araç navigasyonu";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Bisiklet navigasyonu (beta sürüm)";
 
-"whatsnew_cycle_navigation_message" = "Yeni sezon için bisiklet navigasyonu özelliğini test ediyoruz. En sık kullandığınız bisiklet rotasını MAPS.ME ile deneyin ve görüşlerinizi bizimle paylaşın.";
+"whatsnew_cycle_navigation_message" = "Yeni sezon için bisiklet navigasyonu özelliğini test ediyoruz. En sık kullandığınız bisiklet rotasını AddisMapME ile deneyin ve görüşlerinizi bizimle paylaşın.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Google Play'de Oy Ver";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Arkadaşınıza söyleyin";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Merhaba! MAPS.ME'yi hemen yükle!";
+"tell_friends_text" = "Merhaba! AddisMapME'yi hemen yükle!";
 
 /* About short text (below logo) */
-"about_description" = "MAPS.ME, seyahatler için vazgeçilmez bir çevrimdışı uygulamadır. MAPS.ME, OpenStreetMap verilerine dayanmakta ve bu verilerin düzenlenmesini sağlamaktadır.";
+"about_description" = "AddisMapME, seyahatler için vazgeçilmez bir çevrimdışı uygulamadır. AddisMapME, OpenStreetMap verilerine dayanmakta ve bu verilerin düzenlenmesini sağlamaktadır.";
 
 /* Text in menu */
 "blog" = "Blog";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Aç";
 
-"whatsnew_uber_header" = "MAPS.ME ve Uber";
+"whatsnew_uber_header" = "AddisMapME ve Uber";
 
 "whatsnew_uber_message" = "Doğrudan uygulamadan Uber taksi isteyin!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Harita üzerindeki yazı tipi boyutunu artır";
 
-"traffic_update_app" = "Lütfen MAPS.ME uygulamasını güncelleyin";
+"traffic_update_app" = "Lütfen AddisMapME uygulamasını güncelleyin";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "Trafik verilerini görüntülemek için uygulamanın güncellenmesi gerekiyor.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Erişime izin ver";
 
-"onboarding_storage_permissions_message" = "Cihazınızdaki izin ayarlarını değiştirin. MAPS.ME'yi kullanmak için depolama alanına erişim izni gerekiyor.";
+"onboarding_storage_permissions_message" = "Cihazınızdaki izin ayarlarını değiştirin. AddisMapME'yi kullanmak için depolama alanına erişim izni gerekiyor.";
 
 "button_exit" = "Çık";
 
-"onboarding_detail_permissions_title" = "MAPS.ME'nin şuraya erişmesi gerekiyor:";
+"onboarding_detail_permissions_title" = "AddisMapME'nin şuraya erişmesi gerekiyor:";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Depolama Alanı";
@@ -2332,11 +2332,11 @@
 
 "sign_agree_tof_gdpr" = "<a href=\"%s\">Kullanım Şartları</a> bölümünü kabul ediyorum";
 
-"sign_agree_news_gdpr" = "MAPS.ME ürünleri hakkında en yeni haberleri almayı kabul ediyorum";
+"sign_agree_news_gdpr" = "AddisMapME ürünleri hakkında en yeni haberleri almayı kabul ediyorum";
 
 "whats_new_localbiz_title" = "Küçük işletmeler de ilgi hak ediyor";
 
-"whats_new_localbiz_message" = "Seyahatlerinizi unutulmaz kılan bölgedeki kafeler, konforlu oteller ve alışveriş yapabileceğiniz mağazalardır. Tüm bunların ön plana çıkabilmesi için MAPS.ME sayfanızı optimize edeceğiz.";
+"whats_new_localbiz_message" = "Seyahatlerinizi unutulmaz kılan bölgedeki kafeler, konforlu oteller ve alışveriş yapabileceğiniz mağazalardır. Tüm bunların ön plana çıkabilmesi için AddisMapME sayfanızı optimize edeceğiz.";
 
 "whats_new_order_button" = "İsteğinizi iletin";
 
@@ -2350,7 +2350,7 @@
 
 "cached_bookmarks_placeholder_title" = "Yeni yerler indirin";
 
-"cached_bookmarks_placeholder_subtitle" = "MAPS.ME kullanıcılarının oluşturduğu binlerce ilgi çekici yeri ve rotayı indirmek için düğmeye basın. İnternet bağlantınızın olması gerekir.";
+"cached_bookmarks_placeholder_subtitle" = "AddisMapME kullanıcılarının oluşturduğu binlerce ilgi çekici yeri ve rotayı indirmek için düğmeye basın. İnternet bağlantınızın olması gerekir.";
 
 "downloader_download_routers" = "İndirilen yer imleri";
 
@@ -2366,7 +2366,7 @@
 
 "opt_out_fabric" = "Kilitlenme raporu";
 
-"opt_out_fabric_description" = "MAPS.ME deneyimini geliştirmek için verilerinizi kullanabiliriz. Değişiklikler, uygulama yeniden başlatıldıktan sonra geçerli olur.";
+"opt_out_fabric_description" = "AddisMapME deneyimini geliştirmek için verilerinizi kullanabiliriz. Değişiklikler, uygulama yeniden başlatıldıktan sonra geçerli olur.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2412,7 +2412,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Yer imleri indirilmedi";
 
-"whats_new_bookmarks_catalog_title" = "MAPS.ME'de artık yeni bir rota kategorisi var";
+"whats_new_bookmarks_catalog_title" = "AddisMapME'de artık yeni bir rota kategorisi var";
 
 "whats_new_bookmarks_catalog_message" = "Dünyanın dört bir yanından yüzlerce ayrıntılı rota: Nereye gidilir? Nereleri ziyaret edilir? Ne yenir?";
 

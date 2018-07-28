@@ -50,7 +50,7 @@
 "get_it_now" = "Tải xuống ngay";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "Cám ơn bạn đã sử dụng MAPS.ME! Bạn thích ứng dụng chứ? Kể cho bạn bè về ứng dụng này! Đây sẽ là sự biết ơn tuyệt vời nhất đối với chúng tôi.";
+"share_on_facebook_text" = "Cám ơn bạn đã sử dụng AddisMapME! Bạn thích ứng dụng chứ? Kể cho bạn bè về ứng dụng này! Đây sẽ là sự biết ơn tuyệt vời nhất đối với chúng tôi.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "kB";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Thử lại";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "Giới thiệu về MAPS.ME";
+"about_menu_title" = "Giới thiệu về AddisMapME";
 
 "downloading_touch_to_cancel" = "Đang tải xuống %d%%, chạm để hủy bỏ";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "Không hỗ trợ lưu trữ trên thẻ SD/USB với các bản đồ được tải xuống";
 
-"disconnect_usb_cable" = "Bạn vui lòng tháo cáp USB hoặc lắp thẻ nhớ vào để sử dụng MAPS.ME";
+"disconnect_usb_cable" = "Bạn vui lòng tháo cáp USB hoặc lắp thẻ nhớ vào để sử dụng AddisMapME";
 
 "not_enough_free_space_on_sdcard" = "Bạn vui lòng giải phóng dung lượng trên ổ lưu trữ thẻ SD/USB để có thể sử dụng ứng dụng";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Bạn cần bản đồ được cập nhật cho chức năng tìm kiếm:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "Bạn không cần MAPS.ME Lite nữa, vì vậy bạn có thể gỡ cài đặt nó.";
+"suggest_uninstall_lite" = "Bạn không cần AddisMapME Lite nữa, vì vậy bạn có thể gỡ cài đặt nó.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@, descărcată cu succes";
@@ -257,10 +257,10 @@
 "set" = "Đặt";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "Bạn chưa có điểm đánh dấu.\nChạm vào bất kỳ địa điểm nào trên bản đồ để thêm một điểm đánh dấu.\nĐiểm đánh dấu từ các nguồn khác cũng có thể được nhập và hiển thị trong MAPS.ME. Mở tập tin KML/KMZ với các điểm đánh dấu được lưu từ email, Dropbox hoặc liên kết web.";
+"bookmarks_usage_hint" = "Bạn chưa có điểm đánh dấu.\nChạm vào bất kỳ địa điểm nào trên bản đồ để thêm một điểm đánh dấu.\nĐiểm đánh dấu từ các nguồn khác cũng có thể được nhập và hiển thị trong AddisMapME. Mở tập tin KML/KMZ với các điểm đánh dấu được lưu từ email, Dropbox hoặc liên kết web.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Điểm đánh dấu từ các nguồn khác có thể được nhập và hiển thị trong MAPS.ME. Mở tập tin KML/KMZ với các điểm đánh dấu được lưu từ thư, Dropbox hoặc liên kết web.";
+"bookmarks_usage_hint_import_only" = "Điểm đánh dấu từ các nguồn khác có thể được nhập và hiển thị trong AddisMapME. Mở tập tin KML/KMZ với các điểm đánh dấu được lưu từ thư, Dropbox hoặc liên kết web.";
 
 /* Settings button in system menu */
 "settings" = "Thiết lập";
@@ -353,9 +353,9 @@
 "share_by_email" = "Chia sẻ bằng email";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "Điểm đánh dấu MAPS.ME được chia sẻ";
+"share_bookmarks_email_subject" = "Điểm đánh dấu AddisMapME được chia sẻ";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Tải Điểm đánh dấu";
@@ -385,25 +385,25 @@
 "downloading_is_active" = "Hiện đang tải xuống quốc gia.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "Hi vọng bạn thích sử dụng MAPS.ME! Nếu vậy, bạn vui lòng cho điểm hoặc đánh giá ứng dụng trên App Store. Việc này chỉ tốn dưới một phút và sẽ giúp chúng tôi rất nhiều. Cảm ơn bạn đã ủng hộ!";
+"appStore_message" = "Hi vọng bạn thích sử dụng AddisMapME! Nếu vậy, bạn vui lòng cho điểm hoặc đánh giá ứng dụng trên App Store. Việc này chỉ tốn dưới một phút và sẽ giúp chúng tôi rất nhiều. Cảm ơn bạn đã ủng hộ!";
 
 /* No, thanks */
 "no_thanks" = "Không, cảm ơn";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Này, hãy xem ghim của tôi tại MAPS.ME! %1$@ hoặc %2$@ Bạn chưa cài đặt bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get";
+"bookmark_share_sms" = "Này, hãy xem ghim của tôi tại AddisMapME! %1$@ hoặc %2$@ Bạn chưa cài đặt bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Này, hãy xem vị trí hiện tại của tôi tại MAPS.ME! %1$@ hoặc %2$@ Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get";
+"my_position_share_sms" = "Này, hãy xem vị trí hiện tại của tôi tại AddisMapME! %1$@ hoặc %2$@ Bạn không có bản đồ ngoại tuyến? Tải xuống tại đây: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Này, hãy xem ghim của tôi tại MAPS.ME map";
+"bookmark_share_email_subject" = "Này, hãy xem ghim của tôi tại AddisMapME map";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Xin chào,\n\nI được gắn: %1$@ tại MAPS.ME, bản đồ thế giới ngoại tuyến. Ấn vào đường dẫn này %2$@ hoặc cái này %3$@ để xem vị trí trên bản đồ.\n\nCám ơn nhiều.";
+"bookmark_share_email" = "Xin chào,\n\nI được gắn: %1$@ tại AddisMapME, bản đồ thế giới ngoại tuyến. Ấn vào đường dẫn này %2$@ hoặc cái này %3$@ để xem vị trí trên bản đồ.\n\nCám ơn nhiều.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Này, hãy xem vị trí hiện tại của tôi tại MAPS.ME map!";
+"my_position_share_email_subject" = "Này, hãy xem vị trí hiện tại của tôi tại AddisMapME map!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "Chào,\n\nTôi hiện đang ở đây: %1$@. Hãy nhấn vào liên kết này %2$@ hoặc liên kết này %3$@ để xem địa điểm trên bản đồ.\n\nCám ơn.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Tải xuống bản đồ của vị trí của bạn";
 
 /* text of notification */
-"pro_version_is_free_today" = "Full version of MAPS.ME is free today! Download now and tell your friends.";
+"pro_version_is_free_today" = "Full version of AddisMapME is free today! Download now and tell your friends.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "Chúng tôi đang chuyển bản đồ đã tải xuống của bạn từ MAPS.ME Lite sang MAPS.ME. Việc này có thể mất vài phút.";
+"move_lite_maps_to_pro" = "Chúng tôi đang chuyển bản đồ đã tải xuống của bạn từ AddisMapME Lite sang AddisMapME. Việc này có thể mất vài phút.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "Bản đồ đã tải xuống của bạn đã được chuyển thành công sang MAPS.ME.";
+"move_lite_maps_to_pro_ok" = "Bản đồ đã tải xuống của bạn đã được chuyển thành công sang AddisMapME.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "Bản đồ của bạn không chuyển được. Vui lòng xóa MAPS.ME Lite và tải xuống lại bản đồ.";
+"move_lite_maps_to_pro_failed" = "Bản đồ của bạn không chuyển được. Vui lòng xóa AddisMapME Lite và tải xuống lại bản đồ.";
 
 /* Text in menu */
 "settings_and_more" = "Thiết lập &amp; Khác";
@@ -611,7 +611,7 @@
 "website" = "Trang web";
 
 /* Text in menu */
-"maps_me_community" = "Cộng đồng MAPS.ME";
+"maps_me_community" = "Cộng đồng AddisMapME";
 
 /* Text in menu */
 "like_on_facebook" = "Thích trên Facebook";
@@ -641,13 +641,13 @@
 "report_a_bug" = "Báo cáo lỗi";
 
 /* Email subject */
-"subscribe_me_subject" = "Vui lòng đăng ký tôi vào danh sách nhận thư định kỳ MAPS.ME";
+"subscribe_me_subject" = "Vui lòng đăng ký tôi vào danh sách nhận thư định kỳ AddisMapME";
 
 /* Email body */
 "subscribe_me_body" = "Tôi muốn là người đầu tiên được biết về các thông tin cập nhật và quảng bá mới nhất. Tôi có thể hủy bỏ đăng ký nhận tin của mình bất cứ lúc nào.";
 
 /* About text */
-"about_text" = "MAPS.ME cung cấp bản đồ ngoại tuyến của tất cả các thành phố và quốc gia trên thế giới một cách nhanh nhất. Hoàn toàn tự tin đi du lịch: dù bạn ở đâu, MAPS.ME vẫn sẽ giúp bạn định vị bản thân trên bản đồ, tìm các nhà hàng, khách sạn, ngân hàng, trạm xăng, v.v… gần nhất. Ứng dụng này không yêu cầu kết nối Internet.\n\nChúng tôi luôn phát triển các tính năng mới và rất chào đón ý kiến của bạn về cách mà chúng tôi có thể cải thiện MAPS.ME. Nếu bạn có bất cứ vấn đề nào với ứng dụng, hãy liên hệ với chúng tôi qua địa chỉ support@maps.me. Chúng tôi sẽ trả lời mọi yêu cầu!\n\nBạn có thích MAPS.ME và muốn hỗ trợ chúng tôi hay không? Sau đây là một số cách đơn giản và hoàn toàn miễn phí:\n\n- viết đánh giá trên Chợ Ứng dụng mà bạn sử dụng\n- thích trang Facebook của chúng tôi http://www.facebook.com/mapswithme\n- hoặc chỉ đơn giản là kể về MAPS.ME với mẹ, bạn bè và đồng nghiệp của bạn :)\n\nCảm ơn bạn đã ủng hộ chúng tôi. Chúng tôi rất cảm ơn sự giúp đỡ của bạn!\n\nT.B. Chúng tôi lấy dữ liệu bản đồ từ OpenStreetMap, một dự án bản đồ tương đương với Wikipedia, cho phép người dùng có thể tạo và sửa bản đồ. Nếu bạn thấy có thông tin bị thiếu hoặc sai trên bản đồ, bạn có thể sửa trực tiếp tại https://www.openstreetmap.org, và các thay đổi của bạn sẽ xuất hiện trong ứng dụng MAPS.ME ở phiên bản kế tiếp.";
+"about_text" = "AddisMapME cung cấp bản đồ ngoại tuyến của tất cả các thành phố và quốc gia trên thế giới một cách nhanh nhất. Hoàn toàn tự tin đi du lịch: dù bạn ở đâu, AddisMapME vẫn sẽ giúp bạn định vị bản thân trên bản đồ, tìm các nhà hàng, khách sạn, ngân hàng, trạm xăng, v.v… gần nhất. Ứng dụng này không yêu cầu kết nối Internet.\n\nChúng tôi luôn phát triển các tính năng mới và rất chào đón ý kiến của bạn về cách mà chúng tôi có thể cải thiện AddisMapME. Nếu bạn có bất cứ vấn đề nào với ứng dụng, hãy liên hệ với chúng tôi qua địa chỉ support@maps.me. Chúng tôi sẽ trả lời mọi yêu cầu!\n\nBạn có thích AddisMapME và muốn hỗ trợ chúng tôi hay không? Sau đây là một số cách đơn giản và hoàn toàn miễn phí:\n\n- viết đánh giá trên Chợ Ứng dụng mà bạn sử dụng\n- thích trang Facebook của chúng tôi http://www.facebook.com/mapswithme\n- hoặc chỉ đơn giản là kể về AddisMapME với mẹ, bạn bè và đồng nghiệp của bạn :)\n\nCảm ơn bạn đã ủng hộ chúng tôi. Chúng tôi rất cảm ơn sự giúp đỡ của bạn!\n\nT.B. Chúng tôi lấy dữ liệu bản đồ từ OpenStreetMap, một dự án bản đồ tương đương với Wikipedia, cho phép người dùng có thể tạo và sửa bản đồ. Nếu bạn thấy có thông tin bị thiếu hoặc sai trên bản đồ, bạn có thể sửa trực tiếp tại https://www.openstreetmap.org, và các thay đổi của bạn sẽ xuất hiện trong ứng dụng AddisMapME ở phiên bản kế tiếp.";
 
 /* Alert text */
 "email_error_body" = "Trình khách email này chưa được thiết lập. Bạn vui lòng cấu hình nó hoặc sử dụng một cách khác để liên hệ với chúng tôi tại %@";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Vui lòng cập nhật bản đồ để tạo tuyến đường";
 
 /* Update maps suggestion */
-"routing_update_maps" = "Phiên bản MAPS.ME mới cho phép tạo các tuyến đường từ vị trí hiện tại của bạn đến điểm đến. Vui lòng cập nhật bản đồ để sử dụng tính năng này.";
+"routing_update_maps" = "Phiên bản AddisMapME mới cho phép tạo các tuyến đường từ vị trí hiện tại của bạn đến điểm đến. Vui lòng cập nhật bản đồ để sử dụng tính năng này.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Cập nhật tất cả";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "Đã tìm thấy";
 
 /* Disclaimer message */
-"routing_disclaimer" = "Tạo các tuyến đường trong ứng dụng MAPS.ME, xin lưu ý điều sau:\n\n – Các tuyến đường được gợi ý chỉ có thể được xem là đề xuất.\n – Điều kiện con đường, luật giao thông và biển báo có mức ưu tiên cao hơn lời khuyên dẫn hướng.\n – Bản đồ có thể không chính xác hoặc lỗi thời, tuyến đường có thể không được tạo theo cách tốt nhất có thể.\n\n Hãy lái xe an toàn trên đường và bảo trọng!";
+"routing_disclaimer" = "Tạo các tuyến đường trong ứng dụng AddisMapME, xin lưu ý điều sau:\n\n – Các tuyến đường được gợi ý chỉ có thể được xem là đề xuất.\n – Điều kiện con đường, luật giao thông và biển báo có mức ưu tiên cao hơn lời khuyên dẫn hướng.\n – Bản đồ có thể không chính xác hoặc lỗi thời, tuyến đường có thể không được tạo theo cách tốt nhất có thể.\n\n Hãy lái xe an toàn trên đường và bảo trọng!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Lỗi thời";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "Tôi vừa đánh giá ứng dụng của bạn";
 
 /* Text for rating dialog */
-"rating_user_since" = "Tôi là người dùng MAPS.ME từ năm %@";
+"rating_user_since" = "Tôi là người dùng AddisMapME từ năm %@";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "Bạn có thích MAPS.ME?";
+"rating_do_like_maps" = "Bạn có thích AddisMapME?";
 
 /* Text for rating dialog */
 "rating_tap_star" = "Chạm vào một ngôi sao để đánh giá ứng dụng của chúng tôi.";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Nhận bản đồ";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Tải bản đồ và dữ liệu đường đi cập nhật để nhận được tất cả các tính năng của MAPS.ME.";
+"routing_download_map_and_routing" = "Tải bản đồ và dữ liệu đường đi cập nhật để nhận được tất cả các tính năng của AddisMapME.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Nhận dữ liệu đường đi";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Bạn thích ứng dụng chứ?";
 
-"rate_alert_default_message" = "Cám ơn bạn đã sử dụng MAPS.ME. Vui lòng đánh giá ứng dụng. Phản hồi của bạn giúp chúng tôi trở nên tốt hơn.";
+"rate_alert_default_message" = "Cám ơn bạn đã sử dụng AddisMapME. Vui lòng đánh giá ứng dụng. Phản hồi của bạn giúp chúng tôi trở nên tốt hơn.";
 
 "rate_alert_five_star_message" = "Hoan hô! Chúng tôi cũng yêu bạn!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Địa điểm trùng lặp";
 
-"first_launch_congrats_title" = "MAPS.ME đã sẵn sàng để sử dụng";
+"first_launch_congrats_title" = "AddisMapME đã sẵn sàng để sử dụng";
 
 "first_launch_congrats_text" = "Tìm kiếm và điều hướng ngoại tuyến, miễn phí khắp mọi nơi trên thế giới.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Nhập các địa điểm mới vào bản đồ, và trực tiếp chỉnh sửa những địa điểm hiện có trên ứng dụng.";
 
-"whatsnew_editor_message_2" = "* MAPS.ME sử dụng dữ liệu của cộng đồng OpenStreetMap.";
+"whatsnew_editor_message_2" = "* AddisMapME sử dụng dữ liệu của cộng đồng OpenStreetMap.";
 
 "onboarding_offline_navigation_title" = "Bạn sẽ không bao giờ bị lạc nữa";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "Lập tuyến đường xe hơi và đi bộ tối ưu.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — truy cập bản đồ trên toàn thế giới không cần Internet";
+"onboarding_offline_maps_title" = "AddisMapME — truy cập bản đồ trên toàn thế giới không cần Internet";
 
 "onboarding_offline_maps_message" = "Chỉ tải xuống các bản đồ của khu vực bạn muốn một lần, và sử dụng các chức năng dẫn đường và tìm kiếm mà không cần kết nối Internet.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "Để sử dụng tính năng dẫn đường và các tính năng khác, chúng tôi cần truy cập vị trí địa lý của bạn.";
 
-"onboarding_permissions_title" = "Cho phép MAPS.ME truy cập ổ lưu trữ và vị trí";
+"onboarding_permissions_title" = "Cho phép AddisMapME truy cập ổ lưu trữ và vị trí";
 
 "onboarding_permissions_message" = "Để bạn có thể tải về các bản đồ, xem các địa điểm và lưu lượng giao thông gần bạn và sử dụng điều hướng.";
 
-"onboarding_welcome_title" = "Chào mừng đến với MAPS.ME";
+"onboarding_welcome_title" = "Chào mừng đến với AddisMapME";
 
 "onboarding_welcome_first_subtitle" = "Các bản đồ hoàn toàn ngoại tuyến miễn phí, nhanh và chi tiết với điều hướng qua từng khúc quanh.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Để tải xuống, bạn cần thêm dung lượng. Xin xóa mọi dữ liệu không cần thiết.";
 
-"editor_sharing_title" = "Tôi đã cải thiện các bản đồ MAPS.ME";
+"editor_sharing_title" = "Tôi đã cải thiện các bản đồ AddisMapME";
 
 "editor_comment_will_be_sent" = "Chúng tôi sẽ gửi bình luận của bạn đến những người lập bản đồ.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Nhận xét chi tiết";
 
-"editor_detailed_description" = "Những thay đổi đề nghị của bạn sẽ được gửi đến cộng đồng OpenStreetMap. Mô tả các chi tiết không thể sửa trong MAPS.ME.";
+"editor_detailed_description" = "Những thay đổi đề nghị của bạn sẽ được gửi đến cộng đồng OpenStreetMap. Mô tả các chi tiết không thể sửa trong AddisMapME.";
 
 "editor_more_about_osm" = "Thông tin bổ sung về OpenStreetMap";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Chúng tôi đã cập nhật trình biên tập bản đồ";
 
-"whatsnew_update_editor_message" = "Người dùng MAPS.ME đã thực hiện 200 000 thay đổi cho bản đồ. Cùng nhau chúng ta đang tạo ra những bản đồ chi tiết nhất trên thế giới. Hãy tham gia cùng chúng tôi!";
+"whatsnew_update_editor_message" = "Người dùng AddisMapME đã thực hiện 200 000 thay đổi cho bản đồ. Cùng nhau chúng ta đang tạo ra những bản đồ chi tiết nhất trên thế giới. Hãy tham gia cùng chúng tôi!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "Để sử dụng Ứng dụng Điều chỉnh Bản đồ, xin vui lòng cập nhật tất cả các bản đồ.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Tiếp tục";
 
-"recent_track_background_dialog_message" = "MAPS.ME sử dụng định vị của bạn trong ứng dụng chạy nền để ghi lại tuyến đường đã đi gần đây của bạn.";
+"recent_track_background_dialog_message" = "AddisMapME sử dụng định vị của bạn trong ứng dụng chạy nền để ghi lại tuyến đường đã đi gần đây của bạn.";
 
 "whatsnew_car_navigation_header" = "Phần mềm dẫn đường dành cho xe cộ thân thiện với người dùng";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Định vị xe đạp (phiên bản beta)";
 
-"whatsnew_cycle_navigation_message" = "Chúng tôi đang thử nghiệm định vị xe đạp cho mùa mới. Hãy thử tuyến đường xe đạp ưa thích của bạn với MAPS.ME, và chia sẻ ý kiến của bạn với chúng tôi.";
+"whatsnew_cycle_navigation_message" = "Chúng tôi đang thử nghiệm định vị xe đạp cho mùa mới. Hãy thử tuyến đường xe đạp ưa thích của bạn với AddisMapME, và chia sẻ ý kiến của bạn với chúng tôi.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Cho điểm trên Google Play";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Giới thiệu với Bạn bè";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Xin chào! Hãy cài đặt MAPS.ME!";
+"tell_friends_text" = "Xin chào! Hãy cài đặt AddisMapME!";
 
 /* About short text (below logo) */
-"about_description" = "MAPS.ME là một ứng dụng ngoại tuyến thiết yếu khi đi du lịch. MAPS.ME được dựa trên dữ liệu của OpenStreetMap và cho phép bạn hiệu chỉnh nó.";
+"about_description" = "AddisMapME là một ứng dụng ngoại tuyến thiết yếu khi đi du lịch. AddisMapME được dựa trên dữ liệu của OpenStreetMap và cho phép bạn hiệu chỉnh nó.";
 
 /* Text in menu */
 "blog" = "Blog";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Mở";
 
-"whatsnew_uber_header" = "MAPS.ME & Uber";
+"whatsnew_uber_header" = "AddisMapME & Uber";
 
 "whatsnew_uber_message" = "Đặt taxi Uber trực tiếp từ ứng dụng!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Tăng kích cỡ phông chữ trên bản đồ";
 
-"traffic_update_app" = "Vui lòng cập nhật MAPS.ME";
+"traffic_update_app" = "Vui lòng cập nhật AddisMapME";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "Để hiển thị dữ liệu giao thông, ứng dụng cần phải được cập nhật.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Cho phép truy cập";
 
-"onboarding_storage_permissions_message" = "Thay đổi các cài đặt cho phép trong thiết bị của bạn. Cần quyền truy cập ổ lưu trữ để sử dụng MAPS.ME.";
+"onboarding_storage_permissions_message" = "Thay đổi các cài đặt cho phép trong thiết bị của bạn. Cần quyền truy cập ổ lưu trữ để sử dụng AddisMapME.";
 
 "button_exit" = "Thoát";
 
-"onboarding_detail_permissions_title" = "MAPS.ME cần quyền truy cập đến";
+"onboarding_detail_permissions_title" = "AddisMapME cần quyền truy cập đến";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Ổ lưu trữ";
@@ -2332,11 +2332,11 @@
 
 "sign_agree_tof_gdpr" = "Tôi đồng ý với <a href=\"%s\">Điều khoản sử dụng</a>";
 
-"sign_agree_news_gdpr" = "Tôi đồng ý nhận tin tức mới nhất về các sản phẩm MAPS.ME";
+"sign_agree_news_gdpr" = "Tôi đồng ý nhận tin tức mới nhất về các sản phẩm AddisMapME";
 
 "whats_new_localbiz_title" = "Doanh nghiệp nhỏ xứng đáng để được chú ý";
 
-"whats_new_localbiz_message" = "Chính các quán cà phê địa phương, nhà khách nhỏ và các cửa hàng ấm cúng mới làm cho hành trình của chúng ta thật khó quên. Chúng tôi sẽ tối ưu hóa trang của bạn trong MAPS.ME để làm nổi bật nó lên.";
+"whats_new_localbiz_message" = "Chính các quán cà phê địa phương, nhà khách nhỏ và các cửa hàng ấm cúng mới làm cho hành trình của chúng ta thật khó quên. Chúng tôi sẽ tối ưu hóa trang của bạn trong AddisMapME để làm nổi bật nó lên.";
 
 "whats_new_order_button" = "Để lại yêu cầu";
 
@@ -2350,7 +2350,7 @@
 
 "cached_bookmarks_placeholder_title" = "Tải xuống các địa điểm mới";
 
-"cached_bookmarks_placeholder_subtitle" = "Nhấn nút để tải xuống hàng ngàn địa điểm và tuyến đường thú vị được tạo bởi người dùng MAPS.ME. Bạn sẽ cần kết nối internet.";
+"cached_bookmarks_placeholder_subtitle" = "Nhấn nút để tải xuống hàng ngàn địa điểm và tuyến đường thú vị được tạo bởi người dùng AddisMapME. Bạn sẽ cần kết nối internet.";
 
 "downloader_download_routers" = "Tải dấu trang xuống";
 
@@ -2366,7 +2366,7 @@
 
 "opt_out_fabric" = "Báo cáo sự cố";
 
-"opt_out_fabric_description" = "Chúng tôi có thể sử dụng dữ liệu của bạn để cải thiện trải nghiệm trên MAPS.ME. Thay đổi sẽ có hiệu lực sau khi bạn khởi động lại ứng dụng.";
+"opt_out_fabric_description" = "Chúng tôi có thể sử dụng dữ liệu của bạn để cải thiện trải nghiệm trên AddisMapME. Thay đổi sẽ có hiệu lực sau khi bạn khởi động lại ứng dụng.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2412,7 +2412,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Dấu trang chưa được tải xuống";
 
-"whats_new_bookmarks_catalog_title" = "MAPS.ME hiện đã có danh mục tuyến đường";
+"whats_new_bookmarks_catalog_title" = "AddisMapME hiện đã có danh mục tuyến đường";
 
 "whats_new_bookmarks_catalog_message" = "Hàng trăm tuyến đường chi tiết trên toàn thế giới: đi đâu, xem gì, ăn ở đâu.";
 

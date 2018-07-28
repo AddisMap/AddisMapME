@@ -50,7 +50,7 @@
 "get_it_now" = "Telepítés most";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "Köszönjük, hogy a MAPS.ME-t használja! Kedveli az appot? Akkor számoljon be a barátainak róla. Ez lenne a legnagyobb hála, amit adhat nekünk.";
+"share_on_facebook_text" = "Köszönjük, hogy a AddisMapME-t használja! Kedveli az appot? Akkor számoljon be a barátainak róla. Ez lenne a legnagyobb hála, amit adhat nekünk.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "kB";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Újrapróbálkozás";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "A MAPS.ME programról";
+"about_menu_title" = "A AddisMapME programról";
 
 "downloading_touch_to_cancel" = "%d%% letöltése, elvetéshez érintse meg";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "Nem található téképeket tartalmazó SD kártya / USB tároló";
 
-"disconnect_usb_cable" = "Kérjük bontsa az USB kapcsolatot vagy helyezzen be memóriakártyát a MAPS.ME használatához";
+"disconnect_usb_cable" = "Kérjük bontsa az USB kapcsolatot vagy helyezzen be memóriakártyát a AddisMapME használatához";
 
 "not_enough_free_space_on_sdcard" = "Kérjük szabadítson fel helyet az SD kártyán / USB tárolón az alkalmazás használatához!";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Az aktuális térképhez elérhető frissítések:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "Már nincs szüksége a MAPS.ME lite alkalmazásra, nyugodtan letörölheti.";
+"suggest_uninstall_lite" = "Már nincs szüksége a AddisMapME lite alkalmazásra, nyugodtan letörölheti.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@ letöltése sikeres";
@@ -257,10 +257,10 @@
 "set" = "Csoport";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "Nincsenek megjelölt helyeid.\nHely megjelöléséhez koppints a térkép bármelyik pontjára.\nSzintén más forrásokból származó könyvjelzőket is beolvashat a MAPS.ME programba. Nyisson meg KML/KMZ fájlt egy levélből, Dropbox-ból vagy internetről.";
+"bookmarks_usage_hint" = "Nincsenek megjelölt helyeid.\nHely megjelöléséhez koppints a térkép bármelyik pontjára.\nSzintén más forrásokból származó könyvjelzőket is beolvashat a AddisMapME programba. Nyisson meg KML/KMZ fájlt egy levélből, Dropbox-ból vagy internetről.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Más forrásokból származó könyvjelzőket is beolvashat a MAPS.ME programba. Nyisson meg KML/KMZ fájlt egy levélből, Dropbox-ból vagy internetről.";
+"bookmarks_usage_hint_import_only" = "Más forrásokból származó könyvjelzőket is beolvashat a AddisMapME programba. Nyisson meg KML/KMZ fájlt egy levélből, Dropbox-ból vagy internetről.";
 
 /* Settings button in system menu */
 "settings" = "Beállítások";
@@ -353,9 +353,9 @@
 "share_by_email" = "Megosztás email-en";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "Egy MAPS.ME könyvjelzőt osztottak meg Önnel";
+"share_bookmarks_email_subject" = "Egy AddisMapME könyvjelzőt osztottak meg Önnel";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Könyvjelzők letöltése";
@@ -385,25 +385,25 @@
 "downloading_is_active" = "Országletöltés folyamatban.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "Reméljük élvezi a MAPS.ME használatát. Ha igen, kérjük írjon ajánlást az App Store-ban! Kevesebb mint egy perc, és valóban segít nekünk. Köszönjük!";
+"appStore_message" = "Reméljük élvezi a AddisMapME használatát. Ha igen, kérjük írjon ajánlást az App Store-ban! Kevesebb mint egy perc, és valóban segít nekünk. Köszönjük!";
 
 /* No, thanks */
 "no_thanks" = "Köszönöm, nem";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Nézd meg a MAPS.ME jelzőt! %1$@ vagy %2$@ A program letöltése: http://maps.me/get";
+"bookmark_share_sms" = "Nézd meg a AddisMapME jelzőt! %1$@ vagy %2$@ A program letöltése: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Nézd meg a MAPS.ME helyzetemet! %1$@ vagy %2$@ A program letöltése: http://maps.me/get";
+"my_position_share_sms" = "Nézd meg a AddisMapME helyzetemet! %1$@ vagy %2$@ A program letöltése: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Nézze meg a MAPS.ME jelzőmet";
+"bookmark_share_email_subject" = "Nézze meg a AddisMapME jelzőmet";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Üdvözlöm,\n\nleszúrtam egy MAPS.ME jelzőt: %1$@. Kattintson erre a hivatkozásra %2$@ vagy erre %3$@ hogy lássa a helyet a térképen.\n\nKöszönöm.";
+"bookmark_share_email" = "Üdvözlöm,\n\nleszúrtam egy AddisMapME jelzőt: %1$@. Kattintson erre a hivatkozásra %2$@ vagy erre %3$@ hogy lássa a helyet a térképen.\n\nKöszönöm.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Nézze meg a helyzetemet a MAPS.ME térképen!";
+"my_position_share_email_subject" = "Nézze meg a helyzetemet a AddisMapME térképen!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "Üdvözlöm!\n\nJelenleg itt vagyok: %1$@ Kattintson erre a hivatkozásra %2$@ vagy erre %3$@, hogy lássa a helyet a térképen.\n\nKöszönöm.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Töltsd le annak a helynek a térképét, ahol most vagy";
 
 /* text of notification */
-"pro_version_is_free_today" = "A teljes verzió MAPS.ME ma ingyenes! Töltsd le most és meséld el barátaidnak.";
+"pro_version_is_free_today" = "A teljes verzió AddisMapME ma ingyenes! Töltsd le most és meséld el barátaidnak.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "Letöltött térképeidet áthelyezzük a MAPS.ME Lite-ból a MAPS.ME-be. Ez eltarthat pár percig.";
+"move_lite_maps_to_pro" = "Letöltött térképeidet áthelyezzük a AddisMapME Lite-ból a AddisMapME-be. Ez eltarthat pár percig.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "Letöltött térképeidet sikeresen áthelyeztük a MAPS.ME-be.";
+"move_lite_maps_to_pro_ok" = "Letöltött térképeidet sikeresen áthelyeztük a AddisMapME-be.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "Térképeid áthelyezése nem sikerült. Kérjük, töröld a MAPS.ME Lite-t és töltsd le a térképet megint.";
+"move_lite_maps_to_pro_failed" = "Térképeid áthelyezése nem sikerült. Kérjük, töröld a AddisMapME Lite-t és töltsd le a térképet megint.";
 
 /* Text in menu */
 "settings_and_more" = "Beállítások és egyéb";
@@ -611,7 +611,7 @@
 "website" = "Honlap";
 
 /* Text in menu */
-"maps_me_community" = "MAPS.ME közösség";
+"maps_me_community" = "AddisMapME közösség";
 
 /* Text in menu */
 "like_on_facebook" = "Lájkolj minket Facebookon";
@@ -641,13 +641,13 @@
 "report_a_bug" = "Hibabejelentés";
 
 /* Email subject */
-"subscribe_me_subject" = "Fel szeretnék iratkozni a MAPS.ME hírlevelére";
+"subscribe_me_subject" = "Fel szeretnék iratkozni a AddisMapME hírlevelére";
 
 /* Email body */
 "subscribe_me_body" = "Elsőként szeretnék értesülni a legújabb hírekről frissítésekről és promóciókról. A feliratkozásom bármikor törölhetem.";
 
 /* About text */
-"about_text" = "A MAPS.ME kínálja a leggyorsabb offline térképeket, a világ összes városáról és országáról. Utazz magabiztosan: bárhol is vagy, a MAPS.ME segít, hogy megtaláld magad a térképen, valamint segít a legközelebbi étterem, hotel, bank, benzinkút stb. felkutatásában is. Nem igényel internet kapcsolatot.\n\nMindig dolgozunk új fejlesztéseken és örömmel vennénk a te véleményedet is arról, hogyan tudnánk tovább fejleszteni a MAPS.ME-t. Bármely probléma esetén írj nekünk a support@maps.me email címre. Minden levélre válaszolunk!\n\nSzereted a MAPS.ME-t és szeretnél támogatni minket? Van erre pár egyszerű és teljesen ingyenes lehetőséged:\n\n- írj rólunk értékelést az App Market-en\n- kedveld a Facebook oldalunkat: http://www.facebook.com/mapswithme\n- vagy csak mesélj a MAPS.ME-ről anyukádnak, barátaidnak és munkatársaidnak :)\n\nKöszönjük, hogy velünk vagy. Nagyra értékeljük támogatásodat!\n\nU.i: Adatainkat az OpenStreetMap-ről vesszük, ami egy, a Wikipedia-hoz hasonló térképes projekt, ami megengedi felhasználóinak a térképek létrehozását és szerkesztését. Ha bármi hiányzik vagy rossz a térképpel, közvetlenül te is kijavíthatod a https://www.openstreetmap.org-on és változtatásaid a MAPS.ME következő verziójában már meg fognak jelenni.";
+"about_text" = "A AddisMapME kínálja a leggyorsabb offline térképeket, a világ összes városáról és országáról. Utazz magabiztosan: bárhol is vagy, a AddisMapME segít, hogy megtaláld magad a térképen, valamint segít a legközelebbi étterem, hotel, bank, benzinkút stb. felkutatásában is. Nem igényel internet kapcsolatot.\n\nMindig dolgozunk új fejlesztéseken és örömmel vennénk a te véleményedet is arról, hogyan tudnánk tovább fejleszteni a AddisMapME-t. Bármely probléma esetén írj nekünk a support@maps.me email címre. Minden levélre válaszolunk!\n\nSzereted a AddisMapME-t és szeretnél támogatni minket? Van erre pár egyszerű és teljesen ingyenes lehetőséged:\n\n- írj rólunk értékelést az App Market-en\n- kedveld a Facebook oldalunkat: http://www.facebook.com/mapswithme\n- vagy csak mesélj a AddisMapME-ről anyukádnak, barátaidnak és munkatársaidnak :)\n\nKöszönjük, hogy velünk vagy. Nagyra értékeljük támogatásodat!\n\nU.i: Adatainkat az OpenStreetMap-ről vesszük, ami egy, a Wikipedia-hoz hasonló térképes projekt, ami megengedi felhasználóinak a térképek létrehozását és szerkesztését. Ha bármi hiányzik vagy rossz a térképpel, közvetlenül te is kijavíthatod a https://www.openstreetmap.org-on és változtatásaid a AddisMapME következő verziójában már meg fognak jelenni.";
 
 /* Alert text */
 "email_error_body" = "Az email kliens nincs beállítva. Kérjük, konfiguráld vagy próbálj meg valamilyen más módon kapcsolatba lépni velünk a %@ email címen keresztül.";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Kérjük, útvonal létrehozásához frissítsd a térképet.";
 
 /* Update maps suggestion */
-"routing_update_maps" = "A MAPS.ME új verziójában már útvonalakt is létrehozhatsz tartózkodási helyedtől az úticélodig. Kérjük, ennek a funkciónak a használatához frissítsd a térképeket.";
+"routing_update_maps" = "A AddisMapME új verziójában már útvonalakt is létrehozhatsz tartózkodási helyedtől az úticélodig. Kérjük, ennek a funkciónak a használatához frissítsd a térképeket.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Mindegyik frissítése";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "Megtalálva";
 
 /* Disclaimer message */
-"routing_disclaimer" = "Amikor útvonalakat készít a MAPS.ME appban, kérjük, vegye figyelembe a következőket:\n\n  - Az ajánlott útvonalak csak javaslatoknak tekintendők.\n - Az utak kondíciója, a forgalmi szabályok és jelzőtáblák magasabb prioritásúak, mint a navigációs javaslatok.\n - A térkép lehet, hogy hibás vagy idejétmúlt, az útvonalak pedig lehet, hogy nem a lehető legjobb módon készülnek el.\n\n  Legyen óvatos az utakon és vigyázzon magára!";
+"routing_disclaimer" = "Amikor útvonalakat készít a AddisMapME appban, kérjük, vegye figyelembe a következőket:\n\n  - Az ajánlott útvonalak csak javaslatoknak tekintendők.\n - Az utak kondíciója, a forgalmi szabályok és jelzőtáblák magasabb prioritásúak, mint a navigációs javaslatok.\n - A térkép lehet, hogy hibás vagy idejétmúlt, az útvonalak pedig lehet, hogy nem a lehető legjobb módon készülnek el.\n\n  Legyen óvatos az utakon és vigyázzon magára!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Elavult";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "Most értékeltem az alkalmazásodat";
 
 /* Text for rating dialog */
-"rating_user_since" = "MAPS.ME felhasználó vagyok %@ óta";
+"rating_user_since" = "AddisMapME felhasználó vagyok %@ óta";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "Szereted a MAPS.ME-t?";
+"rating_do_like_maps" = "Szereted a AddisMapME-t?";
 
 /* Text for rating dialog */
 "rating_tap_star" = "Érints meg egy csillagot az alkalmazás értékeléséhez.";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Térkép megszerzése";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Frissített térkép és útvonaltervezési adatok letöltése az összes MAPS.ME tulajdonság megszerzése érdekében.";
+"routing_download_map_and_routing" = "Frissített térkép és útvonaltervezési adatok letöltése az összes AddisMapME tulajdonság megszerzése érdekében.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Útvonaltervezési adatok megszerzése";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Tetszik az app?";
 
-"rate_alert_default_message" = "Köszönjük, hogy a MAPS.ME-t használta. Kérjük, értékelje az appot. A visszajelzéseik segítenek bennünket abban, hogy jobbá váljunk.";
+"rate_alert_default_message" = "Köszönjük, hogy a AddisMapME-t használta. Kérjük, értékelje az appot. A visszajelzéseik segítenek bennünket abban, hogy jobbá váljunk.";
 
 "rate_alert_five_star_message" = "Hurrá! Mi is szeretjük magát!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Duplikált hely";
 
-"first_launch_congrats_title" = "A MAPS.ME használatra készen áll";
+"first_launch_congrats_title" = "A AddisMapME használatra készen áll";
 
 "first_launch_congrats_text" = "Keress és navigálj offline a világon mindenhol, térítésmentesen.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Adj hozzá új helyeket a térképhez, és szerkeszd a meglévőket közvetlenül az alkalmazásból.";
 
-"whatsnew_editor_message_2" = "* A MAPS.ME az OpenStreetMap közösség adatait használja.";
+"whatsnew_editor_message_2" = "* A AddisMapME az OpenStreetMap közösség adatait használja.";
 
 "onboarding_offline_navigation_title" = "Többé nem fogsz eltévedni";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "Tervezd meg az optimális autós és gyalogos útvonalakat.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — hozzáférés a világ térképéhez Internet nélkül";
+"onboarding_offline_maps_title" = "AddisMapME — hozzáférés a világ térképéhez Internet nélkül";
 
 "onboarding_offline_maps_message" = "Mindössze egyszer kell letöltened egy adott helyszín térképét, azt követően internetkapcsolat nélkül is használhatod a navigációs és keresési funkciókat.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "A navigáció és egyéb funkciók használatához hozzá kell férnünk a geolokációdhoz.";
 
-"onboarding_permissions_title" = "Engedélyezi a MAPS.ME számára, hogy hozzáférjen a tárolóhoz és a tartózkodási helyhez";
+"onboarding_permissions_title" = "Engedélyezi a AddisMapME számára, hogy hozzáférjen a tárolóhoz és a tartózkodási helyhez";
 
 "onboarding_permissions_message" = "Így tehát Ön letölthet térképeket, megtekintheti az Önhöz közeli helyeket és forgalmat, és használhatja a navigációt.";
 
-"onboarding_welcome_title" = "Üdvözöljük a MAPS.ME alkalmazásban";
+"onboarding_welcome_title" = "Üdvözöljük a AddisMapME alkalmazásban";
 
 "onboarding_welcome_first_subtitle" = "Ingyenes, gyors, részletes és teljes egészében offline térképek navigációval lépésről lépésre.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "A letöltéshez több szabad tárhelyre van szükség. Kérjük, töröld a szükségtelen adatokat.";
 
-"editor_sharing_title" = "Én fejlesztettem a MAPS.ME térképeket";
+"editor_sharing_title" = "Én fejlesztettem a AddisMapME térképeket";
 
 "editor_comment_will_be_sent" = "Megjegyzését elküldjük a térképészeknek.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Részletes megjegyzés";
 
-"editor_detailed_description" = "Javasolt változtatásait elküldjük az OpenStreetMap közösségnek. Írja le a további információkat, amelyek nem szerkeszthetők a MAPS.ME-ben.";
+"editor_detailed_description" = "Javasolt változtatásait elküldjük az OpenStreetMap közösségnek. Írja le a további információkat, amelyek nem szerkeszthetők a AddisMapME-ben.";
 
 "editor_more_about_osm" = "További részletek az OpenStreetMap-ról";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Frissítettük a szerkesztőt";
 
-"whatsnew_update_editor_message" = "A MAPS.ME felhasználói 200 ezer változtatást vittek fel a térképre. Együtt a világ legrészletesebb térképét készítjük. Csatlakozzon hozzánk!";
+"whatsnew_update_editor_message" = "A AddisMapME felhasználói 200 ezer változtatást vittek fel a térképre. Együtt a világ legrészletesebb térképét készítjük. Csatlakozzon hozzánk!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "A térképszerkesztő használatához, kérjük, frissítsd az összes térképet.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Folytatás";
 
-"recent_track_background_dialog_message" = "A MAPS.ME a geopozíciód használatával a háttérben rögzíti a legutóbb megtett utad.";
+"recent_track_background_dialog_message" = "A AddisMapME a geopozíciód használatával a háttérben rögzíti a legutóbb megtett utad.";
 
 "whatsnew_car_navigation_header" = "Felhasználóbarát járműnavigáció";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Kerékpáros navigáció (béta verzió)";
 
-"whatsnew_cycle_navigation_message" = "Most teszteljük a kerékpáros navigációt a következő évszakra. Próbáld ki kedvenc kerékpáros útvonalad a MAPS.ME-vel és oszd meg velünk véleményedet.";
+"whatsnew_cycle_navigation_message" = "Most teszteljük a kerékpáros navigációt a következő évszakra. Próbáld ki kedvenc kerékpáros útvonalad a AddisMapME-vel és oszd meg velünk véleményedet.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Arány a Google Play-n";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Mondja el egy ismerősének";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Szia! Telepítsd a MAPS.ME alkalmazást!";
+"tell_friends_text" = "Szia! Telepítsd a AddisMapME alkalmazást!";
 
 /* About short text (below logo) */
-"about_description" = "A MAPS.ME egy nélkülözhetetlen alkalmazás utazáshoz. A MAPS.ME az OpenStreetMap adataira épül, és lehetővé teszi ezek szerkesztését.";
+"about_description" = "A AddisMapME egy nélkülözhetetlen alkalmazás utazáshoz. A AddisMapME az OpenStreetMap adataira épül, és lehetővé teszi ezek szerkesztését.";
 
 /* Text in menu */
 "blog" = "Blog";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Megnyitás";
 
-"whatsnew_uber_header" = "MAPS.ME és Uber";
+"whatsnew_uber_header" = "AddisMapME és Uber";
 
 "whatsnew_uber_message" = "Hívj Uber-taxit közvetlenül az alkalmazásból!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Betűméret növelése a térképen";
 
-"traffic_update_app" = "Kérjük, frissítse a MAPS.ME alkalmazást";
+"traffic_update_app" = "Kérjük, frissítse a AddisMapME alkalmazást";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "A forgalmi adatok megjelenítéséhez frissíteni kell az alkalmazást.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Hozzáférés biztosítása";
 
-"onboarding_storage_permissions_message" = "Engedélyek módosításának engedélyezése az Ön készüléken. Hozzáférésre van szükség a tárolóhoz, hogy használja a MAPS.ME alkalmazást.";
+"onboarding_storage_permissions_message" = "Engedélyek módosításának engedélyezése az Ön készüléken. Hozzáférésre van szükség a tárolóhoz, hogy használja a AddisMapME alkalmazást.";
 
 "button_exit" = "Kilépés";
 
-"onboarding_detail_permissions_title" = "A MAPS.ME.-nek hozzáférésre van szüksége a következőhöz: ";
+"onboarding_detail_permissions_title" = "A AddisMapME.-nek hozzáférésre van szüksége a következőhöz: ";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Tárolás";
@@ -2332,11 +2332,11 @@
 
 "sign_agree_tof_gdpr" = "Elfogadom a <a href=\"%s\">Általános Szerződési Feltételeket</a>";
 
-"sign_agree_news_gdpr" = "Elfogadom, hogy megkapja a MAPS.ME termékekkel kapcsolatos legfrissebb híreke";
+"sign_agree_news_gdpr" = "Elfogadom, hogy megkapja a AddisMapME termékekkel kapcsolatos legfrissebb híreke";
 
 "whats_new_localbiz_title" = "A kis cégek is figyelmet érdemelnek";
 
-"whats_new_localbiz_message" = "Legyenek helyi kávézók, kényelmes szállók és üzletek, amik feledhetetlenné teszik az utazást. A weboldaladat úgy optimalizáljuk a MAPS.ME-ben, hogy igazán kitűnjön.";
+"whats_new_localbiz_message" = "Legyenek helyi kávézók, kényelmes szállók és üzletek, amik feledhetetlenné teszik az utazást. A weboldaladat úgy optimalizáljuk a AddisMapME-ben, hogy igazán kitűnjön.";
 
 "whats_new_order_button" = "Kérés küldése";
 
@@ -2350,7 +2350,7 @@
 
 "cached_bookmarks_placeholder_title" = "Új helyek letöltése";
 
-"cached_bookmarks_placeholder_subtitle" = "Nyomja meg a gombot, hogy MAPS.ME felhasználók ezrei által gyűjtött érdekes helyet és útvonalat tölthessen le. Ehhez internetkapcsolatra van szükség.";
+"cached_bookmarks_placeholder_subtitle" = "Nyomja meg a gombot, hogy AddisMapME felhasználók ezrei által gyűjtött érdekes helyet és útvonalat tölthessen le. Ehhez internetkapcsolatra van szükség.";
 
 "downloader_download_routers" = "Könyvjelzők letöltése";
 
@@ -2366,7 +2366,7 @@
 
 "opt_out_fabric" = "Hibajelentés";
 
-"opt_out_fabric_description" = "A MAPS.ME fejlesztéséhez felhasználhatjuk az adatait. A változtatások az alkalmazás újraindítása után lépnek életbe.";
+"opt_out_fabric_description" = "A AddisMapME fejlesztéséhez felhasználhatjuk az adatait. A változtatások az alkalmazás újraindítása után lépnek életbe.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2412,7 +2412,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Nem került letöltésre könyvjelző";
 
-"whats_new_bookmarks_catalog_title" = "A MAPS.ME már útvonal-katalógussal is rendelkezik";
+"whats_new_bookmarks_catalog_title" = "A AddisMapME már útvonal-katalógussal is rendelkezik";
 
 "whats_new_bookmarks_catalog_message" = "Több száz részletes útvonal a világszerte: hova érdemes menni, mit érdemes megnézni, hol együnk.";
 

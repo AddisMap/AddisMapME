@@ -50,7 +50,7 @@
 "get_it_now" = "Dapatkan sekarang";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "Terima kasih karena menggunakan MAPS.ME! Apakah Anda suka aplikasi ini? Beri tahukan kepada teman-teman Anda! Ini akan menjadi ungkapan terima kasih yang terbaik bagi kami.";
+"share_on_facebook_text" = "Terima kasih karena menggunakan AddisMapME! Apakah Anda suka aplikasi ini? Beri tahukan kepada teman-teman Anda! Ini akan menjadi ungkapan terima kasih yang terbaik bagi kami.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "kB";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Coba Lagi";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "Tentang MAPS.ME";
+"about_menu_title" = "Tentang AddisMapME";
 
 "downloading_touch_to_cancel" = "Sedang mengunduh %d%%, sentuh untuk membatalkan";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "Penyimpanan kartu SD/USB dengan peta terunduh tidak tersedia";
 
-"disconnect_usb_cable" = "Mohon lepas kabel USB atau masukkan kartu memori untuk menggunakan MAPS.ME";
+"disconnect_usb_cable" = "Mohon lepas kabel USB atau masukkan kartu memori untuk menggunakan AddisMapME";
 
 "not_enough_free_space_on_sdcard" = "Mohon bebaskan sejumlah ruang pada kartu SD/penyimpanan USB terlebih dahulu untuk menggunakan aplikasi";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Tersedia pembaruan untuk peta ini:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "Anda tidak lagi memerlukan MAPS.ME Lite, sehingga Anda dapat menghapusnya.";
+"suggest_uninstall_lite" = "Anda tidak lagi memerlukan AddisMapME Lite, sehingga Anda dapat menghapusnya.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@ berhasil diunduh";
@@ -257,10 +257,10 @@
 "set" = "Set";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "Belum ada yang ditandai.\nSentuh lokasi apa pun pada peta untuk menandai.\nPenanda dari sumber lainnya juga dapat di impor dan ditampilkan pada MAPS.ME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.";
+"bookmarks_usage_hint" = "Belum ada yang ditandai.\nSentuh lokasi apa pun pada peta untuk menandai.\nPenanda dari sumber lainnya juga dapat di impor dan ditampilkan pada AddisMapME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Penanda dari sumber lainnya dapat diimpor dan ditampilkan pada MAPS.ME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.";
+"bookmarks_usage_hint_import_only" = "Penanda dari sumber lainnya dapat diimpor dan ditampilkan pada AddisMapME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.";
 
 /* Settings button in system menu */
 "settings" = "Pengaturan";
@@ -353,9 +353,9 @@
 "share_by_email" = "Bagikan menggunakan surel";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "Bagikan penanda MAPS.ME";
+"share_bookmarks_email_subject" = "Bagikan penanda AddisMapME";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Memuat Penanda";
@@ -385,25 +385,25 @@
 "downloading_is_active" = "Pengunduhan negara sedang berjalan.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "Kami harap Anda senang menggunakan MAPS.ME! Jika ya, mohon beri nilai atau ulasan untuk aplikasi ini di App Store. Hanya memakan waktu kurang dari satu menit tetapi hal itu dapat benar-benar membantu kami. Terima kasih atas dukungan Anda!";
+"appStore_message" = "Kami harap Anda senang menggunakan AddisMapME! Jika ya, mohon beri nilai atau ulasan untuk aplikasi ini di App Store. Hanya memakan waktu kurang dari satu menit tetapi hal itu dapat benar-benar membantu kami. Terima kasih atas dukungan Anda!";
 
 /* No, thanks */
 "no_thanks" = "Tidak, terima kasih";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hei, lihat pinku di MAPS.ME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://maps.me/get";
+"bookmark_share_sms" = "Hei, lihat pinku di AddisMapME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hei, lihat lokasiku saat ini di MAPS.ME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://maps.me/get";
+"my_position_share_sms" = "Hei, lihat lokasiku saat ini di AddisMapME! %1$@ atau %2$@ belum memiliki peta offline? Unduh di sini: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hei, lihat pinku di peta MAPS.ME";
+"bookmark_share_email_subject" = "Hei, lihat pinku di peta AddisMapME";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Hai,\n\nI disematkan: %1$@ di MAPS.ME, peta offline dunia. Klik tautan ini %2$@ atau ini %3$@ untuk melihat tempat di peta.\n\n Terima kasih.";
+"bookmark_share_email" = "Hai,\n\nI disematkan: %1$@ di AddisMapME, peta offline dunia. Klik tautan ini %2$@ atau ini %3$@ untuk melihat tempat di peta.\n\n Terima kasih.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, lihat lokasiku saat ini di peta MAPS.ME!";
+"my_position_share_email_subject" = "Hei, lihat lokasiku saat ini di peta AddisMapME!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "Hai,\n\nSekarang saya ada di sini: %1$@. Klik tautan ini %2$@ atau yang ini %3$@ untuk melihat tempatnya di peta.\n\nTerima kasih.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Unduh peta tempat di mana Anda berada sekarang";
 
 /* text of notification */
-"pro_version_is_free_today" = "Full version of MAPS.ME is free today! Download now and tell your friends.";
+"pro_version_is_free_today" = "Full version of AddisMapME is free today! Download now and tell your friends.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "Kami sedang mentransfer peta unduhan Anda dari MAPS.ME Lite ke MAPS.ME. Proses ini mungkin membutuhkan waktu beberapa menit.";
+"move_lite_maps_to_pro" = "Kami sedang mentransfer peta unduhan Anda dari AddisMapME Lite ke AddisMapME. Proses ini mungkin membutuhkan waktu beberapa menit.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "Peta unduhan Anda berhasil ditransfer ke MAPS.ME.";
+"move_lite_maps_to_pro_ok" = "Peta unduhan Anda berhasil ditransfer ke AddisMapME.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "Peta Anda gagal ditransfer. Silakan hapus MAPS.ME Lite dan unduh peta lagi.";
+"move_lite_maps_to_pro_failed" = "Peta Anda gagal ditransfer. Silakan hapus AddisMapME Lite dan unduh peta lagi.";
 
 /* Text in menu */
 "settings_and_more" = "Setelan &amp; Lebih Banyak";
@@ -611,7 +611,7 @@
 "website" = "Situs Web";
 
 /* Text in menu */
-"maps_me_community" = "Komunitas MAPS.ME";
+"maps_me_community" = "Komunitas AddisMapME";
 
 /* Text in menu */
 "like_on_facebook" = "Sukai di Facebook";
@@ -641,13 +641,13 @@
 "report_a_bug" = "Laporkan gangguan";
 
 /* Email subject */
-"subscribe_me_subject" = "Mohon daftarkan saya untuk berlangganan berita MAPS.ME";
+"subscribe_me_subject" = "Mohon daftarkan saya untuk berlangganan berita AddisMapME";
 
 /* Email body */
 "subscribe_me_body" = "Saya ingin menjadi yang pertama untuk mengetahui kabar dan promosi terbaru. Saya dapat membatalkan langganan saya kapan saja.";
 
 /* About text */
-"about_text" = "MAPS.ME menawarkan peta offline tercepat dari semua kota, semua negara di dunia. Berpergianlah dengan kepercayaan diri yang penuh: di nana pun Anda berada, MAPS.ME akan membantu Anda mengetahui posisi Anda pada peta, menemukan restoran, hotel, bank, stasiun bahan bakar terdekat, dll. Tidak perlu koneksi internet.Kami selalu membuat fitur-fitur baru dan ingin mendengar pendapat Anda mengenai bagaimana kami dapat membuat MAPS.ME menjadi lebih baik. Jika Anda memiliki masalah apa pun dengan aplikasinya, jangan segan untuk menghubungi kami di support@maps.me. Kami akan merespons setiap permintaan!Apakah Anda menyukai MAPS.ME an ingin membantu kami? Terdapat beberapa cara yang mudah dan sepenuhnya gratis:- tulis ulasan di App Market Anda";
+"about_text" = "AddisMapME menawarkan peta offline tercepat dari semua kota, semua negara di dunia. Berpergianlah dengan kepercayaan diri yang penuh: di nana pun Anda berada, AddisMapME akan membantu Anda mengetahui posisi Anda pada peta, menemukan restoran, hotel, bank, stasiun bahan bakar terdekat, dll. Tidak perlu koneksi internet.Kami selalu membuat fitur-fitur baru dan ingin mendengar pendapat Anda mengenai bagaimana kami dapat membuat AddisMapME menjadi lebih baik. Jika Anda memiliki masalah apa pun dengan aplikasinya, jangan segan untuk menghubungi kami di support@maps.me. Kami akan merespons setiap permintaan!Apakah Anda menyukai AddisMapME an ingin membantu kami? Terdapat beberapa cara yang mudah dan sepenuhnya gratis:- tulis ulasan di App Market Anda";
 
 /* Alert text */
 "email_error_body" = "Surel pelanggan belum diatur. Mohon konfigurasikan atau gunakan cara lain untuk menghubungi kami di %@";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Mohon perbarui peta untuk membuat rute";
 
 /* Update maps suggestion */
-"routing_update_maps" = "Versi MAPS.ME yang terbaru memungkinkan pembuatan rute dari posisi Anda saat itu ke titik tujuan. Mohon perbarui peta untuk menggunakan fitur ini.";
+"routing_update_maps" = "Versi AddisMapME yang terbaru memungkinkan pembuatan rute dari posisi Anda saat itu ke titik tujuan. Mohon perbarui peta untuk menggunakan fitur ini.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Perbarui semua";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "Ditemukan";
 
 /* Disclaimer message */
-"routing_disclaimer" = "Dalam membuat rute di aplikasi MAPS.ME, mohon ingat:\n\n- Rute yang disarankan hanya dapat dianggap sebagai rekomendasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Peta bisa saja salah atau sudah usang, dan rute yang dibuat mungkin bukan yang terbaik.\n\nBerhati-hatilah di jalan dan jagalah diri Anda sendiri!";
+"routing_disclaimer" = "Dalam membuat rute di aplikasi AddisMapME, mohon ingat:\n\n- Rute yang disarankan hanya dapat dianggap sebagai rekomendasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Peta bisa saja salah atau sudah usang, dan rute yang dibuat mungkin bukan yang terbaik.\n\nBerhati-hatilah di jalan dan jagalah diri Anda sendiri!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Usang";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "Saya baru saja menilai app Anda";
 
 /* Text for rating dialog */
-"rating_user_since" = "Saya pengguna MAPS.ME sejak %@";
+"rating_user_since" = "Saya pengguna AddisMapME sejak %@";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "Anda suka MAPS.ME?";
+"rating_do_like_maps" = "Anda suka AddisMapME?";
 
 /* Text for rating dialog */
 "rating_tap_star" = "Ketuk bintang untuk menilai app kami.";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Dapatkan peta";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Unduh peta yang diperbarui dan data perutean untuk mendapatkan semua fitur MAPS.ME.";
+"routing_download_map_and_routing" = "Unduh peta yang diperbarui dan data perutean untuk mendapatkan semua fitur AddisMapME.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Dapatkan data perutean";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Suka aplikasi ini?";
 
-"rate_alert_default_message" = "Terima kasih karena menggunakan MAPS.ME. Mohon beri peringkat untuk aplikasi ini. Masukan dari Anda membantu kami untuk menjadi lebih baik.";
+"rate_alert_default_message" = "Terima kasih karena menggunakan AddisMapME. Mohon beri peringkat untuk aplikasi ini. Masukan dari Anda membantu kami untuk menjadi lebih baik.";
 
 "rate_alert_five_star_message" = "Hore! Kami juga sangat menyukai Anda!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Tempat ganda";
 
-"first_launch_congrats_title" = "MAPS.ME siap digunakan";
+"first_launch_congrats_title" = "AddisMapME siap digunakan";
 
 "first_launch_congrats_text" = "Cari dan bernavigasilah ke mana saja di dunia secara offline, bebas biaya.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Tambahkan tempat-tempat baru di peta, dan edit peta-peta yang ada langsung dari aplikasi.";
 
-"whatsnew_editor_message_2" = "* MAPS.ME menggunakan data komunitas OpenStreetMap.";
+"whatsnew_editor_message_2" = "* AddisMapME menggunakan data komunitas OpenStreetMap.";
 
 "onboarding_offline_navigation_title" = "Anda tidak akan tersesat lagi";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "Rencanakan rute mobil dan pejalan kaki yang optimal.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — akses peta seluruh dunia tanpa internet";
+"onboarding_offline_maps_title" = "AddisMapME — akses peta seluruh dunia tanpa internet";
 
 "onboarding_offline_maps_message" = "Unduh peta untuk daerah yang diinginkan sekali, dan gunakan navigasi dan fungsi pencarian tanpa koneksi internet.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "Untuk menggunakan navigasi dan fitur-fitur lainnya, kami perlu mengakses geolokasi Anda.";
 
-"onboarding_permissions_title" = "Izinkan MAPS.ME mengakses penyimpanan dan lokasi";
+"onboarding_permissions_title" = "Izinkan AddisMapME mengakses penyimpanan dan lokasi";
 
 "onboarding_permissions_message" = "Agar Anda dapat mengunduh peta, melihat tempat dan lalu lintas di dekat Anda, dan menggunakan navigasi.";
 
-"onboarding_welcome_title" = "Selamat datang di MAPS.ME";
+"onboarding_welcome_title" = "Selamat datang di AddisMapME";
 
 "onboarding_welcome_first_subtitle" = "Peta gratis, cepat, terperinci, dan sepenuhnya tanpa internet dengan navigasi untuk setiap belokan.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Untuk mengunduh, Anda perlu ruang lebih banyak. Harap menghapus data yang tidak diperlukan.";
 
-"editor_sharing_title" = "Saya meningkatkan peta MAPS.ME";
+"editor_sharing_title" = "Saya meningkatkan peta AddisMapME";
 
 "editor_comment_will_be_sent" = "Kami akan mengirim komen Anda ke pembuat peta.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Komentar mendetail";
 
-"editor_detailed_description" = "Saran perubahan Anda akan dikirimkan ke komunitas OpenStreetMap. Jelaskan detail yang tidak dapat diedit di MAPS.ME.";
+"editor_detailed_description" = "Saran perubahan Anda akan dikirimkan ke komunitas OpenStreetMap. Jelaskan detail yang tidak dapat diedit di AddisMapME.";
 
 "editor_more_about_osm" = "Selengkapnya tentang OpenStreetMap";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Kami telah memperbarui editor peta";
 
-"whatsnew_update_editor_message" = "Pengguna MAPS.ME telah membuat 200 000 perubahan peta. Bersama-sama kami membuat peta paling detail di Dunia. Bergabunglah bersama kami!";
+"whatsnew_update_editor_message" = "Pengguna AddisMapME telah membuat 200 000 perubahan peta. Bersama-sama kami membuat peta paling detail di Dunia. Bergabunglah bersama kami!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "Untuk menggunakan editor peta, silakan perbarui semua peta.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Teruskan";
 
-"recent_track_background_dialog_message" = "MAPS.ME menggunakan geoposisi di latar belakang untuk merekam rute yang baru Anda lalui.";
+"recent_track_background_dialog_message" = "AddisMapME menggunakan geoposisi di latar belakang untuk merekam rute yang baru Anda lalui.";
 
 "whatsnew_car_navigation_header" = "Navigasi kendaraan yang mudah digunakan";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Navigasi bersepeda (versi beta)";
 
-"whatsnew_cycle_navigation_message" = "Kami sedang menguji navigasi bersepeda untuk musim baru. Coba rute bersepeda favorit Anda dengan MAPS.ME dan sampaikan pendapat Anda.";
+"whatsnew_cycle_navigation_message" = "Kami sedang menguji navigasi bersepeda untuk musim baru. Coba rute bersepeda favorit Anda dengan AddisMapME dan sampaikan pendapat Anda.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Beri nilai di Google Play";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Beri Tahu Teman";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Hai! Instal MAPS.ME yuk!";
+"tell_friends_text" = "Hai! Instal AddisMapME yuk!";
 
 /* About short text (below logo) */
-"about_description" = "MAPS.ME adalah aplikasi offline yang sangat berguna untuk bepergian. MAPS.ME didasarkan pada data OpenStreetMap dan memungkinkan kita untuk mengeditnya.";
+"about_description" = "AddisMapME adalah aplikasi offline yang sangat berguna untuk bepergian. AddisMapME didasarkan pada data OpenStreetMap dan memungkinkan kita untuk mengeditnya.";
 
 /* Text in menu */
 "blog" = "Blog";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Buka";
 
-"whatsnew_uber_header" = "MAPS.ME & Uber";
+"whatsnew_uber_header" = "AddisMapME & Uber";
 
 "whatsnew_uber_message" = "Pesan taksi Uber langsung dari aplikasi!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Perbesar ukuran huruf pada peta";
 
-"traffic_update_app" = "Perbarui MAPS.ME";
+"traffic_update_app" = "Perbarui AddisMapME";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "Untuk menampilkan data lalu lintas, aplikasi ini harus diperbarui.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Berikan akses";
 
-"onboarding_storage_permissions_message" = "Ubah pengaturan izin di perangkat Anda. Perlu akses penyimpanan untuk menggunakan MAPS.ME.";
+"onboarding_storage_permissions_message" = "Ubah pengaturan izin di perangkat Anda. Perlu akses penyimpanan untuk menggunakan AddisMapME.";
 
 "button_exit" = "Keluar";
 
-"onboarding_detail_permissions_title" = "MAPS.ME membutuhkan akses ke";
+"onboarding_detail_permissions_title" = "AddisMapME membutuhkan akses ke";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Penyimpanan";
@@ -2332,11 +2332,11 @@
 
 "sign_agree_tof_gdpr" = "Saya setuju dengan <a href=\"%s\">Ketentuan Penggunaan</a>";
 
-"sign_agree_news_gdpr" = "Saya setuju untuk menerima berita terbaru tentang produk MAPS.ME";
+"sign_agree_news_gdpr" = "Saya setuju untuk menerima berita terbaru tentang produk AddisMapME";
 
 "whats_new_localbiz_title" = "Bisnis kecil layak mendapatkan perhatian";
 
-"whats_new_localbiz_message" = "Kafe lokal, hostel nyaman, dan pertokoan adalah yang membuat perjalanan kita tak terlupakan. Kami akan mengoptimalkan halaman Anda di MAPS.ME untuk membuatnya menonjol.";
+"whats_new_localbiz_message" = "Kafe lokal, hostel nyaman, dan pertokoan adalah yang membuat perjalanan kita tak terlupakan. Kami akan mengoptimalkan halaman Anda di AddisMapME untuk membuatnya menonjol.";
 
 "whats_new_order_button" = "Tinggalkan permintaan";
 
@@ -2350,7 +2350,7 @@
 
 "cached_bookmarks_placeholder_title" = "Unduh tempat baru";
 
-"cached_bookmarks_placeholder_subtitle" = "Tekan tombol untuk mengunduh ribuan tempat dan rute menarik yang dibuat oleh pengguna MAPS.ME. Anda akan memerlukan koneksi internet.";
+"cached_bookmarks_placeholder_subtitle" = "Tekan tombol untuk mengunduh ribuan tempat dan rute menarik yang dibuat oleh pengguna AddisMapME. Anda akan memerlukan koneksi internet.";
 
 "downloader_download_routers" = "Unduh bookmark";
 
@@ -2366,7 +2366,7 @@
 
 "opt_out_fabric" = "Laporan tabrakan";
 
-"opt_out_fabric_description" = "Kami dapat menggunakan data Anda untuk meningkatkan pengalaman MAPS.ME. Perubahan akan berlaku setelah Anda memulai ulang aplikasi.";
+"opt_out_fabric_description" = "Kami dapat menggunakan data Anda untuk meningkatkan pengalaman AddisMapME. Perubahan akan berlaku setelah Anda memulai ulang aplikasi.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2412,7 +2412,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Bookmark tidak terunduh";
 
-"whats_new_bookmarks_catalog_title" = "MAPS.ME sekarang memiliki katalog rute";
+"whats_new_bookmarks_catalog_title" = "AddisMapME sekarang memiliki katalog rute";
 
 "whats_new_bookmarks_catalog_message" = "Ratusan rute yang detail di seluruh dunia: tempat untuk dikunjungi, untuk melihat-lihat, untuk makan.";
 

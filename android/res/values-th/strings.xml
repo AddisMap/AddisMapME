@@ -33,7 +33,7 @@
 	<string name="downloading">กำลังดาวน์โหลด…</string>
 	<string name="get_it_now">รับมันตอนนี้</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">ขอบพระคุณสำหรับการใช้ MAPS.ME! คุณชอบแอปหรือไม่? บอกเพื่อนของคุณเกี่ยวกับมัน! นี่จะเป็นการขอบคุณที่ดีที่สุดสำหรับเรา</string>
+	<string name="share_on_facebook_text">ขอบพระคุณสำหรับการใช้ AddisMapME! คุณชอบแอปหรือไม่? บอกเพื่อนของคุณเกี่ยวกับมัน! นี่จะเป็นการขอบคุณที่ดีที่สุดสำหรับเรา</string>
 	<!-- Settings/Downloader - size string, only strings different from English should be translated -->
 	<string name="kb">กิโลไบต์</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
@@ -95,7 +95,7 @@
 	<string name="country_status_download_failed">การดาวน์โหลดล้มเหลว</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">ลองอีกครั้ง</string>
-	<string name="about_menu_title">เกี่ยวกับ MAPS.ME</string>
+	<string name="about_menu_title">เกี่ยวกับ AddisMapME</string>
 	<string name="downloading_touch_to_cancel">กำลังดาวน์โหลด %d%%, แตะเพื่อยกเลิก</string>
 	<string name="downloaded_touch_to_delete">ดาวน์โหลดแล้ว (%s), แตะเพื่อลบ</string>
 	<string name="connection_settings">การตั้งค่าการเชื่อมต่อ</string>
@@ -104,7 +104,7 @@
 	<string name="unsupported_phone">จำเป็นต้องใช้ฮาร์ดแวร์ที่เพิ่มความเร็ว OpenGL โชคไม่ดีที่อุปกรณ์ของคุณไม่รองรับ</string>
 	<string name="download">ดาวน์โหลด</string>
 	<string name="external_storage_is_not_available">ไม่สามารถใช้การ์ด SD /พื้นที่จัดเก็บ USB ที่มีดาวน์โหลดแผนที่ได้</string>
-	<string name="disconnect_usb_cable">โปรดยกเลิกการเชื่อมต่อสาย USB หรือใส่การ์ดหน่วยความจำเพื่อใช้ MAPS.ME</string>
+	<string name="disconnect_usb_cable">โปรดยกเลิกการเชื่อมต่อสาย USB หรือใส่การ์ดหน่วยความจำเพื่อใช้ AddisMapME</string>
 	<string name="not_enough_free_space_on_sdcard">โปรดเพิ่มพื้นที่บางส่วนบนการ์ด SD /พื้นที่จัดเก็บ USB ก่อนเพื่อใช้แอป</string>
 	<string name="not_enough_memory">มีหน่วยความจำไม่เพียงพอสำหรับการเปิดแอป</string>
 	<string name="free_space_for_country">โปรดเพิ่ม %1$s บนอุปกรณ์ของคุณก่อนเพื่อดาวน์โหลด %2$s</string>
@@ -131,7 +131,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">สามารถใช้การอัปเดตสำหรับแผนที่เหล่านี้:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">คุณไม่จำเป็นต้องใช้ MAPS.ME ไลท์ (Lite) อีกต่อไปแล้ว ดังนั้นคุณสามารถถอนการติดตั้ง</string>
+	<string name="suggest_uninstall_lite">คุณไม่จำเป็นต้องใช้ AddisMapME ไลท์ (Lite) อีกต่อไปแล้ว ดังนั้นคุณสามารถถอนการติดตั้ง</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">%s ได้รับการดาวน์โหลดสำเร็จแล้ว</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -161,9 +161,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">ชุด</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">คุณยังไม่มีบุ๊กมาร์ก\nแตะที่ใด ๆ บนแผนที่เพื่อเพิ่มบุ๊กมาร์ก\nสามารถนำเข้าบุ๊กมาร์กจากแหล่งอื่น ๆ และแสดงบน MAPS.ME เปิดไฟล์ KML/KMZ ด้วยหมุดที่บันทึกไว้จากอีเมล ดรอปบ็อกซ์ หรือเว็บลิงก์</string>
+	<string name="bookmarks_usage_hint">คุณยังไม่มีบุ๊กมาร์ก\nแตะที่ใด ๆ บนแผนที่เพื่อเพิ่มบุ๊กมาร์ก\nสามารถนำเข้าบุ๊กมาร์กจากแหล่งอื่น ๆ และแสดงบน AddisMapME เปิดไฟล์ KML/KMZ ด้วยหมุดที่บันทึกไว้จากอีเมล ดรอปบ็อกซ์ หรือเว็บลิงก์</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">สามารถนำเข้าบุ๊กมาร์กจากแหล่งอื่น ๆ และแสดงบน MAPS.ME เปิดไฟล์ KML/KMZ ด้วยหมุดที่บันทึกไว้จากอีเมล ดรอปบ็อกซ์ หรือเว็บลิงก์</string>
+	<string name="bookmarks_usage_hint_import_only">สามารถนำเข้าบุ๊กมาร์กจากแหล่งอื่น ๆ และแสดงบน AddisMapME เปิดไฟล์ KML/KMZ ด้วยหมุดที่บันทึกไว้จากอีเมล ดรอปบ็อกซ์ หรือเว็บลิงก์</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">การตั้งค่า</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -225,7 +225,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">แชร์จากอีเมล</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">แชร์บุ๊กมาร์กของ MAPS.ME แล้ว</string>
+	<string name="share_bookmarks_email_subject">แชร์บุ๊กมาร์กของ AddisMapME แล้ว</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">กำลังโหลดบุ๊กมาร์ก</string>
 	<!-- Kmz file successful loading -->
@@ -245,19 +245,19 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">กำลังดำเนินการดาวน์โหลดประเทศในตอนนี้</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">หวังว่าคุณจะสนุกกับการใช้ MAPS.ME! หากเป็นเช่นนั้น โปรดให้คะแนนหรือวิจารณ์แอปได้ที่แอปสโตร์ (App Store) มันจะใช้เวลาไม่เกินหนึ่งนาทีแต่สามารถช่วยเหลือเราได้ ขอบคุณสำหรับการสนับสนุนของคุณ!</string>
+	<string name="appStore_message">หวังว่าคุณจะสนุกกับการใช้ AddisMapME! หากเป็นเช่นนั้น โปรดให้คะแนนหรือวิจารณ์แอปได้ที่แอปสโตร์ (App Store) มันจะใช้เวลาไม่เกินหนึ่งนาทีแต่สามารถช่วยเหลือเราได้ ขอบคุณสำหรับการสนับสนุนของคุณ!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">ไม่ ขอบคุณ</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">เฮ้ ตรวจสอบหมุดของฉันที่ MAPS.ME! %1$s หรือ %2$s</string>
+	<string name="bookmark_share_sms">เฮ้ ตรวจสอบหมุดของฉันที่ AddisMapME! %1$s หรือ %2$s</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">เฮ้อ ตรวจสอบตำแหน่งที่ตั้งปัจจุบันของฉันที่ MAPS.ME! %1$s หรือ %2$s ไม่มีการติดตั้งแผนที่แบบออฟไลน์? ดาวน์โหลดที่นี่: http://maps.me/get</string>
+	<string name="my_position_share_sms">เฮ้อ ตรวจสอบตำแหน่งที่ตั้งปัจจุบันของฉันที่ AddisMapME! %1$s หรือ %2$s ไม่มีการติดตั้งแผนที่แบบออฟไลน์? ดาวน์โหลดที่นี่: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ MAPS.ME!</string>
+	<string name="bookmark_share_email_subject">เฮ้ ตรวจสอบหมุดของฉันที่ แผนที่ AddisMapME!</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">หวัดดี\n\nฉันปักหมุด: %1$s ที่ MAPS.ME, โลกแผนที่ออฟไลน์ คลิกลิงก์นี้ %2$s หรือลิงก์นี้ %3$s เพื่อดูสถานที่บนแผนที่\n\nขอบคุณ</string>
+	<string name="bookmark_share_email">หวัดดี\n\nฉันปักหมุด: %1$s ที่ AddisMapME, โลกแผนที่ออฟไลน์ คลิกลิงก์นี้ %2$s หรือลิงก์นี้ %3$s เพื่อดูสถานที่บนแผนที่\n\nขอบคุณ</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">นี่ มาดูตำแหน่งปัจจุบันของฉันที่แผนที่ MAPS.ME สิ!</string>
+	<string name="my_position_share_email_subject">นี่ มาดูตำแหน่งปัจจุบันของฉันที่แผนที่ AddisMapME สิ!</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">หวัดดี\n\nฉันอยู่ที่นี่ตอนนี้: %1$s. คลิกลิงก์นี้ %2$s หรือลิงก์นี้ %3$s เพื่อดูสถานที่บนแผนที่\n\nขอบคุณ</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -343,7 +343,7 @@
 	<string name="placepage_unsorted">ไม่เรียงลำดับ</string>
 	<string name="search_show_on_map">ดูบนแผนที่</string>
 	<!-- Used to warn user when fixing KitKat issue -->
-	<string name="kitkat_migrate_ok">มีการปรับประสิทธิภาพพื้นที่จัดเก็บข้อมูลของแผนที่ โปรดรีสตาร์ทแอป\n\nโฟลเดอร์ MAPS.ME ในรากของการ์ด SD ไม่จำเป็นอีกต่อไป คุณสามารถลบได้</string>
+	<string name="kitkat_migrate_ok">มีการปรับประสิทธิภาพพื้นที่จัดเก็บข้อมูลของแผนที่ โปรดรีสตาร์ทแอป\n\nโฟลเดอร์ AddisMapME ในรากของการ์ด SD ไม่จำเป็นอีกต่อไป คุณสามารถลบได้</string>
 	<!-- Used to warn user when fixing KitKat issue -->
 	<string name="kitkat_migrate_failed">เนื่องจากการเปลี่ยนแปลงในแอนดรอยด์ 4.4 เราจำเป็นต้องทำการปรับประสิทธิภาพพื้นที่จัดเก็บข้อมูลของแผนที่ แต่มีพื้นที่ไม่เพียงพอสำหรับการคัดลอกข้อมูลแผนที่\n\nโปรดเพิ่มหน่วยความจำ มิฉะนั้นแล้วจะสามารถใช้แผนที่ได้ในโหมด อ่านอย่างเดียว</string>
 	<!-- Used to warn user when fixing KitKat issue -->
@@ -365,19 +365,19 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">ดาวน์โหลดแผนที่เกี่ยวกับสถานที่ที่คุณอยู่</string>
 	<!-- text of notification -->
-	<string name="pro_version_is_free_today">เวอร์ชันเต็มของ MAPS.ME วันนี้ฟรี! ดาวน์โหลดตอนนี้แล้วบอกเพื่อน ๆ ของคุณ</string>
+	<string name="pro_version_is_free_today">เวอร์ชันเต็มของ AddisMapME วันนี้ฟรี! ดาวน์โหลดตอนนี้แล้วบอกเพื่อน ๆ ของคุณ</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">เรากำลังโอนแผนที่ที่ดาวน์โหลดของคุณจาก MAPS.ME Lite ไปยัง MAPS.ME อาจใช้เวลาสองสามวินาที</string>
+	<string name="move_lite_maps_to_pro">เรากำลังโอนแผนที่ที่ดาวน์โหลดของคุณจาก AddisMapME Lite ไปยัง AddisMapME อาจใช้เวลาสองสามวินาที</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">แผนที่ที่ดาวน์โหลดของคุณโอนไปยัง MAPS.ME สำเร็จ</string>
+	<string name="move_lite_maps_to_pro_ok">แผนที่ที่ดาวน์โหลดของคุณโอนไปยัง AddisMapME สำเร็จ</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">ล้มเหลวในการโอนแผนที่ของคุณ โปรดลบ MAPS.ME Lite และดาวน์โหลดแผนที่อีกครั้ง</string>
+	<string name="move_lite_maps_to_pro_failed">ล้มเหลวในการโอนแผนที่ของคุณ โปรดลบ AddisMapME Lite และดาวน์โหลดแผนที่อีกครั้ง</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">การตั้งค่า &amp; อื่น ๆ</string>
 	<!-- Text in menu -->
 	<string name="website">เว็บไซต์</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">ชุมชน MAPS.ME</string>
+	<string name="maps_me_community">ชุมชน AddisMapME</string>
 	<!-- Text in menu -->
 	<string name="like_on_facebook">ถูกใจบน Facebook</string>
 	<!-- Text in menu -->
@@ -397,11 +397,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">แจ้งข้อผิดพลาด</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">โปรดลงชื่อฉันเพื่อรับจดหมายข่าว MAPS.ME</string>
+	<string name="subscribe_me_subject">โปรดลงชื่อฉันเพื่อรับจดหมายข่าว AddisMapME</string>
 	<!-- Email body -->
 	<string name="subscribe_me_body">ฉันอยากเป็นคนแรกที่รู้เกี่ยวกับข่าว อัปเดตและโปรโมชั่นล่าสุด ฉันสามารถยกเลิกการเป็นสมาชิกของฉันได้ตลอดเวลา</string>
 	<!-- About text -->
-	<string name="about_text">MAPS.ME ขอเสนอแผนที่ออฟไลน์ของทุกเมือง ทุกประเทศในโลกที่รวดเร็วที่สุด เดินทางด้วยความมั่นใจ: ไม่ว่าคุณจะอยู่ที่ไหน MAPS.ME จะช่วยระบุตำแหน่งที่ตั้งของตัวคุณบนแผนที่ ค้นหาร้านอาหาร โรงแรม ธนาคาร ปั๊มน้ำมัน และอื่น ๆ ที่ใกล้ที่สุด โดยไม่จำเป็นต้องใช้การเชื่อมต่ออินเทอร์เน็ต\n\nเราทำงานเพื่อพัฒนาฟีเจอร์ใหม่ ๆ อยู่เสมอและยินดีรับฟังว่าคุณมีความคิดเห็นว่าเราจะพัฒนา MAPS.ME ได้อย่างไร หากคุณมีปัญหาใด ๆ กับแอป อย่าลังเลที่จะติดต่อเราที่ support\@maps.me โดยเราจะตอบรับทุกคำขอ!\n\nคุณชอบ MAPS.ME และต้องการสนับสนุนเราหรือไม่? มีวิธีง่าย ๆ และฟรีอยู่บ้าง:\n\n- โพสต์คำวิจารณ์ของคุณที่ ตลาดแอป (App Market)\n- ถูกใจเพจ Facebook ของเรา http://www.facebook.com/mapswithme\n- หรือเพียงแค่บอกแม่ เพื่อน ๆ และเพื่อนร่วมงานของคุณเกี่ยวกับ MAPS.ME :)\n\nขอบคุณที่ใช้บริการของเรา เราซาบซึ้งในการสนับสนุนของคุณมาก!\n\nป.ล. เรานำข้อมูลแผนที่มาจาก OpenStreetMap ซึ่งเป็นโครงการจัดทำแผนที่ที่เหมือนกับ Wikipedia ที่ช่วยให้ผู้ใช้สามารถสร้างและแก้ไขแผนที่ได้ หากคุณเห็นว่ามีสิ่งใดที่ขาดหายหรือไม่ถูกต้องบนแผนที่ คุณสามารถแก้ไขแผนที่ได้โดยตรงที่ https://www.openstreetmap.org และการเปลี่ยนแปลงของคุณจะปรากฏในแอป MAPS.ME ในการปล่อยเวอร์ชันถัดไป</string>
+	<string name="about_text">AddisMapME ขอเสนอแผนที่ออฟไลน์ของทุกเมือง ทุกประเทศในโลกที่รวดเร็วที่สุด เดินทางด้วยความมั่นใจ: ไม่ว่าคุณจะอยู่ที่ไหน AddisMapME จะช่วยระบุตำแหน่งที่ตั้งของตัวคุณบนแผนที่ ค้นหาร้านอาหาร โรงแรม ธนาคาร ปั๊มน้ำมัน และอื่น ๆ ที่ใกล้ที่สุด โดยไม่จำเป็นต้องใช้การเชื่อมต่ออินเทอร์เน็ต\n\nเราทำงานเพื่อพัฒนาฟีเจอร์ใหม่ ๆ อยู่เสมอและยินดีรับฟังว่าคุณมีความคิดเห็นว่าเราจะพัฒนา AddisMapME ได้อย่างไร หากคุณมีปัญหาใด ๆ กับแอป อย่าลังเลที่จะติดต่อเราที่ support\@maps.me โดยเราจะตอบรับทุกคำขอ!\n\nคุณชอบ AddisMapME และต้องการสนับสนุนเราหรือไม่? มีวิธีง่าย ๆ และฟรีอยู่บ้าง:\n\n- โพสต์คำวิจารณ์ของคุณที่ ตลาดแอป (App Market)\n- ถูกใจเพจ Facebook ของเรา http://www.facebook.com/mapswithme\n- หรือเพียงแค่บอกแม่ เพื่อน ๆ และเพื่อนร่วมงานของคุณเกี่ยวกับ AddisMapME :)\n\nขอบคุณที่ใช้บริการของเรา เราซาบซึ้งในการสนับสนุนของคุณมาก!\n\nป.ล. เรานำข้อมูลแผนที่มาจาก OpenStreetMap ซึ่งเป็นโครงการจัดทำแผนที่ที่เหมือนกับ Wikipedia ที่ช่วยให้ผู้ใช้สามารถสร้างและแก้ไขแผนที่ได้ หากคุณเห็นว่ามีสิ่งใดที่ขาดหายหรือไม่ถูกต้องบนแผนที่ คุณสามารถแก้ไขแผนที่ได้โดยตรงที่ https://www.openstreetmap.org และการเปลี่ยนแปลงของคุณจะปรากฏในแอป AddisMapME ในการปล่อยเวอร์ชันถัดไป</string>
 	<!-- Alert text -->
 	<string name="email_error_body">อีเมลลูกค้ายังไม่ได้รับการจัดตั้งขึ้น กรุณาตั้งค่าหรือใช้วิธีอื่นที่จะติดต่อเราที่ %s</string>
 	<!-- Alert title -->
@@ -413,7 +413,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">โปรดอัปเดตแผนที่เพื่อสร้างเส้นทาง</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">เวอร์ชันใหม่ของ MAPS.ME อนุญาติให้สร้างเส้นทางจากตำแหน่งปัจจุบันของคุณไปยังจุดปลายทาง โปรดอัปเดตแผนเพื่อใช้ฟีเจอร์นี้</string>
+	<string name="routing_update_maps">เวอร์ชันใหม่ของ AddisMapME อนุญาติให้สร้างเส้นทางจากตำแหน่งปัจจุบันของคุณไปยังจุดปลายทาง โปรดอัปเดตแผนเพื่อใช้ฟีเจอร์นี้</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">อัปเดตทั้งหมด</string>
 	<!-- Cancel all button text -->
@@ -430,7 +430,7 @@
 	<string name="downloader_downloading">กำลังดาวน์โหลด:</string>
 	<string name="downloader_search_results">พบ</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">การสร้างเส้นทางในแอป MAPS.ME มีสิ่งที่ควรทราบดังต่อไปนี้:\n\n  - พึงพิจารณาเส้นทางที่แนะนำไว้ในฐานะที่เป็นการแนะนำเท่านั้น\n - สภาพถนน กฎจราจรและป้ายมีความสำคัญมากกว่าคำแนะนำในการนำทาง\n - แผนที่อาจไม่ถูกต้องหรือล้าสมัย และอาจไม่ได้มีการสร้างเส้นทางในรูปแบบพอจะเป็นไปได้ที่ดีที่สุด\n\n  ขอให้ปลอดภัยบนท้องถนนและดูแลตัวคุณเองด้วย!</string>
+	<string name="routing_disclaimer">การสร้างเส้นทางในแอป AddisMapME มีสิ่งที่ควรทราบดังต่อไปนี้:\n\n  - พึงพิจารณาเส้นทางที่แนะนำไว้ในฐานะที่เป็นการแนะนำเท่านั้น\n - สภาพถนน กฎจราจรและป้ายมีความสำคัญมากกว่าคำแนะนำในการนำทาง\n - แผนที่อาจไม่ถูกต้องหรือล้าสมัย และอาจไม่ได้มีการสร้างเส้นทางในรูปแบบพอจะเป็นไปได้ที่ดีที่สุด\n\n  ขอให้ปลอดภัยบนท้องถนนและดูแลตัวคุณเองด้วย!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">ล้าสมัย</string>
 	<!-- Up to date maps category -->
@@ -503,7 +503,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">รับแผนที่</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">ดาวน์โหลดแผนที่มีการอัปเดตและการกำหนดเส้นทางข้อมูลเพื่อรับฟีเจอร์ MAPS.ME ทั้งหมด</string>
+	<string name="routing_download_map_and_routing">ดาวน์โหลดแผนที่มีการอัปเดตและการกำหนดเส้นทางข้อมูลเพื่อรับฟีเจอร์ AddisMapME ทั้งหมด</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">รับข้อมูลการกำหนดเส้นทาง</string>
 	<!-- Text for routing error dialog -->
@@ -619,7 +619,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">เพื่อสร้างเส้นทาง โปรดดาวน์โหลดและอัปเดตแผนที่ทั้งหมดตลอดเส้นทาง</string>
 	<string name="rate_alert_title">ชอบแอปหรือไม่?</string>
-	<string name="rate_alert_default_message">ขอบพระคุณสำหรับการใช้ MAPS.ME โปรดให้คะแนนแอป ข้อเสนอแนะของคุณจะช่วยทำให้เราทำได้ดียิ่งขึ้น</string>
+	<string name="rate_alert_default_message">ขอบพระคุณสำหรับการใช้ AddisMapME โปรดให้คะแนนแอป ข้อเสนอแนะของคุณจะช่วยทำให้เราทำได้ดียิ่งขึ้น</string>
 	<string name="rate_alert_five_star_message">ฮูเร่! เราก็รักคุณเช่นกัน!</string>
 	<string name="rate_alert_four_star_message">ขอบพระคุณ เราจะทำให้ดีที่สุด!</string>
 	<string name="rate_alert_less_than_four_star_message">มีไอเดียถึงวิธีที่จะทำให้เราสามารถทำให้มันดีขึ้นหรือไม่?</string>
@@ -674,7 +674,7 @@
 	<string name="editor_report_problem_no_place_title">ไม่มีสถานที่นี้อยู่</string>
 	<string name="editor_report_problem_under_construction_title">ปิดปรับปรุง</string>
 	<string name="editor_report_problem_duplicate_place_title">สถานที่ซ้ำ</string>
-	<string name="first_launch_congrats_title">MAPS.ME พร้อมใช้งานแล้ว</string>
+	<string name="first_launch_congrats_title">AddisMapME พร้อมใช้งานแล้ว</string>
 	<string name="first_launch_congrats_text">ค้นหาและนำทางไปทุกที่ในโลกแบบออฟไลน์ ไม่มีค่าใช้จ่าย</string>
 	<string name="migrate_title">สำคัญ!</string>
 	<!-- Android uses image instead of text. -->
@@ -778,20 +778,20 @@
 	<string name="whatsnew_search_message">เราได้ปรับปรุงครั้งใหญ่สำหรับการค้นหาตามที่อยู่ ลองดูด้วยตัวเอง</string>
 	<string name="whatsnew_editor_title">แก้ไขแผนที่*</string>
 	<string name="whatsnew_editor_message_1">เพิ่มสถานที่ใหม่ ๆ ไปยังแผนที่ และแก้ไขสถานที่ที่มีอยู่เดิมจากแอปโดยตรง</string>
-	<string name="whatsnew_editor_message_2">* MAPS.ME ใช้ข้อมูลจากชุมชน OpenStreetMap</string>
+	<string name="whatsnew_editor_message_2">* AddisMapME ใช้ข้อมูลจากชุมชน OpenStreetMap</string>
 	<string name="onboarding_offline_navigation_title">คุณจะไม่หลงทางอีกต่อไป</string>
 	<string name="onboarding_offline_navigation_message">วางแผนเส้นทางรถยนต์และเส้นทางเดินที่เหมาะสมที่สุด แม้ว่าจะไม่มีการเชื่อมต่ออินเทอร์เน็ต!</string>
 	<string name="onboarding_offline_navigation_title_2">การนำทางออฟไลน์</string>
 	<string name="onboarding_offline_navigation_message_2">วางแผนเส้นทางรถยนต์และเส้นทางเดินที่เหมาะสมที่สุด</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — เข้าถึงแผนที่ทั่วโลกโดยไม่ใช้อินเทอร์เน็ต</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — เข้าถึงแผนที่ทั่วโลกโดยไม่ใช้อินเทอร์เน็ต</string>
 	<string name="onboarding_offline_maps_message">ดาวน์โหลดแผนที่สำหรับพื้นที่ที่ต้องการเพียงหนึ่งครั้ง แล้วใช้การฟังก์ชันการนำทางและการค้นหาโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</string>
 	<string name="onboarding_notifications_message">เพื่อรับแผนที่ล่าสุดและรับการแจ้งเตือนอัปเดต</string>
 	<string name="onboarding_notifications_title">เปิดการแจ้งเตือนการอัปเดต</string>
 	<string name="onboarding_location_title">ช่วยให้เราค้นหาคุณ</string>
 	<string name="onboarding_location_message">เพื่อใช้การนำทางและฟีเจอร์อื่น ๆ เราต้องการเข้าถึงตำแหน่งทางภูมิศาสตร์ของคุณ</string>
-	<string name="onboarding_permissions_title">อนุญาตให้ MAPS.ME เข้าถึงที่เก็บข้อมูลและตำแหน่งที่ตั้ง</string>
+	<string name="onboarding_permissions_title">อนุญาตให้ AddisMapME เข้าถึงที่เก็บข้อมูลและตำแหน่งที่ตั้ง</string>
 	<string name="onboarding_permissions_message">เพื่อที่คุณจะได้สามารถดาวน์โหลดแผนที่ ดูสถานที่ต่าง ๆ และการจราจรที่อยู่ใกล้ ๆ คุณแล้วใช้งานการนำทางได้</string>
-	<string name="onboarding_welcome_title">ยินดีต้อนรับสู่ MAPS.ME</string>
+	<string name="onboarding_welcome_title">ยินดีต้อนรับสู่ AddisMapME</string>
 	<string name="onboarding_welcome_first_subtitle">แผนที่ที่ฟรี รวดเร็ว มีรายละเอียด และออฟไลน์พร้อมกับการนำทางแบบทีละขั้นตอน</string>
 	<string name="onboarding_welcome_second_subtitle">ด้วยการเรียกใช้แอปพลิเคชั่นคุณได้ตกลงต่อ &lt;a href="%1$s">เงื่อนไขการใช้งาน&lt;/a> และ &lt;a href="%2$s">นโยบายความเป็นส่วนตัว&lt;/a></string>
 	<string name="dialog_incorrect_feature_position">เปลี่ยนสถานที่ตั้ง</string>
@@ -800,7 +800,7 @@
 	<string name="no_migration_during_navigation">ห้ามอัปเดตระหว่างการนำทาง</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">ในการดาวน์โหลด คุณต้องมีพื้นที่มากขึ้น กรุณาลบเนื้อหาที่ไม่จำเป็นออกไป</string>
-	<string name="editor_sharing_title">ฉันได้ปรับปรุงแผนที่ MAPS.ME</string>
+	<string name="editor_sharing_title">ฉันได้ปรับปรุงแผนที่ AddisMapME</string>
 	<string name="editor_comment_will_be_sent">เราจะส่งความคิดเห็นของคุณไปให้กับนักเขียนแผนที่</string>
 	<string name="editor_unsupported_category_message">คุณได้เพิ่มสถานที่ในหมวดหมู่ที่เรายังไม่รองรับ มันจะปรากฏบนแผนที่หลังจากนี้สักพักหนึ่ง</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -817,7 +817,7 @@
 	<string name="core_placepage_unknown_place">ไม่ทราบชื่อสถานที่</string>
 	<string name="editor_other_info">ส่งหมายเหตุไปยังผู้ดำเนินการ OSM</string>
 	<string name="editor_detailed_description_hint">ข้อคิดเห็นอย่างละเอียด</string>
-	<string name="editor_detailed_description">คำแนะนำการเปลี่ยนแปลงของคุณจะถูกส่งไปยังกลุ่ม OpenStreetMap โปรดอธิบายรายละเอียดที่ MAPS.ME ไม่สามารถแก้ไขได้</string>
+	<string name="editor_detailed_description">คำแนะนำการเปลี่ยนแปลงของคุณจะถูกส่งไปยังกลุ่ม OpenStreetMap โปรดอธิบายรายละเอียดที่ AddisMapME ไม่สามารถแก้ไขได้</string>
 	<string name="editor_more_about_osm">ข้อมูลเพิ่มเติมเกี่ยวกับ OpenStreetMap</string>
 	<string name="editor_operator">เจ้าของ</string>
 	<string name="editor_tag_description">ใส่ชื่อบริษัท, องค์กร หรือ บุคคลที่เป็นผู้รับผิดชอบสถานที่นี้</string>
@@ -838,7 +838,7 @@
 	<string name="current_location_unknown_error_title">ไม่ทราบชื่อของที่ตั้งปัจจุบัน</string>
 	<string name="current_location_unknown_error_message">มีข้อผิดพลาดเกิดขึ้นในขณะที่กำลังหาที่ตั้งที่คุณอยู่ โปรดตรวจสอบอุปกรณ์ของคุณว่าทำงานถูกต้อง และลองใหม่อีกครั้ง</string>
 	<string name="whatsnew_update_editor_title">เราได้ทำการอัพเดตตัวแก้ไขแผนที่แล้ว</string>
-	<string name="whatsnew_update_editor_message">ผู้ใช้ MAPS.ME ได้ทำการเปลี่ยนแปลงแผนที่เป็นจำนวนมากกว่า 200 000 ครั้งแล้ว เรากำลังทำให้แผนที่นี้มีรายละเอียดมากที่สุดในโลก มาร่วมมือกัน!</string>
+	<string name="whatsnew_update_editor_message">ผู้ใช้ AddisMapME ได้ทำการเปลี่ยนแปลงแผนที่เป็นจำนวนมากกว่า 200 000 ครั้งแล้ว เรากำลังทำให้แผนที่นี้มีรายละเอียดมากที่สุดในโลก มาร่วมมือกัน!</string>
 	<!-- Additional text in whats new -->
 	<string name="whatsnew_update_editor_message_update">ในการใช้เครื่องมือการแก้ไขแผนที่ โปรดอัปเดตแผนที่ทั้งหมด</string>
 	<string name="location_services_disabled_header">ปิดการใช้งานการระบุตำแหน่งที่ตั้งแล้ว</string>
@@ -926,7 +926,7 @@
 	<!-- For sharing via SMS and so on -->
 	<string name="sharing_call_action_look">ตรวจชม</string>
 	<string name="continue_recent_track_background_button">ดำเนินการต่อ</string>
-	<string name="recent_track_background_dialog_message">MAPS.ME ใช้ตำแหน่งทางภูมิศาสตร์ของคุณในพื้นหลังเพื่อบันทึกเส้นทางที่คุณเดินทางเมื่อเร็ว ๆ นี้</string>
+	<string name="recent_track_background_dialog_message">AddisMapME ใช้ตำแหน่งทางภูมิศาสตร์ของคุณในพื้นหลังเพื่อบันทึกเส้นทางที่คุณเดินทางเมื่อเร็ว ๆ นี้</string>
 	<string name="whatsnew_car_navigation_header">การนำทางยานพาหนะอย่างเป็นมิตรต่อผู้ใช้</string>
 	<string name="whatsnew_car_navigation_message">• องค์ประกอบการนำทางใช้พื้นที่น้อยลง\n• เราแสดงความเร็ว และได้เพิ่มการซูมอัตโนมัติ</string>
 	<string name="whatsnew_cycle_navigation_2_header">การนำทางจักรยาน</string>
@@ -934,15 +934,15 @@
 	<string name="whatsnew_booking_2_header">การค้นหาโรงแรมอย่างง่ายดาย</string>
 	<string name="whatsnew_booking_2_message">ผลการค้นหาจะแสดงการให้คะแนนโรงแรมและหมวดหมู่ราคา</string>
 	<string name="whatsnew_cycle_navigation_header">การนำทางจักรยาน (beta-version)</string>
-	<string name="whatsnew_cycle_navigation_message">เรากำลังทดสอบการนำทางจักรยานในฤดูกาลใหม่ ลองเส้นทางการขี่จักรยานด้วย MAPS.ME และแชร์ความคิดเห็นของคุณมาให้เรา</string>
+	<string name="whatsnew_cycle_navigation_message">เรากำลังทดสอบการนำทางจักรยานในฤดูกาลใหม่ ลองเส้นทางการขี่จักรยานด้วย AddisMapME และแชร์ความคิดเห็นของคุณมาให้เรา</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">ให้คะแนนบน Google Play</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">บอกเพื่อน</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">สวัสดี! ติดตั้ง MAPS.ME กันเถอะ!</string>
+	<string name="tell_friends_text">สวัสดี! ติดตั้ง AddisMapME กันเถอะ!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME เป็นแอปพลิเคชั่นออฟไลน์ที่จำเป็นสำหรับการท่องเที่ยว MAPS.ME นั้นใช้งานบนพื้นฐานของข้อมูล OpenStreetMap และใช้แก้ไขได้ด้วย</string>
+	<string name="about_description">AddisMapME เป็นแอปพลิเคชั่นออฟไลน์ที่จำเป็นสำหรับการท่องเที่ยว AddisMapME นั้นใช้งานบนพื้นฐานของข้อมูล OpenStreetMap และใช้แก้ไขได้ด้วย</string>
 	<!-- Text in menu -->
 	<string name="blog">บล็อก</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -997,7 +997,7 @@
 	<string name="chat">Geochat</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">เปิด</string>
-	<string name="whatsnew_uber_header">MAPS.ME &amp; Uber</string>
+	<string name="whatsnew_uber_header">AddisMapME &amp; Uber</string>
 	<string name="whatsnew_uber_message">เรียกแท็กซี่ Uber โดยตรงจากแอป!</string>
 	<string name="dialog_taxi_offline">ไม่สามารถทำการจองแท็กซี่ได้ในโหมดออฟไลน์</string>
 	<string name="dialog_taxi_error">ไม่สามารถทำการจองแท็กซี่ได้ชั่วคราว</string>
@@ -1012,7 +1012,7 @@
 	<string name="traffic_update_maps_text">ต้องอัปเดตแผนที่เพื่อแสดงข้อมูลการจราจร</string>
 	<string name="traffic_outdated">ข้อมูลการจราจรเก่าเกินไปแล้ว</string>
 	<string name="big_font">เพิ่มขนาดฟอนต์บนแผนที่</string>
-	<string name="traffic_update_app">กรุณาอัปเดต MAPS.ME</string>
+	<string name="traffic_update_app">กรุณาอัปเดต AddisMapME</string>
 	<!-- "traffic" as in road congestion -->
 	<string name="traffic_update_app_message">ในการแสดงข้อมูลการจราจร แอปพลิเคชั่นจะต้องอัปเดตก่อน</string>
 	<!-- "traffic" as in "road congestion" -->
@@ -1114,9 +1114,9 @@
 	<string name="button_accept_and_continue">ตกลงและดำเนินการต่อไป</string>
 	<string name="button_learn_more">ศึกษาเพิ่มเติม</string>
 	<string name="onboarding_storage_permissions_title">ให้สิทธิ์เข้าถึง</string>
-	<string name="onboarding_storage_permissions_message">เปลี่ยนการตั้งค่าการให้สิทธิ์ในเครื่องของคุณ จำเป็นต้องได้สิทธิ์การเข้าถึงที่เก็บข้อมูลเพื่อใช้งาน MAPS.ME</string>
+	<string name="onboarding_storage_permissions_message">เปลี่ยนการตั้งค่าการให้สิทธิ์ในเครื่องของคุณ จำเป็นต้องได้สิทธิ์การเข้าถึงที่เก็บข้อมูลเพื่อใช้งาน AddisMapME</string>
 	<string name="button_exit">ออก</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME จำเป็นต้องได้สิทธิ์การเข้าถึง</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME จำเป็นต้องได้สิทธิ์การเข้าถึง</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">ที่เก็บข้อมูล</string>
 	<string name="onboarding_detail_permissions_storage_message">เพื่อบันทึกและใช้งานแผนที่ที่ดาวน์โหลดมาแบบออฟไลน์และบันทึกบุ๊กมาร์ก</string>
@@ -1293,16 +1293,16 @@
 	<string name="sign_message_gdpr">คุณต้องยอมรับข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัวของเรา โปรดอ่านอย่างระมัดระวัง</string>
 	<string name="sign_agree_pp_gdpr">ฉันยอมรับ &lt;a href="%s">นโยบายข้อมูลส่วนบุคคล&lt;/a></string>
 	<string name="sign_agree_tof_gdpr">ฉันยอมรับ &lt;a href="%s">ข้อกำหนดในการให้บริการ&lt;/a></string>
-	<string name="sign_agree_news_gdpr">ฉันยอมรับที่จะรับข่าวสารล่าสุดเกี่ยวกับผลิตภัณฑ์ MAPS.ME</string>
+	<string name="sign_agree_news_gdpr">ฉันยอมรับที่จะรับข่าวสารล่าสุดเกี่ยวกับผลิตภัณฑ์ AddisMapME</string>
 	<string name="whats_new_localbiz_title">ธุรกิจขนาดเล็กควรจะได้รับความเอาใจใส่</string>
-	<string name="whats_new_localbiz_message">มันเป็นร้านกาแฟในท้องถิ่น หอพักอันอบอุ่น และร้านค้าที่ทำให้การเดินทางของเราเป็นที่น่าจดจำ เราจะเพิ่มประสิทธิภาพหน้าเว็บไซต์ของคุณใน MAPS.ME เพื่อทำให้เว็บไซต์ของคุณโดดเด่น</string>
+	<string name="whats_new_localbiz_message">มันเป็นร้านกาแฟในท้องถิ่น หอพักอันอบอุ่น และร้านค้าที่ทำให้การเดินทางของเราเป็นที่น่าจดจำ เราจะเพิ่มประสิทธิภาพหน้าเว็บไซต์ของคุณใน AddisMapME เพื่อทำให้เว็บไซต์ของคุณโดดเด่น</string>
 	<string name="whats_new_order_button">ฝากคำร้อง</string>
 	<string name="bookmarks_page_downloaded">ดาวน์โหลด</string>
 	<string name="bookmarks_page_my">ของฉัน</string>
 	<string name="routes_and_bookmarks">เส้นทาง และบุ๊กมาร์ก</string>
 	<string name="bookmarks_webview_success_toast">ดาวน์โหลดบุ๊กมาร์กสำเร็จแล้ว</string>
 	<string name="cached_bookmarks_placeholder_title">ดาวน์โหลดสถานที่ใหม่</string>
-	<string name="cached_bookmarks_placeholder_subtitle">กดปุ่มเพื่อดาวน์โหลดหลายพันสถานที่ และเส้นทางที่น่าสนใจต่าง ๆ ซึ่งสร้างขึ้นโดยผู้ใช้งานของ MAPS.ME คุณจำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ต</string>
+	<string name="cached_bookmarks_placeholder_subtitle">กดปุ่มเพื่อดาวน์โหลดหลายพันสถานที่ และเส้นทางที่น่าสนใจต่าง ๆ ซึ่งสร้างขึ้นโดยผู้ใช้งานของ AddisMapME คุณจำเป็นต้องเชื่อมต่อกับอินเตอร์เน็ต</string>
 	<string name="downloader_download_routers">ดาวน์โหลดบุ๊กมาร์ก</string>
 	<string name="bookmarks_groups_cached">ดาวน์โหลดรายการต่าง ๆ แล้ว</string>
 	<string name="author_name_by_prefix">โดย %s</string>
@@ -1322,7 +1322,7 @@
 	<string name="opt_out_flurry">สถิติ</string>
 	<string name="opt_out_mopub">การโฆษณาในแบบของคุณ</string>
 	<string name="opt_out_fabric">รายงานข้อขัดข้อง</string>
-	<string name="opt_out_fabric_description">เราอาจใช้ข้อมูลของคุณเพื่อพัฒนาประสบการณ์ของ MAPS.ME การเปลี่ยนแปลงจะมีผลหลังจากที่คุณเปิดแอพฯ ขึ้นใหม่</string>
+	<string name="opt_out_fabric_description">เราอาจใช้ข้อมูลของคุณเพื่อพัฒนาประสบการณ์ของ AddisMapME การเปลี่ยนแปลงจะมีผลหลังจากที่คุณเปิดแอพฯ ขึ้นใหม่</string>
 	<string name="opt_out_help_ios_1">อุปกรณ์มือถือของคุณอาจมีการตั้งค่า \"\"จำกัดการติดตามโฆษณา\"\" หรือ \"\"เลือกไม่ใช้การโฆษณาตามความสนใจ\"\"</string>
 	<string name="opt_out_help_ios_2">iOS 9 หรือสูงกว่า</string>
 	<string name="opt_out_help_ios_3">ไปที่การตั้งค่าของคุณ → ความเป็นส่วนตัว → การโฆษณา → เปิดใช้งานการตั้งค่า “จำกัดการติดตามโฆษณา”</string>
@@ -1343,7 +1343,7 @@
 	<string name="category_desc_more">…เพิ่มเติม</string>
 	<string name="title_error_downloading_bookmarks">มีข้อผิดพลาดเกิดขึ้น</string>
 	<string name="subtitle_error_downloading_bookmarks">ไม่ได้ดาวน์โหลดบุ๊กมาร์ก</string>
-	<string name="whats_new_bookmarks_catalog_title">ขณะนี้ MAPS.ME มีแคตาล็อกเส้นทางแล้ว</string>
+	<string name="whats_new_bookmarks_catalog_title">ขณะนี้ AddisMapME มีแคตาล็อกเส้นทางแล้ว</string>
 	<string name="whats_new_bookmarks_catalog_message">หลายร้อยเส้นทางโดยรายละเอียดทั่วโลก: ที่ไหนควรจะไป ควรจะไปดูอะไร ควรจะกินที่ไหน</string>
 	<string name="whats_new_popularity_label_title">สถานที่ยอดนิยมในบริเวณใกล้เคียง</string>
 	<string name="whats_new_popularity_label_message">ส่วนค้นหาบริเวณใกล้เคียงจะช่วยให้คุณสามารถค้นหาสถานที่ยอดนิยมที่สุดในเมืองได้</string>
