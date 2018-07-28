@@ -27,7 +27,7 @@ bool ParseServerList(string const & jsonStr, vector<string> & outUrls)
   }
   catch (base::Json::Exception const & ex)
   {
-    LOG(LERROR, ("Can't parse server list json:", ex.Msg(), jsonStr));
+    LOG(LWARNING, ("Can't parse server list json:", ex.Msg(), jsonStr));
   }
   return !outUrls.empty();
 }
@@ -37,7 +37,7 @@ void GetServerListFromRequest(HttpRequest const & request, vector<string> & urls
   if (request.GetStatus() == HttpRequest::Status::Completed && ParseServerList(request.GetData(), urls))
     return;
 
-  VERIFY(ParseServerList(GetPlatform().DefaultUrlsJSON(), urls), ());
+//  VERIFY(ParseServerList(GetPlatform().DefaultUrlsJSON(), urls), ());
   LOG(LWARNING, ("Can't get servers list from request, using default servers:", urls));
 }
 
