@@ -33,7 +33,7 @@
 	<string name="downloading">Wird heruntergeladen…</string>
 	<string name="get_it_now">Installieren</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">Danke, dass Sie MAPS.ME nutzen! Gefällt Ihnen die App? Erzählen Sie Ihren Freunden davon! Das ist der beste Dank für uns.</string>
+	<string name="share_on_facebook_text">Danke, dass Sie AddisMapME nutzen! Gefällt Ihnen die App? Erzählen Sie Ihren Freunden davon! Das ist der beste Dank für uns.</string>
 	<!-- Settings/Downloader - size string, only strings different from English should be translated -->
 	<string name="kb">kB</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
@@ -95,7 +95,7 @@
 	<string name="country_status_download_failed">Herunterladen fehlgeschlagen</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Erneut versuchen</string>
-	<string name="about_menu_title">Über MAPS.ME</string>
+	<string name="about_menu_title">Über AddisMapME</string>
 	<string name="downloading_touch_to_cancel">Herunterladen %d%%. Antippen, um abzubrechen</string>
 	<string name="downloaded_touch_to_delete">Heruntergeladen (%s). Antippen, um zu löschen</string>
 	<string name="connection_settings">Verbindungseinstellungen</string>
@@ -104,7 +104,7 @@
 	<string name="unsupported_phone">Das Programm benötigt OpenGL, um zu funktionieren. Leider wird Ihr Gerät nicht unterstützt.</string>
 	<string name="download">Herunterladen</string>
 	<string name="external_storage_is_not_available">SD-Karte/USB-Speicher mit heruntergeladenen Karten nicht verfügbar</string>
-	<string name="disconnect_usb_cable">Bitte USB-Kabel entfernen oder Speicherkarte einsetzen, um MAPS.ME zu verwenden</string>
+	<string name="disconnect_usb_cable">Bitte USB-Kabel entfernen oder Speicherkarte einsetzen, um AddisMapME zu verwenden</string>
 	<string name="not_enough_free_space_on_sdcard">Bitte zuerst Speicherplatz auf SD-Karte/USB-Speicher freigeben, um die Anwendung zu nutzen</string>
 	<string name="not_enough_memory">Nicht genügend Speicher, um die Anwendung zu starten</string>
 	<string name="free_space_for_country">Bitte zuerst %1$s Platz schaffen, um %2$s herunterzuladen</string>
@@ -131,7 +131,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">Aktualisierung für diese Karten erhältlich:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">Sie benötigen MAPS.ME Lite nicht mehr und können es deinstallieren.</string>
+	<string name="suggest_uninstall_lite">Sie benötigen AddisMapME Lite nicht mehr und können es deinstallieren.</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">%s erfolgreich heruntergeladen</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -161,9 +161,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">Gruppe</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">Sie haben bislang noch keine Lesezeichen gesetzt.\nTippen Sie auf der Karte auf irgendeinen Punkt, um ein Lesezeichen hinzuzufügen.\nLesezeichen von anderen Quellen können ebenfalls importiert und in der MAPS.ME-App angezeigt werden. KML-/KMZ-Datei mit gespeicherten Stecknadeln aus einer Email, Dropbox oder einem Weblink öffnen.</string>
+	<string name="bookmarks_usage_hint">Sie haben bislang noch keine Lesezeichen gesetzt.\nTippen Sie auf der Karte auf irgendeinen Punkt, um ein Lesezeichen hinzuzufügen.\nLesezeichen von anderen Quellen können ebenfalls importiert und in der AddisMapME-App angezeigt werden. KML-/KMZ-Datei mit gespeicherten Stecknadeln aus einer Email, Dropbox oder einem Weblink öffnen.</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">Lesezeichen von anderen Quellen können importiert und in der MAPS.ME-App angezeigt werden. KML-/KMZ-Datei mit gespeicherten Stecknadeln aus einer Email, Dropbox oder einem Weblink öffnen.</string>
+	<string name="bookmarks_usage_hint_import_only">Lesezeichen von anderen Quellen können importiert und in der AddisMapME-App angezeigt werden. KML-/KMZ-Datei mit gespeicherten Stecknadeln aus einer Email, Dropbox oder einem Weblink öffnen.</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">Einstellungen</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -225,7 +225,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">Per Email teilen</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">MAPS.ME-Lesezeichen mit Ihnen geteilt</string>
+	<string name="share_bookmarks_email_subject">AddisMapME-Lesezeichen mit Ihnen geteilt</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Lesezeichen werden geladen</string>
 	<!-- Kmz file successful loading -->
@@ -245,19 +245,19 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Das Land wird gerade heruntergeladen.</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">Wir hoffen, dass Ihnen die Verwendung von MAPS.ME Freude bereitet! Wenn ja, geben Sie bitte eine Bewertung oder einen Bericht für die App im App Store ab. Es dauert weniger als eine Minute, kann uns aber wirklich helfen. Danke für Ihre Unterstützung!</string>
+	<string name="appStore_message">Wir hoffen, dass Ihnen die Verwendung von AddisMapME Freude bereitet! Wenn ja, geben Sie bitte eine Bewertung oder einen Bericht für die App im App Store ab. Es dauert weniger als eine Minute, kann uns aber wirklich helfen. Danke für Ihre Unterstützung!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">Nein danke</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Siehe meine Markierung auf MAPS.ME an. %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://maps.me/get</string>
+	<string name="bookmark_share_sms">Siehe meine Markierung auf AddisMapME an. %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<string name="my_position_share_sms">Schau wo ich gerade bin. Klicke auf den Link %1$s oder %2$s - Keine Offline-Karten installiert? Hier herunterladen: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Schau dir meine Stecknadel auf der MAPS.ME-Karte an</string>
+	<string name="bookmark_share_email_subject">Schau dir meine Stecknadel auf der AddisMapME-Karte an</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">Hi,\n\nIch habe %1$s auf MAPS.ME, der Offline-Weltkarte, gepinnt. Klicke auf diesen Link %2$s oder diesen %3$s, um den Ort auf der Karte zu sehen.\n\nVielen Dank.</string>
+	<string name="bookmark_share_email">Hi,\n\nIch habe %1$s auf AddisMapME, der Offline-Weltkarte, gepinnt. Klicke auf diesen Link %2$s oder diesen %3$s, um den Ort auf der Karte zu sehen.\n\nVielen Dank.</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Sieh dir meinen aktuellen Standort auf der MAPS.ME-Karte an</string>
+	<string name="my_position_share_email_subject">Sieh dir meinen aktuellen Standort auf der AddisMapME-Karte an</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">Hi,\n\nich bin gerade hier: %1$s. Klicke den Link %2$s oder %3$s, um den Ort auf der Karte anzuzeigen.\n\nVielen Dank.</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -373,19 +373,19 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">Laden Sie die Karte Ihres Standortes herunter</string>
 	<!-- text of notification -->
-	<string name="pro_version_is_free_today">MAPS.ME heute gratis! Jetzt runterladen &amp; Ihre Freunde informieren</string>
+	<string name="pro_version_is_free_today">AddisMapME heute gratis! Jetzt runterladen &amp; Ihre Freunde informieren</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">Wir übertragen Ihre heruntergeladenen Karten von MAPS.ME Lite zu MAPS.ME. Dieser Vorgang kann einige Minuten in Anspruch nehmen.</string>
+	<string name="move_lite_maps_to_pro">Wir übertragen Ihre heruntergeladenen Karten von AddisMapME Lite zu AddisMapME. Dieser Vorgang kann einige Minuten in Anspruch nehmen.</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">Ihre heruntergeladenen Karten wurden erfolgreich zu MAPS.ME übertragen.</string>
+	<string name="move_lite_maps_to_pro_ok">Ihre heruntergeladenen Karten wurden erfolgreich zu AddisMapME übertragen.</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">Ihre Karten konnten nicht übertragen werden. Bitte löschen Sie MAPS.ME Lite und laden Sie die Karten erneut herunter.</string>
+	<string name="move_lite_maps_to_pro_failed">Ihre Karten konnten nicht übertragen werden. Bitte löschen Sie AddisMapME Lite und laden Sie die Karten erneut herunter.</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">Einstellungen &amp; mehr</string>
 	<!-- Text in menu -->
 	<string name="website">Webseite</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">MAPS.ME-Gemeinschaft</string>
+	<string name="maps_me_community">AddisMapME-Gemeinschaft</string>
 	<!-- Text in menu -->
 	<string name="like_on_facebook">„Gefällt mir“ auf Facebook</string>
 	<!-- Text in menu -->
@@ -405,11 +405,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">Fehler melden</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">Ich möchte gerne den MAPS.ME-Newsletter abonnieren</string>
+	<string name="subscribe_me_subject">Ich möchte gerne den AddisMapME-Newsletter abonnieren</string>
 	<!-- Email body -->
 	<string name="subscribe_me_body">Gerne möchte ich zu den Ersten gehören, die aktuelle Neuigkeiten erfahren und über neueste Aktualisierungen und Werbeangebote informiert werden. Mein Abo kann ich jederzeit kündigen.</string>
 	<!-- About text -->
-	<string name="about_text">MAPS.ME bietet die schnellsten Offline-Karten aller Städte weltweit. Reisen Sie mit Vertrauen: wo immer Sie sind hilft Ihnen MAPS.ME, sich auf der Karte zurecht zu finden. Finden Sie das nächstgelegene Restaurant, Hotel, Bank, Tankstelle usw. Es ist keine Internet-Verbindung erforderlich.\n\nWir arbeiten ständig an neuen Funktionen und freuen uns, von Ihnen zu hören, wie wir MAPS.ME verbessern können. Wenn Sie Probleme mit der App haben, zögern Sie nicht, mit uns über support\@maps.me in Verbindung zu treten. Wir reagieren auf jede Anfrage!\n\nMögen Sie MAPS.ME und wollen Sie uns unterstützen? Es gibt einige einfache und absolut kostenlose Möglichkeiten:\n\n- Veröffentlichen Sie eine Bewertung auf Ihrem App-Store\n- Liken Sie unsere Facebook-Seite http://www.facebook.com/mapswithme\n- Oder erzählen einfach nur Ihrer Mutter, Freunden und Kollegen von MAPS.ME:)\n\nDanke, dass Sie bei uns sind. Wir freuen uns sehr über Ihre Unterstützung!\n\nPS: Wir nutzen die Kartendaten von OpenStreetMap, einem Kartierungs-Projekt ähnlich Wikipedia, bei welchem Mitglieder Kartendaten erfassen. Wenn Sie sehen, dass auf der Karte etwas fehlt oder falsch ist, können Sie die Karten direkt auf https://www.openstreetmap.org korrigieren und die Änderungen erscheinen in der nächsten Version der MAPS.ME-App.</string>
+	<string name="about_text">AddisMapME bietet die schnellsten Offline-Karten aller Städte weltweit. Reisen Sie mit Vertrauen: wo immer Sie sind hilft Ihnen AddisMapME, sich auf der Karte zurecht zu finden. Finden Sie das nächstgelegene Restaurant, Hotel, Bank, Tankstelle usw. Es ist keine Internet-Verbindung erforderlich.\n\nWir arbeiten ständig an neuen Funktionen und freuen uns, von Ihnen zu hören, wie wir AddisMapME verbessern können. Wenn Sie Probleme mit der App haben, zögern Sie nicht, mit uns über support\@maps.me in Verbindung zu treten. Wir reagieren auf jede Anfrage!\n\nMögen Sie AddisMapME und wollen Sie uns unterstützen? Es gibt einige einfache und absolut kostenlose Möglichkeiten:\n\n- Veröffentlichen Sie eine Bewertung auf Ihrem App-Store\n- Liken Sie unsere Facebook-Seite http://www.facebook.com/mapswithme\n- Oder erzählen einfach nur Ihrer Mutter, Freunden und Kollegen von AddisMapME:)\n\nDanke, dass Sie bei uns sind. Wir freuen uns sehr über Ihre Unterstützung!\n\nPS: Wir nutzen die Kartendaten von OpenStreetMap, einem Kartierungs-Projekt ähnlich Wikipedia, bei welchem Mitglieder Kartendaten erfassen. Wenn Sie sehen, dass auf der Karte etwas fehlt oder falsch ist, können Sie die Karten direkt auf https://www.openstreetmap.org korrigieren und die Änderungen erscheinen in der nächsten Version der AddisMapME-App.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Der Email-Client ist noch nicht eingerichtet worden. Konfigurieren Sie ihn bitte oder nutzen Sie eine andere Möglichkeit, uns unter %s zu erreichen.</string>
 	<!-- Alert title -->
@@ -421,7 +421,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">Bitte aktualisieren Sie die Karte, um eine Route zu erstellen.</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">Die neue Version von MAPS.ME ermöglicht das Erzeugen von Routen von Ihrem aktuellen Standort bis zum gewünschten Ziel. Bitte aktualisieren Sie Karten, um diese Funktion nutzen zu können.</string>
+	<string name="routing_update_maps">Die neue Version von AddisMapME ermöglicht das Erzeugen von Routen von Ihrem aktuellen Standort bis zum gewünschten Ziel. Bitte aktualisieren Sie Karten, um diese Funktion nutzen zu können.</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">Alle aktualisieren</string>
 	<!-- Cancel all button text -->
@@ -438,7 +438,7 @@
 	<string name="downloader_downloading">Gerade wird heruntergeladen:</string>
 	<string name="downloader_search_results">Gefunden</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">Beim Erstellen von Routen mit der MAPS.ME-App sollten Sie Folgendes beachten:\n\n  - Vorgeschlagenen Routen können nur als Empfehlungen angesehen werden.\n - Straßenbedingungen, Verkehrsregeln und Schilder haben höhere Priorität als Navigationsratschläge.\n - Die Karte kann falsch oder veraltet sein und Routen könnten somit nicht auf die bestmögliche Weise erstellt worden sein.\n\n  Bleiben Sie auf der Straße sicher und achten Sie auf sich selbst!</string>
+	<string name="routing_disclaimer">Beim Erstellen von Routen mit der AddisMapME-App sollten Sie Folgendes beachten:\n\n  - Vorgeschlagenen Routen können nur als Empfehlungen angesehen werden.\n - Straßenbedingungen, Verkehrsregeln und Schilder haben höhere Priorität als Navigationsratschläge.\n - Die Karte kann falsch oder veraltet sein und Routen könnten somit nicht auf die bestmögliche Weise erstellt worden sein.\n\n  Bleiben Sie auf der Straße sicher und achten Sie auf sich selbst!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">Veraltet</string>
 	<!-- Up to date maps category -->
@@ -493,9 +493,9 @@
 	<!-- Text for rating dialog -->
 	<string name="rating_just_rated">Ich habe gerade Ihre App bewertet</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_user_since">Ich bin MAPS.ME-Nutzer seit %s</string>
+	<string name="rating_user_since">Ich bin AddisMapME-Nutzer seit %s</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_do_like_maps">Mögen Sie MAPS.ME?</string>
+	<string name="rating_do_like_maps">Mögen Sie AddisMapME?</string>
 	<!-- Text for rating dialog -->
 	<string name="rating_tap_star">Tippen Sie auf einen Stern, um unsere App zu bewerten.</string>
 	<!-- Text for rating dialog -->
@@ -511,7 +511,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">Karte abrufen</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">Laden Sie die aktualisierte Karte und Daten der Routenplanung herunter, um alle MAPS.ME-Funktionen zu nutzen.</string>
+	<string name="routing_download_map_and_routing">Laden Sie die aktualisierte Karte und Daten der Routenplanung herunter, um alle AddisMapME-Funktionen zu nutzen.</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">Daten für Routenplanung abrufen</string>
 	<!-- Text for routing error dialog -->
@@ -627,7 +627,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">Zum Erstellen einer Route müssen Sie alle Karten herunterladen und aktualisieren, auf der die Route liegt.</string>
 	<string name="rate_alert_title">Gefällt Ihnen die App?</string>
-	<string name="rate_alert_default_message">Danke, dass Sie MAPS.ME nutzen. Bitte bewerten Sie die App. Ihre Rückmeldung hilft uns, besser zu werden.</string>
+	<string name="rate_alert_default_message">Danke, dass Sie AddisMapME nutzen. Bitte bewerten Sie die App. Ihre Rückmeldung hilft uns, besser zu werden.</string>
 	<string name="rate_alert_five_star_message">Hurra! Wir lieben Sie auch!</string>
 	<string name="rate_alert_four_star_message">Danke, wir geben unser Bestes!</string>
 	<string name="rate_alert_less_than_four_star_message">Haben Sie eine Idee, wie wir besser werden können?</string>
@@ -682,7 +682,7 @@
 	<string name="editor_report_problem_no_place_title">Der Ort existiert nicht</string>
 	<string name="editor_report_problem_under_construction_title">Wegen Wartung geschlossen</string>
 	<string name="editor_report_problem_duplicate_place_title">Doppelter Ort</string>
-	<string name="first_launch_congrats_title">MAPS.ME kann verwendet werden</string>
+	<string name="first_launch_congrats_title">AddisMapME kann verwendet werden</string>
 	<string name="first_launch_congrats_text">Suche und Navigation weltweit offline verfügbar, völlig kostenfrei.</string>
 	<string name="migrate_title">Wichtig!</string>
 	<!-- Android uses image instead of text. -->
@@ -786,20 +786,20 @@
 	<string name="whatsnew_search_message">Wir haben die Adresssuche dramatisch verbessert. Sehen Sie selbst.</string>
 	<string name="whatsnew_editor_title">Karte bearbeiten*</string>
 	<string name="whatsnew_editor_message_1">Fügen Sie auf der Karte einen neuen Ort hinzu und bearbeiten Sie existierende Ort direkt in der App.</string>
-	<string name="whatsnew_editor_message_2">* MAPS.ME verwendet Community-Daten von OpenStreetMap.</string>
+	<string name="whatsnew_editor_message_2">* AddisMapME verwendet Community-Daten von OpenStreetMap.</string>
 	<string name="onboarding_offline_navigation_title">Sie werden sich nie wieder verfahren oder verlaufen</string>
 	<string name="onboarding_offline_navigation_message">Planen Sie die optimalen Auto- und Fußgängerstrecken, selbst wenn es keine Internetverbindung gibt!</string>
 	<string name="onboarding_offline_navigation_title_2">Offline-Navigation</string>
 	<string name="onboarding_offline_navigation_message_2">Planen Sie optimale Auto- und Fußgängerstrecken.</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — weltweit ohne Internetzugriff auf die Karte zugreifen</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — weltweit ohne Internetzugriff auf die Karte zugreifen</string>
 	<string name="onboarding_offline_maps_message">Laden Sie die Karten für das gewünschte Gebiet auf einmal herunter und verwenden Sie die Navigation- und Such-Funktion ohne eine Internetverbindung.</string>
 	<string name="onboarding_notifications_message">Erhalten Sie Aktualisierungsbenachrichtigungen, um die neuesten Karten zu erhalten</string>
 	<string name="onboarding_notifications_title">Aktualisierungsbenachrichtigungen aktivieren</string>
 	<string name="onboarding_location_title">Helfen Sie uns dabei, Sie zu finden</string>
 	<string name="onboarding_location_message">Um Navigation und andere Funktionen zu verwenden, brauchen wir Zugriff auf Ihren Geo-Standort.</string>
-	<string name="onboarding_permissions_title">Erlauben Sie MAPS.ME, auf Speicher und Standort zuzugreifen</string>
+	<string name="onboarding_permissions_title">Erlauben Sie AddisMapME, auf Speicher und Standort zuzugreifen</string>
 	<string name="onboarding_permissions_message">So können Sie Karten herunterladen, Orte und Verkehrslage in Ihrer Nähe sehen und die Navigation nutzen.</string>
-	<string name="onboarding_welcome_title">Willkommen bei MAPS.ME</string>
+	<string name="onboarding_welcome_title">Willkommen bei AddisMapME</string>
 	<string name="onboarding_welcome_first_subtitle">Kostenlose, schnelle, detaillierte und vollständig offline benutzbare Karten mit genauer Navigation.</string>
 	<string name="onboarding_welcome_second_subtitle">Durch das Starten der Anwendung stimmen Sie den &lt;a href="%1$s">Nutzungsbedingungen&lt;/a> und der &lt;a href="%2$s">Datenschutzrichtlinie&lt;/a> zu.</string>
 	<string name="dialog_incorrect_feature_position">Standort wechseln</string>
@@ -808,7 +808,7 @@
 	<string name="no_migration_during_navigation">Aktualisieren ist während der Navigation verboten.</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">Zum Herunterladen benötigen Sie mehr Platz. Bitte löschen Sie unnötige Daten.</string>
-	<string name="editor_sharing_title">Ich habe die MAPS.ME-Karten verbessert</string>
+	<string name="editor_sharing_title">Ich habe die AddisMapME-Karten verbessert</string>
 	<string name="editor_comment_will_be_sent">Wir werden Ihren Kommentar an die Kartografierer weiterleiten.</string>
 	<string name="editor_unsupported_category_message">Sie haben einen Ort in einer Kategorie hinzugefügt, die wir noch nicht unterstützten. Er wird zu einem späteren Zeitpunkt auf der Karte erscheinen.</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -825,7 +825,7 @@
 	<string name="core_placepage_unknown_place">Unbekannter Ort</string>
 	<string name="editor_other_info">Senden Sie eine Notiz an den OSM-Moderator</string>
 	<string name="editor_detailed_description_hint">Ausführlicher Kommentar</string>
-	<string name="editor_detailed_description">Ihre Änderungsvorschläge für die Karte werden an OpenStreetMap gesendet: Beschreiben Sie die Details der Objekte, die Sie in MAPS.ME nicht bearbeiten können.</string>
+	<string name="editor_detailed_description">Ihre Änderungsvorschläge für die Karte werden an OpenStreetMap gesendet: Beschreiben Sie die Details der Objekte, die Sie in AddisMapME nicht bearbeiten können.</string>
 	<string name="editor_more_about_osm">Mehr Informationen über OpenStreetMap</string>
 	<string name="editor_operator">Betreiber oder Eigentümer</string>
 	<string name="editor_tag_description">Geben Sie die Firma, die Organisation oder die Person an, die den Betrieb des Objekts gewährleistet.</string>
@@ -934,7 +934,7 @@
 	<!-- For sharing via SMS and so on -->
 	<string name="sharing_call_action_look">Nachsehen</string>
 	<string name="continue_recent_track_background_button">Fortsetzen</string>
-	<string name="recent_track_background_dialog_message">MAPS.ME verwendet Ihre Geoposition im Hintergrund, um Ihre kürzlich gefahrene Route aufzunehmen.</string>
+	<string name="recent_track_background_dialog_message">AddisMapME verwendet Ihre Geoposition im Hintergrund, um Ihre kürzlich gefahrene Route aufzunehmen.</string>
 	<string name="whatsnew_car_navigation_header">Benutzerfreundliche Fahrzeug-Navigation</string>
 	<string name="whatsnew_car_navigation_message">• Die Navigationselemente benötigen weniger Platz.\n• Wir zeigen die Geschwindigkeit und haben Auto-Zoom hinzugefügt.</string>
 	<string name="whatsnew_cycle_navigation_2_header">Fahrrad-Navigation</string>
@@ -942,15 +942,15 @@
 	<string name="whatsnew_booking_2_header">Einfache Hotelsuche</string>
 	<string name="whatsnew_booking_2_message">Die Suchergebnisse zeigen die Bewertung und die Preiskategorie des Hotels.</string>
 	<string name="whatsnew_cycle_navigation_header">Fahrradnavigation (Betaversion)</string>
-	<string name="whatsnew_cycle_navigation_message">Wir testen die Fahrradnavigation für die neue Saison. Testen Sie Ihre Lieblings-Fahrradroute mit MAPS.ME und teilen Sie Ihre Meinung mit uns.</string>
+	<string name="whatsnew_cycle_navigation_message">Wir testen die Fahrradnavigation für die neue Saison. Testen Sie Ihre Lieblings-Fahrradroute mit AddisMapME und teilen Sie Ihre Meinung mit uns.</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">Bei Google Play bewerten</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">Einem Freund empfehlen</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">Hallo! Installiere dir MAPS.ME!</string>
+	<string name="tell_friends_text">Hallo! Installiere dir AddisMapME!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME ist eine wichtige Offline-App zum Reisen. MAPS.ME basiert auf OpenStreetMap-Daten und ermöglicht das Bearbeiten dieser.</string>
+	<string name="about_description">AddisMapME ist eine wichtige Offline-App zum Reisen. AddisMapME basiert auf OpenStreetMap-Daten und ermöglicht das Bearbeiten dieser.</string>
 	<!-- Text in menu -->
 	<string name="blog">Blog</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -1005,7 +1005,7 @@
 	<string name="chat">Geochat</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">Öffnen</string>
-	<string name="whatsnew_uber_header">MAPS.ME und Uber</string>
+	<string name="whatsnew_uber_header">AddisMapME und Uber</string>
 	<string name="whatsnew_uber_message">Uber-Taxi direkt über die App bestellen!</string>
 	<string name="dialog_taxi_offline">Das Bestellen eines Taxis ist im Offline-Modus nicht verfügbar.</string>
 	<string name="dialog_taxi_error">Das Bestellen eines Taxis ist vorübergehend nicht verfügbar.</string>
@@ -1020,7 +1020,7 @@
 	<string name="traffic_update_maps_text">Um Verkehrsdaten anzuzeigen, müssen die Karten aktualisiert werden.</string>
 	<string name="traffic_outdated">Verkehrsdaten sind veraltet.</string>
 	<string name="big_font">Schriftgröße auf der Karte erhöhen</string>
-	<string name="traffic_update_app">Bitte aktualisieren Sie MAPS.ME</string>
+	<string name="traffic_update_app">Bitte aktualisieren Sie AddisMapME</string>
 	<!-- "traffic" as in road congestion -->
 	<string name="traffic_update_app_message">Um Verkehrsdaten anzuzeigen, muss die Anwendung aktualisiert werden.</string>
 	<!-- "traffic" as in "road congestion" -->
@@ -1122,9 +1122,9 @@
 	<string name="button_accept_and_continue">Zustimmen und fortfahren</string>
 	<string name="button_learn_more">Weitere Informationen</string>
 	<string name="onboarding_storage_permissions_title">Zugriff gewähren</string>
-	<string name="onboarding_storage_permissions_message">Ändern Sie die Berechtigungseinstellungen auf Ihrem Gerät. Der Zugriff auf den Speicher muss gestattet werden, damit Sie MAPS.ME nutzen können.</string>
+	<string name="onboarding_storage_permissions_message">Ändern Sie die Berechtigungseinstellungen auf Ihrem Gerät. Der Zugriff auf den Speicher muss gestattet werden, damit Sie AddisMapME nutzen können.</string>
 	<string name="button_exit">Beenden</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME benötigt Zugriff auf</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME benötigt Zugriff auf</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">Speicher</string>
 	<string name="onboarding_detail_permissions_storage_message">Um heruntergeladene Karten offline zu speichern und zu nutzen und Lesezeichen zu speichern.</string>
@@ -1300,16 +1300,16 @@
 	<string name="sign_message_gdpr">Um fortfahren zu können, müssen Sie unsere Nutzungsbedingungen und Datenschutzbestimmungen akzeptieren. Bitte lies sie sorgfältig durch.</string>
 	<string name="sign_agree_pp_gdpr">Ich stimme den &lt;a href="%s">Datenschutzbestimmungen&lt;/a> zu</string>
 	<string name="sign_agree_tof_gdpr">Ich stimme den &lt;a href="%s">Nutzungsbedingungen&lt;/a> zu</string>
-	<string name="sign_agree_news_gdpr">Ich bin damit einverstanden, die neuesten Nachrichten über MAPS.ME-Produkte zu erhalten</string>
+	<string name="sign_agree_news_gdpr">Ich bin damit einverstanden, die neuesten Nachrichten über AddisMapME-Produkte zu erhalten</string>
 	<string name="whats_new_localbiz_title">Kleine Betriebe verdienen Aufmerksamkeit</string>
-	<string name="whats_new_localbiz_message">Genau die lokalen Cafés, Hostels und Geschäfte machen die Reisen unvergesslich. Wir werden die Seite Ihres Geschäfts bei MAPS.ME kostenlos optimieren, damit es bemerkt wird.</string>
+	<string name="whats_new_localbiz_message">Genau die lokalen Cafés, Hostels und Geschäfte machen die Reisen unvergesslich. Wir werden die Seite Ihres Geschäfts bei AddisMapME kostenlos optimieren, damit es bemerkt wird.</string>
 	<string name="whats_new_order_button">Einen Antrag hinterlassen</string>
 	<string name="bookmarks_page_downloaded">Geladene</string>
 	<string name="bookmarks_page_my">Meine</string>
 	<string name="routes_and_bookmarks">Routen und Markierungen</string>
 	<string name="bookmarks_webview_success_toast">Die Markierungen wurden erfolgreich hochgeladen</string>
 	<string name="cached_bookmarks_placeholder_title">Laden Sie neue Plätze hoch</string>
-	<string name="cached_bookmarks_placeholder_subtitle">Klicken Sie auf die Schaltfläche, um Tausende von interessanten Orten und Routen, die von den Anwendern von MAPS.ME erstellt wurden, zu laden. Sie werden eine Internetverbindung benötigen.</string>
+	<string name="cached_bookmarks_placeholder_subtitle">Klicken Sie auf die Schaltfläche, um Tausende von interessanten Orten und Routen, die von den Anwendern von AddisMapME erstellt wurden, zu laden. Sie werden eine Internetverbindung benötigen.</string>
 	<string name="downloader_download_routers">Markierungen laden</string>
 	<string name="bookmarks_groups_cached">Heruntergeladene Listen</string>
 	<string name="author_name_by_prefix">%s</string>
@@ -1329,7 +1329,7 @@
 	<string name="opt_out_flurry">Statistiken</string>
 	<string name="opt_out_mopub">Personalisierte Werbung</string>
 	<string name="opt_out_fabric">Berichte über die Fehler</string>
-	<string name="opt_out_fabric_description">Wir können Ihre Daten benutzen, um MAPS.ME zu entwickeln und zu verbessern. Die Änderungen werden nach dem Neustart der App in Kraft treten.</string>
+	<string name="opt_out_fabric_description">Wir können Ihre Daten benutzen, um AddisMapME zu entwickeln und zu verbessern. Die Änderungen werden nach dem Neustart der App in Kraft treten.</string>
 	<string name="opt_out_help_ios_1">Sie können der Erhalt von gezielter Werbung in den Einstellungen des Geräts verbieten.</string>
 	<string name="opt_out_help_ios_2">iOS 9 oder höher</string>
 	<string name="opt_out_help_ios_3">Öffnen Sie die Einstellungen → Vertraulichkeit → Werbung → Schalten Sie „Tracking einschränken“ ein</string>
@@ -1350,7 +1350,7 @@
 	<string name="category_desc_more">…mehr</string>
 	<string name="title_error_downloading_bookmarks">Es ist ein Fehler aufgetreten</string>
 	<string name="subtitle_error_downloading_bookmarks">Die Markierungen wurden nicht geladen</string>
-	<string name="whats_new_bookmarks_catalog_title">Bei MAPS.ME ist ein Routenkatalog aufgetreten</string>
+	<string name="whats_new_bookmarks_catalog_title">Bei AddisMapME ist ein Routenkatalog aufgetreten</string>
 	<string name="whats_new_bookmarks_catalog_message">Dutzende ausführliche Routen weltweit: wo man hingehen kann, was man sich anschauen kann, wohin man essen gehen kann.</string>
 	<string name="whats_new_popularity_label_title">Beliebtes in der Nähe</string>
 	<string name="whats_new_popularity_label_message">Der Abschnitte „In der Nähe entdecken“ wird dabei helfen, die beliebtesten Plätze in der Stadt zu finden.</string>

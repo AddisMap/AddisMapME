@@ -33,7 +33,7 @@
 	<string name="downloading">Sedang mengunduh…</string>
 	<string name="get_it_now">Dapatkan sekarang</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">Terima kasih karena menggunakan MAPS.ME! Apakah Anda suka aplikasi ini? Beri tahukan kepada teman-teman Anda! Ini akan menjadi ungkapan terima kasih yang terbaik bagi kami.</string>
+	<string name="share_on_facebook_text">Terima kasih karena menggunakan AddisMapME! Apakah Anda suka aplikasi ini? Beri tahukan kepada teman-teman Anda! Ini akan menjadi ungkapan terima kasih yang terbaik bagi kami.</string>
 	<!-- Settings/Downloader - size string, only strings different from English should be translated -->
 	<string name="kb">kB</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
@@ -95,7 +95,7 @@
 	<string name="country_status_download_failed">Sedang Mengunduh telah gagal</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Coba Lagi</string>
-	<string name="about_menu_title">Tentang MAPS.ME</string>
+	<string name="about_menu_title">Tentang AddisMapME</string>
 	<string name="downloading_touch_to_cancel">Sedang mengunduh %d%%, sentuh untuk membatalkan</string>
 	<string name="downloaded_touch_to_delete">(%s) telah diunduh, sentuh untuk menghapus</string>
 	<string name="connection_settings">Pengaturan Koneksi</string>
@@ -104,7 +104,7 @@
 	<string name="unsupported_phone">OpenGL yang dipercepat oleh OpenGL diperlukan. Sayangnya, perangkat Anda tidak mendukung.</string>
 	<string name="download">Unduh</string>
 	<string name="external_storage_is_not_available">Penyimpanan kartu SD/USB dengan peta terunduh tidak tersedia</string>
-	<string name="disconnect_usb_cable">Mohon lepas kabel USB atau masukkan kartu memori untuk menggunakan MAPS.ME</string>
+	<string name="disconnect_usb_cable">Mohon lepas kabel USB atau masukkan kartu memori untuk menggunakan AddisMapME</string>
 	<string name="not_enough_free_space_on_sdcard">Mohon bebaskan sejumlah ruang pada kartu SD/penyimpanan USB terlebih dahulu untuk menggunakan aplikasi</string>
 	<string name="not_enough_memory">Memori tidak cukup untuk meluncurkan aplikasi</string>
 	<string name="free_space_for_country">Mohon bebaskan %1$s pada perangkat Anda terlebih dahulu untuk mengunduh %2$s</string>
@@ -131,7 +131,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">Tersedia pembaruan untuk peta ini:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">Anda tidak lagi memerlukan MAPS.ME Lite, sehingga Anda dapat menghapusnya.</string>
+	<string name="suggest_uninstall_lite">Anda tidak lagi memerlukan AddisMapME Lite, sehingga Anda dapat menghapusnya.</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">%s berhasil diunduh</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -161,9 +161,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">Set</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">Belum ada yang ditandai.\nSentuh lokasi apa pun pada peta untuk menandai.\nPenanda dari sumber lainnya juga dapat di impor dan ditampilkan pada MAPS.ME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.</string>
+	<string name="bookmarks_usage_hint">Belum ada yang ditandai.\nSentuh lokasi apa pun pada peta untuk menandai.\nPenanda dari sumber lainnya juga dapat di impor dan ditampilkan pada AddisMapME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">Penanda dari sumber lainnya dapat diimpor dan ditampilkan pada MAPS.ME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.</string>
+	<string name="bookmarks_usage_hint_import_only">Penanda dari sumber lainnya dapat diimpor dan ditampilkan pada AddisMapME. Buka berkas KML/KMZ tersebut dengan penanda yang disimpan dari surel, Dropbox atau tautan jaringan.</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">Pengaturan</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -219,7 +219,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">Bagikan menggunakan surel</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">Bagikan penanda MAPS.ME</string>
+	<string name="share_bookmarks_email_subject">Bagikan penanda AddisMapME</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Memuat Penanda</string>
 	<!-- Kmz file successful loading -->
@@ -239,19 +239,19 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Pengunduhan negara sedang berjalan.</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">Kami harap Anda senang menggunakan MAPS.ME! Jika ya, mohon beri nilai atau ulasan untuk aplikasi ini di App Store. Hanya memakan waktu kurang dari satu menit tetapi hal itu dapat benar-benar membantu kami. Terima kasih atas dukungan Anda!</string>
+	<string name="appStore_message">Kami harap Anda senang menggunakan AddisMapME! Jika ya, mohon beri nilai atau ulasan untuk aplikasi ini di App Store. Hanya memakan waktu kurang dari satu menit tetapi hal itu dapat benar-benar membantu kami. Terima kasih atas dukungan Anda!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">Tidak, terima kasih</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="bookmark_share_sms">Hei, lihat pinku di MAPS.ME! %1$s atau %2$s belum memiliki peta offline? Unduh di sini: http://maps.me/get</string>
+	<string name="bookmark_share_sms">Hei, lihat pinku di AddisMapME! %1$s atau %2$s belum memiliki peta offline? Unduh di sini: http://maps.me/get</string>
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
-	<string name="my_position_share_sms">Hei, lihat lokasiku saat ini di MAPS.ME! %1$s atau %2$s belum memiliki peta offline? Unduh di sini: http://maps.me/get</string>
+	<string name="my_position_share_sms">Hei, lihat lokasiku saat ini di AddisMapME! %1$s atau %2$s belum memiliki peta offline? Unduh di sini: http://maps.me/get</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Hei, lihat pinku di peta MAPS.ME</string>
+	<string name="bookmark_share_email_subject">Hei, lihat pinku di peta AddisMapME</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">Hai,\n\nI disematkan: %1$s di MAPS.ME, peta offline dunia. Klik tautan ini %2$s atau ini %3$s untuk melihat tempat di peta.\n\n Terima kasih.</string>
+	<string name="bookmark_share_email">Hai,\n\nI disematkan: %1$s di AddisMapME, peta offline dunia. Klik tautan ini %2$s atau ini %3$s untuk melihat tempat di peta.\n\n Terima kasih.</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Hei, lihat lokasiku saat ini di peta MAPS.ME!</string>
+	<string name="my_position_share_email_subject">Hei, lihat lokasiku saat ini di peta AddisMapME!</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">Hai,\n\nSekarang saya ada di sini: %1$s. Klik tautan ini %2$s atau yang ini %3$s untuk melihat tempatnya di peta.\n\nTerima kasih.</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -361,17 +361,17 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">Unduh peta tempat di mana Anda berada sekarang</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">Kami sedang mentransfer peta unduhan Anda dari MAPS.ME Lite ke MAPS.ME. Proses ini mungkin membutuhkan waktu beberapa menit.</string>
+	<string name="move_lite_maps_to_pro">Kami sedang mentransfer peta unduhan Anda dari AddisMapME Lite ke AddisMapME. Proses ini mungkin membutuhkan waktu beberapa menit.</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">Peta unduhan Anda berhasil ditransfer ke MAPS.ME.</string>
+	<string name="move_lite_maps_to_pro_ok">Peta unduhan Anda berhasil ditransfer ke AddisMapME.</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">Peta Anda gagal ditransfer. Silakan hapus MAPS.ME Lite dan unduh peta lagi.</string>
+	<string name="move_lite_maps_to_pro_failed">Peta Anda gagal ditransfer. Silakan hapus AddisMapME Lite dan unduh peta lagi.</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">Setelan &amp;amp; Lebih Banyak</string>
 	<!-- Text in menu -->
 	<string name="website">Situs Web</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">Komunitas MAPS.ME</string>
+	<string name="maps_me_community">Komunitas AddisMapME</string>
 	<!-- Text in menu -->
 	<string name="like_on_facebook">Sukai di Facebook</string>
 	<!-- Text in menu -->
@@ -391,11 +391,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">Laporkan gangguan</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">Mohon daftarkan saya untuk berlangganan berita MAPS.ME</string>
+	<string name="subscribe_me_subject">Mohon daftarkan saya untuk berlangganan berita AddisMapME</string>
 	<!-- Email body -->
 	<string name="subscribe_me_body">Saya ingin menjadi yang pertama untuk mengetahui kabar dan promosi terbaru. Saya dapat membatalkan langganan saya kapan saja.</string>
 	<!-- About text -->
-	<string name="about_text">MAPS.ME menawarkan peta offline tercepat dari semua kota, semua negara di dunia. Berpergianlah dengan kepercayaan diri yang penuh: di nana pun Anda berada, MAPS.ME akan membantu Anda mengetahui posisi Anda pada peta, menemukan restoran, hotel, bank, stasiun bahan bakar terdekat, dll. Tidak perlu koneksi internet.Kami selalu membuat fitur-fitur baru dan ingin mendengar pendapat Anda mengenai bagaimana kami dapat membuat MAPS.ME menjadi lebih baik. Jika Anda memiliki masalah apa pun dengan aplikasinya, jangan segan untuk menghubungi kami di support\@maps.me. Kami akan merespons setiap permintaan!Apakah Anda menyukai MAPS.ME an ingin membantu kami? Terdapat beberapa cara yang mudah dan sepenuhnya gratis:- tulis ulasan di App Market Anda</string>
+	<string name="about_text">AddisMapME menawarkan peta offline tercepat dari semua kota, semua negara di dunia. Berpergianlah dengan kepercayaan diri yang penuh: di nana pun Anda berada, AddisMapME akan membantu Anda mengetahui posisi Anda pada peta, menemukan restoran, hotel, bank, stasiun bahan bakar terdekat, dll. Tidak perlu koneksi internet.Kami selalu membuat fitur-fitur baru dan ingin mendengar pendapat Anda mengenai bagaimana kami dapat membuat AddisMapME menjadi lebih baik. Jika Anda memiliki masalah apa pun dengan aplikasinya, jangan segan untuk menghubungi kami di support\@maps.me. Kami akan merespons setiap permintaan!Apakah Anda menyukai AddisMapME an ingin membantu kami? Terdapat beberapa cara yang mudah dan sepenuhnya gratis:- tulis ulasan di App Market Anda</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Surel pelanggan belum diatur. Mohon konfigurasikan atau gunakan cara lain untuk menghubungi kami di %s</string>
 	<!-- Alert title -->
@@ -407,7 +407,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">Mohon perbarui peta untuk membuat rute</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">Versi MAPS.ME yang terbaru memungkinkan pembuatan rute dari posisi Anda saat itu ke titik tujuan. Mohon perbarui peta untuk menggunakan fitur ini.</string>
+	<string name="routing_update_maps">Versi AddisMapME yang terbaru memungkinkan pembuatan rute dari posisi Anda saat itu ke titik tujuan. Mohon perbarui peta untuk menggunakan fitur ini.</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">Perbarui semua</string>
 	<!-- Cancel all button text -->
@@ -424,7 +424,7 @@
 	<string name="downloader_downloading">Mengunduh:</string>
 	<string name="downloader_search_results">Ditemukan</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">Dalam membuat rute di aplikasi MAPS.ME, mohon ingat:\n\n- Rute yang disarankan hanya dapat dianggap sebagai rekomendasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Peta bisa saja salah atau sudah usang, dan rute yang dibuat mungkin bukan yang terbaik.\n\nBerhati-hatilah di jalan dan jagalah diri Anda sendiri!</string>
+	<string name="routing_disclaimer">Dalam membuat rute di aplikasi AddisMapME, mohon ingat:\n\n- Rute yang disarankan hanya dapat dianggap sebagai rekomendasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Kondisi jalan, peraturan dan tanda-tanda lalu lintas memiliki prioritas yang lebih tinggi daripada saran navigasi.\n- Peta bisa saja salah atau sudah usang, dan rute yang dibuat mungkin bukan yang terbaik.\n\nBerhati-hatilah di jalan dan jagalah diri Anda sendiri!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">Usang</string>
 	<!-- Up to date maps category -->
@@ -479,9 +479,9 @@
 	<!-- Text for rating dialog -->
 	<string name="rating_just_rated">Saya baru saja menilai app Anda</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_user_since">Saya pengguna MAPS.ME sejak %s</string>
+	<string name="rating_user_since">Saya pengguna AddisMapME sejak %s</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_do_like_maps">Anda suka MAPS.ME?</string>
+	<string name="rating_do_like_maps">Anda suka AddisMapME?</string>
 	<!-- Text for rating dialog -->
 	<string name="rating_tap_star">Ketuk bintang untuk menilai app kami.</string>
 	<!-- Text for rating dialog -->
@@ -497,7 +497,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">Dapatkan peta</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">Unduh peta yang diperbarui dan data perutean untuk mendapatkan semua fitur MAPS.ME.</string>
+	<string name="routing_download_map_and_routing">Unduh peta yang diperbarui dan data perutean untuk mendapatkan semua fitur AddisMapME.</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">Dapatkan data perutean</string>
 	<!-- Text for routing error dialog -->
@@ -612,7 +612,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">Untuk membuat rute, silakan unduh dan perbarui semua peta sepanjang rute.</string>
 	<string name="rate_alert_title">Suka aplikasi ini?</string>
-	<string name="rate_alert_default_message">Terima kasih karena menggunakan MAPS.ME. Mohon beri peringkat untuk aplikasi ini. Masukan dari Anda membantu kami untuk menjadi lebih baik.</string>
+	<string name="rate_alert_default_message">Terima kasih karena menggunakan AddisMapME. Mohon beri peringkat untuk aplikasi ini. Masukan dari Anda membantu kami untuk menjadi lebih baik.</string>
 	<string name="rate_alert_five_star_message">Hore! Kami juga sangat menyukai Anda!</string>
 	<string name="rate_alert_four_star_message">Terima kasih, kami akan melakukan yang terbaik!</string>
 	<string name="rate_alert_less_than_four_star_message">Anda punya ide agar kami bisa membuatnya menjadi lebih baik?</string>
@@ -667,7 +667,7 @@
 	<string name="editor_report_problem_no_place_title">Tempat tidak ada</string>
 	<string name="editor_report_problem_under_construction_title">Ditutup karena pemeliharaan</string>
 	<string name="editor_report_problem_duplicate_place_title">Tempat ganda</string>
-	<string name="first_launch_congrats_title">MAPS.ME siap digunakan</string>
+	<string name="first_launch_congrats_title">AddisMapME siap digunakan</string>
 	<string name="first_launch_congrats_text">Cari dan bernavigasilah ke mana saja di dunia secara offline, bebas biaya.</string>
 	<string name="migrate_title">Penting!</string>
 	<!-- Android uses image instead of text. -->
@@ -771,20 +771,20 @@
 	<string name="whatsnew_search_message">Kami secara signifikan telah meningkatkan pencarian menurut alamat. Lihat sendiri.</string>
 	<string name="whatsnew_editor_title">Edit peta*</string>
 	<string name="whatsnew_editor_message_1">Tambahkan tempat-tempat baru di peta, dan edit peta-peta yang ada langsung dari aplikasi.</string>
-	<string name="whatsnew_editor_message_2">* MAPS.ME menggunakan data komunitas OpenStreetMap.</string>
+	<string name="whatsnew_editor_message_2">* AddisMapME menggunakan data komunitas OpenStreetMap.</string>
 	<string name="onboarding_offline_navigation_title">Anda tidak akan tersesat lagi</string>
 	<string name="onboarding_offline_navigation_message">Rencanakan rute mobil dan pejalan kaki yang optimal, meskipun tidak ada koneksi internet!</string>
 	<string name="onboarding_offline_navigation_title_2">Navigasi Offline</string>
 	<string name="onboarding_offline_navigation_message_2">Rencanakan rute mobil dan pejalan kaki yang optimal.</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — akses peta seluruh dunia tanpa internet</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — akses peta seluruh dunia tanpa internet</string>
 	<string name="onboarding_offline_maps_message">Unduh peta untuk daerah yang diinginkan sekali, dan gunakan navigasi dan fungsi pencarian tanpa koneksi internet.</string>
 	<string name="onboarding_notifications_message">Untuk menerima peta-peta terbaru, dapatkan pemberitahuan pembaruan</string>
 	<string name="onboarding_notifications_title">Aktifkan pemberitahuan pembaruan</string>
 	<string name="onboarding_location_title">Membantu kami menemukan Anda</string>
 	<string name="onboarding_location_message">Untuk menggunakan navigasi dan fitur-fitur lainnya, kami perlu mengakses geolokasi Anda.</string>
-	<string name="onboarding_permissions_title">Izinkan MAPS.ME mengakses penyimpanan dan lokasi</string>
+	<string name="onboarding_permissions_title">Izinkan AddisMapME mengakses penyimpanan dan lokasi</string>
 	<string name="onboarding_permissions_message">Agar Anda dapat mengunduh peta, melihat tempat dan lalu lintas di dekat Anda, dan menggunakan navigasi.</string>
-	<string name="onboarding_welcome_title">Selamat datang di MAPS.ME</string>
+	<string name="onboarding_welcome_title">Selamat datang di AddisMapME</string>
 	<string name="onboarding_welcome_first_subtitle">Peta gratis, cepat, terperinci, dan sepenuhnya tanpa internet dengan navigasi untuk setiap belokan.</string>
 	<string name="onboarding_welcome_second_subtitle">Dengan menjalankan aplikasi ini, Anda menyetujui &lt;a href="%1$s">Syarat-Syarat Penggunaan&lt;/a> dan &lt;a href="%2$s">Kebijakan Privasi&lt;/a>.</string>
 	<string name="dialog_incorrect_feature_position">Ubah lokasi</string>
@@ -793,7 +793,7 @@
 	<string name="no_migration_during_navigation">Memperbarui tidak diperbolehkan selama navigasi.</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">Untuk mengunduh, Anda perlu ruang lebih banyak. Harap menghapus data yang tidak diperlukan.</string>
-	<string name="editor_sharing_title">Saya meningkatkan peta MAPS.ME</string>
+	<string name="editor_sharing_title">Saya meningkatkan peta AddisMapME</string>
 	<string name="editor_comment_will_be_sent">Kami akan mengirim komen Anda ke pembuat peta.</string>
 	<string name="editor_unsupported_category_message">Anda telah menambahkan sebuah tempat kategori yang belum kami dukung. Tempat itu akan muncul di peta beberapa saat kemudian.</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -810,7 +810,7 @@
 	<string name="core_placepage_unknown_place">Tempat Tidak Dikenal</string>
 	<string name="editor_other_info">Mengirim catatan ke moderator OSM</string>
 	<string name="editor_detailed_description_hint">Komentar mendetail</string>
-	<string name="editor_detailed_description">Saran perubahan Anda akan dikirimkan ke komunitas OpenStreetMap. Jelaskan detail yang tidak dapat diedit di MAPS.ME.</string>
+	<string name="editor_detailed_description">Saran perubahan Anda akan dikirimkan ke komunitas OpenStreetMap. Jelaskan detail yang tidak dapat diedit di AddisMapME.</string>
 	<string name="editor_more_about_osm">Selengkapnya tentang OpenStreetMap</string>
 	<string name="editor_operator">Pemilik</string>
 	<string name="editor_tag_description">Masukkan perusahaan, organisasi, atau individu yang bertanggung jawab atas fasilitas tersebut.</string>
@@ -831,7 +831,7 @@
 	<string name="current_location_unknown_error_title">Lokasi saat ini tidak diketahui.</string>
 	<string name="current_location_unknown_error_message">Terjadi kesalahan saat mencari lokasi Anda. Periksa apakah perangkat Anda bekerja dengan benar dan coba lagi nanti.</string>
 	<string name="whatsnew_update_editor_title">Kami telah memperbarui editor peta</string>
-	<string name="whatsnew_update_editor_message">Pengguna MAPS.ME telah membuat 200 000 perubahan peta. Bersama-sama kami membuat peta paling detail di Dunia. Bergabunglah bersama kami!</string>
+	<string name="whatsnew_update_editor_message">Pengguna AddisMapME telah membuat 200 000 perubahan peta. Bersama-sama kami membuat peta paling detail di Dunia. Bergabunglah bersama kami!</string>
 	<!-- Additional text in whats new -->
 	<string name="whatsnew_update_editor_message_update">Untuk menggunakan editor peta, silakan perbarui semua peta.</string>
 	<string name="location_services_disabled_header">Identifikasi lokasi dinonaktifkan</string>
@@ -919,7 +919,7 @@
 	<!-- For sharing via SMS and so on -->
 	<string name="sharing_call_action_look">Lihat</string>
 	<string name="continue_recent_track_background_button">Teruskan</string>
-	<string name="recent_track_background_dialog_message">MAPS.ME menggunakan geoposisi di latar belakang untuk merekam rute yang baru Anda lalui.</string>
+	<string name="recent_track_background_dialog_message">AddisMapME menggunakan geoposisi di latar belakang untuk merekam rute yang baru Anda lalui.</string>
 	<string name="whatsnew_car_navigation_header">Navigasi kendaraan yang mudah digunakan</string>
 	<string name="whatsnew_car_navigation_message">• Elemen-elemen navigasi membutuhkan ruang lebih sedikit\n• Kami menampilkan kecepatan dan telah menambahkan zoom otomatis</string>
 	<string name="whatsnew_cycle_navigation_2_header">Navigasi sepeda</string>
@@ -927,15 +927,15 @@
 	<string name="whatsnew_booking_2_header">Pencarian hotel mudah</string>
 	<string name="whatsnew_booking_2_message">Hasil pencarian menampilkan kategori peringkat dan harga hotel</string>
 	<string name="whatsnew_cycle_navigation_header">Navigasi bersepeda (versi beta)</string>
-	<string name="whatsnew_cycle_navigation_message">Kami sedang menguji navigasi bersepeda untuk musim baru. Coba rute bersepeda favorit Anda dengan MAPS.ME dan sampaikan pendapat Anda.</string>
+	<string name="whatsnew_cycle_navigation_message">Kami sedang menguji navigasi bersepeda untuk musim baru. Coba rute bersepeda favorit Anda dengan AddisMapME dan sampaikan pendapat Anda.</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">Beri nilai di Google Play</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">Beri Tahu Teman</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">Hai! Instal MAPS.ME yuk!</string>
+	<string name="tell_friends_text">Hai! Instal AddisMapME yuk!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME adalah aplikasi offline yang sangat berguna untuk bepergian. MAPS.ME didasarkan pada data OpenStreetMap dan memungkinkan kita untuk mengeditnya.</string>
+	<string name="about_description">AddisMapME adalah aplikasi offline yang sangat berguna untuk bepergian. AddisMapME didasarkan pada data OpenStreetMap dan memungkinkan kita untuk mengeditnya.</string>
 	<!-- Text in menu -->
 	<string name="blog">Blog</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -990,7 +990,7 @@
 	<string name="chat">Geochat</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">Buka</string>
-	<string name="whatsnew_uber_header">MAPS.ME &amp; Uber</string>
+	<string name="whatsnew_uber_header">AddisMapME &amp; Uber</string>
 	<string name="whatsnew_uber_message">Pesan taksi Uber langsung dari aplikasi!</string>
 	<string name="dialog_taxi_offline">Memesan taksi tidak tersedia dalam modus offline.</string>
 	<string name="dialog_taxi_error">Memesan taksi untuk sementara tidak tersedia.</string>
@@ -1005,7 +1005,7 @@
 	<string name="traffic_update_maps_text">Untuk memperlihatkan data lalu lintas, peta harus diperbarui.</string>
 	<string name="traffic_outdated">Data lalu lintas belum diperbarui.</string>
 	<string name="big_font">Perbesar ukuran huruf pada peta</string>
-	<string name="traffic_update_app">Perbarui MAPS.ME</string>
+	<string name="traffic_update_app">Perbarui AddisMapME</string>
 	<!-- "traffic" as in road congestion -->
 	<string name="traffic_update_app_message">Untuk menampilkan data lalu lintas, aplikasi ini harus diperbarui.</string>
 	<!-- "traffic" as in "road congestion" -->
@@ -1107,9 +1107,9 @@
 	<string name="button_accept_and_continue">Terima dan lanjutkan</string>
 	<string name="button_learn_more">Pelajari selengkapnya</string>
 	<string name="onboarding_storage_permissions_title">Berikan akses</string>
-	<string name="onboarding_storage_permissions_message">Ubah pengaturan izin di perangkat Anda. Perlu akses penyimpanan untuk menggunakan MAPS.ME.</string>
+	<string name="onboarding_storage_permissions_message">Ubah pengaturan izin di perangkat Anda. Perlu akses penyimpanan untuk menggunakan AddisMapME.</string>
 	<string name="button_exit">Keluar</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME membutuhkan akses ke</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME membutuhkan akses ke</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">Penyimpanan</string>
 	<string name="onboarding_detail_permissions_storage_message">Untuk menyimpan dan menggunakan peta yang diunduh tanpa internet dan menyimpan markah.</string>
@@ -1285,16 +1285,16 @@
 	<string name="sign_message_gdpr">Untuk melanjutkan, Anda harus menerima Ketentuan Penggunaan dan Kebijakan Privasi kami. Silakan baca dengan seksama.</string>
 	<string name="sign_agree_pp_gdpr">Saya setuju dengan &lt;a href="%s">Kebijakan Privasi&lt;/a></string>
 	<string name="sign_agree_tof_gdpr">Saya setuju dengan &lt;a href="%s">Ketentuan Penggunaan&lt;/a></string>
-	<string name="sign_agree_news_gdpr">Saya setuju untuk menerima berita terbaru tentang produk MAPS.ME</string>
+	<string name="sign_agree_news_gdpr">Saya setuju untuk menerima berita terbaru tentang produk AddisMapME</string>
 	<string name="whats_new_localbiz_title">Bisnis kecil layak mendapatkan perhatian</string>
-	<string name="whats_new_localbiz_message">Kafe lokal, hostel nyaman, dan pertokoan adalah yang membuat perjalanan kita tak terlupakan. Kami akan mengoptimalkan halaman Anda di MAPS.ME untuk membuatnya menonjol.</string>
+	<string name="whats_new_localbiz_message">Kafe lokal, hostel nyaman, dan pertokoan adalah yang membuat perjalanan kita tak terlupakan. Kami akan mengoptimalkan halaman Anda di AddisMapME untuk membuatnya menonjol.</string>
 	<string name="whats_new_order_button">Tinggalkan permintaan</string>
 	<string name="bookmarks_page_downloaded">Diunduh</string>
 	<string name="bookmarks_page_my">Milik saya</string>
 	<string name="routes_and_bookmarks">Rute dan bookmark</string>
 	<string name="bookmarks_webview_success_toast">Bookmark berhasil diunduh</string>
 	<string name="cached_bookmarks_placeholder_title">Unduh tempat baru</string>
-	<string name="cached_bookmarks_placeholder_subtitle">Tekan tombol untuk mengunduh ribuan tempat dan rute menarik yang dibuat oleh pengguna MAPS.ME. Anda akan memerlukan koneksi internet.</string>
+	<string name="cached_bookmarks_placeholder_subtitle">Tekan tombol untuk mengunduh ribuan tempat dan rute menarik yang dibuat oleh pengguna AddisMapME. Anda akan memerlukan koneksi internet.</string>
 	<string name="downloader_download_routers">Unduh bookmark</string>
 	<string name="bookmarks_groups_cached">Daftar yang telah diunduh.</string>
 	<string name="author_name_by_prefix">oleh %s</string>
@@ -1314,7 +1314,7 @@
 	<string name="opt_out_flurry">Statistik</string>
 	<string name="opt_out_mopub">Iklan yang telah dipersonalisasi</string>
 	<string name="opt_out_fabric">Laporan tabrakan</string>
-	<string name="opt_out_fabric_description">Kami dapat menggunakan data Anda untuk meningkatkan pengalaman MAPS.ME. Perubahan akan berlaku setelah Anda memulai ulang aplikasi.</string>
+	<string name="opt_out_fabric_description">Kami dapat menggunakan data Anda untuk meningkatkan pengalaman AddisMapME. Perubahan akan berlaku setelah Anda memulai ulang aplikasi.</string>
 	<string name="opt_out_help_ios_1">Perangkat seluler Anda mungkin menyediakan pengaturan \"\"Batasi Treking Iklan\"\" atau \"\"Keluar dari iklan berbasis ketertarikan\"\".</string>
 	<string name="opt_out_help_ios_2">iOS 9 atau Lebih Tinggi</string>
 	<string name="opt_out_help_ios_3">Ke Pengaturan → Privasi → Iklan → Aktifkan pengaturan \"\"Batasi Treking Iklan\"\"</string>
@@ -1335,7 +1335,7 @@
 	<string name="category_desc_more">…selengkapnya</string>
 	<string name="title_error_downloading_bookmarks">Terjadi kesalahan</string>
 	<string name="subtitle_error_downloading_bookmarks">Bookmark tidak terunduh</string>
-	<string name="whats_new_bookmarks_catalog_title">MAPS.ME sekarang memiliki katalog rute</string>
+	<string name="whats_new_bookmarks_catalog_title">AddisMapME sekarang memiliki katalog rute</string>
 	<string name="whats_new_bookmarks_catalog_message">Ratusan rute yang detail di seluruh dunia: tempat untuk dikunjungi, untuk melihat-lihat, untuk makan.</string>
 	<string name="whats_new_popularity_label_title">Lokasi populer terdekat</string>
 	<string name="whats_new_popularity_label_message">Bagian temukan di sekitar akan membantu Anda menemukan tempat paling populer di kota.</string>

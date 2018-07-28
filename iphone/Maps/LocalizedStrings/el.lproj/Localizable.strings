@@ -50,7 +50,7 @@
 "get_it_now" = "Get it now";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "Σας ευχαριστούμε που χρησιμοποιείτε το MAPS.ME! Σας αρέσει η εφαρμογή; Πείτε το στους φίλους σας! Είναι ότι καλύτερο μπορείτε να κάνετε για εμάς.";
+"share_on_facebook_text" = "Σας ευχαριστούμε που χρησιμοποιείτε το AddisMapME! Σας αρέσει η εφαρμογή; Πείτε το στους φίλους σας! Είναι ότι καλύτερο μπορείτε να κάνετε για εμάς.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "kB";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Δοκιμάστε ξανά";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "Σχετικά με το MAPS.ME";
+"about_menu_title" = "Σχετικά με το AddisMapME";
 
 "downloading_touch_to_cancel" = "Downloading %d%%, touch to cancel";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "SD card/USB storage with downloaded maps is not available";
 
-"disconnect_usb_cable" = "Αποσυνδέστε το καλώδιο USB ή τοποθετήστε την κάρτα μνήμης για να χρησιμοποιήσετε το MAPS.ME";
+"disconnect_usb_cable" = "Αποσυνδέστε το καλώδιο USB ή τοποθετήστε την κάρτα μνήμης για να χρησιμοποιήσετε το AddisMapME";
 
 "not_enough_free_space_on_sdcard" = "Ελευθερώσετε  χώρο αποθήκευσης στην SD κάρτα/USB πρώτα προκειμένου να χρησιμοποιήσετε την εφαρμογή";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Υπάρχει διαθέσιμη ενημέρωση για τους παρακάτω χάρτες:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "Δε χρειάζεστε το MAPS.ME Lite πλέον, μπορείτε να το απεγκαταστήσετε.";
+"suggest_uninstall_lite" = "Δε χρειάζεστε το AddisMapME Lite πλέον, μπορείτε να το απεγκαταστήσετε.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@ downloaded successfully";
@@ -257,10 +257,10 @@
 "set" = "Σύνολο";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "Δεν έχετε αγαπημένα ακόμα.\nΠατήστε σε οποιοδήποτε σημείο στο χάρτη για να προσθέσετε αγαπημένο.\nΜπορείτε επίσης να εισάγετε αγαπημένα από άλλες πηγές και να τα εμφανίσετε στο MAPS.ME. Ανοίξτε το αρχείο KML/KMZ με τα αποθηκευμένα αγαπημένα από το email, το Dropbox ή τους υπερσυνδέσμους.";
+"bookmarks_usage_hint" = "Δεν έχετε αγαπημένα ακόμα.\nΠατήστε σε οποιοδήποτε σημείο στο χάρτη για να προσθέσετε αγαπημένο.\nΜπορείτε επίσης να εισάγετε αγαπημένα από άλλες πηγές και να τα εμφανίσετε στο AddisMapME. Ανοίξτε το αρχείο KML/KMZ με τα αποθηκευμένα αγαπημένα από το email, το Dropbox ή τους υπερσυνδέσμους.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Μπορείτε επίσης να εισάγετε αγαπημένα από άλλες πηγές και να τα εμφανίσετε στο MAPS.ME. Ανοίξτε το αρχείο KML/KMZ με τα αποθηκευμένα αγαπημένα από το email, το Dropbox ή τους υπερσυνδέσμους.";
+"bookmarks_usage_hint_import_only" = "Μπορείτε επίσης να εισάγετε αγαπημένα από άλλες πηγές και να τα εμφανίσετε στο AddisMapME. Ανοίξτε το αρχείο KML/KMZ με τα αποθηκευμένα αγαπημένα από το email, το Dropbox ή τους υπερσυνδέσμους.";
 
 /* Settings button in system menu */
 "settings" = "Ρυθμίσεις";
@@ -353,9 +353,9 @@
 "share_by_email" = "Κοινοποίηση μέσω ηλεκτρονικού ταχυδρομείου";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "Κοινοποιήθηκαν αγαπημένα MAPS.ME με σας";
+"share_bookmarks_email_subject" = "Κοινοποιήθηκαν αγαπημένα AddisMapME με σας";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Φόρτωση αγαπημένων";
@@ -385,25 +385,25 @@
 "downloading_is_active" = "Λήψη χάρτη σε εξέλιξη.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "Hope you enjoy using MAPS.ME! If so, please rate or review the app at the App Store. It takes less than a minute but can really help us. Thanks for your support!";
+"appStore_message" = "Hope you enjoy using AddisMapME! If so, please rate or review the app at the App Store. It takes less than a minute but can really help us. Thanks for your support!";
 
 /* No, thanks */
 "no_thanks" = "No, thanks";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο MAPS.ME! %1$@ ή %2$@ εάν δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get";
+"bookmark_share_sms" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME! %1$@ ή %2$@ εάν δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Έλεγξε την τρέχουσα τοποθεσία μου στο MAPS.ME! %1$@ ή %2$@ στην περίπτωση που δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get";
+"my_position_share_sms" = "Έλεγξε την τρέχουσα τοποθεσία μου στο AddisMapME! %1$@ ή %2$@ στην περίπτωση που δεν έχεις εγκαταστήσει χάρτες εκτός σύνδεσης, μπορείς να τους κατεβάσεις εδώ: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο MAPS.ME!";
+"bookmark_share_email_subject" = "Έλεγξε τις τοποθεσίες που έχω καρφιτσώσει στο AddisMapME!";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Hi,\n\nI pinned: %1$@ on the MAPS.ME offline map of the world. Click this link %2$@ or this one %3$@ to see the place on the map.\n\nThanks.";
+"bookmark_share_email" = "Hi,\n\nI pinned: %1$@ on the AddisMapME offline map of the world. Click this link %2$@ or this one %3$@ to see the place on the map.\n\nThanks.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Έλεγξε την τρέχουσα τοποθεσία μου στο χάρτη MAPS.ME!";
+"my_position_share_email_subject" = "Έλεγξε την τρέχουσα τοποθεσία μου στο χάρτη AddisMapME!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "Γεια,\n\nείμαι εδώ τώρα: %1$@. Κάνε κλικ σε αυτό το σύνδεσμο %2$@ ή σε αυτόν %3$@ για να δεις την τοποθεσία στο χάρτη.\n\nΕυχαριστώ.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Κατεβάστε τον χάρτη της τοποθεσίας που βρίσκεστε";
 
 /* text of notification */
-"pro_version_is_free_today" = "Full version of MAPS.ME is free today! Download now and tell your friends.";
+"pro_version_is_free_today" = "Full version of AddisMapME is free today! Download now and tell your friends.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "We are transferring your downloaded maps from MAPS.ME Lite to MAPS.ME. It may take a few minutes.";
+"move_lite_maps_to_pro" = "We are transferring your downloaded maps from AddisMapME Lite to AddisMapME. It may take a few minutes.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "Your downloaded maps are successfully transferred to MAPS.ME.";
+"move_lite_maps_to_pro_ok" = "Your downloaded maps are successfully transferred to AddisMapME.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "Your maps failed to transfer. Please delete MAPS.ME Lite and download the maps again.";
+"move_lite_maps_to_pro_failed" = "Your maps failed to transfer. Please delete AddisMapME Lite and download the maps again.";
 
 /* Text in menu */
 "settings_and_more" = "Settings & More";
@@ -611,7 +611,7 @@
 "website" = "Ιστότοπος";
 
 /* Text in menu */
-"maps_me_community" = "Κοινότητα MAPS.ME ";
+"maps_me_community" = "Κοινότητα AddisMapME ";
 
 /* Text in menu */
 "like_on_facebook" = "Κάντε Like στο Facebook";
@@ -641,13 +641,13 @@
 "report_a_bug" = "Αναφορά σφάλματος";
 
 /* Email subject */
-"subscribe_me_subject" = "Εγγράψτε με στο ενημερωτικό δελτίο MAPS.ME";
+"subscribe_me_subject" = "Εγγράψτε με στο ενημερωτικό δελτίο AddisMapME";
 
 /* Email body */
 "subscribe_me_body" = "Θέλω να μαθαίνω πρώτος(η) τις τελευταίες ειδήσεις, ενημερώσεις εφαρμογών και προωθητικές ενέργειεςς. Καταλαβαίνω ότι μπορώ να ακυρώσω τη συνδρομή μου ανά πάσα στιγμή.";
 
 /* About text */
-"about_text" = "MAPS.ME offers the fastest offline maps of all the cities, all countries of the world. Travel with full confidence: wherever you are, MAPS.ME helps to locate yourself on the map, find the nearest restaurant, hotel, bank, gas station etc. It doesn’t require internet connection.\n\nWe are always working on new features and would love to hear from you on how you think we could improve MAPS.ME. If you have any problems with the app, don't hesitate to contact us at support@maps.me. We respond to every request!\n\nDo you like MAPS.ME and want to support us? There are some simple and absolutely free ways:\n\n- post a review at your App Market\n- like our Facebook page http://www.facebook.com/mapswithme\n- or just tell about MAPS.ME to your mom, friends and colleagues :)\n\nThank you for being with us. We appreciate your support very much!\n\nP.S. We take map data from OpenStreetMap, a mapping project similar to Wikipedia, which allows users to create and edit maps. If you see something is missing or wrong on the map, you can correct the maps directly at https://www.openstreetmap.org, and your changes will appear in MAPS.ME app with the next version release.";
+"about_text" = "AddisMapME offers the fastest offline maps of all the cities, all countries of the world. Travel with full confidence: wherever you are, AddisMapME helps to locate yourself on the map, find the nearest restaurant, hotel, bank, gas station etc. It doesn’t require internet connection.\n\nWe are always working on new features and would love to hear from you on how you think we could improve AddisMapME. If you have any problems with the app, don't hesitate to contact us at support@maps.me. We respond to every request!\n\nDo you like AddisMapME and want to support us? There are some simple and absolutely free ways:\n\n- post a review at your App Market\n- like our Facebook page http://www.facebook.com/mapswithme\n- or just tell about AddisMapME to your mom, friends and colleagues :)\n\nThank you for being with us. We appreciate your support very much!\n\nP.S. We take map data from OpenStreetMap, a mapping project similar to Wikipedia, which allows users to create and edit maps. If you see something is missing or wrong on the map, you can correct the maps directly at https://www.openstreetmap.org, and your changes will appear in AddisMapME app with the next version release.";
 
 /* Alert text */
 "email_error_body" = "Το πρόγραμμα-client ηλεκτρονικού ταχυδρομείου έχει δεν έχει ρυθμιστεί. Ρυθμίστε το ή χρησιμοποιήστε άλλο τρόπο να επικοινωνήσετε μαζί μας στη διεύθυνση %@";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Please update the map to create a route";
 
 /* Update maps suggestion */
-"routing_update_maps" = "The new version of MAPS.ME allows creating routes from your current position to a destination point. Please update maps to use this feature.";
+"routing_update_maps" = "The new version of AddisMapME allows creating routes from your current position to a destination point. Please update maps to use this feature.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Ενημέρωση όλων";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "Βρέθηκαν";
 
 /* Disclaimer message */
-"routing_disclaimer" = "Creating routes in MAPS.ME app, please keep in mind the following:\n\n  - Suggested routes can be considered as recommendations only.\n - Road conditions, traffic rules and signs have higher priority than navigation advice.\n - The map may be incorrect or outdated, and routes may not be created the best possible way.\n\n  Be safe on roads and take care of yourself!";
+"routing_disclaimer" = "Creating routes in AddisMapME app, please keep in mind the following:\n\n  - Suggested routes can be considered as recommendations only.\n - Road conditions, traffic rules and signs have higher priority than navigation advice.\n - The map may be incorrect or outdated, and routes may not be created the best possible way.\n\n  Be safe on roads and take care of yourself!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Outdated";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "Μόλις βαθμολόγησα την εφαρμογή σας";
 
 /* Text for rating dialog */
-"rating_user_since" = "Χρησιμοποιώ το MAPS.ME από τις %@";
+"rating_user_since" = "Χρησιμοποιώ το AddisMapME από τις %@";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "Σας αρέσει το MAPS.ME;";
+"rating_do_like_maps" = "Σας αρέσει το AddisMapME;";
 
 /* Text for rating dialog */
 "rating_tap_star" = "Πατήστε ένα αστέρι να βαθμολογήσετε την εφαρμογή μας.";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Λήψη χάρτη";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Κάντε λήψη ενημερωμένου χάρτη και δεδομένων πλοήγησης για να έχετε όλα τα χαρακτηριστικά του MAPS.ME.";
+"routing_download_map_and_routing" = "Κάντε λήψη ενημερωμένου χάρτη και δεδομένων πλοήγησης για να έχετε όλα τα χαρακτηριστικά του AddisMapME.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Λήψη δεδομένων πλοήγησης";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Σας αρέσει η εφαρμογή;";
 
-"rate_alert_default_message" = "Σας ευχαριστούμε που χρησιμοποιείτε το MAPS.ME. Βαθμολογήστε την εφαρμογή. Τα σχόλιά σας μας βοηθάνε να βελτιώσουμε το προϊόν μας.";
+"rate_alert_default_message" = "Σας ευχαριστούμε που χρησιμοποιείτε το AddisMapME. Βαθμολογήστε την εφαρμογή. Τα σχόλιά σας μας βοηθάνε να βελτιώσουμε το προϊόν μας.";
 
 "rate_alert_five_star_message" = "Ζήτω! Σας ευχαριστούμε πάρα πολύ!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Διπλότυπη τοποθεσία";
 
-"first_launch_congrats_title" = "Το MAPS.ME είναι έτοιμο για χρήση";
+"first_launch_congrats_title" = "Το AddisMapME είναι έτοιμο για χρήση";
 
 "first_launch_congrats_text" = "Κάντε αναζήτηση και πλοηγηθείτε παντού στον κόσμο χωρίς σύνδεση και χωρίς χρέωση.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Προσθέστε νέες τοποθεσίες στο χάρτη, και επεξεργαστείτε τις υπάρχουσες απευθείας από την εφαρμογή.";
 
-"whatsnew_editor_message_2" = "* Το MAPS.ME χρησιμοποιεί δεδομένα της κοινότητας OpenStreetMap.";
+"whatsnew_editor_message_2" = "* Το AddisMapME χρησιμοποιεί δεδομένα της κοινότητας OpenStreetMap.";
 
 "onboarding_offline_navigation_title" = "Δεν θα χαθείτε ποτέ ξανά";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "Plan optimal car and pedestrian routes.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — χρησιμοποιήστε χάρτες από όλο τον κόσμο χωρίς σύνδεση στο Internet";
+"onboarding_offline_maps_title" = "AddisMapME — χρησιμοποιήστε χάρτες από όλο τον κόσμο χωρίς σύνδεση στο Internet";
 
 "onboarding_offline_maps_message" = "Κατεβάστε τους χάρτες της περιοχής που επιθυμείτε μια φορά και χρησιμοποιήστε τις λειτουργίες πλοήγησης και αναζήτησης χωρίς σύνδεση στο Internet.";
 
@@ -1327,13 +1327,13 @@
 
 "onboarding_location_title" = "Βοηθήστε μας να σας βρούμε";
 
-"onboarding_location_message" = "Προκειμένου να χρησιμοποιήσετε την πλοήγηση και τις άλλες λειτουργίες του MAPS.ME χρειάζεται πρόσβαση στη γεωγραφική σας θέση.";
+"onboarding_location_message" = "Προκειμένου να χρησιμοποιήσετε την πλοήγηση και τις άλλες λειτουργίες του AddisMapME χρειάζεται πρόσβαση στη γεωγραφική σας θέση.";
 
-"onboarding_permissions_title" = "Να επιτραπεί στο MAPS.ME πρόσβαση στον αποθηκευτικό χώρο και την τοποθεσία";
+"onboarding_permissions_title" = "Να επιτραπεί στο AddisMapME πρόσβαση στον αποθηκευτικό χώρο και την τοποθεσία";
 
 "onboarding_permissions_message" = "Μπορείτε να κατεβάσετε χάρτες, να δείτε μέρη και πληροφορίες για την κίνηση κοντά σε εσάς και να χρησιμοποιήσεττ την πλοήγηση.";
 
-"onboarding_welcome_title" = "Καλωσήρθατε στο MAPS.ME";
+"onboarding_welcome_title" = "Καλωσήρθατε στο AddisMapME";
 
 "onboarding_welcome_first_subtitle" = "Δωρεάν, γρήγοροι, λεπτομερείς χάρτες αποκλειστικά εκτός σύνδεσης με πλοήγηση αννά στροφή.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Για να το κατεβάσετε, χρειάζεστε περισσότερο χώρο. Διαγράψτε τυχόν μη απαραίτητα δεδομένα.";
 
-"editor_sharing_title" = "Βελτίωσα τους χάρτες MAPS.ME";
+"editor_sharing_title" = "Βελτίωσα τους χάρτες AddisMapME";
 
 "editor_comment_will_be_sent" = "We will make sure to send your comments to the map editors.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Αναλυτικό σχόλιο";
 
-"editor_detailed_description" = "Οι προτεινόμενες αλλαγές χάρτη θα σταλούν στην Κοινότητα του OpenStreetMap. Περιγράψτε τυχόν πρόσθετα στοιχεία που δεν μπορείτε να επεξεργαστείτε στο MAPS.ME.";
+"editor_detailed_description" = "Οι προτεινόμενες αλλαγές χάρτη θα σταλούν στην Κοινότητα του OpenStreetMap. Περιγράψτε τυχόν πρόσθετα στοιχεία που δεν μπορείτε να επεξεργαστείτε στο AddisMapME.";
 
 "editor_more_about_osm" = "Περισσότερα σχετικά με το OpenStreetMap";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Έχουμε ενημερωθεί το πρόγραμμα επεξεργασίας του χάρτη";
 
-"whatsnew_update_editor_message" = "Οι χρήστες MAPS.ME έχουν ήδη κάνει 200.000 αλλαγές χάρτη. Μαζί δημιουργούμε τους πιο λεπτομερείς χάρτες του κόσμου. Ελάτε μαζί μας!";
+"whatsnew_update_editor_message" = "Οι χρήστες AddisMapME έχουν ήδη κάνει 200.000 αλλαγές χάρτη. Μαζί δημιουργούμε τους πιο λεπτομερείς χάρτες του κόσμου. Ελάτε μαζί μας!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "Ενημερώστε όλους τους χάρτες για να χρησιμοποιήσετε το πρόγραμμα επεξεργασίας του χάρτη.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Continue";
 
-"recent_track_background_dialog_message" = "Το MAPS.ME χρησιμοποιεί τη γεωγραφική σας τοποθεσία στο παρασκήνιο για την καταγραφή των πρόσφατων διαδρομών σας.";
+"recent_track_background_dialog_message" = "Το AddisMapME χρησιμοποιεί τη γεωγραφική σας τοποθεσία στο παρασκήνιο για την καταγραφή των πρόσφατων διαδρομών σας.";
 
 "whatsnew_car_navigation_header" = "Πλοήγηση οχήματος φιλική προς το χρήστη";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Πλοήγηση με ποδήλατο (έκδοση beta)";
 
-"whatsnew_cycle_navigation_message" = "Δοκιμάζουμε την πλοήγησης με ποδήλατο για τη νέα σεζόν. Δοκιμάστε την αγαπημένη σας διαδρομή με ποδήλατο με το MAPS.ME και μοιραστείτε τη γνώμη σας μαζί μας.";
+"whatsnew_cycle_navigation_message" = "Δοκιμάζουμε την πλοήγησης με ποδήλατο για τη νέα σεζόν. Δοκιμάστε την αγαπημένη σας διαδρομή με ποδήλατο με το AddisMapME και μοιραστείτε τη γνώμη σας μαζί μας.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Βαθμολογήστε το στο Google Play";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Πείτε το σε ένα φίλο";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Γεια σας! Εγκαταστήστε το MAPS.ME!";
+"tell_friends_text" = "Γεια σας! Εγκαταστήστε το AddisMapME!";
 
 /* About short text (below logo) */
-"about_description" = "Το MAPS.ME είναι η απαραίτητη εφαρμογή γα ταξίδια που λειτουργεί εκτός σύνδεσης. Το MAPS.ME βασίζεται σε δεδομένα OpenStreetMap και σας επιτρέπει να τα επεξεργαστείτε.";
+"about_description" = "Το AddisMapME είναι η απαραίτητη εφαρμογή γα ταξίδια που λειτουργεί εκτός σύνδεσης. Το AddisMapME βασίζεται σε δεδομένα OpenStreetMap και σας επιτρέπει να τα επεξεργαστείτε.";
 
 /* Text in menu */
 "blog" = "Ιστολόγιο";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Άνοιγμα";
 
-"whatsnew_uber_header" = "MAPS.ME & Uber";
+"whatsnew_uber_header" = "AddisMapME & Uber";
 
 "whatsnew_uber_message" = "Καλέστε ταξί Uber απευθείας μέσα από την εφαρμογή!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Αύξηση μεγέθους γραμματοσειράς στο χάρτη";
 
-"traffic_update_app" = "Κάντε ενημέρωση του MAPS.ME";
+"traffic_update_app" = "Κάντε ενημέρωση του AddisMapME";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "Για να εμφανιστούν πληροφορίες για την κίνηση, πρέπει να γίνει ενημέρωση της εφαρμογής.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Εκχώρηση άδειας";
 
-"onboarding_storage_permissions_message" = "Αλλάξτε τις ρυθμίσεις άδειας στη συσκευή σας. Χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για τη χρήση του MAPS.ME";
+"onboarding_storage_permissions_message" = "Αλλάξτε τις ρυθμίσεις άδειας στη συσκευή σας. Χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για τη χρήση του AddisMapME";
 
 "button_exit" = "Έξοδος";
 
-"onboarding_detail_permissions_title" = "Το MAPS.ME χρειάζεται πρόσβαση στο";
+"onboarding_detail_permissions_title" = "Το AddisMapME χρειάζεται πρόσβαση στο";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Αποθηκευτικός χώρος";
@@ -2290,11 +2290,11 @@
 
 "sign_agree_tof_gdpr" = "Συμφωνώ με τους <a href=\"%s\">Όρους Χρήσης</a>";
 
-"sign_agree_news_gdpr" = "Συμφωνώ να λαμβάνω τα τελευταία νέα σχετικά με τα προϊόντα MAPS.ME";
+"sign_agree_news_gdpr" = "Συμφωνώ να λαμβάνω τα τελευταία νέα σχετικά με τα προϊόντα AddisMapME";
 
 "whats_new_localbiz_title" = "Οι μικρές επιχειρήσεις αξίζουν προσοχή";
 
-"whats_new_localbiz_message" = "Οι τοπικές καφετέριες, τα άνετα πανδοχεία και τα καταστήματα είναι που κάνουν τα ταξίδι μας αξέχαστα. Θα βελτιστοποιήσουμε τη σελίδα σας στο MAPS.ME για να την κάνουμε να ξεχωρίσει.";
+"whats_new_localbiz_message" = "Οι τοπικές καφετέριες, τα άνετα πανδοχεία και τα καταστήματα είναι που κάνουν τα ταξίδι μας αξέχαστα. Θα βελτιστοποιήσουμε τη σελίδα σας στο AddisMapME για να την κάνουμε να ξεχωρίσει.";
 
 "whats_new_order_button" = "Αφήστε μια αίτηση";
 
@@ -2308,7 +2308,7 @@
 
 "cached_bookmarks_placeholder_title" = "Κατεβάστε νέα μέρη";
 
-"cached_bookmarks_placeholder_subtitle" = "Πιέστε το κουμπί για να κατεβάστε χιλιάδες ενδιαφέροντα μέρη και διαδρομές που δημιουργήθηκαν από τους χρήστες του MAPS.ME. Θα χρειαστείτε σύνδεση στο διαδίκτυο.";
+"cached_bookmarks_placeholder_subtitle" = "Πιέστε το κουμπί για να κατεβάστε χιλιάδες ενδιαφέροντα μέρη και διαδρομές που δημιουργήθηκαν από τους χρήστες του AddisMapME. Θα χρειαστείτε σύνδεση στο διαδίκτυο.";
 
 "downloader_download_routers" = "Κατεβάστε σελιδοδείκτες";
 
@@ -2324,7 +2324,7 @@
 
 "opt_out_fabric" = "Αναφορά σφάλματος";
 
-"opt_out_fabric_description" = "Μπορεί να χρησιμοποιήσουμε τα δεδομένα σας για να βελτιώσουμε την εμπειρία του MAPS.ME. Οι αλλαγές θα ενεργοποιηθούν μετά την επανεκκίνηση της εφαρμογής.";
+"opt_out_fabric_description" = "Μπορεί να χρησιμοποιήσουμε τα δεδομένα σας για να βελτιώσουμε την εμπειρία του AddisMapME. Οι αλλαγές θα ενεργοποιηθούν μετά την επανεκκίνηση της εφαρμογής.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2370,7 +2370,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Οι σελιδοδείκτες δεν κατέβηκαν";
 
-"whats_new_bookmarks_catalog_title" = "Το MAPS.ME έχει τώρα κατάλογο διαδρομών";
+"whats_new_bookmarks_catalog_title" = "Το AddisMapME έχει τώρα κατάλογο διαδρομών";
 
 "whats_new_bookmarks_catalog_message" = "Εκατοντάδες λεπτομερείς διαδρομές από όλο τον κόσμο: πού να πας, τι να δεις, πού να φας.";
 

@@ -33,7 +33,7 @@
 	<string name="downloading">Stahování…</string>
 	<string name="get_it_now">Získat nyní</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">Děkujeme, že používáte MAPS.ME! Líbí se Vám tato aplikace? Řekněte o ní svým přátelům! To bude pro nás nejlepší vyjádření vděčnosti.</string>
+	<string name="share_on_facebook_text">Děkujeme, že používáte AddisMapME! Líbí se Vám tato aplikace? Řekněte o ní svým přátelům! To bude pro nás nejlepší vyjádření vděčnosti.</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
 	<string name="kilometres">Kilometry</string>
 	<!-- Leave Review dialog - Review button -->
@@ -90,7 +90,7 @@
 	<string name="country_status_download_failed">Stahování selhalo</string>
 	<!-- Button text for the button under the country_status_download_failed message -->
 	<string name="try_again">Zkusit znovu</string>
-	<string name="about_menu_title">O aplikaci MAPS.ME</string>
+	<string name="about_menu_title">O aplikaci AddisMapME</string>
 	<string name="downloading_touch_to_cancel">Stahování %d%%, klepněte pro zrušení</string>
 	<string name="downloaded_touch_to_delete">Staženo (%s), klepněte pro smazání</string>
 	<string name="connection_settings">Nastavení připojení</string>
@@ -99,7 +99,7 @@
 	<string name="unsupported_phone">Je vyžadována hardwarová akcelerace OpenGL. Bohužel, vaše zařízení není podporováno.</string>
 	<string name="download">Stáhnout</string>
 	<string name="external_storage_is_not_available">SD karta/USB uložiště s uloženými mapami není k dispozici</string>
-	<string name="disconnect_usb_cable">Prosím, odpojte USB kabel nebo vložte paměťovou kartu pro použití s MAPS.ME</string>
+	<string name="disconnect_usb_cable">Prosím, odpojte USB kabel nebo vložte paměťovou kartu pro použití s AddisMapME</string>
 	<string name="not_enough_free_space_on_sdcard">Prosím, uvolněte nejprve místo na SD kartě/USB uložišti</string>
 	<string name="not_enough_memory">Nedostatek paměti ke spuštění aplikace</string>
 	<string name="free_space_for_country">Prosím, uvolněte nejprve %1$s ve svém zařízení, aby bylo možné stáhnout %2$s</string>
@@ -126,7 +126,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">Je k dispozici aktualizace pro tyto mapy:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">Aplikaci MAPS.ME Lite už nyní nepotřebujete, takže si ji můžete klidně odinstalovat.</string>
+	<string name="suggest_uninstall_lite">Aplikaci AddisMapME Lite už nyní nepotřebujete, takže si ji můžete klidně odinstalovat.</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">Úspěšně staženo: %s</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -156,9 +156,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">Skupina</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">Zatím nemáte žádné záložky.\nZáložku můžete přidat přidržením libovolného místa na mapě.\nV MAPS.ME také umí importovat záložky z jiných zdrojů. Soubor ve formátu KML/KMZ s uloženými záložkami otevřete např. z emailu, Dropboxu nebo webového odkazu v MAPS.ME.</string>
+	<string name="bookmarks_usage_hint">Zatím nemáte žádné záložky.\nZáložku můžete přidat přidržením libovolného místa na mapě.\nV AddisMapME také umí importovat záložky z jiných zdrojů. Soubor ve formátu KML/KMZ s uloženými záložkami otevřete např. z emailu, Dropboxu nebo webového odkazu v AddisMapME.</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">V MAPS.ME mohou být zobrazeny importované záložky z jiných zdrojů. Soubor ve formátu KML/KMZ s uloženými záložkami lze otevřít např. z emailu, Dropboxu nebo webového odkazu.</string>
+	<string name="bookmarks_usage_hint_import_only">V AddisMapME mohou být zobrazeny importované záložky z jiných zdrojů. Soubor ve formátu KML/KMZ s uloženými záložkami lze otevřít např. z emailu, Dropboxu nebo webového odkazu.</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">Nastavení</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -220,7 +220,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">Sdílet emailem</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">Sdílené záložky MAPS.ME</string>
+	<string name="share_bookmarks_email_subject">Sdílené záložky AddisMapME</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Nahrávání záložek</string>
 	<!-- Kmz file successful loading -->
@@ -240,7 +240,7 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Právě probíhá stahování země.</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">Doufáme, že se vám používání MAPS.ME líbí! Je-li tomu tak, ohodnoťte, prosím, naši aplikaci nebo na ni napište recenzi v obchodu s aplikacemi. Nezabere to ani minutu, ale opravdu nám tím pomůžete. Děkujeme za vaši podporu!</string>
+	<string name="appStore_message">Doufáme, že se vám používání AddisMapME líbí! Je-li tomu tak, ohodnoťte, prosím, naši aplikaci nebo na ni napište recenzi v obchodu s aplikacemi. Nezabere to ani minutu, ale opravdu nám tím pomůžete. Děkujeme za vaši podporu!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">Ne, díky</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
@@ -248,11 +248,11 @@
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<string name="my_position_share_sms">Koukni kde jsem. Otevři odkaz: %1$s nebo %2$s</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Koukni na moji značku na mapě v MAPS.ME</string>
+	<string name="bookmark_share_email_subject">Koukni na moji značku na mapě v AddisMapME</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">Ahoj,\n\noznačil/a jsem %1$s v MAPS.ME, offline mapách celého světa. Klepni na jeden z těchto odkazů %2$s, %3$s a uvidíš toto místo na mapě.\n\nDíky.</string>
+	<string name="bookmark_share_email">Ahoj,\n\noznačil/a jsem %1$s v AddisMapME, offline mapách celého světa. Klepni na jeden z těchto odkazů %2$s, %3$s a uvidíš toto místo na mapě.\n\nDíky.</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Podívej se na mou aktuální polohu na mapě na MAPS.ME</string>
+	<string name="my_position_share_email_subject">Podívej se na mou aktuální polohu na mapě na AddisMapME</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">Ahoj,\n\nPrávě jsem tady: %1$s. Klepni na jeden z těchto odkazů %2$s, %3$s a uvidíš toto místo na mapě.\n\nDíky.</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -366,19 +366,19 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">Stáhněte si mapu místa, kde právě jste</string>
 	<!-- text of notification -->
-	<string name="pro_version_is_free_today">Plná verze MAPS.ME je dnes zdarma! Stáhněte si ji nyní a dejte vědět přátelům.</string>
+	<string name="pro_version_is_free_today">Plná verze AddisMapME je dnes zdarma! Stáhněte si ji nyní a dejte vědět přátelům.</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">Právě přenášíme vaše stažené mapy z MAPS.ME Lite do MAPS.ME. Může to několik minut trvat.</string>
+	<string name="move_lite_maps_to_pro">Právě přenášíme vaše stažené mapy z AddisMapME Lite do AddisMapME. Může to několik minut trvat.</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">Vaše stažené mapy byly úspěšně přeneseny do MAPS.ME.</string>
+	<string name="move_lite_maps_to_pro_ok">Vaše stažené mapy byly úspěšně přeneseny do AddisMapME.</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">Vaše mapy se nepodařilo přenést. Prosím, odstraňte MAPS.ME Lite a stáhněte si mapy znovu.</string>
+	<string name="move_lite_maps_to_pro_failed">Vaše mapy se nepodařilo přenést. Prosím, odstraňte AddisMapME Lite a stáhněte si mapy znovu.</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">Nastavení a další</string>
 	<!-- Text in menu -->
 	<string name="website">Webové stránky</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">Komunita MAPS.ME</string>
+	<string name="maps_me_community">Komunita AddisMapME</string>
 	<!-- Text in menu -->
 	<string name="like_on_facebook">Lajknout na Facebooku</string>
 	<!-- Text in menu -->
@@ -398,11 +398,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">Nahlásit chybu</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">Přihlaste mě, prosím, k odběru zpravodaje MAPS.ME</string>
+	<string name="subscribe_me_subject">Přihlaste mě, prosím, k odběru zpravodaje AddisMapME</string>
 	<!-- Email body -->
 	<string name="subscribe_me_body">Chci se vždy jako první dozvídat o nejnovějších zprávách, aktualizacích a akčních nabídkách. Své přihlášení k odběru mohu kdykoli zrušit.</string>
 	<!-- About text -->
-	<string name="about_text">MAPS.ME nabízí nejrychlejší offline mapy všech měst a zemí po celém světě. Cestujte s naprostou důvěrou: kdekoliv jste, MAPS.ME vám pomůže se najít na mapě, vyhledat nejbližší restauraci, hotel, banku, benzínovou pumpu atd. Nevyžaduje připojení k Internetu.\n\nNeustále pracujeme na nových funkcích a rádi bychom slyšeli také váš názor, jak můžeme MAPS.ME vylepšit. Pokud máte s touto aplikací jakékoliv problémy, pak nás neváhejte kontaktovat na support\@maps.me. Odpovídáme na každý požadavek!\n\nLíbí se vám MAPS.ME a chcete nás podpořit? Existuje několik snadných způsobů zcela zdarma:\n\n• napište recenzi ve svém obchodu s aplikacemi\n• označte naši facebookovou stránku http://www.facebook.com/mapswithme pomocí To se mi líbí\n• nebo jen řekněte o MAPS.ME své mámě, kamarádům a kolegům :)\n\nDěkujeme, že jste s námi. Velmi si ceníme vaší podpory!\n\nP.S. Mapové podklady získáváme z OpenStreetMap, což je mapový projekt podobný Wikipedii, který umožňuje uživatelům vytvářet a upravovat mapy. Pokud zjistíte, že na mapě něco chybí nebo je špatně, pak můžete mapy opravit přímo na https://www.openstreetmap.org, a vaše změny se objeví v příští verzi MAPS.ME. Díky!</string>
+	<string name="about_text">AddisMapME nabízí nejrychlejší offline mapy všech měst a zemí po celém světě. Cestujte s naprostou důvěrou: kdekoliv jste, AddisMapME vám pomůže se najít na mapě, vyhledat nejbližší restauraci, hotel, banku, benzínovou pumpu atd. Nevyžaduje připojení k Internetu.\n\nNeustále pracujeme na nových funkcích a rádi bychom slyšeli také váš názor, jak můžeme AddisMapME vylepšit. Pokud máte s touto aplikací jakékoliv problémy, pak nás neváhejte kontaktovat na support\@maps.me. Odpovídáme na každý požadavek!\n\nLíbí se vám AddisMapME a chcete nás podpořit? Existuje několik snadných způsobů zcela zdarma:\n\n• napište recenzi ve svém obchodu s aplikacemi\n• označte naši facebookovou stránku http://www.facebook.com/mapswithme pomocí To se mi líbí\n• nebo jen řekněte o AddisMapME své mámě, kamarádům a kolegům :)\n\nDěkujeme, že jste s námi. Velmi si ceníme vaší podpory!\n\nP.S. Mapové podklady získáváme z OpenStreetMap, což je mapový projekt podobný Wikipedii, který umožňuje uživatelům vytvářet a upravovat mapy. Pokud zjistíte, že na mapě něco chybí nebo je špatně, pak můžete mapy opravit přímo na https://www.openstreetmap.org, a vaše změny se objeví v příští verzi AddisMapME. Díky!</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Emailový klient nebyl ještě nakonfigurován. Nastavte ho, prosím, nebo použijte jiný způsob k našemu kontaktování na %s</string>
 	<!-- Alert title -->
@@ -414,7 +414,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">Pro funkci vytváření tras je nutné aktualizovat mapu.</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">Nová verze MAPS.ME umožňuje vytvářet trasy z vaší aktuální polohy do cílového bodu. Chcete-li tuto funkci používat, aktualizujte mapy.</string>
+	<string name="routing_update_maps">Nová verze AddisMapME umožňuje vytvářet trasy z vaší aktuální polohy do cílového bodu. Chcete-li tuto funkci používat, aktualizujte mapy.</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">Aktualizovat vše</string>
 	<!-- Cancel all button text -->
@@ -431,7 +431,7 @@
 	<string name="downloader_downloading">Probíhá stahování:</string>
 	<string name="downloader_search_results">Nalezeno</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">Při vytváření tras v aplikaci MAPS.ME mějte, prosím, na paměti následující:\n\n • Navrhované trasy lze brát jen jako doporučení.\n • Pravidla silničního provozu, aktuální podmínky na silnici a dopravní značení mají přednost před údaji z navigace.\n • Mapa může být nepřesná nebo zastaralá a navržené cesty nemusí být ideální.\n\nCestujte bezpečně a ohleduplně. Šťastnou cestu!</string>
+	<string name="routing_disclaimer">Při vytváření tras v aplikaci AddisMapME mějte, prosím, na paměti následující:\n\n • Navrhované trasy lze brát jen jako doporučení.\n • Pravidla silničního provozu, aktuální podmínky na silnici a dopravní značení mají přednost před údaji z navigace.\n • Mapa může být nepřesná nebo zastaralá a navržené cesty nemusí být ideální.\n\nCestujte bezpečně a ohleduplně. Šťastnou cestu!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">Zastaralé</string>
 	<!-- Up to date maps category -->
@@ -486,9 +486,9 @@
 	<!-- Text for rating dialog -->
 	<string name="rating_just_rated">Právě jsem ohodnotil(a) vaši aplikaci</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_user_since">Uživatelem MAPS.ME jsem od roku %s</string>
+	<string name="rating_user_since">Uživatelem AddisMapME jsem od roku %s</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_do_like_maps">Líbí se vám aplikace MAPS.ME?</string>
+	<string name="rating_do_like_maps">Líbí se vám aplikace AddisMapME?</string>
 	<!-- Text for rating dialog -->
 	<string name="rating_tap_star">Klepnutím na hvězdičku naši aplikaci ohodnotíte.</string>
 	<!-- Text for rating dialog -->
@@ -504,7 +504,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">Získejte mapu</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">Stáhněte si aktualizovanou mapu a data tras, ať můžete využít všechny funkce MAPS.ME.</string>
+	<string name="routing_download_map_and_routing">Stáhněte si aktualizovanou mapu a data tras, ať můžete využít všechny funkce AddisMapME.</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">Získejte data tras</string>
 	<!-- Text for routing error dialog -->
@@ -620,7 +620,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">Pro vytvoření trasy si prosím stáhněte a aktualizujte všechny mapy podél očekávané cesty.</string>
 	<string name="rate_alert_title">Líbí se vám aplikace?</string>
-	<string name="rate_alert_default_message">Děkujeme, že používáte MAPS.ME. Ohodnoťte, prosím, tuto aplikaci. Váš komentář nám pomůže ji ještě zlepšit.</string>
+	<string name="rate_alert_default_message">Děkujeme, že používáte AddisMapME. Ohodnoťte, prosím, tuto aplikaci. Váš komentář nám pomůže ji ještě zlepšit.</string>
 	<string name="rate_alert_five_star_message">Hurá! Také vás zbožňujeme!</string>
 	<string name="rate_alert_four_star_message">Děkujeme, budeme se snažit!</string>
 	<string name="rate_alert_less_than_four_star_message">Nějaké nápady, co můžeme udělat lépe?</string>
@@ -675,7 +675,7 @@
 	<string name="editor_report_problem_no_place_title">Místo neexistuje</string>
 	<string name="editor_report_problem_under_construction_title">Zavřeno kvůli údržbě</string>
 	<string name="editor_report_problem_duplicate_place_title">Duplicitní místo</string>
-	<string name="first_launch_congrats_title">MAPS.ME jsou připraveny k použití</string>
+	<string name="first_launch_congrats_title">AddisMapME jsou připraveny k použití</string>
 	<string name="first_launch_congrats_text">Prohledávejte a navigujte offline zdarma kdekoliv na světě.</string>
 	<string name="migrate_title">Důležité!</string>
 	<!-- Android uses image instead of text. -->
@@ -779,20 +779,20 @@
 	<string name="whatsnew_search_message">Výrazně jsme vylepšili vyhledávání podle adresy. Podívejte se sami.</string>
 	<string name="whatsnew_editor_title">Upravit mapu*</string>
 	<string name="whatsnew_editor_message_1">Přidejte na mapu nová místa a upravte existující místa přímo z aplikace.</string>
-	<string name="whatsnew_editor_message_2">* MAPS.ME používá komunitní data OpenStreetMap.</string>
+	<string name="whatsnew_editor_message_2">* AddisMapME používá komunitní data OpenStreetMap.</string>
 	<string name="onboarding_offline_navigation_title">Již nikdy nezabloudíte</string>
 	<string name="onboarding_offline_navigation_message">Naplánujte si optimální trasy pro auto nebo pěší chůzi, i když tam nebude připojení k internetu!</string>
 	<string name="onboarding_offline_navigation_title_2">Offline navigace</string>
 	<string name="onboarding_offline_navigation_message_2">Naplánujte si optimální trasy pro auto nebo pěší chůzi.</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — přistupte k celosvětovým mapám bez internetu</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — přistupte k celosvětovým mapám bez internetu</string>
 	<string name="onboarding_offline_maps_message">Stáhněte si jednou mapy požadované oblasti a poté používejte navigaci a vyhledávací funkce bez připojení k internetu.</string>
 	<string name="onboarding_notifications_message">Chcete-li získat nejnovější mapy, pak zapněte upozornění na aktualizace</string>
 	<string name="onboarding_notifications_title">Povolit upozornění na aktualizace</string>
 	<string name="onboarding_location_title">Pomozte nám vás najít</string>
 	<string name="onboarding_location_message">Chcete-li používat navigaci a další funkce, pak potřebujeme přístup k vaší zeměpisné poloze.</string>
-	<string name="onboarding_permissions_title">Povolte MAPS.ME přístup k úložišti a určení polohy</string>
+	<string name="onboarding_permissions_title">Povolte AddisMapME přístup k úložišti a určení polohy</string>
 	<string name="onboarding_permissions_message">Tím umožníte stahování map, zobrazovat místa a dopravu ve vaší blízkosti a používat navigaci.</string>
-	<string name="onboarding_welcome_title">Vítá vás aplikace MAPS.ME</string>
+	<string name="onboarding_welcome_title">Vítá vás aplikace AddisMapME</string>
 	<string name="onboarding_welcome_first_subtitle">Bezplatné, rychlé, podrobné a zcela offline mapy s kompletní navigací.</string>
 	<string name="onboarding_welcome_second_subtitle">Spuštěním aplikace souhlasíte s &lt;a href="%1$s">Podmínkami použití&lt;/a> a &lt;a href="%2$s">Zásadami ochrany osobních údajů&lt;/a>.</string>
 	<string name="dialog_incorrect_feature_position">Změnit umístění</string>
@@ -801,7 +801,7 @@
 	<string name="no_migration_during_navigation">Aktualizace jsou během navigování zakázány.</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">Ke stažení potřebujete více volného místa. Odstraňte prosím nepotřebná data.</string>
-	<string name="editor_sharing_title">Vylepšil jsem mapy MAPS.ME</string>
+	<string name="editor_sharing_title">Vylepšil jsem mapy AddisMapME</string>
 	<string name="editor_comment_will_be_sent">Váš komentář pošleme kartografům.</string>
 	<string name="editor_unsupported_category_message">Přidali jste místo kategorie, kterou zatím nepodporujeme. Na mapě se objeví za nějaký čas.</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -818,7 +818,7 @@
 	<string name="core_placepage_unknown_place">Neznámé místo</string>
 	<string name="editor_other_info">Odeslat komentář moderátorovi OSM</string>
 	<string name="editor_detailed_description_hint">Podrobný komentář</string>
-	<string name="editor_detailed_description">Vámi navržené změny odešleme do komunity OpenStreetMap. Popište podrobnosti, které nelze upravit v MAPS.ME.</string>
+	<string name="editor_detailed_description">Vámi navržené změny odešleme do komunity OpenStreetMap. Popište podrobnosti, které nelze upravit v AddisMapME.</string>
 	<string name="editor_more_about_osm">Více o projektu OpenStreetMap</string>
 	<string name="editor_operator">Operátor</string>
 	<string name="editor_tag_description">Zadejte osobu, společnost nebo organizaci, která zodpovídá za zařízení.</string>
@@ -839,7 +839,7 @@
 	<string name="current_location_unknown_error_title">Současná poloha nezjištěna.</string>
 	<string name="current_location_unknown_error_message">Při zjišťování současné polohy došlo k chybě. Zkontrolujte, že nedošlo k chybě zařízení a pokus prosím opakujte později.</string>
 	<string name="whatsnew_update_editor_title">Aktualizovali jsme editor map</string>
-	<string name="whatsnew_update_editor_message">Uživatelé aplikace MAPS.ME už provedli na 200 000 změn map. Přidejte se k nám a pomozte nám vytvořit nejpodrobnější mapy světa!</string>
+	<string name="whatsnew_update_editor_message">Uživatelé aplikace AddisMapME už provedli na 200 000 změn map. Přidejte se k nám a pomozte nám vytvořit nejpodrobnější mapy světa!</string>
 	<!-- Additional text in whats new -->
 	<string name="whatsnew_update_editor_message_update">Chcete-li používat editor map, pak prosím aktualizujte všechny mapy.</string>
 	<string name="location_services_disabled_header">Určení polohy je zakázáno</string>
@@ -927,7 +927,7 @@
 	<!-- For sharing via SMS and so on -->
 	<string name="sharing_call_action_look">Odjezd</string>
 	<string name="continue_recent_track_background_button">Pokračovat</string>
-	<string name="recent_track_background_dialog_message">MAPS.ME používají geopozici na pozadí, aby se zaznamenala vaše nedávno ujetá trasa.</string>
+	<string name="recent_track_background_dialog_message">AddisMapME používají geopozici na pozadí, aby se zaznamenala vaše nedávno ujetá trasa.</string>
 	<string name="whatsnew_car_navigation_header">Uživatelsky přívětivá navigace pro vozidla</string>
 	<string name="whatsnew_car_navigation_message">• Navigační prvky zabírají méně místa.\n• Zobrazujeme rychlost a přidali jsme automatické zvětšení.</string>
 	<string name="whatsnew_cycle_navigation_2_header">Navigace pro kola</string>
@@ -935,15 +935,15 @@
 	<string name="whatsnew_booking_2_header">Snadné hledání hotelu</string>
 	<string name="whatsnew_booking_2_message">Výsledky hledání zobrazují hodnocení a cenovou kategorii hotelu.</string>
 	<string name="whatsnew_cycle_navigation_header">Navigace pro kola (beta verze)</string>
-	<string name="whatsnew_cycle_navigation_message">Tuto sezónu testujeme novou navigaci pro kola. Projeďte si svou oblíbenou trasu s MAPS.ME a podělte se s námi o svůj názor.</string>
+	<string name="whatsnew_cycle_navigation_message">Tuto sezónu testujeme novou navigaci pro kola. Projeďte si svou oblíbenou trasu s AddisMapME a podělte se s námi o svůj názor.</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">Ohodnotit na Google Play</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">Sdílet s přáteli</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">Ahoj! Naisntalujte si MAPS.ME!</string>
+	<string name="tell_friends_text">Ahoj! Naisntalujte si AddisMapME!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME je základní aplikace pro každého cestovatele. MAPS.ME je založena na datech z OpenStreetMap a umožňuje je upravovat.</string>
+	<string name="about_description">AddisMapME je základní aplikace pro každého cestovatele. AddisMapME je založena na datech z OpenStreetMap a umožňuje je upravovat.</string>
 	<!-- Text in menu -->
 	<string name="blog">Blog</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -998,7 +998,7 @@
 	<string name="chat">Geochat</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">Otevřít</string>
-	<string name="whatsnew_uber_header">MAPS.ME a Uber</string>
+	<string name="whatsnew_uber_header">AddisMapME a Uber</string>
 	<string name="whatsnew_uber_message">Objednejte si taxi Uber přímo z aplikace!</string>
 	<string name="dialog_taxi_offline">Objednání taxi není v režimu offline k dispozici.</string>
 	<string name="dialog_taxi_error">Objednání taxi není dočasně k dispozici.</string>
@@ -1115,9 +1115,9 @@
 	<string name="button_accept_and_continue">Přijmout a pokračovat</string>
 	<string name="button_learn_more">Zjistit více</string>
 	<string name="onboarding_storage_permissions_title">Povolit přístup</string>
-	<string name="onboarding_storage_permissions_message">Změňte nastavení oprávnění ve vašem zařízení. MAPS.ME vyžaduje přístup k úložišti.</string>
+	<string name="onboarding_storage_permissions_message">Změňte nastavení oprávnění ve vašem zařízení. AddisMapME vyžaduje přístup k úložišti.</string>
 	<string name="button_exit">Ukončit</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME vyžaduje přístup k</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME vyžaduje přístup k</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">Úložišti</string>
 	<string name="onboarding_detail_permissions_storage_message">Umožní to stahování a používání offline map a ukládání záložek.</string>
@@ -1294,16 +1294,16 @@
 	<string name="sign_message_gdpr">Chcete-li pokračovat, musíte přijmout naše Smluvní podmínky a zásady ochrany osobních údajů. Přečtěte si je pečlivě.</string>
 	<string name="sign_agree_pp_gdpr">Souhlasím s &lt;a href="%s">Zásadami ochrany osobních údajů&lt;/a></string>
 	<string name="sign_agree_tof_gdpr">Souhlasím s &lt;a href="%s">Smluvními podmínkami&lt;/a></string>
-	<string name="sign_agree_news_gdpr">Souhlasím s tím, že obdržím nejnovější zprávy o produktech MAPS.ME</string>
+	<string name="sign_agree_news_gdpr">Souhlasím s tím, že obdržím nejnovější zprávy o produktech AddisMapME</string>
 	<string name="whats_new_localbiz_title">Drobné podnikání si zaslouží pozornost</string>
-	<string name="whats_new_localbiz_message">Zejména místní kavárny, hostely a obchůdky dělají cestování nezapomenutelným. V MAPS.ME zdarma optimalizujeme stránky vašeho podnikání tak, aby neuniklo pozornosti.</string>
+	<string name="whats_new_localbiz_message">Zejména místní kavárny, hostely a obchůdky dělají cestování nezapomenutelným. V AddisMapME zdarma optimalizujeme stránky vašeho podnikání tak, aby neuniklo pozornosti.</string>
 	<string name="whats_new_order_button">Zanechat objednávku</string>
 	<string name="bookmarks_page_downloaded">Nahrané</string>
 	<string name="bookmarks_page_my">Moje</string>
 	<string name="routes_and_bookmarks">Trasy a značky</string>
 	<string name="bookmarks_webview_success_toast">Značky byly úspěšně nahrány</string>
 	<string name="cached_bookmarks_placeholder_title">Nahrajte nová místa</string>
-	<string name="cached_bookmarks_placeholder_subtitle">Klikněte pro nahrání tisíce zajímavých míst a tras vytvořených uživateli MAPS.ME. Nutné připojení k internetu.</string>
+	<string name="cached_bookmarks_placeholder_subtitle">Klikněte pro nahrání tisíce zajímavých míst a tras vytvořených uživateli AddisMapME. Nutné připojení k internetu.</string>
 	<string name="downloader_download_routers">Nahrát značky</string>
 	<string name="bookmarks_groups_cached">Nahrané seznamy</string>
 	<string name="author_name_by_prefix">%s</string>
@@ -1323,7 +1323,7 @@
 	<string name="opt_out_flurry">Statistika</string>
 	<string name="opt_out_mopub">Personalizovaná reklama</string>
 	<string name="opt_out_fabric">Zprávy o chybách</string>
-	<string name="opt_out_fabric_description">Můžeme používat vaše údaje pro vývoj a zlepšení MAPS.ME. Změny se projeví po restartování aplikace.</string>
+	<string name="opt_out_fabric_description">Můžeme používat vaše údaje pro vývoj a zlepšení AddisMapME. Změny se projeví po restartování aplikace.</string>
 	<string name="opt_out_help_ios_1">Cílovou reklamu můžete vypnout v nastavení vašeho zařízení.</string>
 	<string name="opt_out_help_ios_2">iOS 9 nebo vyšší</string>
 	<string name="opt_out_help_ios_3">Otevřete Nastavení → Důvěrnost → Reklama → Zapněte „Omezení trackingu“</string>
@@ -1344,7 +1344,7 @@
 	<string name="category_desc_more">…ještě</string>
 	<string name="title_error_downloading_bookmarks">Někde se stala chyba</string>
 	<string name="subtitle_error_downloading_bookmarks">Značky se nenahrály</string>
-	<string name="whats_new_bookmarks_catalog_title">V MAPS.ME se objevil katalog tras</string>
+	<string name="whats_new_bookmarks_catalog_title">V AddisMapME se objevil katalog tras</string>
 	<string name="whats_new_bookmarks_catalog_message">Desítky podrobných tras po celém světě: kam zajít, na co se podívat, kde se najíst.</string>
 	<string name="whats_new_popularity_label_title">Oblíbené v okolí</string>
 	<string name="whats_new_popularity_label_message">Sekce „Prozkoumat okolí“ vám pomůže najít nejoblíbenější místa ve městě.</string>

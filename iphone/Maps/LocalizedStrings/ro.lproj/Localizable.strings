@@ -50,7 +50,7 @@
 "get_it_now" = "Obțineți acum";
 
 /* Text to show occasionaly with a proposal to Like our program on Facebook */
-"share_on_facebook_text" = "Vă mulțumim că folosiți MAPS.ME! Vă place aplicația? Spuneți-le prietenilor despre ea! Aceasta va fi cea mai mare mulțumire pentru noi.";
+"share_on_facebook_text" = "Vă mulțumim că folosiți AddisMapME! Vă place aplicația? Spuneți-le prietenilor despre ea! Aceasta va fi cea mai mare mulțumire pentru noi.";
 
 /* Settings/Downloader - size string, only strings different from English should be translated */
 "kb" = "kB";
@@ -146,9 +146,9 @@
 /* Button text for the button under the country_status_download_failed message */
 "try_again" = "Încercați din nou";
 
-"app_name" = "MAPS.ME";
+"app_name" = "AddisMapME";
 
-"about_menu_title" = "Despre MAPS.ME";
+"about_menu_title" = "Despre AddisMapME";
 
 "downloading_touch_to_cancel" = "Se descarcă %d%%. Atingeți pentru a anula.";
 
@@ -166,7 +166,7 @@
 
 "external_storage_is_not_available" = "Cartela SD/dispozitivul de stocare USB cu hărțile descărcate nu este disponibil.";
 
-"disconnect_usb_cable" = "Vă rugăm să deconectați cablul USB sau să introduceți cartela de memorie pentru a putea utiliza MAPS.ME.";
+"disconnect_usb_cable" = "Vă rugăm să deconectați cablul USB sau să introduceți cartela de memorie pentru a putea utiliza AddisMapME.";
 
 "not_enough_free_space_on_sdcard" = "Vă rugăm să eliberați spațiu pe cartela SD/dispozitivul de stocare USB pentru a putea utiliza aplicația.";
 
@@ -212,7 +212,7 @@
 "advise_update_maps" = "Actualizări disponibile pentru aceste hărți:";
 
 /* Show popup notification in Pro version that Lite can be deleted */
-"suggest_uninstall_lite" = "Nu mai aveți nevoie de MAPS.ME Lite, îl puteți dezinstala.";
+"suggest_uninstall_lite" = "Nu mai aveți nevoie de AddisMapME Lite, îl puteți dezinstala.";
 
 /* Show popup notification on top of the map when country was downloaded. */
 "download_country_success" = "%@, descărcată cu succes";
@@ -257,10 +257,10 @@
 "set" = "Set";
 
 /* Text hint in Bookmarks dialog when no any bookmarks are added */
-"bookmarks_usage_hint" = "Încă nu aveți niciun marcaj.\nAtingeți orice loc de pe hartă pentru a adăuga un marcaj.\nPot fi importate și afișate pe MAPS.ME și marcaje din alte surse. Deschideți fișierul KML/KMZ, cu marcajele salvate din email, Dropbox sau de la un link web.";
+"bookmarks_usage_hint" = "Încă nu aveți niciun marcaj.\nAtingeți orice loc de pe hartă pentru a adăuga un marcaj.\nPot fi importate și afișate pe AddisMapME și marcaje din alte surse. Deschideți fișierul KML/KMZ, cu marcajele salvate din email, Dropbox sau de la un link web.";
 
 /* Text hint in Bookmarks dialog when at least one bookmark is added */
-"bookmarks_usage_hint_import_only" = "Pot fi importate și afișate pe MAPS.ME și marcaje din alte surse. Deschideți fișierul KML/KMZ, cu marcajele salvate din email, Dropbox sau de la un link web.";
+"bookmarks_usage_hint_import_only" = "Pot fi importate și afișate pe AddisMapME și marcaje din alte surse. Deschideți fișierul KML/KMZ, cu marcajele salvate din email, Dropbox sau de la un link web.";
 
 /* Settings button in system menu */
 "settings" = "Setări";
@@ -353,9 +353,9 @@
 "share_by_email" = "Partajare prin email";
 
 /* Email Subject when sharing bookmarks category */
-"share_bookmarks_email_subject" = "Marcaje MAPS.ME partajate";
+"share_bookmarks_email_subject" = "Marcaje AddisMapME partajate";
 
-"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from MAPS.ME offline maps. Please open them if you have MAPS.ME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with MAPS.ME!";
+"share_bookmarks_email_body" = "Hello!\n\nAttached are my bookmarks from AddisMapME offline maps. Please open them if you have AddisMapME installed. Or, if you don't, download the app for your iOS or Android device by following this link: http://maps.me/get?kmz\n\nEnjoy traveling with AddisMapME!";
 
 /* message title of loading file */
 "load_kmz_title" = "Se încarcă marcajele";
@@ -385,25 +385,25 @@
 "downloading_is_active" = "Descărcarea hărților pentru țara dorită este în curs.";
 
 /* Message that will be shown in alert view, when we ask user to leave review on App Store */
-"appStore_message" = "Sperăm că vă place MAPS.ME! Dacă da, vă rugăm să o votați sau să scrieți o recenzie în App Store. Durează mai puțin de un minut, dar pe noi ne ajută foarte mult. Vă mulțumim pentru susținere!";
+"appStore_message" = "Sperăm că vă place AddisMapME! Dacă da, vă rugăm să o votați sau să scrieți o recenzie în App Store. Durează mai puțin de un minut, dar pe noi ne ajută foarte mult. Vă mulțumim pentru susținere!";
 
 /* No, thanks */
 "no_thanks" = "Nu, mulțumesc";
 
 /* Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"bookmark_share_sms" = "Hei, poți vedea care este poziția mea pe MAPS.ME! %1$@ sau %2$@ Nu ai instalate hărțile offline? Descarcă de aici: http://maps.me/get";
+"bookmark_share_sms" = "Hei, poți vedea care este poziția mea pe AddisMapME! %1$@ sau %2$@ Nu ai instalate hărțile offline? Descarcă de aici: http://maps.me/get";
 
 /* Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 */
-"my_position_share_sms" = "Hei, îmi poți vedea poziția actuală pe MAPS.ME! %1$@ sau %2$@ Nu ai hărțile offline? Descarcă de aici: http://maps.me/get";
+"my_position_share_sms" = "Hei, îmi poți vedea poziția actuală pe AddisMapME! %1$@ sau %2$@ Nu ai hărțile offline? Descarcă de aici: http://maps.me/get";
 
 /* Subject for emailed bookmark */
-"bookmark_share_email_subject" = "Hei, poți vedea care este poziția mea pe harta MAPS.ME!";
+"bookmark_share_email_subject" = "Hei, poți vedea care este poziția mea pe harta AddisMapME!";
 
 /* Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me */
-"bookmark_share_email" = "Salut,\n\nAm fixat poziția: %1$@ pe MAPS.ME, hărțile offline din întreaga lume. Clic pe acest link %2$@ sau pe acesta %3$@ pentru a vedea locul pe hartă.\n\nMulțumesc.";
+"bookmark_share_email" = "Salut,\n\nAm fixat poziția: %1$@ pe AddisMapME, hărțile offline din întreaga lume. Clic pe acest link %2$@ sau pe acesta %3$@ pentru a vedea locul pe hartă.\n\nMulțumesc.";
 
 /* Subject for emailed position */
-"my_position_share_email_subject" = "Hei, îmi poți vedea poziția actuală pe harta MAPS.ME!";
+"my_position_share_email_subject" = "Hei, îmi poți vedea poziția actuală pe harta AddisMapME!";
 
 /* Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME */
 "my_position_share_email" = "Chào,\n\nTôi hiện đang ở đây: %1$@. Hãy nhấn vào liên kết này %2$@ hoặc liên kết này %3$@ để xem địa điểm trên bản đồ.\n\nCám ơn.";
@@ -593,16 +593,16 @@
 "download_map_notification" = "Descărcați harta locului în care vă aflați";
 
 /* text of notification */
-"pro_version_is_free_today" = "Full version of MAPS.ME is free today! Download now and tell your friends.";
+"pro_version_is_free_today" = "Full version of AddisMapME is free today! Download now and tell your friends.";
 
 /* Dialog for transferring maps from lite to pro. */
-"move_lite_maps_to_pro" = "Transferăm hărțile dvs. descărcate din MAPS.ME Lite în MAPS.ME. Acest lucru poate dura câteva minute.";
+"move_lite_maps_to_pro" = "Transferăm hărțile dvs. descărcate din AddisMapME Lite în AddisMapME. Acest lucru poate dura câteva minute.";
 
 /* Message to display when maps moved. */
-"move_lite_maps_to_pro_ok" = "Hărțile dvs. descărcate sunt transferate cu succes către MAPS.ME.";
+"move_lite_maps_to_pro_ok" = "Hărțile dvs. descărcate sunt transferate cu succes către AddisMapME.";
 
 /* Message to display when maps move failed. */
-"move_lite_maps_to_pro_failed" = "Your maps failed to transfer. Please delete MAPS.ME Lite and download the maps again.";
+"move_lite_maps_to_pro_failed" = "Your maps failed to transfer. Please delete AddisMapME Lite and download the maps again.";
 
 /* Text in menu */
 "settings_and_more" = "Setări și altele";
@@ -611,7 +611,7 @@
 "website" = "Site web";
 
 /* Text in menu */
-"maps_me_community" = "Comunitatea MAPS.ME";
+"maps_me_community" = "Comunitatea AddisMapME";
 
 /* Text in menu */
 "like_on_facebook" = "Apreciați-ne pe Facebook";
@@ -641,13 +641,13 @@
 "report_a_bug" = "Raportați o eroare";
 
 /* Email subject */
-"subscribe_me_subject" = "Abonează-mă la buletinul informativ MAPS.ME.";
+"subscribe_me_subject" = "Abonează-mă la buletinul informativ AddisMapME.";
 
 /* Email body */
 "subscribe_me_body" = "Vreau să fiu primul care află despre cele mai recente actualizări și promoții. Îmi pot anula abonamentul în orice moment.";
 
 /* About text */
-"about_text" = "MAPS.ME oferă cele mai rapide hărți offline ale tuturor orașelor, tuturor țărilor din lume. Călătoriți cu încredere deplină: oriunde v-ați afla, MAPS.ME vă ajută să vă reperați poziția pe hartă, să găsiți cel mai apropiat restaurant sau hotel, cea mai apropiată bancă sau benzinărie etc. Nu necesită conexiune la internet.\n\nLucrăm încontinuu să introducem funcții noi și ne-ar face mare plăcere să ne comunicați cum credeți dvs. că am putea îmbunătăți MAPS.ME. Dacă aveți probleme cu aplicația, nu ezitați să ne contactați la adresa support@maps.me. Răspundem la fiecare solicitare!\n\nVă place MAPS.ME și doriți să ne susțineți? Iată câteva moduri simple și complet gratuite:\n- publicați o recenzie în magazinul de aplicații\n- apreciați-ne pagina de Facebook: http://www.facebook.com/mapswithme\n- sau spuneți și mamei, prietenilor și colegilor despre MAPS.ME. :)\n\nVă mulțumim că ne sunteți alături. Vă apreciem foarte mult susținerea!\n\nP.S. Noi preluăm datele din OpenStreetMap, un proiect de cartografiere similar Wikipediei, ce permite utilizatorilor să creeze și să editeze hărți. Dacă vedeți că ceva lipsește sau este greșit pe hartă, puteți corecta hărțile direct la adresa: https://www.openstreetmap.org, iar modificările dvs. vor apărea în aplicația MAPS.ME atunci când va fi lansată versiunea următoare.";
+"about_text" = "AddisMapME oferă cele mai rapide hărți offline ale tuturor orașelor, tuturor țărilor din lume. Călătoriți cu încredere deplină: oriunde v-ați afla, AddisMapME vă ajută să vă reperați poziția pe hartă, să găsiți cel mai apropiat restaurant sau hotel, cea mai apropiată bancă sau benzinărie etc. Nu necesită conexiune la internet.\n\nLucrăm încontinuu să introducem funcții noi și ne-ar face mare plăcere să ne comunicați cum credeți dvs. că am putea îmbunătăți AddisMapME. Dacă aveți probleme cu aplicația, nu ezitați să ne contactați la adresa support@maps.me. Răspundem la fiecare solicitare!\n\nVă place AddisMapME și doriți să ne susțineți? Iată câteva moduri simple și complet gratuite:\n- publicați o recenzie în magazinul de aplicații\n- apreciați-ne pagina de Facebook: http://www.facebook.com/mapswithme\n- sau spuneți și mamei, prietenilor și colegilor despre AddisMapME. :)\n\nVă mulțumim că ne sunteți alături. Vă apreciem foarte mult susținerea!\n\nP.S. Noi preluăm datele din OpenStreetMap, un proiect de cartografiere similar Wikipediei, ce permite utilizatorilor să creeze și să editeze hărți. Dacă vedeți că ceva lipsește sau este greșit pe hartă, puteți corecta hărțile direct la adresa: https://www.openstreetmap.org, iar modificările dvs. vor apărea în aplicația AddisMapME atunci când va fi lansată versiunea următoare.";
 
 /* Alert text */
 "email_error_body" = "Nu a fost setat clientul de email. Vă rugăm să o configurați sau să utilizați un alt mod de a ne contacta la %@.";
@@ -665,7 +665,7 @@
 "routing_map_outdated" = "Vă rugăm să actualizați harta pentru a crea o rută.";
 
 /* Update maps suggestion */
-"routing_update_maps" = "Noua versiune a MAPS.ME vă permite să creați rute din poziția dvs. actuală către un punct de destinație. Vă rugăm să actualizați harta pentru a utiliza această funcție.";
+"routing_update_maps" = "Noua versiune a AddisMapME vă permite să creați rute din poziția dvs. actuală către un punct de destinație. Vă rugăm să actualizați harta pentru a utiliza această funcție.";
 
 /* Update all button text */
 "downloader_update_all_button" = "Actualizați toate";
@@ -693,7 +693,7 @@
 "downloader_search_results" = "S-au găsit";
 
 /* Disclaimer message */
-"routing_disclaimer" = "Atunci când creați rute în aplicația MAPS.ME, vă rugăm să nu uitați următoarele:\n\n- Rutele sugerate pot fi luate în considerare numai ca recomandări.\n- Harta poate fi incorectă sau neactualizată, iar rutele pot să nu fie create în cel mai bun mod posibil.\n- Condițiile de trafic, regulile și semnele de circulație au prioritate mai mare decât sugestiile de navigare.\n\nCirculați cu atenție și aveți grijă de dvs.!";
+"routing_disclaimer" = "Atunci când creați rute în aplicația AddisMapME, vă rugăm să nu uitați următoarele:\n\n- Rutele sugerate pot fi luate în considerare numai ca recomandări.\n- Harta poate fi incorectă sau neactualizată, iar rutele pot să nu fie create în cel mai bun mod posibil.\n- Condițiile de trafic, regulile și semnele de circulație au prioritate mai mare decât sugestiile de navigare.\n\nCirculați cu atenție și aveți grijă de dvs.!";
 
 /* Outdated maps category */
 "downloader_outdated_maps" = "Neactualizată";
@@ -776,10 +776,10 @@
 "rating_just_rated" = "Tocmai ți-am votat aplicația";
 
 /* Text for rating dialog */
-"rating_user_since" = "Sunt utilizator MAPS.ME din %@";
+"rating_user_since" = "Sunt utilizator AddisMapME din %@";
 
 /* Text for rating dialog */
-"rating_do_like_maps" = "Îți place MAPS.ME?";
+"rating_do_like_maps" = "Îți place AddisMapME?";
 
 /* Text for rating dialog */
 "rating_tap_star" = "Apasă pe una dintre stele pentru a ne vota aplicația";
@@ -803,7 +803,7 @@
 "routing_download_map" = "Descărcați harta";
 
 /* Text for routing error dialog */
-"routing_download_map_and_routing" = "Descărcați harta actualizată și informațiile pentru direcționare, pentru a beneficia de toate funcțiile MAPS.ME.";
+"routing_download_map_and_routing" = "Descărcați harta actualizată și informațiile pentru direcționare, pentru a beneficia de toate funcțiile AddisMapME.";
 
 /* Text for routing error dialog */
 "routing_get_routing_data" = "Descărcați informațiile pentru direcționare";
@@ -1000,7 +1000,7 @@
 
 "rate_alert_title" = "Vă place aplicația?";
 
-"rate_alert_default_message" = "Vă mulțumim că folosiți MAPS.ME. Vă rugăm să dați o notă aplicației. Comentariile dvs. ne ajută să devenim mai buni.";
+"rate_alert_default_message" = "Vă mulțumim că folosiți AddisMapME. Vă rugăm să dați o notă aplicației. Comentariile dvs. ne ajută să devenim mai buni.";
 
 "rate_alert_five_star_message" = "Ura! Și noi vă iubim!";
 
@@ -1111,7 +1111,7 @@
 
 "editor_report_problem_duplicate_place_title" = "Locație dublată";
 
-"first_launch_congrats_title" = "MAPS.ME este gata pentru utilizare";
+"first_launch_congrats_title" = "AddisMapME este gata pentru utilizare";
 
 "first_launch_congrats_text" = "Căutați și navigați în regim offline oriunde în lume, în mod gratuit.";
 
@@ -1307,7 +1307,7 @@
 
 "whatsnew_editor_message_1" = "Adăugați locuri noi pe hartă și modificați-le pe cele existente direct din aplicație.";
 
-"whatsnew_editor_message_2" = "* MAPS.ME folosește datele comunității OpenStreetMap community.";
+"whatsnew_editor_message_2" = "* AddisMapME folosește datele comunității OpenStreetMap community.";
 
 "onboarding_offline_navigation_title" = "Niciodată nu vă veți rătăci din nou";
 
@@ -1317,7 +1317,7 @@
 
 "onboarding_offline_navigation_message_2" = "Planificați traseele optime cu mașina și cele pietonale.";
 
-"onboarding_offline_maps_title" = "MAPS.ME — accesați hărți din întreaga lume fără conexiune Internet";
+"onboarding_offline_maps_title" = "AddisMapME — accesați hărți din întreaga lume fără conexiune Internet";
 
 "onboarding_offline_maps_message" = "Descărcați o dată hărțile pentru zona dorită, pentru a naviga și folosi funcțiile de căutare fără conexiune la Internet.";
 
@@ -1329,11 +1329,11 @@
 
 "onboarding_location_message" = "Ca să puteți naviga și folosi alte funcții, trebuie să accesăm poziționarea dvs. geografică.";
 
-"onboarding_permissions_title" = "Permiteți aplicației MAPS.ME accesul la spațiul de stocare și locație";
+"onboarding_permissions_title" = "Permiteți aplicației AddisMapME accesul la spațiul de stocare și locație";
 
 "onboarding_permissions_message" = "Puteți să descărcați hărți, să vedeți locurile și starea traficului din apropiere și să utilizați navigația.";
 
-"onboarding_welcome_title" = "Bun venit în MAPS.ME";
+"onboarding_welcome_title" = "Bun venit în AddisMapME";
 
 "onboarding_welcome_first_subtitle" = "Hărți gratuite, accesibile și disponibile offline, alături de navigație pas cu pas.";
 
@@ -1350,7 +1350,7 @@
 /* Error dialog no space */
 "migration_no_space_message" = "Aveți nevoie de mai mult spațiu ca să descărcați. Vă rugăm să ștergeți toate informațiile inutile.";
 
-"editor_sharing_title" = "Am îmbunătățit hărțile MAPS.ME";
+"editor_sharing_title" = "Am îmbunătățit hărțile AddisMapME";
 
 "editor_comment_will_be_sent" = "Vom trimite comentariul dumneavoastră cartografilor.";
 
@@ -1381,7 +1381,7 @@
 
 "editor_detailed_description_hint" = "Comentariu detaliat";
 
-"editor_detailed_description" = "Modificările sugerate vor trimise către comunitatea OpenStreetMap. Descrieți detalii ce nu pot fi adăugate în be the details which cannot be edited in MAPS.ME.";
+"editor_detailed_description" = "Modificările sugerate vor trimise către comunitatea OpenStreetMap. Descrieți detalii ce nu pot fi adăugate în be the details which cannot be edited in AddisMapME.";
 
 "editor_more_about_osm" = "Mai multe despre OpenStreetMap";
 
@@ -1421,7 +1421,7 @@
 
 "whatsnew_update_editor_title" = "Am actualizat editorul de hărți";
 
-"whatsnew_update_editor_message" = "Utilizatorii MAPS.ME au făcut 200.000 de modificări de hărți. Împreună alcătuim cele mai detaliate hărți din lume. Alăturați-vă comunității!";
+"whatsnew_update_editor_message" = "Utilizatorii AddisMapME au făcut 200.000 de modificări de hărți. Împreună alcătuim cele mai detaliate hărți din lume. Alăturați-vă comunității!";
 
 /* Additional text in whats new */
 "whatsnew_update_editor_message_update" = "Pentru a utiliza funcția editor hartă, vă rugăm să actualizați toate hărțile.";
@@ -1589,7 +1589,7 @@
 
 "continue_recent_track_background_button" = "Continuare";
 
-"recent_track_background_dialog_message" = "MAPS.ME folosește în fundal geo-locația pentru a înregistra cel mai recent traseu urmat.";
+"recent_track_background_dialog_message" = "AddisMapME folosește în fundal geo-locația pentru a înregistra cel mai recent traseu urmat.";
 
 "whatsnew_car_navigation_header" = "Navigație pentru vehicule, ușor de folosit";
 
@@ -1605,7 +1605,7 @@
 
 "whatsnew_cycle_navigation_header" = "Navigaţie pentru biciclete (versiune beta)";
 
-"whatsnew_cycle_navigation_message" = "În prezent testăm navigaţia pentru biciclete pentru noul sezon. Încercaţi traseul dvs. favorit cu MAPS.ME şi împărtăşiţi-ne opinia dvs.";
+"whatsnew_cycle_navigation_message" = "În prezent testăm navigaţia pentru biciclete pentru noul sezon. Încercaţi traseul dvs. favorit cu AddisMapME şi împărtăşiţi-ne opinia dvs.";
 
 /* Rate on Google Play (Android only) */
 "rate_gp" = "Dați un calificativ pe Google Play";
@@ -1614,10 +1614,10 @@
 "tell_friends" = "Spuneți unui prieten";
 
 /* Share with friends: sharing text */
-"tell_friends_text" = "Bună! Instalați MAPS.ME!";
+"tell_friends_text" = "Bună! Instalați AddisMapME!";
 
 /* About short text (below logo) */
-"about_description" = "MAPS.ME este o aplicație offline esențială când călătoriți. MAPS.ME utilizează datele OpenStreeMap și permite editarea acestora.";
+"about_description" = "AddisMapME este o aplicație offline esențială când călătoriți. AddisMapME utilizează datele OpenStreeMap și permite editarea acestora.";
 
 /* Text in menu */
 "blog" = "Blog";
@@ -1712,7 +1712,7 @@
 /* Verb. Text on a button that opens the chat. */
 "chat_open" = "Deschideți";
 
-"whatsnew_uber_header" = "MAPS.ME și Uber";
+"whatsnew_uber_header" = "AddisMapME și Uber";
 
 "whatsnew_uber_message" = "Comandați un taxi Uber direct din aplicație!";
 
@@ -1745,7 +1745,7 @@
 
 "big_font" = "Măriți dimensiunea fontului pe hartă";
 
-"traffic_update_app" = "Vă rugăm să actualizaţi MAPS.ME";
+"traffic_update_app" = "Vă rugăm să actualizaţi AddisMapME";
 
 /* "traffic" as in road congestion */
 "traffic_update_app_message" = "Pentru a afişa datele privind traficul, aplicația trebuie actualizată.";
@@ -1942,11 +1942,11 @@
 
 "onboarding_storage_permissions_title" = "Acordați acces";
 
-"onboarding_storage_permissions_message" = "Schimbați setările permisiunilor de pe dispozitiv. Pentru a utiliza MAPS.ME este nevoie de acces la spațiul de stocare.";
+"onboarding_storage_permissions_message" = "Schimbați setările permisiunilor de pe dispozitiv. Pentru a utiliza AddisMapME este nevoie de acces la spațiul de stocare.";
 
 "button_exit" = "Ieșire";
 
-"onboarding_detail_permissions_title" = "MAPS.ME necesită acces la";
+"onboarding_detail_permissions_title" = "AddisMapME necesită acces la";
 
 /* Default permission's name from Android settings. */
 "onboarding_detail_permissions_storage_title" = "Stocare";
@@ -2290,11 +2290,11 @@
 
 "sign_agree_tof_gdpr" = "Sunt de acord cu <a href=\"%s\">Termenii și condițiile</a>";
 
-"sign_agree_news_gdpr" = "Sunt de acord să primesc ultimele știri despre produsele MAPS.ME";
+"sign_agree_news_gdpr" = "Sunt de acord să primesc ultimele știri despre produsele AddisMapME";
 
 "whats_new_localbiz_title" = "Întreprinderile mici merită atenție";
 
-"whats_new_localbiz_message" = "Anume cafenelele, hostelele și magazinele locale fac călătoriile de neuitat. Optimizăm gratuit pagina dvs. de afaceri în MAPS.ME, astfel încât să o putem observa.";
+"whats_new_localbiz_message" = "Anume cafenelele, hostelele și magazinele locale fac călătoriile de neuitat. Optimizăm gratuit pagina dvs. de afaceri în AddisMapME, astfel încât să o putem observa.";
 
 "whats_new_order_button" = "Solicitați";
 
@@ -2308,7 +2308,7 @@
 
 "cached_bookmarks_placeholder_title" = "Încărcați locuri noi";
 
-"cached_bookmarks_placeholder_subtitle" = "Faceți clic pe butonul pentru a descărca mii de locuri interesante și rute create de utilizatori MAPS.ME. Veți avea nevoie de o conexiune la Internet.";
+"cached_bookmarks_placeholder_subtitle" = "Faceți clic pe butonul pentru a descărca mii de locuri interesante și rute create de utilizatori AddisMapME. Veți avea nevoie de o conexiune la Internet.";
 
 "downloader_download_routers" = "Descărcați tag-urile";
 
@@ -2324,7 +2324,7 @@
 
 "opt_out_fabric" = "Rapoarte de eroare";
 
-"opt_out_fabric_description" = "Putem folosi datele dvs. pentru a dezvolta și de a îmbunătăți MAPS.ME. Modificările vor intra în vigoare după repornirea aplicației.";
+"opt_out_fabric_description" = "Putem folosi datele dvs. pentru a dezvolta și de a îmbunătăți AddisMapME. Modificările vor intra în vigoare după repornirea aplicației.";
 
 "opt_out_pushwoosh" = "Pushwoosh";
 
@@ -2370,7 +2370,7 @@
 
 "subtitle_error_downloading_bookmarks" = "Tag-urile nu au fost încărcate";
 
-"whats_new_bookmarks_catalog_title" = "În MAPS.ME a apărut un director de rute";
+"whats_new_bookmarks_catalog_title" = "În AddisMapME a apărut un director de rute";
 
 "whats_new_bookmarks_catalog_message" = "Zeci de trasee detaliate din întreaga lume: unde să mergi, ce să vezi, în unde să mănânci.";
 

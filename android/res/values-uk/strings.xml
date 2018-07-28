@@ -33,7 +33,7 @@
 	<string name="downloading">Завантажується…</string>
 	<string name="get_it_now">Встановити</string>
 	<!-- Text to show occasionaly with a proposal to Like our program on Facebook -->
-	<string name="share_on_facebook_text">Дякуємо за використання MAPS.ME! Чи подобається вам ця програма? Розкажіть своїм друзям про неї! Це буде найкраща подяка для нас.</string>
+	<string name="share_on_facebook_text">Дякуємо за використання AddisMapME! Чи подобається вам ця програма? Розкажіть своїм друзям про неї! Це буде найкраща подяка для нас.</string>
 	<!-- Settings/Downloader - size string, only strings different from English should be translated -->
 	<string name="kb">кБ</string>
 	<!-- Choose measurement on first launch alert - choose metric system button -->
@@ -131,7 +131,7 @@
 	<!-- Show popup notification on app start when we have out-of-date maps -->
 	<string name="advise_update_maps">Доступні оновлення для наступних карт:</string>
 	<!-- Show popup notification in Pro version that Lite can be deleted -->
-	<string name="suggest_uninstall_lite">MAPS.ME Lite більше не потрібна. Рекомендуємо її видалити.</string>
+	<string name="suggest_uninstall_lite">AddisMapME Lite більше не потрібна. Рекомендуємо її видалити.</string>
 	<!-- Show popup notification on top of the map when country was downloaded. -->
 	<string name="download_country_success">%s успішно завантажена</string>
 	<!-- Show popup notification on top of the map when country download has failed. -->
@@ -161,9 +161,9 @@
 	<!-- Add bookmark dialog - bookmark set, Bookmarks dialog - Bookmark set cell -->
 	<string name="set">Група</string>
 	<!-- Text hint in Bookmarks dialog when no any bookmarks are added -->
-	<string name="bookmarks_usage_hint">У вас ще немає мiток.\nНатисніть на будь-яке місце на карті, щоб зберегти мiтку.\nМiтки з інших ресурсів також можна імпортувати для застосунка MAPS.ME. Відкрийте файл KML/KMZ із збереженими пінами з почти, Dropbox або інтернет посилання.</string>
+	<string name="bookmarks_usage_hint">У вас ще немає мiток.\nНатисніть на будь-яке місце на карті, щоб зберегти мiтку.\nМiтки з інших ресурсів також можна імпортувати для застосунка AddisMapME. Відкрийте файл KML/KMZ із збереженими пінами з почти, Dropbox або інтернет посилання.</string>
 	<!-- Text hint in Bookmarks dialog when at least one bookmark is added -->
-	<string name="bookmarks_usage_hint_import_only">Мітки з інших ресурсів можна імпортувати для застосунка MAPS.ME. Відкрийте файл KML/KMZ із збереженими мітками з почти, Dropbox або інтернет посилання.</string>
+	<string name="bookmarks_usage_hint_import_only">Мітки з інших ресурсів можна імпортувати для застосунка AddisMapME. Відкрийте файл KML/KMZ із збереженими мітками з почти, Dropbox або інтернет посилання.</string>
 	<!-- Settings button in system menu -->
 	<string name="settings">Налаштування</string>
 	<!-- Header of settings activity where user defines storage path -->
@@ -225,7 +225,7 @@
 	<!-- Button text -->
 	<string name="share_by_email">Подiлитися по електронній пошті</string>
 	<!-- Email Subject when sharing bookmarks category -->
-	<string name="share_bookmarks_email_subject">З вами поділилися мiтками MAPS.ME</string>
+	<string name="share_bookmarks_email_subject">З вами поділилися мiтками AddisMapME</string>
 	<!-- message title of loading file -->
 	<string name="load_kmz_title">Завантаження мiток</string>
 	<!-- Kmz file successful loading -->
@@ -245,7 +245,7 @@
 	<!-- Alert message that downloading is in progress. -->
 	<string name="downloading_is_active">Зараз відбувається завантаження країни.</string>
 	<!-- Message that will be shown in alert view, when we ask user to leave review on App Store -->
-	<string name="appStore_message">Сподіваємося, що вам сподобалося користуватися MAPS.ME! Якщо так, будь ласка, надайте оцінку програмі або залиште свій відгук на app store. Витративши менше хвилини, ви дійсно нам допоможете. Дякуємо за вашу підтримку!</string>
+	<string name="appStore_message">Сподіваємося, що вам сподобалося користуватися AddisMapME! Якщо так, будь ласка, надайте оцінку програмі або залиште свій відгук на app store. Витративши менше хвилини, ви дійсно нам допоможете. Дякуємо за вашу підтримку!</string>
 	<!-- No, thanks -->
 	<string name="no_thanks">Ні, дякую</string>
 	<!-- Share one specific bookmark using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
@@ -253,11 +253,11 @@
 	<!-- Share my position using SMS, %1$@ contains ge0:// and %2$@ http://ge0.me link WITHOUT NAME. @NOTE non-ascii symbols in the link will make 70 bytes sms instead of 140 -->
 	<string name="my_position_share_sms">Глянь де я зараз. Іди %1$s або %2$s</string>
 	<!-- Subject for emailed bookmark -->
-	<string name="bookmark_share_email_subject">Поглянь на мою мiтку на карті MAPS.ME</string>
+	<string name="bookmark_share_email_subject">Поглянь на мою мiтку на карті AddisMapME</string>
 	<!-- Share one specific bookmark using EMail, %1$@ is bookmark's name, %2$@ is ge0:// link and %3$@ http://ge0.me -->
-	<string name="bookmark_share_email">Привіт,\n\nЯ позначив: %1$s на MAPS.ME, офлайн картах світу. Натисни на це посилання %2$s або на це посилання %3$s, щоб побачити місце на карті.\n\nДякую.</string>
+	<string name="bookmark_share_email">Привіт,\n\nЯ позначив: %1$s на AddisMapME, офлайн картах світу. Натисни на це посилання %2$s або на це посилання %3$s, щоб побачити місце на карті.\n\nДякую.</string>
 	<!-- Subject for emailed position -->
-	<string name="my_position_share_email_subject">Поглянь на моє поточне місцезнаходження на карті MAPS.ME</string>
+	<string name="my_position_share_email_subject">Поглянь на моє поточне місцезнаходження на карті AddisMapME</string>
 	<!-- Share my position using EMail, %1$@ is ge0:// and %2$@ is http://ge0.me link WITHOUT NAME -->
 	<string name="my_position_share_email">Привіт,\n\nЯ зараз тут: %1$s. Натисни на це посилання %2$s або на це посилання %3$s щоб побачити місце на карті.\n\nДякую.</string>
 	<!-- Android share by Message/SMS button text (including SMS) -->
@@ -363,23 +363,23 @@
 	<!-- text of notification -->
 	<string name="download_map_notification">Завантажуйте карту тієї місцевості, де ви знаходитесь</string>
 	<!-- text of notification -->
-	<string name="pro_version_is_free_today">Повна версія MAPS.ME сьогодні безкоштовна! Завантажуй та розкажи друзям.</string>
+	<string name="pro_version_is_free_today">Повна версія AddisMapME сьогодні безкоштовна! Завантажуй та розкажи друзям.</string>
 	<!-- Dialog for transferring maps from lite to pro. -->
-	<string name="move_lite_maps_to_pro">Ми переносимо завантажені карти з MAPS.ME Lite в MAPS.ME. Це може зайняти декілька хвилин.</string>
+	<string name="move_lite_maps_to_pro">Ми переносимо завантажені карти з AddisMapME Lite в AddisMapME. Це може зайняти декілька хвилин.</string>
 	<!-- Message to display when maps moved. -->
-	<string name="move_lite_maps_to_pro_ok">Ваші карти успішно перенесено в MAPS.ME.</string>
+	<string name="move_lite_maps_to_pro_ok">Ваші карти успішно перенесено в AddisMapME.</string>
 	<!-- Message to display when maps move failed. -->
-	<string name="move_lite_maps_to_pro_failed">При переносі карт виникла помилка. Будь ласка, видаліть MAPS.ME Lite і завантажте карти знову.</string>
+	<string name="move_lite_maps_to_pro_failed">При переносі карт виникла помилка. Будь ласка, видаліть AddisMapME Lite і завантажте карти знову.</string>
 	<!-- Text in menu -->
 	<string name="settings_and_more">Налаштування</string>
 	<!-- Text in menu -->
 	<string name="website">Вебсайт</string>
 	<!-- Text in menu -->
-	<string name="maps_me_community">Спільнота MAPS.ME</string>
+	<string name="maps_me_community">Спільнота AddisMapME</string>
 	<!-- Text in menu -->
-	<string name="like_on_facebook">MAPS.ME у Facebook</string>
+	<string name="like_on_facebook">AddisMapME у Facebook</string>
 	<!-- Text in menu -->
-	<string name="follow_on_twitter">MAPS.ME у Twitter</string>
+	<string name="follow_on_twitter">AddisMapME у Twitter</string>
 	<!-- Text in menu -->
 	<string name="contact_us">Контакти</string>
 	<!-- Settings: Send feedback button and dialog title -->
@@ -395,11 +395,11 @@
 	<!-- Text in menu -->
 	<string name="report_a_bug">Сповістити про помилку</string>
 	<!-- Email subject -->
-	<string name="subscribe_me_subject">Підпишіть мене на email-розсилку MAPS.ME</string>
+	<string name="subscribe_me_subject">Підпишіть мене на email-розсилку AddisMapME</string>
 	<!-- Email body -->
 	<string name="subscribe_me_body">Я хочу першим дізнаватися про всі новини оновлення програм і акції. Я можу відписатися від розсилки в будь-який момент.</string>
 	<!-- About text -->
-	<string name="about_text">MAPS.ME пропонує карти всіх міст, всіх країн світу, які працюють без підключення до інтернету. Подорожуйте з впевненістю: де б ви не були, MAPS.ME допоможуть вирішити будь-яку вашу проблему - допоможуть визначити ваше місцезнаходження, знайти ресторан, готель, заправку, банк, туалет і т.д.\n\nМи постійно працюємо над додаванням нових функцій, тому, якщо у вас є ідеї або пропозиції з покращення MAPS.ME, пишіть нам. Якщо у вам виникла проблема з програмою, сповістіть нас, будь ласка, про неї. Наш емейл support\@maps.me. Ми відповідаємо на всі листи!\n\nЯкщо вам подобається програма і ви хочете підтримати нас, є декілька простих і абсолютно безкоштовних способів:\n\n- залиште відгук у вашому магазині програм\n- підпишіться на наші новини на сторінці у Facebook http://www.facebook.com/mapswithme\n- або просто розкажіть про MAPS.ME своїй мамі, друзям і колегам :)\n\nДякуємо за вашу підтримку!\n\nP.S. У програмі ми використовуємо картографічні дані проекту OpenStreetMap, який працює за принципом Вікіпедії, надаючи можливість користувачам зі всього світу створювати і редагувати карти. Якщо ви помітили, що на карті щось не відповідає дійсності або відсутнє, ви можете виправити це прямо на сайті https://www.openstreetmap.org, і ці виправлення з\'являться під час наступного оновлення MAPS.ME.</string>
+	<string name="about_text">AddisMapME пропонує карти всіх міст, всіх країн світу, які працюють без підключення до інтернету. Подорожуйте з впевненістю: де б ви не були, AddisMapME допоможуть вирішити будь-яку вашу проблему - допоможуть визначити ваше місцезнаходження, знайти ресторан, готель, заправку, банк, туалет і т.д.\n\nМи постійно працюємо над додаванням нових функцій, тому, якщо у вас є ідеї або пропозиції з покращення AddisMapME, пишіть нам. Якщо у вам виникла проблема з програмою, сповістіть нас, будь ласка, про неї. Наш емейл support\@maps.me. Ми відповідаємо на всі листи!\n\nЯкщо вам подобається програма і ви хочете підтримати нас, є декілька простих і абсолютно безкоштовних способів:\n\n- залиште відгук у вашому магазині програм\n- підпишіться на наші новини на сторінці у Facebook http://www.facebook.com/mapswithme\n- або просто розкажіть про AddisMapME своїй мамі, друзям і колегам :)\n\nДякуємо за вашу підтримку!\n\nP.S. У програмі ми використовуємо картографічні дані проекту OpenStreetMap, який працює за принципом Вікіпедії, надаючи можливість користувачам зі всього світу створювати і редагувати карти. Якщо ви помітили, що на карті щось не відповідає дійсності або відсутнє, ви можете виправити це прямо на сайті https://www.openstreetmap.org, і ці виправлення з\'являться під час наступного оновлення AddisMapME.</string>
 	<!-- Alert text -->
 	<string name="email_error_body">Поштовий клієнт не налаштований. Налаштуйте його або скористайтеся іншими способами зв\'язку. Наша адреса – %s.</string>
 	<!-- Alert title -->
@@ -411,7 +411,7 @@
 	<!-- Update map suggestion -->
 	<string name="routing_map_outdated">Будь ласка, оновіть карту, щоб прокласти маршрут.</string>
 	<!-- Update maps suggestion -->
-	<string name="routing_update_maps">В новій версії MAPS.ME ви зможете прокладати маршрут від поточного місця перебування до точки призначення. Щоб скористатися цією функцією, будь ласка, оновіть карти.</string>
+	<string name="routing_update_maps">В новій версії AddisMapME ви зможете прокладати маршрут від поточного місця перебування до точки призначення. Щоб скористатися цією функцією, будь ласка, оновіть карти.</string>
 	<!-- Update all button text -->
 	<string name="downloader_update_all_button">Оновити всі</string>
 	<!-- Cancel all button text -->
@@ -428,7 +428,7 @@
 	<string name="downloader_downloading">Завантажується:</string>
 	<string name="downloader_search_results">Знайдено</string>
 	<!-- Disclaimer message -->
-	<string name="routing_disclaimer">Використовуючи маршрути в програмі MAPS.ME, будь ласка, враховуйте наступне:\n\n  - Пропоновані маршрути можуть розглядатися тільки в якості рекомендації.\n - Дорожні умови, правила дорожнього руху, знаки являються більш пріоритетними в порівнянні з порадами навігаційної програми.\n - Карта може бути неточною або неактуальною, а запропонований маршрут не найоптимальнішим.\n\n  Будьте уважні на дорозі та бережіть себе!</string>
+	<string name="routing_disclaimer">Використовуючи маршрути в програмі AddisMapME, будь ласка, враховуйте наступне:\n\n  - Пропоновані маршрути можуть розглядатися тільки в якості рекомендації.\n - Дорожні умови, правила дорожнього руху, знаки являються більш пріоритетними в порівнянні з порадами навігаційної програми.\n - Карта може бути неточною або неактуальною, а запропонований маршрут не найоптимальнішим.\n\n  Будьте уважні на дорозі та бережіть себе!</string>
 	<!-- Outdated maps category -->
 	<string name="downloader_outdated_maps">Неактуальні</string>
 	<!-- Up to date maps category -->
@@ -483,9 +483,9 @@
 	<!-- Text for rating dialog -->
 	<string name="rating_just_rated">Я щойно оцінив вашу програму</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_user_since">Я користувач MAPS.ME з %s року</string>
+	<string name="rating_user_since">Я користувач AddisMapME з %s року</string>
 	<!-- Text for rating dialog -->
-	<string name="rating_do_like_maps">Вам подобається MAPS.ME?</string>
+	<string name="rating_do_like_maps">Вам подобається AddisMapME?</string>
 	<!-- Text for rating dialog -->
 	<string name="rating_tap_star">Торкніться зірочки, щоб оцінити нашу програму.</string>
 	<!-- Text for rating dialog -->
@@ -501,7 +501,7 @@
 	<!-- Text for routing error dialog -->
 	<string name="routing_download_map">Отримати карту</string>
 	<!-- Text for routing error dialog -->
-	<string name="routing_download_map_and_routing">Завантажте оновлену карту та дані про маршрут, щоб отримати всі можливості MAPS.ME.</string>
+	<string name="routing_download_map_and_routing">Завантажте оновлену карту та дані про маршрут, щоб отримати всі можливості AddisMapME.</string>
 	<!-- Text for routing error dialog -->
 	<string name="routing_get_routing_data">Отримати дані про маршрут</string>
 	<!-- Text for routing error dialog -->
@@ -617,7 +617,7 @@
 	<!-- Text for routing::RouterResultCode::FileTooOld dialog. -->
 	<string name="dialog_routing_download_and_update_maps">Для створення маршруту, будь ласка, скачайте та обновіть всі карти за ним.</string>
 	<string name="rate_alert_title">Подобається програма?</string>
-	<string name="rate_alert_default_message">Дякуємо за використання MAPS.ME. Будь ласка, дайте їй оцінку. Ваш відгук допоможе нам стати краще.</string>
+	<string name="rate_alert_default_message">Дякуємо за використання AddisMapME. Будь ласка, дайте їй оцінку. Ваш відгук допоможе нам стати краще.</string>
 	<string name="rate_alert_five_star_message">Ура! Ми теж вас любимо!</string>
 	<string name="rate_alert_four_star_message">Дякуємо, ми зробимо все можливе!</string>
 	<string name="rate_alert_less_than_four_star_message">Є пропозиції щодо того, як ми можемо її вдосконалити?</string>
@@ -672,7 +672,7 @@
 	<string name="editor_report_problem_no_place_title">Місце не існує</string>
 	<string name="editor_report_problem_under_construction_title">Зачинено на ремонт</string>
 	<string name="editor_report_problem_duplicate_place_title">Дубльовані місця</string>
-	<string name="first_launch_congrats_title">MAPS.ME готовий до роботи</string>
+	<string name="first_launch_congrats_title">AddisMapME готовий до роботи</string>
 	<string name="first_launch_congrats_text">Користуйтесь пошуком і навігацією по всьому світу без інтернету і безкоштовно.</string>
 	<string name="migrate_title">Важливо!</string>
 	<!-- Android uses image instead of text. -->
@@ -776,20 +776,20 @@
 	<string name="whatsnew_search_message">Якісно покращили пошук по адресам. Перевірте.</string>
 	<string name="whatsnew_editor_title">Редагувати карту*</string>
 	<string name="whatsnew_editor_message_1">Додати нові місця до карти і редагувати існуючі місця прямо з програми.</string>
-	<string name="whatsnew_editor_message_2">* MAPS.ME використовує дані спільноти OpenStreetMap.</string>
+	<string name="whatsnew_editor_message_2">* AddisMapME використовує дані спільноти OpenStreetMap.</string>
 	<string name="onboarding_offline_navigation_title">Ви ніколи не загубитеся знову</string>
 	<string name="onboarding_offline_navigation_message">Плануйте оптимальні маршрути для поїздок і піших походів навіть без Інтернет з\'єднання!</string>
 	<string name="onboarding_offline_navigation_title_2">Офлайн навігація</string>
 	<string name="onboarding_offline_navigation_message_2">Плануйте оптимальні маршрути для поїздок і піших походів.</string>
-	<string name="onboarding_offline_maps_title">MAPS.ME — використовуй карти всього світу без інтернету</string>
+	<string name="onboarding_offline_maps_title">AddisMapME — використовуй карти всього світу без інтернету</string>
 	<string name="onboarding_offline_maps_message">Завантажте мапи необхідного регіону один раз та користуйтесь навігацією та пошуком без підключення до інтернету.</string>
 	<string name="onboarding_notifications_message">Отримуйте повідомлення про оновлення, щоб завжди мати актуальні мапи</string>
 	<string name="onboarding_notifications_title">Дозвольте відправлення повідомлень</string>
 	<string name="onboarding_location_title">Допоможіть знайти вас</string>
 	<string name="onboarding_location_message">Щоб користуватися навігацією та іншими функціями додатку, нам необхідний доступ до вашого місцезнаходження.</string>
-	<string name="onboarding_permissions_title">Дозволити MAPS.ME доступ до сховища та функції визначення геолокації</string>
+	<string name="onboarding_permissions_title">Дозволити AddisMapME доступ до сховища та функції визначення геолокації</string>
 	<string name="onboarding_permissions_message">Таким чином ви зможете завантажувати карти, переглядати місцевість і трафік, а також використовувати навігацію.</string>
-	<string name="onboarding_welcome_title">Вітаємо у MAPS.ME</string>
+	<string name="onboarding_welcome_title">Вітаємо у AddisMapME</string>
 	<string name="onboarding_welcome_first_subtitle">Безкоштовні, швидкі, деталізовані та повністю офлайнові карти з покроковою навігацією.</string>
 	<string name="onboarding_welcome_second_subtitle">Використовуючи цей додаток, ви погоджуєтеся з &lt;a href="%1$s">Умовами використання&lt;/a> та &lt;a href="%2$s">Політикою конфіденційності&lt;/a>.</string>
 	<string name="dialog_incorrect_feature_position">Змініть розташування</string>
@@ -798,7 +798,7 @@
 	<string name="no_migration_during_navigation">Під час навігації оновлення заборонено.</string>
 	<!-- Error dialog no space -->
 	<string name="migration_no_space_message">Для завантаження потрібно більше вільного місця. Будь ласка, видаліть непотрібні дані.</string>
-	<string name="editor_sharing_title">Я покращив мапи MAPS.ME</string>
+	<string name="editor_sharing_title">Я покращив мапи AddisMapME</string>
 	<string name="editor_comment_will_be_sent">Ми обов\'язково відправимо ваш коментар картографам.</string>
 	<string name="editor_unsupported_category_message">Ви додали об\'єкт, категорію якого ми поки що не підтримуємо. У майбутньому він з\'явиться на мапі.</string>
 	<!-- Downloaded 10 **of** 20 <- it is that "of" -->
@@ -815,7 +815,7 @@
 	<string name="core_placepage_unknown_place">Невідоме місце</string>
 	<string name="editor_other_info">Відправити повідомлення модератору OSM</string>
 	<string name="editor_detailed_description_hint">Докладний коментар</string>
-	<string name="editor_detailed_description">Зміни, що ви запропонували, буде відправлено до OpenStreetMap. Опишіть подробиці про об\'єкт, які не можна редагувати у MAPS.ME.</string>
+	<string name="editor_detailed_description">Зміни, що ви запропонували, буде відправлено до OpenStreetMap. Опишіть подробиці про об\'єкт, які не можна редагувати у AddisMapME.</string>
 	<string name="editor_more_about_osm">Більше про OpenStreetMap</string>
 	<string name="editor_operator">Володар</string>
 	<string name="editor_tag_description">Вкажіть компанію, організацію або особу, що відповідає за працездатність об\'єкта</string>
@@ -836,7 +836,7 @@
 	<string name="current_location_unknown_error_title">Місцезнаходження не знайдено.</string>
 	<string name="current_location_unknown_error_message">Під час пошуку місцезнаходження сталася невідома помилка. Перевірте працездатність пристрою та спробуйте відшукати місцеположення пізніше.</string>
 	<string name="whatsnew_update_editor_title">Ми обновили редактор</string>
-	<string name="whatsnew_update_editor_message">Користувачі MAPS.ME вже внесли 200 000 виправлень на мапі. Разом ми зробимо мапи найбільш докладними у світі. Приєднуйся!</string>
+	<string name="whatsnew_update_editor_message">Користувачі AddisMapME вже внесли 200 000 виправлень на мапі. Разом ми зробимо мапи найбільш докладними у світі. Приєднуйся!</string>
 	<!-- Additional text in whats new -->
 	<string name="whatsnew_update_editor_message_update">Для використання редактору карт, будь ласка, оновіть всі карти.</string>
 	<string name="location_services_disabled_header">Ідентифікацію місцезнаходження відключено</string>
@@ -924,7 +924,7 @@
 	<!-- For sharing via SMS and so on -->
 	<string name="sharing_call_action_look">Подивись,</string>
 	<string name="continue_recent_track_background_button">Продовжити</string>
-	<string name="recent_track_background_dialog_message">MAPS.ME використовує вашу геопозицію у фоновому режимі для запису нещодавно пройденого шляху.</string>
+	<string name="recent_track_background_dialog_message">AddisMapME використовує вашу геопозицію у фоновому режимі для запису нещодавно пройденого шляху.</string>
 	<string name="whatsnew_car_navigation_header">Режим автонавігації став зручнішим</string>
 	<string name="whatsnew_car_navigation_message">• Елементи навігації займають менше місця.\n• Показуємо швидкість і додали автозум.</string>
 	<string name="whatsnew_cycle_navigation_2_header">Велонавігація</string>
@@ -932,15 +932,15 @@
 	<string name="whatsnew_booking_2_header">Пошук готелів став простішим</string>
 	<string name="whatsnew_booking_2_message">При пошуку відображається рейтинг і цінова категорія готелю.</string>
 	<string name="whatsnew_cycle_navigation_header">Велонавігація (бета-версія)</string>
-	<string name="whatsnew_cycle_navigation_message">До відкриття сезону ми тестуємо велонавігацію. Проїдьтесь за своїм улюбленим маршрутом з MAPS.ME та поділіться враженнями з нами.</string>
+	<string name="whatsnew_cycle_navigation_message">До відкриття сезону ми тестуємо велонавігацію. Проїдьтесь за своїм улюбленим маршрутом з AddisMapME та поділіться враженнями з нами.</string>
 	<!-- Rate on Google Play (Android only) -->
 	<string name="rate_gp">Рейтинг на Google Play</string>
 	<!-- Share with friends: menu item title -->
 	<string name="tell_friends">Розповісти другу</string>
 	<!-- Share with friends: sharing text -->
-	<string name="tell_friends_text">Привіт! Встанови MAPS.ME!</string>
+	<string name="tell_friends_text">Привіт! Встанови AddisMapME!</string>
 	<!-- About short text (below logo) -->
-	<string name="about_description">MAPS.ME — це додаток must-have для мандрівників. У MAPS.ME використовуються офлайн-дані OpenStreetMap, які можна редагувати.</string>
+	<string name="about_description">AddisMapME — це додаток must-have для мандрівників. У AddisMapME використовуються офлайн-дані OpenStreetMap, які можна редагувати.</string>
 	<!-- Text in menu -->
 	<string name="blog">Блог</string>
 	<!-- Hint near allow statictics checkbox -->
@@ -995,7 +995,7 @@
 	<string name="chat">Геочат</string>
 	<!-- Verb. Text on a button that opens the chat. -->
 	<string name="chat_open">Відкрити</string>
-	<string name="whatsnew_uber_header">MAPS.ME і Uber</string>
+	<string name="whatsnew_uber_header">AddisMapME і Uber</string>
 	<string name="whatsnew_uber_message">Замовляйте таксі прямо з додатку!</string>
 	<string name="dialog_taxi_offline">Замовлення таксі неможливе в автономному режимі.</string>
 	<string name="dialog_taxi_error">Замовлення таксі тимчасово недоступне.</string>
@@ -1010,7 +1010,7 @@
 	<string name="traffic_update_maps_text">Для відображення інформації про трафік необхідно оновити карти.</string>
 	<string name="traffic_outdated">Дані про трафік застаріли.</string>
 	<string name="big_font">Збільшити розмір шрифту на карті</string>
-	<string name="traffic_update_app">Будь ласка, встановіть оновлення MAPS.ME</string>
+	<string name="traffic_update_app">Будь ласка, встановіть оновлення AddisMapME</string>
 	<!-- "traffic" as in road congestion -->
 	<string name="traffic_update_app_message">Для відображення даних про трафік оновіть додаток.</string>
 	<!-- "traffic" as in "road congestion" -->
@@ -1112,9 +1112,9 @@
 	<string name="button_accept_and_continue">Прийняти та продовжити</string>
 	<string name="button_learn_more">Докладніше</string>
 	<string name="onboarding_storage_permissions_title">Надати доступ</string>
-	<string name="onboarding_storage_permissions_message">Внесіть зміни до прав доступу на вашому пристрої. Для використання MAPS.ME необхідно надати додатку права доступу до сховища.</string>
+	<string name="onboarding_storage_permissions_message">Внесіть зміни до прав доступу на вашому пристрої. Для використання AddisMapME необхідно надати додатку права доступу до сховища.</string>
 	<string name="button_exit">Вихід</string>
-	<string name="onboarding_detail_permissions_title">MAPS.ME необхідно надати доступ до</string>
+	<string name="onboarding_detail_permissions_title">AddisMapME необхідно надати доступ до</string>
 	<!-- Default permission's name from Android settings. -->
 	<string name="onboarding_detail_permissions_storage_title">Сховище</string>
 	<string name="onboarding_detail_permissions_storage_message">Для збереження та використання завантажених карт в автономному режимі, а також зберігання закладок.</string>
@@ -1291,16 +1291,16 @@
 	<string name="sign_message_gdpr">Щоб продовжити роботу, ви повинні прийняти наші Умови використання та Політику конфіденційності. Будь ласка, уважно їх прочитайте.</string>
 	<string name="sign_agree_pp_gdpr">Я згоден з &lt;a href="%s">Політикою конфіденційності&lt;/a></string>
 	<string name="sign_agree_tof_gdpr">Я згоден з &lt;a href="%s">Умовами використання&lt;/a></string>
-	<string name="sign_agree_news_gdpr">Я згоден отримувати останні новини про MAPS.ME</string>
+	<string name="sign_agree_news_gdpr">Я згоден отримувати останні новини про AddisMapME</string>
 	<string name="whats_new_localbiz_title">Малий бізнес заслуговує на увагу</string>
-	<string name="whats_new_localbiz_message">Саме локальні кав’ярні, хостели та магазинчики роблять мандрівки незабутніми. Ми безкоштовно оптимізуємо вашу бізнес-сторінку в MAPS.ME, для того, щоб його помітили.</string>
+	<string name="whats_new_localbiz_message">Саме локальні кав’ярні, хостели та магазинчики роблять мандрівки незабутніми. Ми безкоштовно оптимізуємо вашу бізнес-сторінку в AddisMapME, для того, щоб його помітили.</string>
 	<string name="whats_new_order_button">Залишити заявку</string>
 	<string name="bookmarks_page_downloaded">Завантажені</string>
 	<string name="bookmarks_page_my">Мої</string>
 	<string name="routes_and_bookmarks">Маршрути та позначки</string>
 	<string name="bookmarks_webview_success_toast">Мітки успішно завантажені</string>
 	<string name="cached_bookmarks_placeholder_title">Завантажте нові місця</string>
-	<string name="cached_bookmarks_placeholder_subtitle">Натисніть кнопку, щоб завантажити тисячі цікавих місць і маршрутів, створених користувачами MAPS.ME. Вам знадобиться підключення до Інтернету.</string>
+	<string name="cached_bookmarks_placeholder_subtitle">Натисніть кнопку, щоб завантажити тисячі цікавих місць і маршрутів, створених користувачами AddisMapME. Вам знадобиться підключення до Інтернету.</string>
 	<string name="downloader_download_routers">Завантажити позначки</string>
 	<string name="bookmarks_groups_cached">Завантажені списки</string>
 	<string name="author_name_by_prefix">%s</string>
@@ -1320,7 +1320,7 @@
 	<string name="opt_out_flurry">Статистика</string>
 	<string name="opt_out_mopub">Персоналізована реклама</string>
 	<string name="opt_out_fabric">Звіти про помилки</string>
-	<string name="opt_out_fabric_description">Ми можемо використовувати ваші дані, щоб розвивати та покращувати MAPS.ME. Зміни вступлять у силу після перезапуску програми</string>
+	<string name="opt_out_fabric_description">Ми можемо використовувати ваші дані, щоб розвивати та покращувати AddisMapME. Зміни вступлять у силу після перезапуску програми</string>
 	<string name="opt_out_help_ios_1">Ви можете відмовитися від отримання цільової реклами в налаштуваннях пристрою.</string>
 	<string name="opt_out_help_ios_2">iOS 9 або вище</string>
 	<string name="opt_out_help_ios_3">Відкрийте Налаштування → Конфіденційність → Реклама → Увімкніть «Обмеження трекінгу»</string>
@@ -1341,7 +1341,7 @@
 	<string name="category_desc_more">…ще</string>
 	<string name="title_error_downloading_bookmarks">Виникла помилка</string>
 	<string name="subtitle_error_downloading_bookmarks">Позначки не були завантажені</string>
-	<string name="whats_new_bookmarks_catalog_title">У MAPS.ME з’явився каталог маршрутів</string>
+	<string name="whats_new_bookmarks_catalog_title">У AddisMapME з’явився каталог маршрутів</string>
 	<string name="whats_new_bookmarks_catalog_message">Десятки докладних маршрутів по всьому світу: куди сходити, що подивитися, де поїсти.</string>
 	<string name="whats_new_popularity_label_title">Популярне поблизу</string>
 	<string name="whats_new_popularity_label_message">Розділ «Поблизу» допоможе знайти найпопулярніші місця в місті.</string>
