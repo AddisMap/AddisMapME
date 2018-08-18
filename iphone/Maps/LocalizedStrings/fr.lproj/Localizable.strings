@@ -2098,7 +2098,7 @@
 
 "quality" = "Qualité";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "S'il vous plaît, attendez...";
 
-"fc2018" = "Coupe du monde de football 2018";
-
 "phone_number" = "Numéro de téléphone";
 
 "notification_unsent_reviews_title" = "Vous avez plusieurs avis non envoyés";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Cette liste a déjà été téléchargée";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Guides";
+
+"guide_downloaded_title" = "Le guide a été téléchargé avec succès";
+
+"download_guides" = "Télécharger les guides";
+
+"cached_guides_placeholder_subtitle" = "Guides détaillés disponibles hors ligne pour tout type de voyage. Choisissez celui qui vous convient le mieux et téléchargez-le directement sur la carte. Vous aurez besoin d'une connexion Internet pour télécharger les guides.";
+
+"guides_groups_cached" = "Guides téléchargés";
+
+"subtitle_error_downloading_guide" = "Le guide n'a pas été téléchargé";
+
+"error_already_downloaded_guide" = "Ce guide a déjà été téléchargé";
+
+"guide_downloaded_subtitle" = "Cliquez sur « Voir sur la carte » pour explorer le guide.";
+
+"bookmarks_guides" = "Signets et guides";

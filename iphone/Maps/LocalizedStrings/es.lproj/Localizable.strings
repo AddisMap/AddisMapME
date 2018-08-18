@@ -2098,7 +2098,7 @@
 
 "quality" = "Calidad";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Por favor espera...";
 
-"fc2018" = "Copa Mundial de Fútbol 2018";
-
 "phone_number" = "Número de teléfono";
 
 "notification_unsent_reviews_title" = "Tienes varias reseñas sin enviar";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Esta lista ya se ha descargado";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Guías";
+
+"guide_downloaded_title" = "Se ha descargado la guía correctamente";
+
+"download_guides" = "Descargar guías";
+
+"cached_guides_placeholder_subtitle" = "Guías detallas fuera de línea para cualquier tipo de viaje. Elija la que mejor se adapta a sus necesidades y descárguela directamente en el mapa. Necesitará conexión a Internet para descargar las guías.";
+
+"guides_groups_cached" = "Guías descargadas";
+
+"subtitle_error_downloading_guide" = "No se ha descargado la guía";
+
+"error_already_downloaded_guide" = "Ya se ha descargado esta guía";
+
+"guide_downloaded_subtitle" = "Pulsa \"Ver en el mapa\" para explorar la guía";
+
+"bookmarks_guides" = "Marcadores y guías";

@@ -32,6 +32,7 @@ import com.mapswithme.maps.location.LocationHelper;
 import com.mapswithme.maps.routing.RoutePointInfo;
 import com.mapswithme.maps.taxi.TaxiInfoError;
 import com.mapswithme.maps.taxi.TaxiManager;
+import com.mapswithme.maps.widget.menu.MainMenu;
 import com.mapswithme.maps.widget.placepage.Sponsored;
 import com.mapswithme.util.BatteryState;
 import com.mapswithme.util.Config;
@@ -52,6 +53,7 @@ import static com.mapswithme.util.BatteryState.CHARGING_STATUS_PLUGGED;
 import static com.mapswithme.util.BatteryState.CHARGING_STATUS_UNKNOWN;
 import static com.mapswithme.util.BatteryState.CHARGING_STATUS_UNPLUGGED;
 import static com.mapswithme.util.statistics.Statistics.EventName.APPLICATION_COLD_STARTUP_INFO;
+import static com.mapswithme.util.statistics.Statistics.EventName.BM_GUIDES_DOWNLOADDIALOGUE_CLICK;
 import static com.mapswithme.util.statistics.Statistics.EventName.BM_RESTORE_PROPOSAL_CLICK;
 import static com.mapswithme.util.statistics.Statistics.EventName.BM_RESTORE_PROPOSAL_ERROR;
 import static com.mapswithme.util.statistics.Statistics.EventName.BM_RESTORE_PROPOSAL_SUCCESS;
@@ -61,7 +63,6 @@ import static com.mapswithme.util.statistics.Statistics.EventName.BM_SYNC_PROPOS
 import static com.mapswithme.util.statistics.Statistics.EventName.BM_SYNC_PROPOSAL_SHOWN;
 import static com.mapswithme.util.statistics.Statistics.EventName.BM_SYNC_PROPOSAL_TOGGLE;
 import static com.mapswithme.util.statistics.Statistics.EventName.BM_SYNC_SUCCESS;
-import static com.mapswithme.util.statistics.Statistics.EventName.DISCOVERY_OPEN;
 import static com.mapswithme.util.statistics.Statistics.EventName.DOWNLOADER_DIALOG_ERROR;
 import static com.mapswithme.util.statistics.Statistics.EventName.PP_BANNER_BLANK;
 import static com.mapswithme.util.statistics.Statistics.EventName.PP_BANNER_ERROR;
@@ -76,12 +77,16 @@ import static com.mapswithme.util.statistics.Statistics.EventName.ROUTING_PLAN_T
 import static com.mapswithme.util.statistics.Statistics.EventName.ROUTING_ROUTE_FINISH;
 import static com.mapswithme.util.statistics.Statistics.EventName.ROUTING_ROUTE_START;
 import static com.mapswithme.util.statistics.Statistics.EventName.SEARCH_FILTER_CLICK;
+import static com.mapswithme.util.statistics.Statistics.EventName.TOOLBAR_CLICK;
+import static com.mapswithme.util.statistics.Statistics.EventName.TOOLBAR_MENU_CLICK;
 import static com.mapswithme.util.statistics.Statistics.EventName.UGC_AUTH_ERROR;
 import static com.mapswithme.util.statistics.Statistics.EventName.UGC_AUTH_EXTERNAL_REQUEST_SUCCESS;
 import static com.mapswithme.util.statistics.Statistics.EventName.UGC_AUTH_SHOWN;
 import static com.mapswithme.util.statistics.Statistics.EventName.UGC_REVIEW_START;
+import static com.mapswithme.util.statistics.Statistics.EventParam.ACTION;
 import static com.mapswithme.util.statistics.Statistics.EventParam.BANNER;
 import static com.mapswithme.util.statistics.Statistics.EventParam.BATTERY;
+import static com.mapswithme.util.statistics.Statistics.EventParam.BUTTON;
 import static com.mapswithme.util.statistics.Statistics.EventParam.CATEGORY;
 import static com.mapswithme.util.statistics.Statistics.EventParam.CHARGING;
 import static com.mapswithme.util.statistics.Statistics.EventParam.DESTINATION;
@@ -188,6 +193,8 @@ public enum Statistics
     static final String BM_TAB_CLICK = "Bookmarks_Tab_click";
     private static final String BM_DOWNLOADED_CATALOGUE_OPEN = "Bookmarks_Downloaded_Catalogue_open";
     private static final String BM_DOWNLOADED_CATALOGUE_ERROR = "Bookmarks_Downloaded_Catalogue_error";
+    public static final String BM_GUIDEDOWNLOADTOAST_SHOWN = "Bookmarks_GuideDownloadToast_shown";
+    public static final String BM_GUIDES_DOWNLOADDIALOGUE_CLICK = "Bookmarks_Guides_DownloadDialogue_click";
 
     // search
     public static final String SEARCH_CAT_CLICKED = "Search. Category clicked";
@@ -225,6 +232,7 @@ public enum Statistics
     public static final String PP_BANNER_SHOW = "Placepage_Banner_show";
     public static final String PP_BANNER_ERROR = "Placepage_Banner_error";
     public static final String PP_BANNER_BLANK = "Placepage_Banner_blank";
+    public static final String PP_BANNER_CLOSE = "Placepage_Banner_close";
     public static final String PP_HOTEL_GALLERY_OPEN = "PlacePage_Hotel_Gallery_open";
     public static final String PP_HOTEL_REVIEWS_LAND = "PlacePage_Hotel_Reviews_land";
     public static final String PP_HOTEL_DESCRIPTION_LAND = "PlacePage_Hotel_Description_land";
@@ -234,16 +242,8 @@ public enum Statistics
 
     // toolbar actions
     public static final String TOOLBAR_MY_POSITION = "Toolbar. MyPosition";
-    public static final String TOOLBAR_SEARCH = "Toolbar. Search";
-    public static final String TOOLBAR_MENU = "Toolbar. Menu";
-    public static final String TOOLBAR_BOOKMARKS = "Toolbar. Bookmarks";
-
-    // menu actions
-    public static final String MENU_DOWNLOADER = "Menu. Downloader";
-    public static final String MENU_SETTINGS = "Menu. SettingsAndMore";
-    public static final String MENU_SHARE = "Menu. Share";
-    public static final String MENU_P2P = "Menu. Point to point.";
-    public static final String MENU_ADD_PLACE = "Menu. Add place.";
+    static final String TOOLBAR_CLICK = "Toolbar_click";
+    static final String TOOLBAR_MENU_CLICK = "Toolbar_Menu_click";
 
     // dialogs
     public static final String PLUS_DIALOG_LATER = "GPlus dialog cancelled.";
@@ -258,7 +258,6 @@ public enum Statistics
     public static final String PLACE_SHARED = "Place Shared";
     public static final String API_CALLED = "API called";
     public static final String DOWNLOAD_COUNTRY_NOTIFICATION_SHOWN = "Download country notification shown";
-    public static final String DOWNLOAD_COUNTRY_NOTIFICATION_CLICKED = "Download country notification clicked";
     public static final String ACTIVE_CONNECTION = "Connection";
     public static final String STATISTICS_STATUS_CHANGED = "Statistics status changed";
     public static final String TTS_FAILURE_LOCATION = "TTS failure location";
@@ -289,8 +288,6 @@ public enum Statistics
     public static final String ROUTING_SEARCH_CLICK = "Routing_Search_click";
     public static final String ROUTING_BOOKMARKS_CLICK = "Routing_Bookmarks_click";
     public static final String ROUTING_PLAN_TOOLTIP_CLICK = "Routing_PlanTooltip_click";
-
-    public static final String DISCOVERY_OPEN = "DiscoveryButton_Open";
 
     // editor
     public static final String EDITOR_START_CREATE = "Editor_Add_start";
@@ -408,6 +405,7 @@ public enum Statistics
     static final String HAS_AUTH = "has_auth";
     public static final String STATUS = "status";
     static final String INTERRUPTED = "interrupted";
+    static final String BUTTON = "button";
 
     private EventParam() {}
   }
@@ -435,7 +433,6 @@ public enum Statistics
     static final String PLACEPAGE = "placepage";
     public static final String FACEBOOK = "facebook";
     public static final String LUGGAGE_HERO = "LuggageHero";
-    public static final String FIFA = "FIFA2018";
     public static final String CHECKIN = "check_in";
     public static final String CHECKOUT = "check_out";
     public static final String ANY = "any";
@@ -464,6 +461,9 @@ public enum Statistics
     static final String BICYCLE = "bicycle";
     static final String TAXI = "taxi";
     static final String TRANSIT = "transit";
+    public final static String VIEW_ON_MAP = "view on map";
+    public final static String NOT_NOW = "not now";
+    public final static String CLICK_OUTSIDE = "click outside pop-up";
   }
 
   // Initialized once in constructor and does not change until the process restarts.
@@ -1160,11 +1160,6 @@ public enum Statistics
     return type == 0 ? BACKUP : RESTORE;
   }
 
-  public void trackDiscoveryOpen()
-  {
-    trackEvent(DISCOVERY_OPEN, params().add(NETWORK, getConnectionState()));
-  }
-
   public void trackFilterEvent(@NonNull String event, @NonNull String category)
   {
     trackEvent(event, params()
@@ -1277,6 +1272,27 @@ public enum Statistics
       default:
         throw new AssertionError("Unsupported restoring request result: " + result);
     }
+  }
+
+  public void trackToolbarClick(@NonNull MainMenu.Item button)
+  {
+    trackEvent(TOOLBAR_CLICK, getToolbarParams(button));
+  }
+
+  public void trackToolbarMenu(@NonNull MainMenu.Item button)
+  {
+    trackEvent(TOOLBAR_MENU_CLICK, getToolbarParams(button));
+  }
+
+  public void trackDownloadBookmarkDialog(@NonNull String button)
+  {
+    trackEvent(BM_GUIDES_DOWNLOADDIALOGUE_CLICK, params().add(ACTION, button));
+  }
+
+  @NonNull
+  private static ParameterBuilder getToolbarParams(@NonNull MainMenu.Item button)
+  {
+    return params().add(BUTTON, button.name().toLowerCase());
   }
 
   public static ParameterBuilder params()

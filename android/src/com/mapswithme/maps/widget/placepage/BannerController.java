@@ -4,6 +4,7 @@ import android.animation.ArgbEvaluator;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
@@ -22,6 +23,7 @@ import com.mapswithme.maps.ads.MwmNativeAd;
 import com.mapswithme.maps.ads.NativeAdError;
 import com.mapswithme.maps.ads.NativeAdListener;
 import com.mapswithme.util.Config;
+import com.mapswithme.util.Language;
 import com.mapswithme.util.ThemeUtils;
 import com.mapswithme.util.UiUtils;
 import com.mapswithme.util.Utils;
@@ -50,6 +52,8 @@ final class BannerController
   private static final int MIN_MESSAGE_LINES = 3;
   private static final int MAX_TITLE_LINES = 2;
   private static final int MIN_TITLE_LINES = 1;
+
+  private static final String AD_REMOVAL_URL = "https://localads.maps.me/redirects/ads_removal";
 
   private static boolean isTouched(@Nullable View view, @NonNull MotionEvent event)
   {
@@ -95,6 +99,9 @@ final class BannerController
   @SuppressWarnings("NullableProblems")
   @NonNull
   private ImageView mAdChoicesLabel;
+  @SuppressWarnings("NullableProblems")
+  @NonNull
+  private View mAdRemovalButton;
 
   private final float mCloseFrameHeight;
 
@@ -137,8 +144,11 @@ final class BannerController
     mAdChoices = mBannerView.findViewById(R.id.ad_choices_icon);
     mAdChoices.setOnClickListener(v -> handlePrivacyInfoUrl());
     mAdChoicesLabel = mBannerView.findViewById(R.id.ad_choices_label);
-    UiUtils.expandTouchAreaForView(mAdChoices, (int) mBannerView.getResources()
-                                                                .getDimension(R.dimen.margin_quarter_plus));
+    mAdRemovalButton = mBannerView.findViewById(R.id.remove_btn);
+    mAdRemovalButton.setOnClickListener(v -> handleAdsRemoval());
+    Resources res = mBannerView.getResources();
+    final int tapArea = res.getDimensionPixelSize(R.dimen.margin_quarter_plus);
+    UiUtils.expandTouchAreaForViews(tapArea, mAdChoices, mAdRemovalButton);
   }
 
   private void handlePrivacyInfoUrl()
@@ -151,6 +161,16 @@ final class BannerController
       return;
 
     Utils.openUrl(mBannerView.getContext(), privacyUrl);
+  }
+
+  private void handleAdsRemoval()
+  {
+    Uri uri = Uri.parse(AD_REMOVAL_URL)
+                 .buildUpon()
+                 .appendQueryParameter("mapsme_lang", Language.getDefaultLocale())
+                 .build();
+    Utils.openUrl(mBannerView.getContext(), uri.toString());
+    org.alohalytics.Statistics.logEvent(Statistics.EventName.PP_BANNER_CLOSE);
   }
 
   private void setErrorStatus(boolean value)
@@ -172,12 +192,14 @@ final class BannerController
     if ((mAdsLoader.isAdLoading() || hasErrorOccurred())
         && mCurrentAd == null)
     {
-      UiUtils.hide(mIcon, mTitle, mMessage, mActionSmall, mActionLarge, mAdChoices, mAdChoicesLabel);
+      UiUtils.hide(mIcon, mTitle, mMessage, mActionSmall, mActionLarge, mAdChoices, mAdChoicesLabel,
+                   mAdRemovalButton);
     }
     else if (mCurrentAd != null)
     {
       UiUtils.showIf(mCurrentAd.getType().showAdChoiceIcon(), mAdChoices);
-      UiUtils.show(mIcon, mTitle, mMessage, mActionSmall, mActionLarge, mAdChoicesLabel);
+      UiUtils.show(mIcon, mTitle, mMessage, mActionSmall, mActionLarge, mAdChoicesLabel,
+                   mAdRemovalButton);
       if (mOpened)
         UiUtils.hide(mActionSmall);
       else

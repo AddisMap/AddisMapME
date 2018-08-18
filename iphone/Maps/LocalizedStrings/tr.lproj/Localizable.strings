@@ -2098,7 +2098,7 @@
 
 "quality" = "Kalite";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Lütfen bekle...";
 
-"fc2018" = "Futbol Dünya Kupası 2018";
-
 "phone_number" = "Telefon numarası";
 
 "notification_unsent_reviews_title" = "Birkaç onaylanmamış yorumunuz var";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Bu liste zaten indirildi";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "El kitapları";
+
+"guide_downloaded_title" = "El kitabı başarılı bir şekilde indirildi";
+
+"download_guides" = "El kitaplarını indir";
+
+"cached_guides_placeholder_subtitle" = "Her çeşit yolculuk için ayrıntılı çevrimdışı el kitapları. Sana en uygun olanı seç ve doğrudan haritaya indir. El kitaplarını indirmek için internet bağlantısına ihtiyacın olacak.";
+
+"guides_groups_cached" = "İndirilen el kitapları";
+
+"subtitle_error_downloading_guide" = "El kitabı indirilmedi";
+
+"error_already_downloaded_guide" = "Bu el kitabı zaten indirildi";
+
+"guide_downloaded_subtitle" = "El kitabını keşfetmek için ‘Haritada görüntüle’ düğmesine bas";
+
+"bookmarks_guides" = "Yer imleri ve el kitapları";

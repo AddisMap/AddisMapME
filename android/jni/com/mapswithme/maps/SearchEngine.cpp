@@ -12,6 +12,10 @@
 #include "search/mode.hpp"
 #include "search/result.hpp"
 
+#include "platform/network_policy.hpp"
+
+#include "geometry/distance_on_sphere.hpp"
+
 #include "base/assert.hpp"
 #include "base/logging.hpp"
 
@@ -267,6 +271,8 @@ jmethodID g_resultConstructor;
 jmethodID g_suggestConstructor;
 jclass g_descriptionClass;
 jmethodID g_descriptionConstructor;
+jclass g_popularityClass;
+jmethodID g_popularityConstructor;
 
 // Implements 'NativeMapSearchListener' java interface.
 jmethodID g_mapResultsMethod;
@@ -277,6 +283,11 @@ jmethodID g_updateBookmarksResultsId;
 jmethodID g_endBookmarksResultsId;
 
 booking::filter::Tasks g_lastBookingFilterTasks;
+
+bool PopularityHasHigherPriority(bool hasPosition, double distanceInMeters)
+{
+  return !hasPosition || distanceInMeters > search::Result::kPopularityHighPriorityMinDistance;
+}
 
 jobject ToJavaResult(Result & result, search::ProductInfo const & productInfo, bool hasPosition,
                      double lat, double lon)
@@ -296,15 +307,22 @@ jobject ToJavaResult(Result & result, search::ProductInfo const & productInfo, b
 
   ms::LatLon ll = ms::LatLon::Zero();
   string distance;
-  if (result.HasPoint())
+  double distanceInMeters = 0.0;
+  if (hasPosition)
   {
-    ll = MercatorBounds::ToLatLon(result.GetFeatureCenter());
-    if (hasPosition)
+    if (result.HasPoint())
     {
-      double dummy;
-      (void) fr->GetDistanceAndAzimut(result.GetFeatureCenter(), lat, lon, 0, distance, dummy);
+      auto const center = result.GetFeatureCenter();
+      ll = MercatorBounds::ToLatLon(center);
+
+      distanceInMeters = ms::DistanceOnEarth(lat, lon,
+                                             MercatorBounds::YToLat(center.y),
+                                             MercatorBounds::XToLon(center.x));
+      measurement_utils::FormatDistance(distanceInMeters, distance);
     }
   }
+
+  bool popularityHasHigherPriority = PopularityHasHigherPriority(hasPosition, distanceInMeters);
 
   if (result.IsSuggest())
   {
@@ -336,13 +354,17 @@ jobject ToJavaResult(Result & result, search::ProductInfo const & productInfo, b
                                                 dist.get(), cuisine.get(),
                                                 pricing.get(), rating,
                                                 result.GetStarsCount(),
-                                                static_cast<jint>(result.IsOpenNow())));
+                                                static_cast<jint>(result.IsOpenNow()),
+                                                static_cast<jboolean>(popularityHasHigherPriority)));
 
   jni::TScopedLocalRef name(env, jni::ToJavaString(env, result.GetString()));
+  jni::TScopedLocalRef popularity(env, env->NewObject(g_popularityClass,
+                                                      g_popularityConstructor,
+                                                      static_cast<jint>(result.GetRankingInfo().m_popularity)));
   jobject ret =
       env->NewObject(g_resultClass, g_resultConstructor, name.get(), desc.get(), ll.lat, ll.lon,
                      ranges.get(), result.IsHotel(), productInfo.m_isLocalAdsCustomer,
-                     static_cast<jint>(result.GetRankingInfo().m_popularity));
+                     popularity.get());
   ASSERT(ret, ());
 
   return ret;
@@ -532,7 +554,7 @@ public:
     {
       result = BuildAvailability(env, bookingFilterParams);
     }
-    else
+    else if (platform::GetCurrentNetworkPolicy().CanUse())
     {
       result = g_framework->NativeFramework()->GetLastBookingAvailabilityParams();
       if (result.IsEmpty())
@@ -616,13 +638,17 @@ extern "C"
     g_resultClass = jni::GetGlobalClassRef(env, "com/mapswithme/maps/search/SearchResult");
     g_resultConstructor = jni::GetConstructorID(
         env, g_resultClass,
-        "(Ljava/lang/String;Lcom/mapswithme/maps/search/SearchResult$Description;DD[IZZI)V");
+        "(Ljava/lang/String;Lcom/mapswithme/maps/search/SearchResult$Description;DD[IZZ"
+          "Lcom/mapswithme/maps/search/Popularity;)V");
     g_suggestConstructor = jni::GetConstructorID(env, g_resultClass, "(Ljava/lang/String;Ljava/lang/String;DD[I)V");
     g_descriptionClass = jni::GetGlobalClassRef(env, "com/mapswithme/maps/search/SearchResult$Description");
     g_descriptionConstructor = jni::GetConstructorID(env, g_descriptionClass,
                                                      "(Lcom/mapswithme/maps/bookmarks/data/FeatureId;"
                                                      "Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;"
-                                                     "Ljava/lang/String;Ljava/lang/String;FII)V");
+                                                     "Ljava/lang/String;Ljava/lang/String;FIIZ)V");
+
+    g_popularityClass = jni::GetGlobalClassRef(env, "com/mapswithme/maps/search/Popularity");
+    g_popularityConstructor = jni::GetConstructorID(env, g_popularityClass, "(I)V");
 
     g_mapResultsMethod = jni::GetMethodID(env, g_javaListener, "onMapSearchResults",
                                           "([Lcom/mapswithme/maps/search/NativeMapSearchListener$Result;JZ)V");

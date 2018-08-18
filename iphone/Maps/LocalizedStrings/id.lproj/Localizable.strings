@@ -2098,7 +2098,7 @@
 
 "quality" = "Mutu";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Mohon tunggu...";
 
-"fc2018" = "Piala Dunia Sepakbola 2018";
-
 "phone_number" = "Nomor telepon";
 
 "notification_unsent_reviews_title" = "Anda memiliki beberapa ulasan yang tidak terkirim";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Daftar ini sudah diunduh";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Panduan";
+
+"guide_downloaded_title" = "Panduan telah berhasil diunduh";
+
+"download_guides" = "Unduh panduan";
+
+"cached_guides_placeholder_subtitle" = "Panduan offline (luring) terperinci untuk segala jenis perjalanan. Pilih yang paling sesuai untuk Anda dan unduh langsung ke peta. Anda akan memerlukan koneksi internet untuk mengunduh panduan.";
+
+"guides_groups_cached" = "Panduan yang diunduh";
+
+"subtitle_error_downloading_guide" = "Panduan itu tidak diunduh";
+
+"error_already_downloaded_guide" = "Panduan ini telah diunduh";
+
+"guide_downloaded_subtitle" = "Tekan ‘Tampilkan pada peta’ untuk menjelajahi panduan";
+
+"bookmarks_guides" = "Penanda dan panduan";

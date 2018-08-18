@@ -2098,7 +2098,7 @@
 
 "quality" = "质量";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "请稍候...";
 
-"fc2018" = "2018年世界杯足球赛";
-
 "phone_number" = "电话号码";
 
 "notification_unsent_reviews_title" = "你有几个未发表的评论";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "这个列表已被下载";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "导览";
+
+"guide_downloaded_title" = "导览已被成功下载";
+
+"download_guides" = "下载导览";
+
+"cached_guides_placeholder_subtitle" = "适合任何旅行种类的详细的离线导览。选择最适合您的那个，直接下载到地图上。您需要网络连接来下载导览。";
+
+"guides_groups_cached" = "已下载的导览";
+
+"subtitle_error_downloading_guide" = "该导览没有被下载";
+
+"error_already_downloaded_guide" = "这个导览已被下载过了";
+
+"guide_downloaded_subtitle" = "按‘在地图上查看’探索导览";
+
+"bookmarks_guides" = "书签和导览";

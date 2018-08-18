@@ -18,11 +18,11 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.mapswithme.maps.Framework;
 import com.mapswithme.maps.R;
 import com.mapswithme.maps.auth.BaseWebViewMwmFragment;
 import com.mapswithme.maps.bookmarks.data.BookmarkManager;
 import com.mapswithme.util.ConnectionState;
-import com.mapswithme.util.DialogUtils;
 import com.mapswithme.util.UiUtils;
 import com.mapswithme.util.Utils;
 import com.mapswithme.util.log.Logger;
@@ -57,30 +57,28 @@ public class BookmarksCatalogFragment extends BaseWebViewMwmFragment
 
   @SuppressWarnings("NullableProblems")
   @NonNull
-  private ImportCategoryListener mImportCategoryListener;
+  private BookmarkManager.BookmarksCatalogListener mCatalogListener;
 
   @Override
   public void onCreate(@Nullable Bundle savedInstanceState)
   {
     super.onCreate(savedInstanceState);
     mCatalogUrl = getCatalogUrlOrThrow();
-    mImportCategoryListener = new ImportCategoryListener(this);
+    mCatalogListener = new CatalogListenerDecorator(this);
   }
 
   @Override
   public void onStart()
   {
     super.onStart();
-    mImportCategoryListener.attach(this);
-    BookmarkManager.INSTANCE.addCatalogListener(mImportCategoryListener);
+    BookmarkManager.INSTANCE.addCatalogListener(mCatalogListener);
   }
 
   @Override
   public void onStop()
   {
     super.onStop();
-    mImportCategoryListener.detach();
-    BookmarkManager.INSTANCE.removeCatalogListener(mImportCategoryListener);
+    BookmarkManager.INSTANCE.removeCatalogListener(mCatalogListener);
   }
 
   @Override
@@ -121,6 +119,7 @@ public class BookmarksCatalogFragment extends BaseWebViewMwmFragment
     final WebSettings webSettings = webView.getSettings();
     webSettings.setCacheMode(WebSettings.LOAD_NO_CACHE);
     webSettings.setJavaScriptEnabled(true);
+    webSettings.setUserAgentString(Framework.nativeGetUserAgent());
   }
 
   @NonNull
@@ -246,46 +245,6 @@ public class BookmarksCatalogFragment extends BaseWebViewMwmFragment
     public void clear()
     {
       mReference.clear();
-    }
-  }
-
-  private static class ImportCategoryListener extends BookmarkManager.DefaultBookmarksCatalogListener
-  {
-    @Nullable
-    private BookmarksCatalogFragment mFragment;
-
-    ImportCategoryListener(@NonNull BookmarksCatalogFragment fragment)
-    {
-      mFragment = fragment;
-    }
-
-    @Override
-    public void onImportFinished(@NonNull String serverId, long catId, boolean successful)
-    {
-      if (mFragment == null)
-      {
-        return;
-      }
-
-      if (successful)
-      {
-        Toast.makeText(mFragment.getContext(), R.string.bookmarks_webview_success_toast,
-                       Toast.LENGTH_SHORT).show();
-        return;
-      }
-      DialogUtils.showAlertDialog(mFragment.getActivity(),
-                                  R.string.title_error_downloading_bookmarks,
-                                  R.string.subtitle_error_downloading_bookmarks);
-    }
-
-    public void detach()
-    {
-      mFragment = null;
-    }
-
-    public void attach(@NonNull BookmarksCatalogFragment fragment)
-    {
-      mFragment = fragment;
     }
   }
 }

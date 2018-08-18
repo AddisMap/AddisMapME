@@ -2098,7 +2098,7 @@
 
 "quality" = "Minőség";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Kérlek várj...";
 
-"fc2018" = "Futball Világkupa 2018";
-
 "phone_number" = "Telefonszám";
 
 "notification_unsent_reviews_title" = "Több elküldött véleménye is van";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Ezt a listát már letöltötték";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Útmutatók";
+
+"guide_downloaded_title" = "Az útmutató sikeresen letöltésre került";
+
+"download_guides" = "Útmutatók letöltése";
+
+"cached_guides_placeholder_subtitle" = "Részletes offline útmutatók mindenfajta utazáshoz. Válaszd ki a te utazásodhoz legjobban illőt, és töltsd le közvetlenül a térképre. Az útmutatók letöltéséhez internetkapcsolatra van szükséged.";
+
+"guides_groups_cached" = "Letöltött útmutatók";
+
+"subtitle_error_downloading_guide" = "Az útmutató nem került letöltésre";
+
+"error_already_downloaded_guide" = "Ez az útmutató már letöltésre került";
+
+"guide_downloaded_subtitle" = "Az Útmutató megtekintéséhez nyomd meg a „Megtekintés a térképen” lehetőséget";
+
+"bookmarks_guides" = "Könyvjelzők és útmutatók";

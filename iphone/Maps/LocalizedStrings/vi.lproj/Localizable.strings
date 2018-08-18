@@ -2098,7 +2098,7 @@
 
 "quality" = "Chất lượng";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Vui lòng chờ...";
 
-"fc2018" = "World Cup bóng đá 2018";
-
 "phone_number" = "Số điện thoại";
 
 "notification_unsent_reviews_title" = "Bạn có một số bài đánh giá chưa được đánh giá";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Danh sách này đã được tải về";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Hướng dẫn";
+
+"guide_downloaded_title" = "Hướng dẫn đã được tải xuống thành công";
+
+"download_guides" = "Tải xuống hướng dẫn";
+
+"cached_guides_placeholder_subtitle" = "Hướng dẫn ngoại tuyến chi tiết cho mọi cuộc hành trình. Chọn hướng dẫn phù hợp với bạn nhất và tải xuống trực tiếp vào bản đồ. Bạn sẽ cần kết nối internet để tải xuống các hướng dẫn.";
+
+"guides_groups_cached" = "Đã tải xuống hướng dẫn";
+
+"subtitle_error_downloading_guide" = "Hướng dẫn đã không được tải xuống";
+
+"error_already_downloaded_guide" = "Hướng dẫn này đã được tải xuống";
+
+"guide_downloaded_subtitle" = "Nhấn “Xem trên bản đồ” để khám phá chỉ dẫn.";
+
+"bookmarks_guides" = "Đánh dấu trang và Hướng dẫn";

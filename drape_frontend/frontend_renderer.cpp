@@ -1431,6 +1431,7 @@ void FrontendRenderer::RenderTransitBackground()
 
   dp::TextureManager::ColorRegion region;
   m_texMng->GetColorRegion(df::GetColorConstant(kTransitBackgroundColor), region);
+  CHECK(region.GetTexture() != nullptr, ("Texture manager is not initialized"));
   if (!m_transitBackground->IsInitialized())
   {
     auto prg = m_gpuProgramManager->GetProgram(gpu::Program::ScreenQuad);
@@ -2020,7 +2021,9 @@ void FrontendRenderer::OnContextCreate()
     m_postprocessRenderer->SetEffectEnabled(PostprocessRenderer::Antialiasing, true);
 #endif
 
-  m_buildingsFramebuffer = make_unique_dp<dp::Framebuffer>(gl_const::GLRGBA, false /* stencilEnabled */);
+  m_buildingsFramebuffer = make_unique_dp<dp::Framebuffer>(gl_const::GLRGBA,
+                                                           true /* depthEnabled */,
+                                                           false /* stencilEnabled */);
   m_buildingsFramebuffer->SetFramebufferFallback([this]()
   {
     return m_postprocessRenderer->OnFramebufferFallback();
@@ -2045,7 +2048,6 @@ void FrontendRenderer::Routine::Do()
   double frameTime = 0.0;
   bool modelViewChanged = true;
   bool viewportChanged = true;
-  bool invalidContext = false;
   uint32_t inactiveFramesCounter = 0;
   bool forceFullRedrawNextFrame = false;
   uint32_t constexpr kMaxInactiveFrames = 2;
@@ -2074,7 +2076,6 @@ void FrontendRenderer::Routine::Do()
   {
     if (context->validate())
     {
-      invalidContext = false;
       timer.Reset();
 
       ScreenBase modelView = m_renderer.ProcessEvents(modelViewChanged, viewportChanged);
@@ -2171,12 +2172,8 @@ void FrontendRenderer::Routine::Do()
     }
     else
     {
+      forceFullRedrawNextFrame = true;
       inactiveFramesCounter = 0;
-      if (!invalidContext)
-      {
-        LOG(LINFO, ("Invalid context. Rendering is stopped."));
-        invalidContext = true;
-      }
     }
     m_renderer.CheckRenderingEnabled();
   }

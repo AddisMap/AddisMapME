@@ -2098,7 +2098,7 @@
 
 "quality" = "Якість";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Будь ласка, зачекайте...";
 
-"fc2018" = "Чемпіонат світу з футболу 2018 року";
-
 "phone_number" = "Номер телефону";
 
 "notification_unsent_reviews_title" = "У вас є невідправлені відгуки";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Цей список вже завантажений";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Путівники";
+
+"guide_downloaded_title" = "Путівник успішно завантажено";
+
+"download_guides" = "Завантажити путівники";
+
+"cached_guides_placeholder_subtitle" = "Детальні офлайн путівники для подорожей будь-якого типу. Виберіть путівник, що підходить вам найбільше і завантажте його прямо на карту. Для завантаження путівників вам знадобиться підключення до Інтернету.";
+
+"guides_groups_cached" = "Завантажені путівники";
+
+"subtitle_error_downloading_guide" = "Путівник не завантажено";
+
+"error_already_downloaded_guide" = "Цей путівник вже було завантажено";
+
+"guide_downloaded_subtitle" = "Натисніть на \"Подивитись на карті\", щоб дослідити путівник";
+
+"bookmarks_guides" = "Мітки та путівники";

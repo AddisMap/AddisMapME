@@ -2098,7 +2098,7 @@
 
 "quality" = "الجودة";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "أرجو الإنتظار...";
 
-"fc2018" = "كأس العالم لكرة القدم 2018";
-
 "phone_number" = "رقم الهاتف";
 
 "notification_unsent_reviews_title" = "لديك عدة تعليقات غير مرغوب فيها";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "تم بالفعل تنزيل هذه القائمة";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "الأدلّة";
+
+"guide_downloaded_title" = "تم تنزيل الدليل بنجاح";
+
+"download_guides" = "تنزيل الأدلة";
+
+"cached_guides_placeholder_subtitle" = "أدلة مفصلة بدون اتصال بالإنترنت لأي نوع من الرحلات. اختر النوع الذي يناسبك وقم بتنزيله مباشرة على الخريطة. ستحتاج إلى الاتصال بالإنترنت لتنزيل الأدلة.";
+
+"guides_groups_cached" = "الأدلة التي تم تنزيلها";
+
+"subtitle_error_downloading_guide" = "لم يتم تنزيل الدليل";
+
+"error_already_downloaded_guide" = "تم بالفعل تنزيل هذا الدليل";
+
+"guide_downloaded_subtitle" = "اضغط \"العرض على الخريطة\" لاستكشاف الدليل";
+
+"bookmarks_guides" = "العلامات المرجعية والأدلة";

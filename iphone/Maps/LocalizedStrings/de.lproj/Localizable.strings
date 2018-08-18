@@ -2098,7 +2098,7 @@
 
 "quality" = "Qualität";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Warten Sie mal...";
 
-"fc2018" = "Fußballweltmeisterschaft 2018";
-
 "phone_number" = "Telefonnummer";
 
 "notification_unsent_reviews_title" = "Sie haben mehrere nicht gesendete Bewertungen";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Diese Liste wurde bereits heruntergeladen";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Leitfaden";
+
+"guide_downloaded_title" = "Der Leitfaden wurde erfolgreich heruntergeladen";
+
+"download_guides" = "Leitfäden herunterladen";
+
+"cached_guides_placeholder_subtitle" = "Detaillierte Offline-Leitfäden für jede Art von Reise. Wählen Sie den für Sie am besten geeigneten aus und laden Sie ihn direkt auf die Karte herunter. Sie benötigen eine Internetverbindung, um Leitfäden herunterzuladen.";
+
+"guides_groups_cached" = "Heruntergeladene Leitfäden";
+
+"subtitle_error_downloading_guide" = "Der Leitfaden wurde nicht heruntergeladen";
+
+"error_already_downloaded_guide" = "Dieser Leitfaden wurde bereits heruntergeladen";
+
+"guide_downloaded_subtitle" = "Drücken Sie ‚Auf der Karte ansehen‘, um den Leitfaden zu erkunden";
+
+"bookmarks_guides" = "Lesezeichengruppen und Leitfäden";

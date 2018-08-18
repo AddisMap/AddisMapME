@@ -243,6 +243,24 @@ bool Framework::AttachSurface(JNIEnv * env, jobject jSurface)
   return true;
 }
 
+void Framework::PauseSurfaceRendering()
+{
+  if (m_contextFactory == nullptr)
+    return;
+  LOG(LINFO, ("Pause surface rendering."));
+  m_contextFactory->setPresentAvailable(false);
+}
+
+void Framework::ResumeSurfaceRendering()
+{
+  if (m_contextFactory == nullptr)
+    return;
+  LOG(LINFO, ("Resume surface rendering."));
+  AndroidOGLContextFactory * factory = m_contextFactory->CastFactory<AndroidOGLContextFactory>();
+  if (factory->IsValid())
+    m_contextFactory->setPresentAvailable(true);
+}
+
 void Framework::SetMapStyle(MapStyle mapStyle)
 {
   m_work.SetMapStyle(mapStyle);
@@ -1027,6 +1045,12 @@ Java_com_mapswithme_maps_Framework_nativeDisableFollowing(JNIEnv * env, jclass)
   frm()->GetRoutingManager().DisableFollowMode();
 }
 
+JNIEXPORT jstring JNICALL
+Java_com_mapswithme_maps_Framework_nativeGetUserAgent(JNIEnv * env, jclass)
+{
+  return jni::ToJavaString(env, GetPlatform().GetAppUserAgent());
+}
+
 JNIEXPORT jobjectArray JNICALL
 Java_com_mapswithme_maps_Framework_nativeGenerateTurnNotifications(JNIEnv * env, jclass)
 {
@@ -1686,5 +1710,11 @@ JNIEXPORT jstring JNICALL
 Java_com_mapswithme_maps_Framework_nativeGetMegafonDownloaderBannerUrl(JNIEnv * env, jclass)
 {
   return jni::ToJavaString(env, ads::GetMegafonDownloaderBannerUrl());
+}
+
+JNIEXPORT void JNICALL
+Java_com_mapswithme_maps_Framework_nativeMakeCrash(JNIEnv *env, jclass type)
+{
+  CHECK(false, ("Diagnostic native crash!"));
 }
 }  // extern "C"

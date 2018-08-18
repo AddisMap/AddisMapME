@@ -2098,7 +2098,7 @@
 
 "quality" = "Calitate";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Te rog asteapta...";
 
-"fc2018" = "Campionatul Mondial de Fotbal 2018";
-
 "phone_number" = "Numar de telefon";
 
 "notification_unsent_reviews_title" = "Aveți mai multe recenzii nesoluționate";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Lista aceasta a fost descărcată deja";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Ghiduri";
+
+"guide_downloaded_title" = "Ghidul a fost descărcat cu succes";
+
+"download_guides" = "Descarcă ghiduri";
+
+"cached_guides_placeholder_subtitle" = "Ghiduri offline detaliate pentru orice tip de călătorie. Alege-l pe cel care ți se potrivește cel mai bine și descarcă-l direct pe hartă. Vei avea nevoie de conexiune la internet pentru a descărca ghidurile.";
+
+"guides_groups_cached" = "Ghiduri descărcate";
+
+"subtitle_error_downloading_guide" = "Ghidul nu a fost descărcat";
+
+"error_already_downloaded_guide" = "Acest ghid a fost deja descărcat";
+
+"guide_downloaded_subtitle" = "Apasă butonul „Vizualizare pe hartă” pentru a explora ghidul";
+
+"bookmarks_guides" = "Marcaje și ghiduri";

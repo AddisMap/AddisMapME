@@ -1,4 +1,5 @@
 #import "WebViewController.h"
+#import "Framework.h"
 
 #include "base/assert.hpp"
 
@@ -7,6 +8,7 @@
 @property(copy, nonatomic) MWMVoidBlock onFailure;
 @property(copy, nonatomic) MWMStringBlock onSuccess;
 @property(nonatomic) BOOL authorized;
+@property(nonatomic) WKWebView * webView;
 
 @end
 
@@ -59,12 +61,12 @@
   UIView * view = self.view;
   view.backgroundColor = UIColor.whiteColor;
 
-  WKWebView * webView = [[WKWebView alloc] initWithFrame:{}];
-  webView.navigationDelegate = self;
-  [view addSubview:webView];
+  self.webView = [[WKWebView alloc] initWithFrame:{}];
+  self.webView.navigationDelegate = self;
+  [view addSubview:self.webView];
 
-  webView.translatesAutoresizingMaskIntoConstraints = NO;
-  webView.autoresizesSubviews = YES;
+  self.webView.translatesAutoresizingMaskIntoConstraints = NO;
+  self.webView.autoresizesSubviews = YES;
   NSLayoutYAxisAnchor * topAnchor = view.topAnchor;
   NSLayoutYAxisAnchor * bottomAnchor = view.bottomAnchor;
   NSLayoutXAxisAnchor * leadingAnchor = view.leadingAnchor;
@@ -78,17 +80,23 @@
     trailingAnchor = safeAreaLayoutGuide.trailingAnchor;
   }
 
-  [webView.topAnchor constraintEqualToAnchor:topAnchor].active = YES;
-  [webView.bottomAnchor constraintEqualToAnchor:bottomAnchor].active = YES;
-  [webView.leadingAnchor constraintEqualToAnchor:leadingAnchor].active = YES;
-  [webView.trailingAnchor constraintEqualToAnchor:trailingAnchor].active = YES;
+  [self.webView.topAnchor constraintEqualToAnchor:topAnchor].active = YES;
+  [self.webView.bottomAnchor constraintEqualToAnchor:bottomAnchor].active = YES;
+  [self.webView.leadingAnchor constraintEqualToAnchor:leadingAnchor].active = YES;
+  [self.webView.trailingAnchor constraintEqualToAnchor:trailingAnchor].active = YES;
 
-  webView.backgroundColor = UIColor.whiteColor;
+  self.webView.backgroundColor = UIColor.whiteColor;
 
   if (self.m_htmlText)
-    [webView loadHTMLString:self.m_htmlText baseURL:self.m_url];
+  {
+    [self.webView loadHTMLString:self.m_htmlText baseURL:self.m_url];
+  }
   else
-    [webView loadRequest:[NSURLRequest requestWithURL:self.m_url]];
+  {
+    auto request = [NSMutableURLRequest requestWithURL:self.m_url];
+    [request setValue:@(GetPlatform().GetAppUserAgent().Get().c_str()) forHTTPHeaderField:@"User-Agent"];
+    [self.webView loadRequest:request];
+  }
 }
 
 - (void)viewDidDisappear:(BOOL)animated
@@ -134,6 +142,16 @@
   }
 
   decisionHandler(WKNavigationActionPolicyAllow);
+}
+
+- (void)forward
+{
+  [self.webView goForward];
+}
+
+- (void)back
+{
+  [self.webView goBack];
 }
 
 #if DEBUG

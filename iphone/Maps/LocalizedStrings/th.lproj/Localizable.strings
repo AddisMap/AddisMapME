@@ -2098,7 +2098,7 @@
 
 "quality" = "คุณภาพ";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "โปรดรอสักครู่ ...";
 
-"fc2018" = "ฟุตบอลโลก 2018";
-
 "phone_number" = "หมายเลขโทรศัพท์";
 
 "notification_unsent_reviews_title" = "คุณมีรีวิวที่ยังไม่ได้อ่านหลายฉบับ";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "มีการดาวน์โหลดรายการนี้แล้ว";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "คู่มือใช้งาน";
+
+"guide_downloaded_title" = "ดาวน์โหลดคู่มือใช้งานนี้สำเร็จ";
+
+"download_guides" = "ดาวน์โหลดคู่มือใช้งาน";
+
+"cached_guides_placeholder_subtitle" = "คู่มือใช้งานแบบออฟไลน์อย่างละเอียดสำหรับการเดินทางไม่ว่าจะในแบบใด เลือกคู่มือใช้งานที่เข้ากับคุณมากที่สุดแล้วดาวน์โหลดโดยตรงไปยังแผนที่ คุณจะต้องมีการเชื่อมต่ออินเทอร์เน็ตเพื่อดาวน์โหลดคู่มือใช้งาน";
+
+"guides_groups_cached" = "ดาวน์โหลดคู่มือใช้งานแล้ว";
+
+"subtitle_error_downloading_guide" = "ไม่มีการดาวน์โหลดคู่มือใช้งาน";
+
+"error_already_downloaded_guide" = "มีการดาวน์โหลดคู่มือใช้งานนี้แล้ว";
+
+"guide_downloaded_subtitle" = "กด 'ดูบนแผนที่' เพื่อสำรวจคู่มือใช้งาน";
+
+"bookmarks_guides" = "บุ๊กมาร์กและคู่มือใช้งาน";

@@ -45,10 +45,21 @@
 @interface _MWMPPPTitle : _MWMPPPCellBase
 
 @property(weak, nonatomic) IBOutlet UILabel * title;
+@property(weak, nonatomic) IBOutlet UIView * popular;
+@property(weak, nonatomic) IBOutlet NSLayoutConstraint * titleTrailing;
 
 @end
 
 @implementation _MWMPPPTitle
+
+- (void)configWithTitle:(NSString *)title popular:(BOOL)popular
+{
+  self.title.text = title;
+  self.titleTrailing.priority = popular ? UILayoutPriorityDefaultLow : UILayoutPriorityDefaultHigh;
+  self.popular.hidden = !popular;
+  [self setNeedsLayout];
+}
+
 @end
 
 #pragma mark - External Title
@@ -182,7 +193,7 @@ std::array<Class, 9> const kPreviewCells = {{[_MWMPPPTitle class],
   switch(row)
   {
   case PreviewRows::Title:
-    static_cast<_MWMPPPTitle *>(c).title.text = data.title;
+    [static_cast<_MWMPPPTitle *>(c) configWithTitle:data.title popular:data.isPopular];
     break;
   case PreviewRows::ExternalTitle:
     static_cast<_MWMPPPExternalTitle *>(c).externalTitle.text = data.externalTitle;
@@ -227,26 +238,27 @@ std::array<Class, 9> const kPreviewCells = {{[_MWMPPPTitle class],
       [reviewCell configWithRating:data.bookingRating
                       canAddReview:NO
                       reviewsCount:0
-                       priceSetter:^(UILabel * pricingLabel) {
-                         pricingLabel.text = data.bookingApproximatePricing;
-                         [data assignOnlinePriceToLabel:pricingLabel];
-                       }
-                       onAddReview:^{
-                       }];
+                             price:data.bookingPricing
+                          discount:data.bookingDiscount
+                         smartDeal:data.isSmartDeal
+                       onAddReview:nil];
+      data.bookingDataUpdatedCallback = ^{
+        [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+      };
     }
     else
     {
       NSAssert(data.ugc, @"");
       [reviewCell configWithRating:data.ugc.summaryRating
-          canAddReview:data.ugc.isUGCUpdateEmpty
-          reviewsCount:data.ugc.totalReviewsCount
-          priceSetter:^(UILabel * _Nonnull pricingLabel) {
-            pricingLabel.text = @"";
-          }
-          onAddReview:^{
-            [MWMPlacePageManagerHelper showUGCAddReview:MWMRatingSummaryViewValueTypeNoValue
-                                            fromPreview:YES];
-          }];
+                      canAddReview:data.ugc.isUGCUpdateEmpty
+                      reviewsCount:data.ugc.totalReviewsCount
+                             price:@""
+                          discount:0
+                         smartDeal:NO
+                       onAddReview:^{
+                         [MWMPlacePageManagerHelper showUGCAddReview:MWMRatingSummaryViewValueTypeNoValue
+                                                         fromPreview:YES];
+                       }];
     }
     return reviewCell;
   }

@@ -2098,7 +2098,7 @@
 
 "quality" = "Jakość";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Proszę czekać...";
 
-"fc2018" = "Puchar Świata w Piłce Nożnej 2018";
-
 "phone_number" = "Numer telefonu";
 
 "notification_unsent_reviews_title" = "Masz kilka niewysłanych recenzji";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Ta lista została już pobrana";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Przewodniki";
+
+"guide_downloaded_title" = "Przewodnik został pomyślnie pobrany";
+
+"download_guides" = "Pobierz przewodniki";
+
+"cached_guides_placeholder_subtitle" = "Szczegółowe przewodniki offline na każdy rodzaj podróży. Wybierz najlepiej Ci odpowiadający i pobierz go bezpośrednio na mapę. Do pobrania przewodników wymagane jest połączenie internetowe.";
+
+"guides_groups_cached" = "Pobrane przewodniki";
+
+"subtitle_error_downloading_guide" = "Przewodnik nie został pobrany";
+
+"error_already_downloaded_guide" = "Ten przewodnik został już pobrany";
+
+"guide_downloaded_subtitle" = "Naciśnij „Wyświetl na mapie”, by zapoznać się z przewodnikiem";
+
+"bookmarks_guides" = "Zakładki i przewodniki";

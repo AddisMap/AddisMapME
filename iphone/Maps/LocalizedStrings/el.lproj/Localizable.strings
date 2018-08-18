@@ -2098,7 +2098,7 @@
 
 "quality" = "Ποιότητα";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Παρακαλώ περιμένετε...";
 
-"fc2018" = "Παγκόσμιο Κύπελλο Ποδόσφαιρου 2018";
-
 "phone_number" = "Τηλεφωνικό νούμερο";
 
 "notification_unsent_reviews_title" = "Έχετε αρκετές κριτικές";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Έχει γίνει ήδη λήψη αυτής της λίστας";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Εγχειρίδια";
+
+"guide_downloaded_title" = "Η λήψη του εγχειριδίου πραγματοποιήθηκε με επιτυχία";
+
+"download_guides" = "Κατεβάστε τα εγχειρίδια";
+
+"cached_guides_placeholder_subtitle" = "Λεπτομερή εγχειρίδια εκτός σύνδεσης για κάθε είδους ταξίδι. Επιλέξτε αυτό που σας ταιριάζει καλύτερα και μεταφορτώστε το απευθείας στον χάρτη. Θα χρειαστείτε τη σύνδεση στο διαδίκτυο για να κατεβάσετε τα εγχειρίδια.";
+
+"guides_groups_cached" = "Κατεβασμένα εγχειρίδια";
+
+"subtitle_error_downloading_guide" = "Το εγχειρίδιο δεν έχει ληφθεί";
+
+"error_already_downloaded_guide" = "Αυτό το εγχειρίδιο έχει ήδη ληφθεί";
+
+"guide_downloaded_subtitle" = "Πατήστε ‘Προβολή στο χάρτη’ για να δείτε το εγχειρίδιο";
+
+"bookmarks_guides" = "Αγαπημένα και εγχειρίδια";

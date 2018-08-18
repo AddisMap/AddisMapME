@@ -2098,7 +2098,7 @@
 
 "quality" = "品質";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "請稍候...";
 
-"fc2018" = "2018年世界杯足球賽";
-
 "phone_number" = "電話號碼";
 
 "notification_unsent_reviews_title" = "你有幾個未發表的評論";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "這個列表已被下載";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "指南";
+
+"guide_downloaded_title" = "指南已被成功下載";
+
+"download_guides" = "下載指南";
+
+"cached_guides_placeholder_subtitle" = "適合任何旅行種類的詳細的離線指南。選擇最適合您的那個，直接下載到地圖上。您需要網絡連接來下載指南。";
+
+"guides_groups_cached" = "已下載的指南";
+
+"subtitle_error_downloading_guide" = "該指南沒有被下載";
+
+"error_already_downloaded_guide" = "這個指南已被下載過了";
+
+"guide_downloaded_subtitle" = "按下‘在地圖上查看’探索指南";
+
+"bookmarks_guides" = "書籤和指南";

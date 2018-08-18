@@ -2098,7 +2098,7 @@
 
 "quality" = "Качество";
 
-"sponsored_partner1_action" = "Кешбэк";
+"sponsored_partner1_action" = "Аутлеты";
 
 "sponsored_partner3_action" = "Купон";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Пожалуйста, подождите...";
 
-"fc2018" = "ЧМ по футболу 2018";
-
 "phone_number" = "Номер телефона";
 
 "notification_unsent_reviews_title" = "У вас есть неотправленные отзывы";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Этот список уже был загружен";
 
 "popular_place" = "Популярно";
+
+"download_routes" = "Загрузить маршруты";
+
+"bookmarks_downloaded_title" = "Метки были успешно загружены";
+
+"bookmarks_downloaded_subtitle" = "Нажмите «Посмотреть на карте» чтобы посмотреть новые места из списка";
+
+"guides" = "Путеводители";
+
+"guide_downloaded_title" = "Путеводитель был успешно загружен";
+
+"download_guides" = "Загрузите путеводители";
+
+"cached_guides_placeholder_subtitle" = "Мы собрали каталог с подробными оффлайн маршрутами по городам мира! Теперь каждый путешественник сможет найти маршрут по своему вкусу и загрузить в MAPS.ME. Все загруженные маршруты автоматически отобразятся на карте. Для загрузки маршрута необходимо подключение к интернету.";
+
+"guides_groups_cached" = "Загруженные путеводители";
+
+"subtitle_error_downloading_guide" = "Путеводитель не был загружен";
+
+"error_already_downloaded_guide" = "Этот путеводитель уже был загружен";
+
+"guide_downloaded_subtitle" = "Нажмите «Посмотреть на карте» чтобы открыть путеводитель";
+
+"bookmarks_guides" = "Метки и путеводители";

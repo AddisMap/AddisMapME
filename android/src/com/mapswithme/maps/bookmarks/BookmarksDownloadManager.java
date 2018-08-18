@@ -6,8 +6,9 @@ import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Pair;
-
+import com.mapswithme.maps.Framework;
 import com.mapswithme.maps.bookmarks.data.BookmarkManager;
+import com.mapswithme.util.HttpClient;
 import com.mapswithme.util.log.Logger;
 import com.mapswithme.util.log.LoggerFactory;
 
@@ -50,6 +51,7 @@ public class BookmarksDownloadManager
         .Request(dstUri)
         .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE)
         .setTitle(title)
+        .addRequestHeader(HttpClient.USER_AGENT, Framework.nativeGetUserAgent())
         .setDestinationInExternalFilesDir(mContext, null, dstUri.getLastPathSegment());
     return downloadManager.enqueue(request);
   }

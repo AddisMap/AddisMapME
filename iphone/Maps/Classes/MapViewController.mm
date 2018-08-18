@@ -100,7 +100,7 @@ BOOL gIsFirstMyPositionMode = YES;
 
 @implementation MapViewController
 
-+ (MapViewController *)controller { return [MapsAppDelegate theApp].mapViewController; }
++ (MapViewController *)sharedController { return [MapsAppDelegate theApp].mapViewController; }
 #pragma mark - Map Navigation
 
 - (void)dismissPlacePage { [self.controlsManager dismissPlacePage]; }
@@ -419,6 +419,50 @@ BOOL gIsFirstMyPositionMode = YES;
                          completionHandler:nil];
 
   [self presentViewController:controller animated:YES completion:nil];
+}
+
+- (void)showBookmarksLoadedAlert:(UInt64)categoryId
+{
+  for (UIViewController * vc in self.navigationController.viewControllers)
+  {
+    if ([vc isMemberOfClass:MWMBookmarksTabViewController.class])
+    {
+      auto alert = [[BookmarksLoadedViewController alloc] init];
+      alert.onViewBlock = ^{
+        [self dismissViewControllerAnimated:YES completion:nil];
+        [self.navigationController popToRootViewControllerAnimated:YES];
+        GetFramework().ShowBookmarkCategory(categoryId);
+      };
+      alert.onCancelBlock = ^{
+        [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+      };
+      [self.navigationController presentViewController:alert animated:YES completion:nil];
+      return;
+    }
+  }
+  if (![MWMRouter isOnRoute])
+      [[MWMToast toastWithText:L(@"guide_downloaded_title")] show];
+}
+
+- (void)openCatalogAnimated:(BOOL)animated
+{
+  [self openCatalogDeeplink:nil animated:animated];
+}
+
+- (void)openCatalogDeeplink:(NSURL *)deeplinkUrl animated:(BOOL)animated
+{
+  [self.navigationController popToRootViewControllerAnimated:NO];
+  auto bookmarks = [[MWMBookmarksTabViewController alloc] init];
+  bookmarks.activeTab = ActiveTabCatalog;
+  MWMCatalogWebViewController *catalog;
+  if (deeplinkUrl)
+    catalog = [[MWMCatalogWebViewController alloc] init:deeplinkUrl];
+  else
+    catalog = [[MWMCatalogWebViewController alloc] init];
+
+  NSMutableArray<UIViewController *> * controllers = [self.navigationController.viewControllers mutableCopy];
+  [controllers addObjectsFromArray:@[bookmarks, catalog]];
+  [self.navigationController setViewControllers:controllers animated:animated];
 }
 
 - (void)processMyPositionStateModeEvent:(MWMMyPositionMode)mode

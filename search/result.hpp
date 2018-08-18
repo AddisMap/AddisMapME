@@ -53,14 +53,14 @@ public:
     bool m_isSponsoredHotel = false;
     bool m_isHotel = false;
 
-    // TODO: Remove after FC2018 finishing.
-    bool m_isFootballCupObject = false;
-
     // Valid for any result.
     osm::YesNoUnknown m_isOpenNow = osm::Unknown;
 
     bool m_isInitialized = false;
   };
+
+  // Min distance to search result when popularity label has a higher priority (in meters).
+  static auto constexpr kPopularityHighPriorityMinDistance = 50000.0;
 
   // For Type::Feature.
   Result(FeatureID const & id, m2::PointD const & pt, std::string const & str,

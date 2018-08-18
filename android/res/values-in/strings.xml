@@ -1254,7 +1254,6 @@
 	<string name="bookmarks_error_title_list_name_too_long">Nama ini terlalu panjang</string>
 	<string name="bookmarks_error_message_list_name_too_long">Silakan pilih nama lain</string>
 	<string name="please_wait">Mohon tunggu...</string>
-	<string name="fc2018">Piala Dunia Sepakbola 2018</string>
 	<string name="phone_number">Nomor telepon</string>
 	<string name="notification_unsent_reviews_title">Anda memiliki beberapa ulasan yang tidak terkirim</string>
 	<string name="notification_unsent_reviews_message">Harap masuk untuk berbagi ulasan dengan wisatawan lain</string>
@@ -1344,4 +1343,13 @@
 	<string name="whats_new_hot_offers_title">Penawaran menarik dari hotel</string>
 	<string name="whats_new_hot_offers_message">Anda dapat mencarinya menggunakan kategori Hotel di pencarian. Penawaran akan ditandai dengan simbol persentase di peta dan di hasil pencarian.</string>
 	<string name="error_already_downloaded">Daftar ini sudah diunduh</string>
+	<string name="guides">Panduan</string>
+	<string name="guide_downloaded_title">Panduan telah berhasil diunduh</string>
+	<string name="download_guides">Unduh panduan</string>
+	<string name="cached_guides_placeholder_subtitle">Panduan offline (luring) terperinci untuk segala jenis perjalanan. Pilih yang paling sesuai untuk Anda dan unduh langsung ke peta. Anda akan memerlukan koneksi internet untuk mengunduh panduan.</string>
+	<string name="guides_groups_cached">Panduan yang diunduh</string>
+	<string name="subtitle_error_downloading_guide">Panduan itu tidak diunduh</string>
+	<string name="error_already_downloaded_guide">Panduan ini telah diunduh</string>
+	<string name="guide_downloaded_subtitle">Tekan ‘Tampilkan pada peta’ untuk menjelajahi panduan</string>
+	<string name="bookmarks_guides">Penanda dan panduan</string>
 </resources>

@@ -1227,7 +1227,7 @@
 	<string name="expertise">Expertise</string>
 	<string name="equipment">Equipment</string>
 	<string name="quality">Quality</string>
-	<string name="sponsored_partner1_action">Cash back</string>
+	<string name="sponsored_partner1_action">Outlets</string>
 	<string name="sponsored_partner3_action">Coupon</string>
 	<string name="sponsored_partner4_action">Store</string>
 	<string name="sponsored_partner5_action">Tickets</string>
@@ -1319,7 +1319,6 @@
 	<string name="bookmarks_error_title_list_name_too_long">This name is too long</string>
 	<string name="bookmarks_error_message_list_name_too_long">Please choose another name</string>
 	<string name="please_wait">Please wait...</string>
-	<string name="fc2018">Football World Cup 2018</string>
 	<string name="phone_number">Phone number</string>
 	<string name="notification_unsent_reviews_title"> You have several unsent reviews</string>
 	<string name="notification_unsent_reviews_message"> Please sign in to share reviews with other travelers</string>
@@ -1416,4 +1415,16 @@
 	<string name="whats_new_hot_offers_message">You can find these from the Hotels category in the search panel. The offers are marked with a percent symbol on the map and in the search results.</string>
 	<string name="error_already_downloaded">This list has already been downloaded</string>
 	<string name="popular_place">Popular</string>
+	<string name="download_routes">Download routes</string>
+	<string name="bookmarks_downloaded_title">Bookmarks have been downloaded successfully</string>
+	<string name="bookmarks_downloaded_subtitle">Press ‘View on map’ to explore new places from the list</string>
+	<string name="guides">Guides</string>
+	<string name="guide_downloaded_title">The guide has been downloaded successfully</string>
+	<string name="download_guides">Download guides</string>
+	<string name="cached_guides_placeholder_subtitle">Detailed offline guides for any kind of a journey. Choose the one that suits you best and download it directly to the map. You will need the internet connection to download guides.</string>
+	<string name="guides_groups_cached">Downloaded guides</string>
+	<string name="subtitle_error_downloading_guide">The guide was not downloaded</string>
+	<string name="error_already_downloaded_guide">This guide has already been downloaded</string>
+	<string name="guide_downloaded_subtitle">Press ‘View on map’ to explore the guide</string>
+	<string name="bookmarks_guides">Bookmarks and guides</string>
 </resources>

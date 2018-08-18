@@ -2098,7 +2098,7 @@
 
 "quality" = "Kwaliteit";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Even geduld aub...";
 
-"fc2018" = "Wereldkampioenschap voetbal 2018";
-
 "phone_number" = "Telefoonnummer";
 
 "notification_unsent_reviews_title" = "U heeft verschillende niet-verzonden recensies";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Deze lijst is al gedownload";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Handleidingen";
+
+"guide_downloaded_title" = "De handleiding is met succes gedownload";
+
+"download_guides" = "Handleidingen downloaden";
+
+"cached_guides_placeholder_subtitle" = "Gedetailleerde offline handleidingen voor elk type reis. Kies de handleiding die het beste bij je past en download hem direct naar de kaart. Je hebt een internetverbinding nodig om handleidingen te downloaden.";
+
+"guides_groups_cached" = "Gedownloade handleidingen";
+
+"subtitle_error_downloading_guide" = "De handleiding is niet gedownload";
+
+"error_already_downloaded_guide" = "De handleiding is reeds gedownload";
+
+"guide_downloaded_subtitle" = "Druk op ‘Op kaart bekijken’ om de handleiding te verkennen";
+
+"bookmarks_guides" = "Bladwijzers en handleidingen";

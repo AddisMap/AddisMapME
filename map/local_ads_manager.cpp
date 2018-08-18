@@ -94,6 +94,9 @@ std::string GetCustomIcon(FeatureType & featureType)
     return "0_burger-king";
 
   auto const bannerUrl = metadata.Get(feature::Metadata::FMD_BANNER_URL);
+  if (bannerUrl.find("mcarthurglen") != std::string::npos)
+    return "partner1-l";
+
   if (bannerUrl.find("adidas") != std::string::npos)
   {
     if (bannerUrl.find("originals") != std::string::npos)
@@ -411,6 +414,7 @@ bool LocalAdsManager::DownloadCampaign(MwmSet::MwmId const & mwmId, std::vector<
 
   platform::HttpClient request(url);
   request.SetTimeout(5); // timeout in seconds
+  request.SetRawHeader("User-Agent", GetPlatform().GetAppUserAgent());
   bool const success = request.RunHttpRequest() && request.ErrorCode() == 200;
 
   std::lock_guard<std::mutex> lock(m_campaignsMutex);

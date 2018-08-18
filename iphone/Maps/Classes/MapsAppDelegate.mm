@@ -1,5 +1,7 @@
 #import "MapsAppDelegate.h"
-
+#import <CoreSpotlight/CoreSpotlight.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import "3party/Alohalytics/src/alohalytics_objc.h"
 #import "EAGLView.h"
 #import "LocalNotificationManager.h"
 #import "MWMAuthorizationCommon.h"
@@ -17,11 +19,16 @@
 #import "Statistics.h"
 #import "SwiftBridge.h"
 
-#import "3party/Alohalytics/src/alohalytics_objc.h"
+#include "Framework.h"
 
-#import <CoreSpotlight/CoreSpotlight.h>
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <UserNotifications/UserNotifications.h>
+#include "map/gps_tracker.hpp"
+
+#include "platform/http_thread_apple.h"
+#include "platform/local_country_file_utils.hpp"
+
+// If you have a "missing header error" here, then please run configure.sh script in the root repo
+// folder.
+#import "private.h"
 
 #ifdef OMIM_PRODUCTION
 
@@ -30,17 +37,6 @@
 #import <Fabric/Fabric.h>
 
 #endif
-
-#include "Framework.h"
-
-#include "map/gps_tracker.hpp"
-
-#include "platform/http_thread_apple.h"
-#include "platform/local_country_file_utils.hpp"
-
-#include "private.h"
-// If you have a "missing header error" here, then please run configure.sh script in the root repo
-// folder.
 
 extern NSString * const MapsStatusChangedNotification = @"MapsStatusChangedNotification";
 // Alert keys.
@@ -126,7 +122,7 @@ void TrackMarketingAppLaunch()
 
 using namespace osm_auth_ios;
 
-@interface MapsAppDelegate ()<MWMFrameworkStorageObserver, UNUserNotificationCenterDelegate>
+@interface MapsAppDelegate ()<MWMFrameworkStorageObserver>
 
 @property(nonatomic) NSInteger standbyCounter;
 @property(nonatomic) MWMBackgroundFetchScheduler * backgroundFetchScheduler;
@@ -214,21 +210,7 @@ using namespace osm_auth_ios;
     switch (parsingType)
     {
     case ParsedMapApi::ParsingResult::Incorrect:
-      if ([m_mwmURL rangeOfString:@"catalog"].location != NSNotFound)
-      {
-        auto navController = self.mapViewController.navigationController;
-        [navController popToRootViewControllerAnimated:NO];
-        auto bookmarks = [[MWMBookmarksTabViewController alloc] init];
-        bookmarks.activeTab = ActiveTabCatalog;
-        auto url = [[NSURL alloc] initWithString:m_mwmURL];
-        auto catalog = [[MWMCatalogWebViewController alloc] init:url];
-        [navController pushViewController:bookmarks animated:NO];
-        [navController pushViewController:catalog animated:NO];
-      }
-      else
-      {
-        LOG(LWARNING, ("Incorrect parsing result for url:", url));
-      }
+      LOG(LWARNING, ("Incorrect parsing result for url:", url));
       break;
     case ParsedMapApi::ParsingResult::Route:
     {
@@ -281,6 +263,9 @@ using namespace osm_auth_ios;
 
       break;
     }
+    case ParsedMapApi::ParsingResult::Catalogue:
+      [self.mapViewController openCatalogDeeplink:[[NSURL alloc] initWithString:m_mwmURL] animated:NO];
+      break;
     case ParsedMapApi::ParsingResult::Lead: break;
     }
   }
@@ -304,6 +289,24 @@ using namespace osm_auth_ios;
   m_geoURL = nil;
   m_mwmURL = nil;
   m_fileURL = nil;
+}
+
+- (NSURL *)convertUniversalLink:(NSURL *)universalLink
+{
+  auto deeplink = [NSString stringWithFormat:@"mapsme://%@?%@", universalLink.path, universalLink.query];
+  return [NSURL URLWithString:deeplink];
+}
+
+- (void)searchText:(NSString *)searchString
+{
+  if (!self.isDrapeEngineCreated)
+  {
+    dispatch_async(dispatch_get_main_queue(), ^{ [self searchText:searchString]; });
+    return;
+  }
+
+  [[MWMMapViewControlsManager manager] searchText:[searchString stringByAppendingString:@" "]
+                                   forInputLocale:[MWMSettings spotlightLocaleLanguageId]];
 }
 
 - (void)incrementSessionsCountAndCheckForAlert
@@ -359,10 +362,9 @@ using namespace osm_auth_ios;
 
   LocalNotificationManager * notificationManager = [LocalNotificationManager sharedManager];
   if (launchOptions[UIApplicationLaunchOptionsLocalNotificationKey])
-  {
-    NSNotification * notification = launchOptions[UIApplicationLaunchOptionsLocalNotificationKey];
-    [notificationManager processNotification:notification.userInfo onLaunch:YES];
-  }
+    [notificationManager
+        processNotification:launchOptions[UIApplicationLaunchOptionsLocalNotificationKey]
+                   onLaunch:YES];
 
   if ([Alohalytics isFirstSession])
   {
@@ -385,9 +387,6 @@ using namespace osm_auth_ios;
 
   [GIDSignIn sharedInstance].clientID =
       [[NSBundle mainBundle] loadWithPlist:@"GoogleService-Info"][@"CLIENT_ID"];
-
-  if (@available(iOS 10, *))
-    [UNUserNotificationCenter currentNotificationCenter].delegate = self;
 
   return returnValue;
 }
@@ -415,22 +414,11 @@ using namespace osm_auth_ios;
 - (void)application:(UIApplication *)application
     performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
-  auto onTap = ^{
-    MapViewController * mapViewController = [MapViewController controller];
-    [mapViewController.navigationController popToRootViewControllerAnimated:NO];
-    [mapViewController showUGCAuth];
-  };
-
-  if ([LocalNotificationManager.sharedManager showUGCNotificationIfNeeded:onTap])
-  {
-    completionHandler(UIBackgroundFetchResultNewData);
-    return;
-  }
-
   auto tasks = @[
     [[MWMBackgroundStatisticsUpload alloc] init], [[MWMBackgroundEditsUpload alloc] init],
     [[MWMBackgroundUGCUpload alloc] init], [[MWMBackgroundDownloadMapNotification alloc] init]
   ];
+
   [self runBackgroundTasks:tasks completionHandler:completionHandler];
 }
 
@@ -533,7 +521,6 @@ using namespace osm_auth_ios;
   auto & f = GetFramework();
   f.EnterForeground();
   [self.mapViewController onGetFocus:YES];
-  [self handleURLs];
   [[Statistics instance] applicationDidBecomeActive];
   f.SetRenderingEnabled();
   // On some devices we have to free all belong-to-graphics memory
@@ -554,28 +541,27 @@ using namespace osm_auth_ios;
     continueUserActivity:(NSUserActivity *)userActivity
       restorationHandler:(void (^)(NSArray * restorableObjects))restorationHandler
 {
-  if (![userActivity.activityType isEqualToString:CSSearchableItemActionType])
-    return NO;
-  NSString * searchStringKey = userActivity.userInfo[CSSearchableItemActivityIdentifier];
-  NSString * searchString = L(searchStringKey);
-  if (!searchString)
-    return NO;
-
-  if (!self.isDrapeEngineCreated)
+  if ([userActivity.activityType isEqualToString:CSSearchableItemActionType])
   {
-    dispatch_async(dispatch_get_main_queue(), ^{
-      [self application:application
-          continueUserActivity:userActivity
-            restorationHandler:restorationHandler];
-    });
+    NSString * searchStringKey = userActivity.userInfo[CSSearchableItemActivityIdentifier];
+    NSString * searchString = L(searchStringKey);
+    if (searchString)
+    {
+      [self searchText:searchString];
+      return YES;
+    }
   }
-  else
+  else if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb])
   {
-    [[MWMMapViewControlsManager manager] searchText:[searchString stringByAppendingString:@" "]
-                                     forInputLocale:[MWMSettings spotlightLocaleLanguageId]];
+    auto link = userActivity.webpageURL;
+    if ([self checkLaunchURL:[self convertUniversalLink:link]])
+    {
+      [self handleURLs];
+      return YES;
+    }
   }
 
-  return YES;
+  return NO;
 }
 
 - (BOOL)initStatistics:(UIApplication *)application
@@ -706,29 +692,10 @@ using namespace osm_auth_ios;
   };
 }
 
-- (void)userNotificationCenter:(UNUserNotificationCenter *)center
-       willPresentNotification:(UNNotification *)notification
-         withCompletionHandler:(void (^)(UNNotificationPresentationOptions options))completionHandler
-{
-  completionHandler(UNNotificationPresentationOptionAlert | UNNotificationPresentationOptionSound);
-}
-
-- (void)userNotificationCenter:(UNUserNotificationCenter *)center
-didReceiveNotificationResponse:(UNNotificationResponse *)response
-         withCompletionHandler:(void(^)(void))completionHandler
-{
-  if ([response.actionIdentifier isEqualToString:UNNotificationDefaultActionIdentifier])
-  {
-    auto userInfo = response.notification.request.content.userInfo;
-    [[LocalNotificationManager sharedManager] processNotification:userInfo onLaunch:NO];
-  }
-  completionHandler();
-}
-
 - (void)application:(UIApplication *)application
     didReceiveLocalNotification:(UILocalNotification *)notification
 {
-  [[LocalNotificationManager sharedManager] processNotification:notification.userInfo onLaunch:NO];
+  [[LocalNotificationManager sharedManager] processNotification:notification onLaunch:NO];
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options

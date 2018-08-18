@@ -1,7 +1,6 @@
 package com.mapswithme.maps.routing;
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Build;
@@ -19,6 +18,7 @@ import com.mapswithme.maps.Framework;
 import com.mapswithme.maps.MwmActivity;
 import com.mapswithme.maps.R;
 import com.mapswithme.maps.bookmarks.BookmarkCategoriesActivity;
+import com.mapswithme.maps.bookmarks.BookmarksPageFactory;
 import com.mapswithme.maps.bookmarks.data.DistanceAndAzimut;
 import com.mapswithme.maps.location.LocationHelper;
 import com.mapswithme.maps.maplayer.traffic.TrafficManager;
@@ -147,35 +147,39 @@ public class NavigationController implements TrafficManager.TrafficCallback, Vie
 
   private NavMenu createNavMenu()
   {
-    return new NavMenu(mBottomFrame, item -> {
-      final MwmActivity parent = ((MwmActivity) mFrame.getContext());
-      switch (item)
-      {
-      case STOP:
-        mNavMenu.close(false /* animate */);
-        Statistics.INSTANCE.trackRoutingFinish(true,
-                                               RoutingController.get().getLastRouterType(),
-                                               TrafficManager.INSTANCE.isEnabled());
-        RoutingController.get().cancel();
-        break;
-      case SETTINGS:
-        Statistics.INSTANCE.trackEvent(Statistics.EventName.ROUTING_SETTINGS);
-        parent.closeMenu(() -> parent.startActivity(new Intent(parent, SettingsActivity.class)));
-        break;
-      case TTS_VOLUME:
-        TtsPlayer.setEnabled(!TtsPlayer.isEnabled());
-        mNavMenu.refreshTts();
-        break;
-      case TRAFFIC:
-        TrafficManager.INSTANCE.toggle();
-        mNavMenu.refreshTraffic();
-        //TODO: Add statistics reporting (in separate task)
-        break;
-      case TOGGLE:
-        mNavMenu.toggle(true);
-        parent.refreshFade();
-      }
-    });
+    return new NavMenu(mBottomFrame, this::onMenuItemClicked);
+  }
+
+  private void onMenuItemClicked(NavMenu.Item item)
+  {
+    final MwmActivity parent = ((MwmActivity) mFrame.getContext());
+    switch (item)
+    {
+    case STOP:
+      mNavMenu.close(false);
+      Statistics.INSTANCE.trackRoutingFinish(true,
+                                             RoutingController.get().getLastRouterType(),
+                                             TrafficManager.INSTANCE.isEnabled());
+      RoutingController.get().cancel();
+      break;
+    case SETTINGS:
+      Statistics.INSTANCE.trackEvent(Statistics.EventName.ROUTING_SETTINGS);
+      parent.closeMenu(() -> parent.startActivity(new Intent(parent, SettingsActivity.class)));
+      break;
+    case TTS_VOLUME:
+      TtsPlayer.setEnabled(!TtsPlayer.isEnabled());
+      mNavMenu.refreshTts();
+      break;
+    case TRAFFIC:
+      TrafficManager.INSTANCE.toggle();
+      parent.onTrafficLayerSelected();
+      mNavMenu.refreshTraffic();
+      //TODO: Add statistics reporting (in separate task)
+      break;
+    case TOGGLE:
+      mNavMenu.toggle(true);
+      parent.refreshFade();
+    }
   }
 
   public void stop(MwmActivity parent)
@@ -391,7 +395,7 @@ public class NavigationController implements TrafficManager.TrafficCallback, Vie
   }
 
   @Override
-  public void onNoData(boolean notify)
+  public void onNoData()
   {
     // no op
   }
@@ -403,13 +407,13 @@ public class NavigationController implements TrafficManager.TrafficCallback, Vie
   }
 
   @Override
-  public void onExpiredData(boolean notify)
+  public void onExpiredData()
   {
     // no op
   }
 
   @Override
-  public void onExpiredApp(boolean notify)
+  public void onExpiredApp()
   {
     // no op
   }
@@ -420,8 +424,7 @@ public class NavigationController implements TrafficManager.TrafficCallback, Vie
     switch (v.getId())
     {
       case R.id.btn_bookmarks:
-        Context context = mFrame.getContext();
-        context.startActivity(new Intent(context, BookmarkCategoriesActivity.class));
+        BookmarkCategoriesActivity.start(mFrame.getContext(), BookmarksPageFactory.PRIVATE.ordinal());
         Statistics.INSTANCE.trackRoutingEvent(ROUTING_BOOKMARKS_CLICK,
                                               RoutingController.get().isPlanning());
         break;

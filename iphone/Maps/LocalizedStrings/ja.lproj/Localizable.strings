@@ -2098,7 +2098,7 @@
 
 "quality" = "品質";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "お待ちください...";
 
-"fc2018" = "サッカーワールドカップ2018";
-
 "phone_number" = "電話番号";
 
 "notification_unsent_reviews_title" = "あなたはいくつかの未送信のレビューを持っています";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "このリストは既にダウンロード済みです";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "ガイド";
+
+"guide_downloaded_title" = "ガイドが正常にダウンロードされました";
+
+"download_guides" = "ガイドをダウンロード";
+
+"cached_guides_placeholder_subtitle" = "どんな旅にも使える詳細なオフラインガイド。最適なものを選び、マップに直接ダウンロードしてください。ガイドをダウンロードするにはインターネット接続が必要です。";
+
+"guides_groups_cached" = "ガイドをダウンロード";
+
+"subtitle_error_downloading_guide" = "ガイドがダウンロードされませんでした";
+
+"error_already_downloaded_guide" = "このガイドはすでにダウンロードされています";
+
+"guide_downloaded_subtitle" = "[地図に表示]を押して、ガイドをご覧ください。";
+
+"bookmarks_guides" = "ブックマークとガイド";

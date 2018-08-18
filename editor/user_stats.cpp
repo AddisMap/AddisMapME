@@ -90,6 +90,7 @@ bool UserStatsLoader::Update(string const & userName)
 
   auto const url = kUserStatsUrl + "&name=" + UrlEncode(userName);
   platform::HttpClient request(url);
+  request.SetRawHeader("User-Agent", GetPlatform().GetAppUserAgent());
 
   if (!request.RunHttpRequest())
   {

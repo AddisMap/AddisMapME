@@ -2098,7 +2098,7 @@
 
 "quality" = "Kvalitet";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Vänligen vänta...";
 
-"fc2018" = "Fotbolls VM 2018";
-
 "phone_number" = "Telefonnummer";
 
 "notification_unsent_reviews_title" = "Du har flera unsent recensioner";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "Den här listan har redan laddats ned";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Guider";
+
+"guide_downloaded_title" = "Guiden har laddats ned framgångsrikt";
+
+"download_guides" = "Ladda ned guider";
+
+"cached_guides_placeholder_subtitle" = "Detaljerade offline-guider för alla former av resor. Välj den som passar dig bäst och ladda ned den direkt till kartan. Du behöver internetanslutningen för att ladda ned guider.";
+
+"guides_groups_cached" = "Nedladdade guider";
+
+"subtitle_error_downloading_guide" = "Guiden laddades inte ned";
+
+"error_already_downloaded_guide" = "Denna guide har redan laddats ned";
+
+"guide_downloaded_subtitle" = "Tryck på ‘Visa på kartan’ för att utforska guiden";
+
+"bookmarks_guides" = "Bokmärken och guider";

@@ -2098,7 +2098,7 @@
 
 "quality" = "Quality";
 
-"sponsored_partner1_action" = "Cash back";
+"sponsored_partner1_action" = "Outlets";
 
 "sponsored_partner3_action" = "Coupon";
 
@@ -2274,8 +2274,6 @@
 
 "please_wait" = "Please wait...";
 
-"fc2018" = "Football World Cup 2018";
-
 "phone_number" = "Phone number";
 
 "notification_unsent_reviews_title" = " You have several unsent reviews";
@@ -2427,3 +2425,27 @@
 "error_already_downloaded" = "This list has already been downloaded";
 
 "popular_place" = "Popular";
+
+"download_routes" = "Download routes";
+
+"bookmarks_downloaded_title" = "Bookmarks have been downloaded successfully";
+
+"bookmarks_downloaded_subtitle" = "Press ‘View on map’ to explore new places from the list";
+
+"guides" = "Guides";
+
+"guide_downloaded_title" = "The guide has been downloaded successfully";
+
+"download_guides" = "Download guides";
+
+"cached_guides_placeholder_subtitle" = "Detailed offline guides for any kind of a journey. Choose the one that suits you best and download it directly to the map. You will need the internet connection to download guides.";
+
+"guides_groups_cached" = "Downloaded guides";
+
+"subtitle_error_downloading_guide" = "The guide was not downloaded";
+
+"error_already_downloaded_guide" = "This guide has already been downloaded";
+
+"guide_downloaded_subtitle" = "Press ‘View on map’ to explore the guide";
+
+"bookmarks_guides" = "Bookmarks and guides";

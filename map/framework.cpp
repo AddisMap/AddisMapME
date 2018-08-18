@@ -385,6 +385,7 @@ Framework::Framework(FrameworkParams const & params)
       m_drapeEngine->SetDisplacementMode(mode);
   })
   , m_lastReportedCountry(kInvalidCountryId)
+  , m_popularityLoader(m_model.GetDataSource())
 {
   m_startBackgroundTime = my::Timer::LocalTime();
 
@@ -619,6 +620,7 @@ void Framework::OnMapDeregistered(platform::LocalCountryFile const & localFile)
   m_localAdsManager.OnMwmDeregistered(localFile);
   m_transitManager.OnMwmDeregistered(localFile);
   m_trafficManager.OnMwmDeregistered(localFile);
+  m_popularityLoader.OnMwmDeregistered(localFile);
 
   auto action = [this, localFile]
   {
@@ -868,7 +870,7 @@ void Framework::FillInfoFromFeatureType(FeatureType const & ft, place_page::Info
     auto const partnerIndex = PartnerChecker::Instance().GetPartnerIndex(ft);
     info.SetPartnerIndex(partnerIndex);
     auto const & partnerInfo = GetPartnerByIndex(partnerIndex);
-    if (partnerInfo.m_hasButton)
+    if (partnerInfo.m_hasButton && ft.GetID().GetMwmVersion() >= partnerInfo.m_minMapVersion)
     {
       auto url = info.GetMetadata().Get(feature::Metadata::FMD_BANNER_URL);
       if (url.empty())
@@ -907,6 +909,7 @@ void Framework::FillInfoFromFeatureType(FeatureType const & ft, place_page::Info
   auto const latlon = MercatorBounds::ToLatLon(feature::GetCenter(ft));
   ASSERT(m_taxiEngine, ());
   info.SetReachableByTaxiProviders(m_taxiEngine->GetProvidersAtPos(latlon));
+  info.SetPopularity(m_popularityLoader.Get(ft.GetID()));
 }
 
 void Framework::FillApiMarkInfo(ApiMarkPoint const & api, place_page::Info & info) const
@@ -1481,7 +1484,7 @@ search::DisplayedCategories const & Framework::GetDisplayedCategories()
     city = m_cityFinder->GetCityName(*position, StringUtf8Multilang::kEnglishCode);
 
   // Apply sponsored modifiers.
-  std::tuple<LuggageHeroModifier, Fc2018Modifier> modifiers(city, city);
+  std::tuple<LuggageHeroModifier> modifiers(city);
   my::for_each_in_tuple(modifiers, [&](size_t, SponsoredCategoryModifier & modifier)
   {
     m_displayedCategories->Modify(modifier);
@@ -1625,10 +1628,6 @@ void Framework::FillSearchResultsMarks(search::Results::ConstIter begin,
       mark->SetFoundFeature(r.GetFeatureID());
 
     mark->SetMatchedName(r.GetString());
-
-    // TODO: Remove after FC2018 finishing.
-    if (r.m_metadata.m_isFootballCupObject)
-      mark->SetMarkType(SearchMarkType::Fc2018);
 
     if (r.m_metadata.m_isSponsoredHotel)
     {

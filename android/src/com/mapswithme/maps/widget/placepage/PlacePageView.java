@@ -71,6 +71,7 @@ import com.mapswithme.maps.review.Review;
 import com.mapswithme.maps.routing.RoutingController;
 import com.mapswithme.maps.search.FilterUtils;
 import com.mapswithme.maps.search.HotelsFilter;
+import com.mapswithme.maps.search.Popularity;
 import com.mapswithme.maps.taxi.TaxiType;
 import com.mapswithme.maps.ugc.Impress;
 import com.mapswithme.maps.ugc.UGCController;
@@ -135,6 +136,8 @@ public class PlacePageView extends RelativeLayout
   private static final Logger LOGGER = LoggerFactory.INSTANCE.getLogger(LoggerFactory.Type.MISC);
   private static final String TAG = PlacePageView.class.getSimpleName();
   private static final String PREF_USE_DMS = "use_dms";
+  private static final String DISCOUNT_PREFIX = "-";
+  private static final String DISCOUNT_SUFFIX = "%";
 
   private boolean mIsDocked;
   private boolean mIsFloating;
@@ -151,6 +154,9 @@ public class PlacePageView extends RelativeLayout
   private View mPreviewRatingInfo;
   private RatingView mRatingView;
   private TextView mTvSponsoredPrice;
+  @SuppressWarnings("NullableProblems")
+  @NonNull
+  private RatingView mHotelDiscount;
   // Details.
   private NestedScrollView mDetails;
   private View mPhone;
@@ -205,6 +211,10 @@ public class PlacePageView extends RelativeLayout
   private RecyclerView mRvSponsoredProducts;
   private TextView mTvSponsoredTitle;
   private ImageView mIvSponsoredLogo;
+
+  @SuppressWarnings("NullableProblems")
+  @NonNull
+  private View mPopularityView;
 
   @Nullable
   UGCController mUgcController;
@@ -385,55 +395,57 @@ public class PlacePageView extends RelativeLayout
   {
     LayoutInflater.from(getContext()).inflate(R.layout.place_page, this);
 
-    mPreview = (ViewGroup) findViewById(R.id.pp__preview);
-    mTvTitle = (TextView) mPreview.findViewById(R.id.tv__title);
-    mTvSecondaryTitle = (TextView) mPreview.findViewById(R.id.tv__secondary_title);
-    mToolbar = (Toolbar) findViewById(R.id.toolbar);
-    mTvSubtitle = (TextView) mPreview.findViewById(R.id.tv__subtitle);
+    mPreview = findViewById(R.id.pp__preview);
+    mTvTitle = mPreview.findViewById(R.id.tv__title);
+    mPopularityView = findViewById(R.id.popular_rating_view);
+    mTvSecondaryTitle = mPreview.findViewById(R.id.tv__secondary_title);
+    mToolbar = findViewById(R.id.toolbar);
+    mTvSubtitle = mPreview.findViewById(R.id.tv__subtitle);
 
     View directionFrame = mPreview.findViewById(R.id.direction_frame);
-    mTvDistance = (TextView) mPreview.findViewById(R.id.tv__straight_distance);
-    mAvDirection = (ArrowView) mPreview.findViewById(R.id.av__direction);
+    mTvDistance = mPreview.findViewById(R.id.tv__straight_distance);
+    mAvDirection = mPreview.findViewById(R.id.av__direction);
     directionFrame.setOnClickListener(this);
 
-    mTvAddress = (TextView) mPreview.findViewById(R.id.tv__address);
+    mTvAddress = mPreview.findViewById(R.id.tv__address);
     mPreview.findViewById(R.id.search_hotels_btn).setOnClickListener(this);
 
     mPreviewRatingInfo = mPreview.findViewById(R.id.preview_rating_info);
-    mRatingView = (RatingView) mPreviewRatingInfo.findViewById(R.id.rating_view);
-    mTvSponsoredPrice = (TextView) mPreviewRatingInfo.findViewById(R.id.tv__hotel_price);
+    mRatingView = mPreviewRatingInfo.findViewById(R.id.rating_view);
+    mTvSponsoredPrice = mPreviewRatingInfo.findViewById(R.id.tv__hotel_price);
+    mHotelDiscount = mPreviewRatingInfo.findViewById(R.id.discount_in_percents);
 
-    mDetails = (NestedScrollView) findViewById(R.id.pp__details);
-    RelativeLayout address = (RelativeLayout) mDetails.findViewById(R.id.ll__place_name);
+    mDetails = findViewById(R.id.pp__details);
+    RelativeLayout address = mDetails.findViewById(R.id.ll__place_name);
     mPhone = mDetails.findViewById(R.id.ll__place_phone);
     mPhone.setOnClickListener(this);
-    mTvPhone = (TextView) mDetails.findViewById(R.id.tv__place_phone);
+    mTvPhone = mDetails.findViewById(R.id.tv__place_phone);
     mWebsite = mDetails.findViewById(R.id.ll__place_website);
     mWebsite.setOnClickListener(this);
-    mTvWebsite = (TextView) mDetails.findViewById(R.id.tv__place_website);
-    LinearLayout latlon = (LinearLayout) mDetails.findViewById(R.id.ll__place_latlon);
+    mTvWebsite = mDetails.findViewById(R.id.tv__place_website);
+    LinearLayout latlon = mDetails.findViewById(R.id.ll__place_latlon);
     latlon.setOnClickListener(this);
-    mTvLatlon = (TextView) mDetails.findViewById(R.id.tv__place_latlon);
+    mTvLatlon = mDetails.findViewById(R.id.tv__place_latlon);
     mOpeningHours = mDetails.findViewById(R.id.ll__place_schedule);
-    mFullOpeningHours = (TextView) mDetails.findViewById(R.id.opening_hours);
-    mTodayOpeningHours = (TextView) mDetails.findViewById(R.id.today_opening_hours);
+    mFullOpeningHours = mDetails.findViewById(R.id.opening_hours);
+    mTodayOpeningHours = mDetails.findViewById(R.id.today_opening_hours);
     mWifi = mDetails.findViewById(R.id.ll__place_wifi);
     mEmail = mDetails.findViewById(R.id.ll__place_email);
     mEmail.setOnClickListener(this);
-    mTvEmail = (TextView) mEmail.findViewById(R.id.tv__place_email);
+    mTvEmail = mEmail.findViewById(R.id.tv__place_email);
     mOperator = mDetails.findViewById(R.id.ll__place_operator);
     mOperator.setOnClickListener(this);
-    mTvOperator = (TextView) mOperator.findViewById(R.id.tv__place_operator);
+    mTvOperator = mOperator.findViewById(R.id.tv__place_operator);
     mCuisine = mDetails.findViewById(R.id.ll__place_cuisine);
-    mTvCuisine = (TextView) mCuisine.findViewById(R.id.tv__place_cuisine);
+    mTvCuisine = mCuisine.findViewById(R.id.tv__place_cuisine);
     mWiki = mDetails.findViewById(R.id.ll__place_wiki);
     mWiki.setOnClickListener(this);
     mEntrance = mDetails.findViewById(R.id.ll__place_entrance);
-    mTvEntrance = (TextView) mEntrance.findViewById(R.id.tv__place_entrance);
+    mTvEntrance = mEntrance.findViewById(R.id.tv__place_entrance);
     mTaxiShadow = mDetails.findViewById(R.id.place_page_taxi_shadow);
     mTaxiDivider = mDetails.findViewById(R.id.place_page_taxi_divider);
     mTaxi = mDetails.findViewById(R.id.ll__place_page_taxi);
-    TextView orderTaxi = (TextView) mTaxi.findViewById(R.id.tv__place_page_order_taxi);
+    TextView orderTaxi = mTaxi.findViewById(R.id.tv__place_page_order_taxi);
     orderTaxi.setOnClickListener(this);
     mEditPlace = mDetails.findViewById(R.id.ll__place_editor);
     mEditPlace.setOnClickListener(this);
@@ -443,7 +455,7 @@ public class PlacePageView extends RelativeLayout
     mAddPlace.setOnClickListener(this);
     mLocalAd = mDetails.findViewById(R.id.ll__local_ad);
     mLocalAd.setOnClickListener(this);
-    mTvLocalAd = (TextView) mLocalAd.findViewById(R.id.tv__local_ad);
+    mTvLocalAd = mLocalAd.findViewById(R.id.tv__local_ad);
     mEditTopSpace = mDetails.findViewById(R.id.edit_top_space);
     latlon.setOnLongClickListener(this);
     address.setOnLongClickListener(this);
@@ -455,12 +467,12 @@ public class PlacePageView extends RelativeLayout
     mWiki.setOnLongClickListener(this);
 
     mBookmarkFrame = mDetails.findViewById(R.id.bookmark_frame);
-    mWvBookmarkNote = (WebView) mBookmarkFrame.findViewById(R.id.wv__bookmark_notes);
+    mWvBookmarkNote = mBookmarkFrame.findViewById(R.id.wv__bookmark_notes);
     mWvBookmarkNote.getSettings().setJavaScriptEnabled(false);
-    mTvBookmarkNote = (TextView) mBookmarkFrame.findViewById(R.id.tv__bookmark_notes);
+    mTvBookmarkNote = mBookmarkFrame.findViewById(R.id.tv__bookmark_notes);
     initEditMapObjectBtn();
 
-    ViewGroup ppButtons = (ViewGroup) findViewById(R.id.pp__buttons).findViewById(R.id.container);
+    ViewGroup ppButtons = findViewById(R.id.pp__buttons).findViewById(R.id.container);
 
     mHeightCompensationView = findViewById(R.id.pp__height_compensation);
 
@@ -606,8 +618,7 @@ public class PlacePageView extends RelativeLayout
           }
           else
           {
-            getActivity().startLocationToPoint(Statistics.EventName.PP_ROUTE, getMapObject(), 
-                                               true);
+            getActivity().startLocationToPoint(getMapObject(), true);
           }
           break;
 
@@ -662,7 +673,7 @@ public class PlacePageView extends RelativeLayout
 
     mDownloaderIcon = new DownloaderStatusIcon(mPreview.findViewById(R.id.downloader_status_frame));
 
-    mDownloaderInfo = (TextView) mPreview.findViewById(R.id.tv__downloader_details);
+    mDownloaderInfo = mPreview.findViewById(R.id.tv__downloader_details);
 
     mShadowController = new ScrollViewShadowController((ObservableScrollView) mDetails)
         .addBottomShadow()
@@ -710,14 +721,14 @@ public class PlacePageView extends RelativeLayout
   private void initHotelRatingView()
   {
     mHotelReview = findViewById(R.id.ll__place_hotel_rating);
-    RecyclerView rvHotelReview = (RecyclerView) findViewById(R.id.rv__place_hotel_review);
+    RecyclerView rvHotelReview = findViewById(R.id.rv__place_hotel_review);
     rvHotelReview.setLayoutManager(new LinearLayoutManager(getContext()));
     rvHotelReview.getLayoutManager().setAutoMeasureEnabled(true);
     rvHotelReview.setNestedScrollingEnabled(false);
     rvHotelReview.setHasFixedSize(false);
     rvHotelReview.setAdapter(mReviewAdapter);
-    mHotelRating = (TextView) findViewById(R.id.tv__place_hotel_rating);
-    mHotelRatingBase = (TextView) findViewById(R.id.tv__place_hotel_rating_base);
+    mHotelRating = findViewById(R.id.tv__place_hotel_rating);
+    mHotelRatingBase = findViewById(R.id.tv__place_hotel_rating_base);
     View hotelMoreReviews = findViewById(R.id.tv__place_hotel_reviews_more);
     hotelMoreReviews.setOnClickListener(this);
   }
@@ -725,19 +736,21 @@ public class PlacePageView extends RelativeLayout
   private void initHotelNearbyView()
   {
     mHotelNearby = findViewById(R.id.ll__place_hotel_nearby);
-    GridView gvHotelNearby = (GridView) findViewById(R.id.gv__place_hotel_nearby);
+    GridView gvHotelNearby = findViewById(R.id.gv__place_hotel_nearby);
     gvHotelNearby.setAdapter(mNearbyAdapter);
   }
 
   private void initHotelGalleryView()
   {
     mHotelGallery = findViewById(R.id.ll__place_hotel_gallery);
-    mRvHotelGallery = (RecyclerView) findViewById(
-        R.id.rv__place_hotel_gallery);
-    mRvHotelGallery.setLayoutManager(new LinearLayoutManager(getContext(),
-                                                             LinearLayoutManager.HORIZONTAL, false));
-    mRvHotelGallery.addItemDecoration(
-        ItemDecoratorFactory.createHotelGalleryDecorator(getContext(), LinearLayoutManager.HORIZONTAL));
+    mRvHotelGallery = findViewById(R.id.rv__place_hotel_gallery);
+    LinearLayoutManager layoutManager = new LinearLayoutManager(getContext(),
+                                                                LinearLayoutManager.HORIZONTAL,
+                                                                false);
+    mRvHotelGallery.setLayoutManager(layoutManager);
+    RecyclerView.ItemDecoration decor = ItemDecoratorFactory
+        .createHotelGalleryDecorator(getContext(), LinearLayoutManager.HORIZONTAL);
+    mRvHotelGallery.addItemDecoration(decor);
     mGalleryAdapter.setListener(this);
     mRvHotelGallery.setAdapter(mGalleryAdapter);
   }
@@ -745,7 +758,7 @@ public class PlacePageView extends RelativeLayout
   private void initHotelFacilitiesView()
   {
     mHotelFacilities = findViewById(R.id.ll__place_hotel_facilities);
-    RecyclerView rvHotelFacilities = (RecyclerView) findViewById(R.id.rv__place_hotel_facilities);
+    RecyclerView rvHotelFacilities = findViewById(R.id.rv__place_hotel_facilities);
     rvHotelFacilities.setLayoutManager(new GridLayoutManager(getContext(), 2));
     rvHotelFacilities.getLayoutManager().setAutoMeasureEnabled(true);
     rvHotelFacilities.setNestedScrollingEnabled(false);
@@ -758,7 +771,7 @@ public class PlacePageView extends RelativeLayout
   private void initHotelDescriptionView()
   {
     mHotelDescription = findViewById(R.id.ll__place_hotel_description);
-    mTvHotelDescription = (LineCountTextView) findViewById(R.id.tv__place_hotel_details);
+    mTvHotelDescription = findViewById(R.id.tv__place_hotel_details);
     mHotelMoreDescription = findViewById(R.id.tv__place_hotel_more);
     View hotelMoreDescriptionOnWeb = findViewById(R.id.tv__place_hotel_more_on_web);
     mTvHotelDescription.setListener(this);
@@ -767,13 +780,12 @@ public class PlacePageView extends RelativeLayout
   }
 
   @Override
-  public void onPriceReceived(@NonNull String id, @NonNull String price,
-                              @NonNull String currencyCode)
+  public void onPriceReceived(@NonNull HotelPriceInfo priceInfo)
   {
-    if (mSponsored == null || !TextUtils.equals(id, mSponsored.getId()))
+    if (mSponsored == null || !TextUtils.equals(priceInfo.getId(), mSponsored.getId()))
       return;
 
-    String text = Utils.formatCurrencyString(price, currencyCode);
+    String text = Utils.formatCurrencyString(priceInfo.getPrice(), priceInfo.getCurrency());
 
     mSponsoredPrice = getContext().getString(R.string.place_page_starting_from, text);
     if (mMapObject == null)
@@ -781,7 +793,7 @@ public class PlacePageView extends RelativeLayout
       LOGGER.e(TAG, "A sponsored info cannot be updated, mMapObject is null!", new Throwable());
       return;
     }
-    refreshPreview(mMapObject, NetworkPolicy.newInstance(true));
+    refreshPreview(mMapObject, NetworkPolicy.newInstance(true), priceInfo);
   }
 
   @Override
@@ -813,7 +825,7 @@ public class PlacePageView extends RelativeLayout
       String text = getResources().getQuantityString(
           R.plurals.placepage_summary_rating_description, reviewsCount, reviewsCount);
       mHotelRatingBase.setText(text);
-      TextView previewReviewCountView = (TextView) mPreviewRatingInfo.findViewById(R.id.tv__review_count);
+      TextView previewReviewCountView = mPreviewRatingInfo.findViewById(R.id.tv__review_count);
       previewReviewCountView.setText(text);
     }
   }
@@ -872,10 +884,10 @@ public class PlacePageView extends RelativeLayout
   {
     mTvHotelDescription.setText("");
     mHotelMoreDescription.setVisibility(GONE);
-    mFacilitiesAdapter.setItems(Collections.<Sponsored.FacilityType>emptyList());
+    mFacilitiesAdapter.setItems(Collections.emptyList());
     mHotelMoreFacilities.setVisibility(GONE);
     mGalleryAdapter.setItems(new ArrayList<Image>());
-    mNearbyAdapter.setItems(Collections.<Sponsored.NearbyObject>emptyList());
+    mNearbyAdapter.setItems(Collections.emptyList());
     mReviewAdapter.setItems(new ArrayList<Review>());
     mHotelRating.setText("");
     mHotelRatingBase.setText("");
@@ -898,9 +910,9 @@ public class PlacePageView extends RelativeLayout
   private void initSponsoredGalleryView()
   {
     mSponsoredGalleryView = findViewById(R.id.ll__place_sponsored_gallery);
-    mTvSponsoredTitle = (TextView) mSponsoredGalleryView.findViewById(R.id.tv__sponsored_title);
-    mIvSponsoredLogo = (ImageView) mSponsoredGalleryView.findViewById(R.id.btn__sponsored_logo);
-    mRvSponsoredProducts = (RecyclerView) mSponsoredGalleryView.findViewById(R.id.rv__sponsored_products);
+    mTvSponsoredTitle = mSponsoredGalleryView.findViewById(R.id.tv__sponsored_title);
+    mIvSponsoredLogo = mSponsoredGalleryView.findViewById(R.id.btn__sponsored_logo);
+    mRvSponsoredProducts = mSponsoredGalleryView.findViewById(R.id.rv__sponsored_products);
     mRvSponsoredProducts.setLayoutManager(new LinearLayoutManager(getContext(),
                                                                   LinearLayoutManager.HORIZONTAL,
                                                                   false));
@@ -1317,7 +1329,7 @@ public class PlacePageView extends RelativeLayout
       return;
     }
 
-    refreshPreview(mMapObject, policy);
+    refreshPreview(mMapObject, policy, null);
     refreshViewsInternal(mMapObject);
   }
 
@@ -1329,7 +1341,7 @@ public class PlacePageView extends RelativeLayout
       return;
     }
 
-    refreshPreview(mMapObject);
+    refreshPreview(mMapObject, null);
     refreshViewsInternal(mMapObject);
   }
 
@@ -1393,7 +1405,8 @@ public class PlacePageView extends RelativeLayout
     }
   }
 
-  private void refreshPreview(@NonNull MapObject mapObject, @NonNull NetworkPolicy policy)
+  private void refreshPreview(@NonNull MapObject mapObject, @NonNull NetworkPolicy policy,
+                              @Nullable HotelPriceInfo priceInfo)
   {
     if (mBannerController != null)
     {
@@ -1402,13 +1415,15 @@ public class PlacePageView extends RelativeLayout
       mBannerController.updateData(canShow ? mapObject.getBanners() : null);
     }
 
-    refreshPreview(mapObject);
+    refreshPreview(mapObject, priceInfo);
   }
 
-  private void refreshPreview(@NonNull MapObject mapObject)
+  private void refreshPreview(@NonNull MapObject mapObject, @Nullable HotelPriceInfo priceInfo)
   {
     UiUtils.setTextAndHideIfEmpty(mTvTitle, mapObject.getTitle());
     UiUtils.setTextAndHideIfEmpty(mTvSecondaryTitle, mapObject.getSecondaryTitle());
+    boolean isPopular = mapObject.getPopularity().getType() == Popularity.Type.POPULAR;
+    UiUtils.showIf(isPopular, mPopularityView);
     if (mToolbar != null)
       mToolbar.setTitle(mapObject.getTitle());
     UiUtils.setTextAndHideIfEmpty(mTvSubtitle, mapObject.getSubtitle());
@@ -1416,21 +1431,38 @@ public class PlacePageView extends RelativeLayout
     UiUtils.hide(mAvDirection);
     UiUtils.setTextAndHideIfEmpty(mTvAddress, mapObject.getAddress());
     boolean sponsored = isSponsored();
-    UiUtils.showIf(sponsored, mPreviewRatingInfo);
-    if (sponsored)
-    {
-      boolean isPriceEmpty = TextUtils.isEmpty(mSponsoredPrice);
-      @SuppressWarnings("ConstantConditions")
-      boolean isRatingEmpty = TextUtils.isEmpty(mSponsored.getRating());
-      Impress impress = Impress.values()[mSponsored.getImpress()];
-      mRatingView.setRating(impress, mSponsored.getRating());
-      UiUtils.showIf(!isRatingEmpty, mRatingView);
-      mTvSponsoredPrice.setText(mSponsoredPrice);
-      UiUtils.showIf(!isPriceEmpty, mTvSponsoredPrice);
-      UiUtils.showIf((!isRatingEmpty || !isPriceEmpty) &&
-                     mSponsored.getType() == Sponsored.TYPE_BOOKING, mPreviewRatingInfo);
-    }
+    UiUtils.showIf(sponsored, mPreviewRatingInfo, mHotelDiscount);
     UiUtils.showIf(mapObject.getHotelType() != null, mPreview, R.id.search_hotels_btn);
+    if (sponsored)
+      initSponsoredViews(priceInfo);
+  }
+
+  private void initSponsoredViews(@Nullable HotelPriceInfo priceInfo)
+  {
+    boolean isPriceEmpty = TextUtils.isEmpty(mSponsoredPrice);
+    @SuppressWarnings("ConstantConditions")
+    boolean isRatingEmpty = TextUtils.isEmpty(mSponsored.getRating());
+    Impress impress = Impress.values()[mSponsored.getImpress()];
+    mRatingView.setRating(impress, mSponsored.getRating());
+    UiUtils.showIf(!isRatingEmpty, mRatingView);
+    mTvSponsoredPrice.setText(mSponsoredPrice);
+    UiUtils.showIf(!isPriceEmpty, mTvSponsoredPrice);
+    boolean isBookingInfoExist = (!isRatingEmpty || !isPriceEmpty) &&
+                                 mSponsored.getType() == Sponsored.TYPE_BOOKING;
+    UiUtils.showIf(isBookingInfoExist, mPreviewRatingInfo);
+    String discount = getHotelDiscount(priceInfo);
+    UiUtils.hideIf(TextUtils.isEmpty(discount), mHotelDiscount);
+    mHotelDiscount.setRating(Impress.DISCOUNT, discount);
+  }
+
+  @Nullable
+  private String getHotelDiscount(@Nullable HotelPriceInfo priceInfo)
+  {
+    boolean hasPercentsDiscount = priceInfo != null && priceInfo.getDiscount() > 0;
+    if (hasPercentsDiscount)
+      return DISCOUNT_PREFIX + priceInfo.getDiscount() + DISCOUNT_SUFFIX;
+
+    return priceInfo != null && priceInfo.hasSmartDeal() ? DISCOUNT_SUFFIX : null;
   }
 
   private boolean isSponsored()
