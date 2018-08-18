@@ -680,6 +680,8 @@ void Editor::UploadChanges(string const & key, string const & secret, ChangesetT
 
         string ourDebugFeatureString;
 
+        LOG(LINFO, ("AddisMap OSM Upload Feature Structure is", (fti.m_feature.GetID())));
+
         try
         {
           switch (fti.m_status)
@@ -751,20 +753,39 @@ void Editor::UploadChanges(string const & key, string const & secret, ChangesetT
                 continue;
               }
 
-              XMLFeature osmFeature = GetMatchingFeatureFromOSM(changeset, *originalFeaturePtr);
-              XMLFeature const osmFeatureCopy = osmFeature;
-              osmFeature.ApplyPatch(feature);
-              // Check to avoid uploading duplicates into OSM.
-              if (osmFeature == osmFeatureCopy)
-              {
-                LOG(LWARNING, ("Local changes are equal to OSM, feature has not been uploaded.", osmFeatureCopy));
-                // Don't delete this local change right now for user to see it in profile.
-                // It will be automatically deleted by migration code on the next maps update.
+
+              try {
+                XMLFeature osmFeature = GetMatchingFeatureFromOSM(changeset, *originalFeaturePtr);
+
+                XMLFeature const osmFeatureCopy = osmFeature;
+                osmFeature.ApplyPatch(feature);
+                // Check to avoid uploading duplicates into OSM.
+                if (osmFeature == osmFeatureCopy)
+                {
+                  LOG(LWARNING, ("Local changes are equal to OSM, feature has not been uploaded.", osmFeatureCopy));
+                  // Don't delete this local change right now for user to see it in profile.
+                  // It will be automatically deleted by migration code on the next maps update.
+                }
+                else
+                {
+                  LOG(LDEBUG, ("Uploading patched feature", osmFeature));
+                  changeset.Modify(osmFeature);
+                }
               }
-              else
+              catch(ChangesetWrapper::OsmObjectWasDeletedException const & ex)
               {
-                LOG(LDEBUG, ("Uploading patched feature", osmFeature));
-                changeset.Modify(osmFeature);
+                LOG(LINFO, ("Creating new feature, most probably from AddisMapPOIs"));
+
+                XMLFeature feature = editor::ToXML(fti.m_feature, true);
+                if (!fti.m_street.empty())
+                  feature.SetTagValue(kAddrStreetTag, fti.m_street);
+                ourDebugFeatureString = DebugPrint(feature);
+                auto const originalFeaturePtr = GetOriginalFeature(fti.m_feature.GetID());
+
+                alohalytics::LogEvent("Editor_AddisMap_POIDonation", alohalytics::Location::FromLatLon(fti.m_feature.GetCenter().x, fti.m_feature.GetCenter().y));
+
+                feature.SetTagValue("source", "Original source is addismap.com proprietary POIs. This POI is donated and improved by the uploading user.");
+                changeset.Create(feature);
               }
             }
             break;
