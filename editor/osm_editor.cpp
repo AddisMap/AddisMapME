@@ -782,7 +782,7 @@ void Editor::UploadChanges(string const & key, string const & secret, ChangesetT
                 ourDebugFeatureString = DebugPrint(feature);
                 auto const originalFeaturePtr = GetOriginalFeature(fti.m_feature.GetID());
 
-                alohalytics::LogEvent("Editor_AddisMap_POIDonation", alohalytics::Location::FromLatLon(fti.m_feature.GetCenter().x, fti.m_feature.GetCenter().y));
+                alohalytics::LogEvent("Editor_AddisMap_POIDonation", alohalytics::Location::FromLatLon(fti.m_feature.GetCenter().y, fti.m_feature.GetCenter().x));
 
                 feature.SetTagValue("source", "Original source is addismap.com proprietary POIs. This POI is donated and improved by the uploading user.");
                 changeset.Create(feature);
