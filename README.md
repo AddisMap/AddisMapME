@@ -3,9 +3,8 @@
 ![](android/res/drawable-hdpi/ic_launcher.png)
 
 [AddisMapME](http://me.addismap.com) is an open source cross-platform offline maps application,
-built on top of crowd-sourced OpenStreetMap data. It was publicly released
-for -[iOS](https://itunes.apple.com/app/notyetpublished)- (not yet)
-[Android](https://play.google.com/store/apps/details?id=com.addismap.me).
+built on top of crowd-sourced OpenStreetMap and additional custom data. It was publicly released
+for [Android](https://play.google.com/store/apps/details?id=com.addismap.me).
 
 ![](docs/screenshots.jpg)
 
