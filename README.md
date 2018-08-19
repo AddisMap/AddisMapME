@@ -22,7 +22,7 @@ Users of the app can choose to improve both, POIs that are already in OpenStreet
 
 ## Development 
 
-For development instructions, head ofter to (https://github.com/mapsme/omim/
+For development instructions, head to https://github.com/mapsme/omim/
 
 ## Authors and License
 
