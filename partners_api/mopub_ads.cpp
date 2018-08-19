@@ -6,10 +6,10 @@
 namespace
 {
 #if defined(OMIM_OS_IPHONE)
-  auto const kTourismPlacementId = "29c1bc85b46442b5a370552916aa6822";
-  auto const kNavigationPlacementId = "00af522ea7f94b77b6c671c7e1b13c3f";
-  auto const kNonTourismPlacementId = "67ebcbd0af8345f18cccfb230ca08a17";
-  auto const kSponsoredBannerPlacementId = "e0c1d4d9c88c4670b9541116bcb75c5f";
+  auto const kTourismPlacementId = "e1f5937c038241eeaaa4d62322564c3c";
+  auto const kNavigationPlacementId = "0f50c592742a4fb5a19ede2876c4c446";
+  auto const kNonTourismPlacementId = "a144c93ba6ca4339b10a7df5a887aca5";
+  auto const kSponsoredBannerPlacementId = "3f121b2b9e6544158c4976d9afac22b1";
 #else
   auto const kTourismPlacementId = "3fce55a072e244d9af4c7324828599e2";
   auto const kNavigationPlacementId = "fb6d568c5e1c44da9708bc8f74ec3543";
