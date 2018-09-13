@@ -33,3 +33,10 @@ and [data/copyright.html](http://htmlpreview.github.io/?https://github.com/mapsm
 Portions of the source code is Copyright (C) 2018 Bandira Addis Map Entertainment PLC, also published under Apache Public License 2.0.
 
 Portions of the map data that comes bundled with the packaged app, is Copyright (C) 2018 Bandira Addis Map Entertainment PLC.
+
+## Additional Sponsors
+
+<img src="https://gallery.mailchimp.com/fe574de56f353cb554f2be9ea/images/0d94ec44-d66b-422c-bfe3-6e2f787d4c01.png" width="150" height="61">
+
+
+
