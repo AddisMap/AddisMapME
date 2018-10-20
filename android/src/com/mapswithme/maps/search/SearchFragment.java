@@ -53,7 +53,7 @@ public class SearchFragment extends BaseMwmFragment
                          implements OnBackPressListener,
                                     NativeSearchListener,
                                     SearchToolbarController.Container,
-                                    CategoriesAdapter.OnCategorySelectedListener,
+                                    CategoriesAdapter.CategoriesUiListener,
                                     HotelsFilterHolder, NativeBookingFilterListener
 {
   private static final int MIN_QUERY_LENGTH_FOR_AD = 3;
@@ -128,9 +128,6 @@ public class SearchFragment extends BaseMwmFragment
         closeSearch();
         return;
       }
-
-      if (mPromoCategorySelected)
-        return;
 
       if (mAdsLoader != null && !isTabletSearch() && query.length() >= MIN_QUERY_LENGTH_FOR_AD)
       {
@@ -211,7 +208,6 @@ public class SearchFragment extends BaseMwmFragment
 
   private final LastPosition mLastPosition = new LastPosition();
   private boolean mSearchRunning;
-  private boolean mPromoCategorySelected;
   private String mInitialQuery;
   @Nullable
   private String mInitialLocale;
@@ -292,6 +288,9 @@ public class SearchFragment extends BaseMwmFragment
 
   private void hideDownloadSuggest()
   {
+    if (!isAdded())
+      return;
+
     final FragmentManager manager = getChildFragmentManager();
     final Fragment fragment = manager.findFragmentByTag(CountrySuggestFragment.class.getName());
     if (fragment != null && !fragment.isDetached() && !fragment.isRemoving())
@@ -707,24 +706,21 @@ public class SearchFragment extends BaseMwmFragment
   }
 
   @Override
-  public void onCategorySelected(@Nullable String category)
+  public void onSearchCategorySelected(@Nullable String category)
   {
-    PromoCategory promoCategory = PromoCategory.findByKey(category);
-    if (promoCategory != null)
-    {
-      mPromoCategorySelected = true;
-      mToolbarController.setQuery(category + " ");
+    mToolbarController.setQuery(category);
+  }
 
-      Statistics.INSTANCE.trackSponsoredEventForCustomProvider(
-          Statistics.EventName.SEARCH_SPONSOR_CATEGORY_SELECTED,
-          promoCategory.getStatisticValue());
-      showAllResultsOnMap();
-      mPromoCategorySelected = false;
-    }
-    else
-    {
-      mToolbarController.setQuery(category);
-    }
+  @Override
+  public void onPromoCategorySelected(@NonNull PromoCategory promo)
+  {
+    // Do nothing by default.
+  }
+
+  @Override
+  public void onAdsRemovalSelected()
+  {
+    // Do nothing by default.
   }
 
   private void refreshSearchResults()

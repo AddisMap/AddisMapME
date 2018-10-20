@@ -29,6 +29,9 @@ extern NSString * const kAlohalyticsTapEventKey;
 @property(weak, nonatomic) IBOutlet SettingsTableViewSwitchCell * showOffersCell;
 @property(weak, nonatomic) IBOutlet SettingsTableViewSwitchCell * statisticsCell;
 
+@property(weak, nonatomic) IBOutlet SettingsTableViewSelectableProgressCell *restoreSubscriptionCell;
+@property(weak, nonatomic) IBOutlet SettingsTableViewLinkCell * manageSubscriptionsCell;
+
 @property(weak, nonatomic) IBOutlet SettingsTableViewLinkCell * nightModeCell;
 @property(weak, nonatomic) IBOutlet SettingsTableViewSwitchCell * perspectiveViewCell;
 @property(weak, nonatomic) IBOutlet SettingsTableViewSwitchCell * autoZoomCell;
@@ -36,6 +39,8 @@ extern NSString * const kAlohalyticsTapEventKey;
 
 @property(weak, nonatomic) IBOutlet SettingsTableViewLinkCell * helpCell;
 @property(weak, nonatomic) IBOutlet SettingsTableViewLinkCell * aboutCell;
+
+@property(nonatomic) BOOL restoringSubscription;
 
 @end
 
@@ -57,6 +62,7 @@ extern NSString * const kAlohalyticsTapEventKey;
 {
   [self configProfileSection];
   [self configCommonSection];
+  [self configSubsriptionsSection];
   [self configNavigationSection];
   [self configInfoSection];
 }
@@ -142,6 +148,11 @@ extern NSString * const kAlohalyticsTapEventKey;
   [self.statisticsCell configWithDelegate:self
                                     title:L(@"allow_statistics")
                                      isOn:[MWMSettings statisticsEnabled]];
+}
+
+- (void)configSubsriptionsSection {
+  [self.restoreSubscriptionCell configWithTitle:L(@"restore_subscription")];
+  [self.manageSubscriptionsCell configWithTitle:L(@"manage_subscription") info:nil];
 }
 
 - (void)configNavigationSection
@@ -281,7 +292,7 @@ extern NSString * const kAlohalyticsTapEventKey;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-  auto cell = static_cast<SettingsTableViewLinkCell *>([tableView cellForRowAtIndexPath:indexPath]);
+  auto cell = [tableView cellForRowAtIndexPath:indexPath];
   if (cell == self.profileCell)
   {
     [Statistics logEvent:kStatSettingsOpenSection withParameters:@{kStatName : kStatAuthorization}];
@@ -328,6 +339,46 @@ extern NSString * const kAlohalyticsTapEventKey;
     [Statistics logEvent:kStatSettingsOpenSection withParameters:@{kStatName : kStatAbout}];
     [self performSegueWithIdentifier:@"SettingsToAbout" sender:nil];
   }
+  else if (cell == self.restoreSubscriptionCell)
+  {
+    self.restoreSubscriptionCell.selected = false;
+    [self.restoreSubscriptionCell.progress startAnimating];
+    self.restoringSubscription = YES;
+    __weak auto s = self;
+    [[SubscriptionManager shared] restore:^(MWMValidationResult result) {
+      __strong auto self = s;
+      self.restoringSubscription = NO;
+      [self.restoreSubscriptionCell.progress stopAnimating];
+      NSString *alertText;
+      switch (result)
+      {
+        case MWMValidationResultValid:
+          alertText = L(@"restore_success_alert");
+          break;
+        case MWMValidationResultNotValid:
+          alertText = L(@"restore_no_subscription_alert");
+          break;
+        case MWMValidationResultError:
+          alertText = L(@"restore_error_alert");
+          break;
+      }
+      [MWMAlertViewController.activeAlertController presentInfoAlert:L(@"restore_subscription")
+                                                                text:alertText];
+    }];
+  }
+  else if (cell == self.manageSubscriptionsCell)
+  {
+    [UIApplication.sharedApplication openURL:[NSURL URLWithString:@"https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/manageSubscriptions"]];
+  }
+}
+
+- (NSIndexPath *)tableView:(UITableView *)tableView willSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  auto cell = [tableView cellForRowAtIndexPath:indexPath];
+  if (cell == self.restoreSubscriptionCell)
+    return self.restoringSubscription ? nil : indexPath;
+
+  return indexPath;
 }
 
 #pragma mark - UITableViewDataSource
@@ -337,8 +388,9 @@ extern NSString * const kAlohalyticsTapEventKey;
   switch (section)
   {
   case 1: return L(@"general_settings");
-  case 2: return L(@"prefs_group_route");
-  case 3: return L(@"info");
+  case 2: return L(@"subscriptions_title");
+  case 3: return L(@"prefs_group_route");
+  case 4: return L(@"info");
   default: return nil;
   }
 }

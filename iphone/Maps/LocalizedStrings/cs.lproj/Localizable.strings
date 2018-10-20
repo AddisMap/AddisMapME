@@ -2470,6 +2470,22 @@
 
 "rutaxi_title" = "RuTaxi";
 
+"restore_subscription" = "Obnovit předplatné";
+
+"restore_success_alert" = "Předplatné bylo úspěšně obnoveno";
+
+"restore_error_alert" = "Během obnovování předplatného došlo k chybě";
+
+"restore_no_subscription_alert" = "Neexistuje žádné aktivní předplatné";
+
+"subscription_terms" = "Platba bude automaticky zaúčtována na váš účet iTunes v době potvrzení nákupu. Předplatné se automaticky obnoví, pokud automatické obnovení nevypnete nejméně 24 hodin před koncem aktuálního období. Váš účet bude zpoplatněn podle plánu období během 24 hodin před koncem aktuálního období. Automatické obnovení můžete vypnout nebo spravovat kdykoliv v nastavení účtu Apple ID.";
+
+"subscriptions_title" = "Předplatné";
+
+"manage_subscription" = "Spravovat předplatné";
+
+"taxi" = "Taxi";
+
 
 /**********  Partners  **********/
 

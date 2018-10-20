@@ -1386,6 +1386,13 @@
 	<string name="server_unavailable_title">ไม่สามารถเข้าถึงเซิร์ฟเวอร์</string>
 	<string name="server_unavailable_message">การชำระเงินจะเสร็จสมบูรณ์ในภายหลัง หากข้อผิดพลาดยังคงเกิดขึ้นต่อเนื่อง โปรดติดต่อเราที่ support\@maps.me</string>
 	<string name="offline_fiters_check_in">เชื่อมต่ออินเทอร์เน็ตเพื่อคัดกรองโรงแรมตามลำดับวันที่</string>
+	<string name="restore_subscription">คืนค่าการสมัครสมาชิก</string>
+	<string name="restore_success_alert">คืนค่าการสมัครสมาชิกสำเร็จแล้ว</string>
+	<string name="restore_error_alert">เกิดข้อผิดพลาดในระหว่างคืนค่าการสมัครสมาชิก</string>
+	<string name="restore_no_subscription_alert">ไม่มีการสมัครสมาชิกที่ใช้งาน</string>
+	<string name="subscription_terms">จะเรียกเก็บการชำระเงินไปยังบัญชี iTunes ของคุณเมื่อทำการยืนยันการซื้อ การสมัครสมาชิกจะได้รับการต่ออายุโดยอัตโนมัติ เว้นเสียแต่จะมีการปิดการต่ออายุอัตโนมัติอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบปัจจุบัน บัญชีของของคุณจะได้รับการเรียกเก็บค่าบริการตามแผนสำหรับการต่ออายุของคุณภายใน 24 ชั่วโมงก่อนสิ้นสุดรอบปัจจุบัน คุณสามารถจัดการหรือปิดการต่ออายุอัตโนมัติได้ในการตั้งค่าบัญชี ID Apple ได้ทุกเมื่อเมื่อทำการซื้อของคุณ</string>
+	<string name="subscriptions_title">การสมัครสมาชิก</string>
+	<string name="manage_subscription">จัดการการสมัครสมาชิก</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.aerialway.station">สถานีกระเช้าลอยฟ้า</string>

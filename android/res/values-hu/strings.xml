@@ -1381,6 +1381,13 @@
 	<string name="server_unavailable_title">A szerver nem elérhető</string>
 	<string name="server_unavailable_message">A vásárlás később kerül befejezésre. Ha továbbra is fennáll a hiba írjon ide: support\@maps.me.</string>
 	<string name="offline_fiters_check_in">Csatlakozzon az internetre a hotelek dátum alapú szűréséhez.</string>
+	<string name="restore_subscription">Előfizetés visszaállítása</string>
+	<string name="restore_success_alert">Az előfizetés sikeresen visszaállításra került</string>
+	<string name="restore_error_alert">Hiba lépett fel az előfizetés visszaállítása során</string>
+	<string name="restore_no_subscription_alert">Nincs aktív előfizetés</string>
+	<string name="subscription_terms">A vásárlás megerősítésekor az összeg az iTunes számládra lesz terhelve. Az előfizetés automatikusan megújul, ha csak az automatikus megújítást 24 órával a jelenlegi időszak vége előtt ki nem kapcsolod. A számlád az előfizetésednek megfelelően a jelenlegi időszak lejárta előtti 24 órában lesz megterhelve. Az automatikus megújítást az Apple ID fiókod beállításaidban az előfizetés bármely szakaszában kikapcsolhatod.</string>
+	<string name="subscriptions_title">Előfizetések</string>
+	<string name="manage_subscription">Előfizetés kezelése</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.aerialway.station">Felvonóállomás</string>

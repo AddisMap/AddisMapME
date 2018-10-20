@@ -2470,6 +2470,22 @@
 
 "rutaxi_title" = "RuTaxi";
 
+"restore_subscription" = "Aboneliği geri yükle";
+
+"restore_success_alert" = "Abonelik başarılı bir şekilde geri yüklendi";
+
+"restore_error_alert" = "Abonelik geri yüklenirken bir hata oluştu";
+
+"restore_no_subscription_alert" = "Aktif abonelik yok";
+
+"subscription_terms" = "Ödeme, satın alma onayında iTunes hesabınızdan alınacaktır. Otomatik yenileme geçerli dönemin sona ermesinden en az 24 saat önce kapatılmadıkça abonelik otomatik olarak yenilenecektir. Hesabınızdan, geçerli dönemin sona ermesinden önce 24 saat içinde planınıza göre yenileme için ücret alınacaktır. Otomatik yenilemeyi satın alma işleminizde dilediğiniz zaman Apple ID hesap ayarlarınızda yönetebilir veya kapatabilirsiniz.";
+
+"subscriptions_title" = "Abonelikler";
+
+"manage_subscription" = "Aboneliği yönet";
+
+"taxi" = "Taxi";
+
 
 /**********  Partners  **********/
 

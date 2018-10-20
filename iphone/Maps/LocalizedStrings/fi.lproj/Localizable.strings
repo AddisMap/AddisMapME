@@ -2470,6 +2470,22 @@
 
 "rutaxi_title" = "RuTaxi";
 
+"restore_subscription" = "Palauta tilaus";
+
+"restore_success_alert" = "Tilaus on palautettu onnistuneesti";
+
+"restore_error_alert" = "Tilausta palautettaessa ilmeni ongelma";
+
+"restore_no_subscription_alert" = "Aktiivisia tilauksia ei ole";
+
+"subscription_terms" = "Maksu veloitetaan iTunes-tililtäsi maksuvahvistuksen yhteydessä. Tilauksesi uusitaan automaattisesti ellei automaattista uusintaa ole otettu pois käytöstä vähintään 24 tuntia ennen nykyisen tilausjakson päättymistä. Tilauksen uusinta veloitetaan tililtäsi 24 tunnin kuluessa ennen nykyisen tilausjakson päättymistä. Voit hallita tai ottaa tilausten automaattisen uusinnan pois käytöstä Apple ID -tilisi asetuksissa oston jälkeen.";
+
+"subscriptions_title" = "Tilaukset";
+
+"manage_subscription" = "Hallitse tilausta";
+
+"taxi" = "Taxi";
+
 
 /**********  Partners  **********/
 

@@ -102,6 +102,11 @@ BOOL gIsFirstMyPositionMode = YES;
 @implementation MapViewController
 
 + (MapViewController *)sharedController { return [MapsAppDelegate theApp].mapViewController; }
+
+- (BOOL)isLaunchByDeepLink { return [(EAGLView *)self.view isLaunchByDeepLink]; }
+
+- (void)setLaunchByDeepLink:(BOOL)launchByDeepLink { [(EAGLView *)self.view setLaunchByDeepLink:launchByDeepLink]; }
+
 #pragma mark - Map Navigation
 
 - (void)dismissPlacePage { [self.controlsManager dismissPlacePage]; }
@@ -239,6 +244,9 @@ BOOL gIsFirstMyPositionMode = YES;
 {
   [super viewWillAppear:animated];
 
+  if ([MWMNavigationDashboardManager manager].state == MWMNavigationDashboardStateHidden)
+    self.controlsManager.menuState = self.controlsManager.menuRestoreState;
+
   [self updateStatusBarStyle];
   GetFramework().InvalidateRendering();
   [self.welcomePageController show];
@@ -257,19 +265,16 @@ BOOL gIsFirstMyPositionMode = YES;
   if ([MWMNavigationDashboardManager manager].state == MWMNavigationDashboardStateHidden)
     self.controlsManager.menuState = self.controlsManager.menuRestoreState;
 
-  if (!self.welcomePageController)
-    [self.controlsManager showTutorialIfNeeded];
-
   [NSNotificationCenter.defaultCenter addObserver:self
-                                         selector:@selector(willBecomeActive)
-                                             name:UIApplicationWillEnterForegroundNotification
+                                         selector:@selector(didBecomeActive)
+                                             name:UIApplicationDidBecomeActiveNotification
                                            object:nil];
 }
 
-- (void)willBecomeActive
+- (void)didBecomeActive
 {
   if (!self.welcomePageController)
-      [self.controlsManager showTutorialIfNeeded];
+    [self.controlsManager showTutorialIfNeeded];
 }
 
 - (void)viewDidLayoutSubviews
@@ -544,6 +549,7 @@ BOOL gIsFirstMyPositionMode = YES;
 - (void)didCompleteSubscribtion:(RemoveAdsViewController *)viewController
 {
   [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+  GetFramework().DeactivateMapSelection(true);
 }
 
 - (void)didCancelSubscribtion:(RemoveAdsViewController *)viewController

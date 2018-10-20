@@ -147,6 +147,16 @@ void TranslatorPlanet::EmitElement(OsmElement * p)
   }
 }
 
+bool TranslatorPlanet::Finish()
+{
+  return m_emitter->Finish();
+}
+
+void TranslatorPlanet::GetNames(std::vector<std::string> & names) const
+{
+  m_emitter->GetNames(names);
+}
+
 bool TranslatorPlanet::ParseType(OsmElement * p, FeatureParams & params)
 {
   // Get tags from parent relations.
@@ -201,7 +211,7 @@ void TranslatorPlanet::EmitArea(FeatureBuilder1 & ft, FeatureParams params,
   if (!ft.IsGeometryClosed())
     return;
 
-  if (ftypes::IsTownOrCity(params.m_types))
+  if (ftypes::IsCityTownOrVillage(params.m_types))
   {
     auto fb = ft;
     fn(fb);
@@ -228,7 +238,7 @@ void TranslatorPlanet::EmitFeatureBase(FeatureBuilder1 & ft,
                                        FeatureParams const & params) const
 {
   ft.SetParams(params);
-  if (!ft.PreSerialize())
+  if (!ft.PreSerializeAndRemoveUselessNames())
     return;
 
   std::string addr;

@@ -1,34 +1,57 @@
 package com.mapswithme.maps.search;
 
+import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
-import android.text.TextUtils;
 
-import com.mapswithme.util.UiUtils;
+import com.mapswithme.maps.Framework;
+import com.mapswithme.maps.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public enum PromoCategory
 {
-  STUB
+  RUTAXI
       {
         @NonNull
         @Override
         String getKey()
         {
-          return "";
+          return "taxi";
         }
 
         @Override
         int getStringId()
         {
-          return UiUtils.NO_ID;
+          return R.string.taxi;
         }
 
         @NonNull
         @Override
-        String getStatisticValue()
+        String getProvider()
         {
-          return "";
+          return "RuTaxi";
+        }
+
+        @Override
+        int getPosition()
+        {
+          return 6;
+        }
+
+        @NonNull
+        @Override
+        PromoCategoryProcessor createProcessor(@NonNull Context context)
+        {
+          return new RutaxiPromoProcessor(context);
+        }
+
+        @Override
+        boolean isSupported()
+        {
+          return Framework.nativeHasRuTaxiCategoryBanner();
         }
       };
 
@@ -39,7 +62,14 @@ public enum PromoCategory
   abstract int getStringId();
 
   @NonNull
-  abstract String getStatisticValue();
+  abstract String getProvider();
+
+  abstract int getPosition();
+
+  abstract boolean isSupported();
+
+  @NonNull
+  abstract PromoCategoryProcessor createProcessor(@NonNull Context context);
 
   @Nullable
   static PromoCategory findByStringId(@StringRes int nameId)
@@ -52,17 +82,16 @@ public enum PromoCategory
     return null;
   }
 
-  @Nullable
-  static PromoCategory findByKey(@Nullable String key)
+  @NonNull
+  static List<PromoCategory> supportedValues()
   {
-    if (TextUtils.isEmpty(key))
-      return null;
-
-    for (PromoCategory cat : values())
+    List<PromoCategory> result = new ArrayList<>();
+    for (PromoCategory category : values())
     {
-      if (cat.getKey().equals(key))
-        return cat;
+      if (category.isSupported())
+        result.add(category);
     }
-    return null;
+
+    return result;
   }
 }

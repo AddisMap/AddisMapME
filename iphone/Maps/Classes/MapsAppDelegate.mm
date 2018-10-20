@@ -184,7 +184,7 @@ using namespace osm_auth_ios;
 - (BOOL)hasApiURL { return m_geoURL || m_mwmURL; }
 - (void)handleURLs
 {
-  static_cast<EAGLView *>(self.mapViewController.view).isLaunchByDeepLink = self.hasApiURL;
+  self.mapViewController.launchByDeepLink = self.hasApiURL;
 
   if (!self.isDrapeEngineCreated)
   {
@@ -487,6 +487,7 @@ using namespace osm_auth_ios;
 {
   LOG(LINFO, ("applicationWillResignActive - begin"));
   [self.mapViewController onGetFocus:NO];
+  self.mapViewController.launchByDeepLink = NO;
   auto & f = GetFramework();
   // On some devices we have to free all belong-to-graphics memory
   // because of new OpenGL driver powered by Metal.
@@ -748,20 +749,24 @@ didReceiveNotificationResponse:(UNNotificationResponse *)response
 {
   m_sourceApplication = options[UIApplicationOpenURLOptionsSourceApplicationKey];
 
-  if ([self checkLaunchURL:[url.host rangeOfString:@"dlink.maps.me"].location != NSNotFound
-       ? [self convertUniversalLink:url] : url])
-  {
-    [self handleURLs];
-    return YES;
-  }
-
   BOOL isGoogleURL = [[GIDSignIn sharedInstance] handleURL:url
                                          sourceApplication:m_sourceApplication
                                                 annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
   if (isGoogleURL)
     return YES;
 
-  return [[FBSDKApplicationDelegate sharedInstance] application:app openURL:url options:options];
+  BOOL isFBURL = [[FBSDKApplicationDelegate sharedInstance] application:app openURL:url options:options];
+  if (isFBURL)
+    return YES;
+
+  if ([self checkLaunchURL:(url.host.length > 0 && [url.host rangeOfString:@"dlink.maps.me"].location != NSNotFound)
+       ? [self convertUniversalLink:url] : url])
+  {
+    [self handleURLs];
+    return YES;
+  }
+
+  return NO;
 }
 
 - (BOOL)checkLaunchURL:(NSURL *)url

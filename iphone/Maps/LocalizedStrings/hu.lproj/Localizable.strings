@@ -2470,6 +2470,22 @@
 
 "rutaxi_title" = "RuTaxi";
 
+"restore_subscription" = "Előfizetés visszaállítása";
+
+"restore_success_alert" = "Az előfizetés sikeresen visszaállításra került";
+
+"restore_error_alert" = "Hiba lépett fel az előfizetés visszaállítása során";
+
+"restore_no_subscription_alert" = "Nincs aktív előfizetés";
+
+"subscription_terms" = "A vásárlás megerősítésekor az összeg az iTunes számládra lesz terhelve. Az előfizetés automatikusan megújul, ha csak az automatikus megújítást 24 órával a jelenlegi időszak vége előtt ki nem kapcsolod. A számlád az előfizetésednek megfelelően a jelenlegi időszak lejárta előtti 24 órában lesz megterhelve. Az automatikus megújítást az Apple ID fiókod beállításaidban az előfizetés bármely szakaszában kikapcsolhatod.";
+
+"subscriptions_title" = "Előfizetések";
+
+"manage_subscription" = "Előfizetés kezelése";
+
+"taxi" = "Taxi";
+
 
 /**********  Partners  **********/
 

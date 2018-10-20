@@ -1395,6 +1395,13 @@
 	<string name="server_unavailable_title">Server unzugänglich</string>
 	<string name="server_unavailable_message">Der Kauf wird später abgeschlossen. Wenn der Fehler anhält, kontaktieren Sie support\@maps.me.</string>
 	<string name="offline_fiters_check_in">Verbinden Sie sich mit dem Internet, um das Datum der Ankunft und der Abreise auszuwählen.</string>
+	<string name="restore_subscription">Stellen Sie das Abonnement wieder her</string>
+	<string name="restore_success_alert">Das Abonnement wurde erfolgreich wiederhergestellt</string>
+	<string name="restore_error_alert">Ein Fehler ist bei der Wiederherstellung des Abonnements aufgetreten</string>
+	<string name="restore_no_subscription_alert">Es gibt keine aktiven Abonnements</string>
+	<string name="subscription_terms">Die Zahlung erfolgt nach Kaufbestätigung über Ihr iTunes-Konto. Das Abonnement wird automatisch verlängert, sofern Sie die automatische Verlängerung nicht 24 Stunden vor Ende des aktuellen Zeitraums abgestellt haben. Ihr Konto wird gemäß Ihres Plans für die Verlängerung innerhalb von 24 Stunden vor dem Ende des aktuellen Zeitraums belastet. Sie können bei Kauf die automatisch Verlängerung über Ihre Apple-ID-Kontoeinstellungen jederzeit verwalten oder abstellen.</string>
+	<string name="subscriptions_title">Abonnements</string>
+	<string name="manage_subscription">Abonnements verwalten</string>
 
 	<!-- SECTION: Types -->
 	<string name="type.aerialway.station">Seilbahn</string>

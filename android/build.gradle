@@ -8,7 +8,7 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:3.1.4'
+    classpath 'com.android.tools.build:gradle:3.2.0'
     classpath 'io.fabric.tools:gradle:1.+'
   }
 }
@@ -512,4 +512,12 @@ task obbPush(dependsOn: ['obbGenerate', 'obbPushMain', 'obbPushPatch']) {
   tasks.create(type: Exec, name: 'obbPushPatch', dependsOn: 'obbRemoveOnDevice') {
     commandLine android.getAdbExe(), 'push', propObbWorldsOutput, "${obbPath}worlds.obb"
   }
+}
+
+android.buildTypes.all { buildType ->
+  def suffix = applicationIdSuffix != null ? applicationIdSuffix : "";
+  def authorityValue = android.defaultConfig.applicationId + suffix + ".provider"
+  def authority = "\"" + authorityValue + "\""
+  buildConfigField 'String', 'FILE_PROVIDER_AUTHORITY', authority
+  manifestPlaceholders += [FILE_PROVIDER_PLACEHOLDER : authorityValue]
 }
