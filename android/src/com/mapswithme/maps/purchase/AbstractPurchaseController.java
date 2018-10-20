@@ -57,7 +57,7 @@ abstract class AbstractPurchaseController<V, B, UiCallback> implements PurchaseC
   @Override
   public boolean isPurchaseSupported()
   {
-    return mBillingManager.isBillingSupported();
+    return false; /* return mBillingManager.isBillingSupported(); */
   }
 
   @Override

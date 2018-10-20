@@ -227,7 +227,7 @@ final class BannerController
                                    && purchaseController.isPurchaseSupported();
       UiUtils.showIf(showRemovalButtons, mAdsRemovalIcon, mAdsRemovalButton);
       UiUtils.show(mIcon, mTitle, mMessage, mActionSmall, mActionContainer, mActionLarge,
-                   mAdsRemovalButton, mAdChoicesLabel);
+                   mAdChoicesLabel);
       if (mOpened)
         UiUtils.hide(mActionSmall);
       else
