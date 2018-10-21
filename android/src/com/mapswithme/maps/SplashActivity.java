@@ -12,6 +12,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 
 import com.mapswithme.maps.ads.Banner;
 import com.mapswithme.maps.analytics.AdvertisingObserver;
@@ -38,6 +39,8 @@ import com.mapswithme.util.log.LoggerFactory;
 import com.mapswithme.util.statistics.PushwooshHelper;
 import com.my.tracker.MyTracker;
 
+import java.util.Date;
+
 public class SplashActivity extends AppCompatActivity
     implements BaseNewsFragment.NewsDialogListener, BaseActivity,
                WelcomeDialogFragment.PolicyAgreementListener
@@ -52,6 +55,8 @@ public class SplashActivity extends AppCompatActivity
 
   private View mIvLogo;
   private View mAppName;
+  private TextView mAppVersion;
+  private TextView mXenderCTA;
 
   private boolean mPermissionsGranted;
   private boolean mNeedStoragePermission;
@@ -224,6 +229,9 @@ public class SplashActivity extends AppCompatActivity
   protected void onResume()
   {
     super.onResume();
+
+    updateAppVersion();
+
     mBaseDelegate.onResume();
     mCanceled = false;
 
@@ -232,7 +240,7 @@ public class SplashActivity extends AppCompatActivity
       Config.migrateCountersToSharedPrefs();
       Counters.setMigrationExecuted();
     }
-    
+
     boolean isFirstLaunch = WelcomeDialogFragment.isFirstLaunch(this);
     if (isFirstLaunch)
       MwmApplication.from(this).setFirstLaunch(true);
@@ -329,7 +337,7 @@ public class SplashActivity extends AppCompatActivity
     {
       if (ViralFragment.shouldDisplay())
       {
-        UiUtils.hide(mIvLogo, mAppName);
+        UiUtils.hide(mIvLogo, mAppName, mAppVersion, mXenderCTA);
         ViralFragment dialog = new ViralFragment();
         dialog.onDismissListener(new Runnable()
         {
@@ -348,8 +356,16 @@ public class SplashActivity extends AppCompatActivity
     }
     else
     {
-      UiUtils.hide(mIvLogo, mAppName);
+      UiUtils.hide(mIvLogo, mAppName, mAppVersion, mXenderCTA);
     }
+
+    updateAppVersion();
+  }
+
+  private void updateAppVersion() {
+    mAppVersion.setText(getString(R.string.version, BuildConfig.VERSION_NAME));
+
+    UiUtils.showIf(BuildConfig.VERSION_NAME.contains("Web"), mXenderCTA);
   }
 
   private void showExternalStorageErrorDialog()
@@ -401,6 +417,8 @@ public class SplashActivity extends AppCompatActivity
     setContentView(R.layout.activity_splash);
     mIvLogo = findViewById(R.id.iv__logo);
     mAppName = findViewById(R.id.tv__app_name);
+    mAppVersion = (TextView) findViewById(R.id.tv_app_version);
+    mXenderCTA = (TextView) findViewById(R.id.tv_xender_cta);
   }
 
   private void init()
