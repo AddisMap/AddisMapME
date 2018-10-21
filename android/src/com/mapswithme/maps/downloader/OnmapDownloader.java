@@ -91,9 +91,7 @@ public class OnmapDownloader implements MwmActivity.LeftAnimationTrackListener
 
   public void updateState(boolean shouldAutoDownload)
   {
-    boolean showFrame = (mCurrentCountry != null &&
-                         !mCurrentCountry.present &&
-                         !RoutingController.get().isNavigating());
+    boolean showFrame = false;
     if (showFrame)
     {
       boolean enqueued = (mCurrentCountry.status == CountryItem.STATUS_ENQUEUED);
