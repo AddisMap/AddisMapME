@@ -26,7 +26,26 @@
     android:layout_centerHorizontal="true"
     android:layout_marginBottom="@dimen/margin_double_plus"
     android:textAppearance="@style/MwmTextAppearance.Title"
-    android:textAllCaps="true"
+    android:textAllCaps="false"
     android:textColor="?android:textColorSecondary"
     android:text="@string/app_name"/>
+
+  <TextView
+      android:id="@+id/tv_xender_cta"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="122dp"
+      android:text="You can Xender this version to your friends." />
+
+  <TextView
+      android:id="@+id/tv_app_version"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="243dp"
+      android:text="@string/version" />
+
 </RelativeLayout>
