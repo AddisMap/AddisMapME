@@ -183,16 +183,6 @@ public class MainMenu extends BaseMenu
             return new MwmActivity.DiscoveryDelegate(activity, item);
           }
         },
-    BOOKMARKS(R.id.bookmarks)
-        {
-          @NonNull
-          @Override
-          public ClickMenuDelegate createClickDelegate(@NonNull MwmActivity activity,
-                                                       @NonNull Item item)
-          {
-            return new MwmActivity.BookmarksDelegate(activity, item);
-          }
-        },
     SHARE_MY_LOCATION(R.id.share)
         {
           @NonNull
@@ -322,7 +312,6 @@ public class MainMenu extends BaseMenu
     mapItem(Item.SEARCH);
     mapItem(Item.POINT_TO_POINT);
     mapItem(Item.DISCOVERY);
-    mapItem(Item.BOOKMARKS);
     mapItem(Item.SHARE_MY_LOCATION);
     mapItem(Item.DOWNLOAD_MAPS);
     mapItem(Item.SETTINGS);
@@ -380,8 +369,8 @@ public class MainMenu extends BaseMenu
       }
 
       UiUtils.showIf(expandContent,
-                     mItemViews.get(Item.SEARCH),
-                     mItemViews.get(Item.BOOKMARKS));
+                     mItemViews.get(Item.SEARCH)
+      );
       setVisible(Item.ADD_PLACE, !isRouting && !MapManager.nativeIsLegacyMode());
     }
 

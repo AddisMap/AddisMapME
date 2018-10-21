@@ -24,18 +24,6 @@ import java.util.List;
 
 public enum TipsApi
 {
-  BOOKMARKS(R.string.tips_bookmarks_catalog_title,
-            R.string.tips_bookmarks_catalog_message,
-            R.id.bookmarks, MainMenu.Item.BOOKMARKS, MwmActivity.class)
-      {
-        @NonNull
-        @Override
-        public ClickInterceptor createClickInterceptor()
-        {
-          return ClickInterceptorFactory.createOpenBookmarksCatalogListener();
-        }
-      },
-
   SEARCH(R.string.tips_book_hotel_title,
          R.string.tips_book_hotel_message,
          R.id.search, MainMenu.Item.SEARCH, MwmActivity.class)

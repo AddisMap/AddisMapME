@@ -17,15 +17,16 @@
     tools:background="#40FF00FF"/>
 
   <TextView
-    android:id="@+id/download_guides"
-    style="@style/MwmTheme.Menu.Content.ListItem"
-    android:drawableLeft="@drawable/ic_menu_download_guides"
-    android:drawableStart="@drawable/ic_menu_download_guides"
-    android:drawableTint="?attr/colorAccent"
-    android:textColor="?attr/colorAccent"
-    android:text="@string/download_guides"
-    tools:background="#403033FF"
-    tools:targetApi="m"/>
+      android:id="@+id/download_guides"
+      style="@style/MwmTheme.Menu.Content.ListItem"
+      android:drawableStart="@drawable/ic_menu_download_guides"
+      android:drawableLeft="@drawable/ic_menu_download_guides"
+      android:drawableTint="?attr/colorAccent"
+      android:text="@string/download_guides"
+      android:textColor="?attr/colorAccent"
+      android:visibility="gone"
+      tools:background="#403033FF"
+      tools:targetApi="m" />
 
   <TextView
     android:id="@+id/search"
@@ -36,23 +37,26 @@
     tools:background="#200000FF"/>
 
   <TextView
-    android:id="@+id/bookmarks"
-    style="@style/MwmTheme.Menu.Content.ListItem"
-    android:drawableLeft="@drawable/ic_menu_bookmarks"
-    android:drawableStart="@drawable/ic_menu_bookmarks"
-    android:text="@string/bookmarks"
-    tools:background="#40FF00FF"/>
+      android:id="@+id/bookmarks"
+      style="@style/MwmTheme.Menu.Content.ListItem"
+      android:drawableStart="@drawable/ic_menu_bookmarks"
+      android:drawableLeft="@drawable/ic_menu_bookmarks"
+      android:text="@string/bookmarks"
+      android:visibility="gone"
+      tools:background="#40FF00FF" />
 
   <FrameLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+
     <TextView
-      android:id="@+id/download_maps"
-      style="@style/MwmTheme.Menu.Content.ListItem"
-      android:drawableLeft="@drawable/ic_menu_download"
-      android:drawableStart="@drawable/ic_menu_download"
-      android:text="@string/download_maps"
-      tools:background="#2000FF00"/>
+        android:id="@+id/download_maps"
+        style="@style/MwmTheme.Menu.Content.ListItem"
+        android:drawableStart="@drawable/ic_menu_download"
+        android:drawableLeft="@drawable/ic_menu_download"
+        android:text="@string/download_maps"
+        android:visibility="gone"
+        tools:background="#2000FF00" />
 
     <TextView
       android:id="@+id/counter"

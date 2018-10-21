@@ -28,28 +28,6 @@ class ClickInterceptorFactory
     return new SearchHotels();
   }
 
-  @NonNull
-  static ClickInterceptor createOpenBookmarksCatalogListener()
-  {
-    return new OpenBookmarksCatalog();
-  }
-
-  static class OpenBookmarksCatalog extends AbstractClickInterceptor
-  {
-    OpenBookmarksCatalog()
-    {
-      super(TipsApi.BOOKMARKS);
-    }
-
-    @Override
-    public void onInterceptClickInternal(@NonNull MwmActivity activity)
-    {
-      BookmarksCatalogActivity.startForResult(activity,
-                                              BookmarkCategoriesActivity
-                                                  .REQ_CODE_DOWNLOAD_BOOKMARK_CATEGORY);
-    }
-  }
-
   static class ActivateSubwayLayer extends AbstractClickInterceptor
   {
     ActivateSubwayLayer()
