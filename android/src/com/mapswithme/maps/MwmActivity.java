@@ -874,9 +874,7 @@ public class MwmActivity extends BaseMwmFragmentActivity
 
   private void initOnmapDownloader()
   {
-    mOnmapDownloader = new OnmapDownloader(this);
-    if (mIsTabletLayout)
-      mPanelAnimator.registerListener(mOnmapDownloader);
+    return;
   }
 
   @Override
