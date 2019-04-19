@@ -280,7 +280,7 @@ void FindAllLocalMapsAndCleanup(int64_t latestVersion, string const & dataDir,
                                                   : WORLD_COASTS_FILE_NAME);
 
     string const ethiopia("Ethiopia");
-    string const eritrea("Eritera");
+    string const eritrea("Eritrea");
 
     // as well as Ethiopia and Eritrea (AddisMap special)
     for (string const & file : {world, ethiopia, eritrea, worldCoasts})
