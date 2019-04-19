@@ -803,9 +803,9 @@ void Editor::UploadChanges(string const & key, string const & secret, ChangesetT
                 if (!fti.m_street.empty())
                   feature.SetTagValue(kAddrStreetTag, fti.m_street);
                 ourDebugFeatureString = DebugPrint(feature);
-                auto const originalFeaturePtr = GetOriginalFeature(fti.m_feature.GetID());
+                auto const originalFeaturePtr = GetOriginalFeature(featureData.GetID());
 
-                alohalytics::LogEvent("Editor_AddisMap_POIDonation", alohalytics::Location::FromLatLon(fti.m_feature.GetCenter().y, fti.m_feature.GetCenter().x));
+                alohalytics::LogEvent("Editor_AddisMap_POIDonation", alohalytics::Location::FromLatLon(featureData.GetCenter().y, featureData.GetCenter().x));
 
                 feature.SetTagValue("source", "Original source is addismap.com proprietary POIs. This POI is donated and improved by the uploading user.");
                 changeset.Create(feature);
