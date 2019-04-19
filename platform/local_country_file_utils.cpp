@@ -279,8 +279,11 @@ void FindAllLocalMapsAndCleanup(int64_t latestVersion, string const & dataDir,
     string const worldCoasts(migrate::NeedMigrate() ? WORLD_COASTS_OBSOLETE_FILE_NAME
                                                   : WORLD_COASTS_FILE_NAME);
 
+    string const ethiopia("Ethiopia");
+    string const eritrea("Eritera");
+
     // as well as Ethiopia and Eritrea (AddisMap special)
-    for (string const & file : {world, "Ethiopia", "Eritrea", worldCoasts})
+    for (string const & file : {world, ethiopia, eritrea, worldCoasts})
   {
     auto i = localFiles.begin();
     for (; i != localFiles.end(); ++i)
