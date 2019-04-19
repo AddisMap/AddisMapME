@@ -799,7 +799,7 @@ void Editor::UploadChanges(string const & key, string const & secret, ChangesetT
               {
                 LOG(LINFO, ("Creating new feature, most probably from AddisMapPOIs"));
 
-                XMLFeature feature = editor::ToXML(fti.m_feature, true);
+                XMLFeature feature = editor::ToXML(featureData, true);
                 if (!fti.m_street.empty())
                   feature.SetTagValue(kAddrStreetTag, fti.m_street);
                 ourDebugFeatureString = DebugPrint(feature);
