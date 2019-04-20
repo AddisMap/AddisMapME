@@ -566,10 +566,10 @@ public:
 
   CountryId GetCurrentDownloadingCountryId() const;
   void EnableKeepDownloadingQueue(bool enable) {m_keepDownloadingQueue = enable;}
-  /// get download url by base url & queued country
+    std::string GetFileDownloadUrl(std::string const & baseUrl, std::string const & fileName) const;
+    /// get download url by base url & queued country
   std::string GetFileDownloadUrl(std::string const & baseUrl,
                                  QueuedCountry const & queuedCountry) const;
-  std::string GetFileDownloadUrl(std::string const & baseUrl, std::string const & fileName) const;
 
   /// @param[out] res Populated with oudated countries.
   void GetOutdatedCountries(vector<Country const *> & countries) const;
