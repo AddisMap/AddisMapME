@@ -1066,7 +1066,7 @@ string Storage::GetFileDownloadUrl(string const & baseUrl,
   }
   else
   {
-    url << OMIM_OS_NAME "/" << currentVersion;
+    url << /* OMIM_OS_NAME */ "/" << currentVersion;
   }
 
   url << "/" << UrlEncode(fileName);
@@ -1075,7 +1075,7 @@ string Storage::GetFileDownloadUrl(string const & baseUrl,
 
 string Storage::GetFileDownloadUrl(string const & baseUrl, string const & fileName) const
 {
-  return baseUrl + OMIM_OS_NAME "/" + strings::to_string(GetCurrentDataVersion()) + "/" +
+  return baseUrl + /* OMIM_OS_NAME*/ "/" + strings::to_string(GetCurrentDataVersion()) + "/" +
          UrlEncode(fileName);
 }
 
