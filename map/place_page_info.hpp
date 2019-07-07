@@ -90,8 +90,9 @@ public:
   bool ShouldShowAddPlace() const;
   bool ShouldShowAddBusiness() const { return m_canEditOrAdd && IsBuilding(); }
   bool ShouldShowEditPlace() const;
+  bool ShouldShowUpdateNotice() const;
 
-  /// UGC
+    /// UGC
   bool ShouldShowUGC() const;
   bool CanBeRated() const { return ftraits::UGC::IsRatingAvailable(m_sortedTypes); }
   bool CanBeReviewed() const { return ftraits::UGC::IsReviewsAvailable(m_sortedTypes); }
@@ -128,6 +129,7 @@ public:
   void SetAddress(std::string const & address) { m_address = address; }
   void SetIsMyPosition() { m_isMyPosition = true; }
   void SetCanEditOrAdd(bool canEditOrAdd) { m_canEditOrAdd = canEditOrAdd; }
+  void SetShouldShowUpdateNotice(bool shouldShowUpdateNotice) { m_shouldShowUpdateNotice = shouldShowUpdateNotice; }
   void SetLocalizedWifiString(std::string const & str) { m_localizedWifiString = str; }
 
   /// Bookmark
@@ -300,6 +302,8 @@ private:
   /// True if editing of a selected point is allowed by basic logic.
   /// See initialization in framework.
   bool m_canEditOrAdd = false;
+
+  bool m_shouldShowUpdateNotice = false;
 
   /// Ads
   std::vector<taxi::Provider::Type> m_reachableByProviders;

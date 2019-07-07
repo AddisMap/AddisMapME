@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/ll__place_should_update"
+  style="@style/PlacePageItemFrame"
+  tools:visibility="visible">
+  <TextView
+    android:id="@+id/tv__should_update"
+    style="@style/PlacePageMetadataText.Button"
+    android:gravity="center"
+    android:text="@string/should_update"/>
+</LinearLayout>
