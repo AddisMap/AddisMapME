@@ -60,6 +60,7 @@ public final class Editor
   }
 
   public static native boolean nativeShouldShowEditPlace();
+  public static native boolean nativeShouldUpdate();
   public static native boolean nativeShouldShowAddPlace();
   public static native boolean nativeShouldShowAddBusiness();
   @NonNull

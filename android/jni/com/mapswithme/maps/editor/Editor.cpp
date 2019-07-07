@@ -243,6 +243,12 @@ Java_com_mapswithme_maps_editor_Editor_nativeSaveEditedFeature(JNIEnv *, jclass)
 }
 
 JNIEXPORT jboolean JNICALL
+Java_com_mapswithme_maps_editor_Editor_nativeShouldUpdate(JNIEnv *, jclass)
+{
+  return g_framework->GetPlacePageInfo().ShouldShowUpdateNotice();
+}
+
+JNIEXPORT jboolean JNICALL
 Java_com_mapswithme_maps_editor_Editor_nativeShouldShowEditPlace(JNIEnv *, jclass)
 {
   return g_framework->GetPlacePageInfo().ShouldShowEditPlace();

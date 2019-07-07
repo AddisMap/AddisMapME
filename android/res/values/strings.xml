@@ -2673,4 +2673,5 @@
 	<string name="brand.yoshinoya">Yoshinoya</string>
 	<string name="brand.yudetaro">Yudetaro</string>
 	<string name="brand.yumean">Yumean</string>
+    <string name="should_update">Please update your map</string>
 </resources>

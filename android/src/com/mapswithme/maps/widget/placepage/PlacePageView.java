@@ -163,6 +163,7 @@ public class PlacePageView extends NestedScrollView
   private View mTaxiDivider;
   private View mTaxi;
   private View mEditPlace;
+  private View mShouldUpdate;
   private View mAddOrganisation;
   private View mAddPlace;
   private View mLocalAd;
@@ -419,6 +420,7 @@ public class PlacePageView extends NestedScrollView
     orderTaxi.setOnClickListener(this);
     mEditPlace = findViewById(R.id.ll__place_editor);
     mEditPlace.setOnClickListener(this);
+    mShouldUpdate = findViewById(R.id.ll__place_should_update);
     mAddOrganisation = findViewById(R.id.ll__add_organisation);
     mAddOrganisation.setOnClickListener(this);
     mAddPlace = findViewById(R.id.ll__place_add);
@@ -1241,10 +1243,11 @@ public class PlacePageView extends NestedScrollView
 
     if (inRouting || MapManager.nativeIsLegacyMode())
     {
-      UiUtils.hide(mEditPlace, mAddOrganisation, mAddPlace, mLocalAd, mEditTopSpace);
+      UiUtils.hide(mEditPlace, mAddOrganisation, mAddPlace, mLocalAd, mEditTopSpace, mShouldUpdate);
     }
     else
     {
+      UiUtils.showIf(Editor.nativeShouldUpdate(), mShouldUpdate);
       UiUtils.showIf(Editor.nativeShouldShowEditPlace(), mEditPlace);
       UiUtils.showIf(Editor.nativeShouldShowAddBusiness(), mAddOrganisation);
       UiUtils.showIf(Editor.nativeShouldShowAddPlace(), mAddPlace);

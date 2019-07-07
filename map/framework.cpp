@@ -967,9 +967,9 @@ void Framework::FillInfoFromFeatureType(FeatureType & ft, place_page::Info & inf
   auto const mwmInfo = ft.GetID().m_mwmId.GetInfo();
   bool const isMapVersionEditable = mwmInfo && mwmInfo->m_version.IsEditableMap();
   bool const canEditOrAdd = featureStatus != FeatureStatus::Obsolete && CanEditMap() &&
-                            !info.IsNotEditableSponsored() && isMapVersionEditable;
+                            !info.IsNotEditableSponsored();
   info.SetCanEditOrAdd(canEditOrAdd);
-
+  info.SetShouldShowUpdateNotice(!isMapVersionEditable);
   if (m_localAdsManager.IsSupportedType(info.GetTypes()))
   {
     info.SetLocalAdsUrl(m_localAdsManager.GetCompanyUrl(ft.GetID()));

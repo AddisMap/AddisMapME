@@ -41,6 +41,9 @@ bool Info::ShouldShowAddPlace() const
   return m_canEditOrAdd && !(IsFeature() && isPointOrBuilding);
 }
 
+bool Info::ShouldShowUpdateNotice() const {
+  return m_shouldShowUpdateNotice;
+}
 bool Info::ShouldShowUGC() const
 {
   return ftraits::UGC::IsUGCAvailable(m_sortedTypes) &&
