@@ -46,9 +46,7 @@ bool Info::ShouldShowUpdateNotice() const {
 }
 bool Info::ShouldShowUGC() const
 {
-  return ftraits::UGC::IsUGCAvailable(m_sortedTypes) &&
-         (m_featureStatus == FeatureStatus::Untouched ||
-          m_featureStatus == FeatureStatus::Modified);
+  return false;
 }
 
 void Info::SetFromFeatureType(FeatureType & ft)
