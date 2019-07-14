@@ -669,7 +669,7 @@ void Editor::UploadChanges(string const & key, string const & secret, ChangesetT
         UploadInfo uploadInfo = {fti.m_uploadAttemptTimestamp, fti.m_uploadStatus, fti.m_uploadError};
         string ourDebugFeatureString;
 
-        LOG(LINFO, ("AddisMap OSM Upload Feature Structure is", (fti.m_feature.GetID())));
+        LOG(LINFO, ("AddisMap OSM Upload Feature Structure is", (fti.m_object.GetID())));
 
         try
         {
