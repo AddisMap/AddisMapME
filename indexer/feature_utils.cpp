@@ -342,20 +342,12 @@ void GetReadableName(RegionData const & regionData, StringUtf8Multilang const & 
 int8_t GetNameForSearchOnBooking(RegionData const & regionData, StringUtf8Multilang const & src,
                                  string & name)
 {
-  if (src.GetString(StringUtf8Multilang::kDefaultCode, name))
-    return StringUtf8Multilang::kDefaultCode;
-
-  vector<int8_t> mwmLangs;
-  regionData.GetLanguages(mwmLangs);
-
-  for (auto mwmLang : mwmLangs)
-  {
-    if (src.GetString(mwmLang, name))
-      return mwmLang;
-  }
-
+  // AddisMap: Always use english or default names, Booking.com does not use Amharic for now
   if (src.GetString(StringUtf8Multilang::kEnglishCode, name))
     return StringUtf8Multilang::kEnglishCode;
+
+  if (src.GetString(StringUtf8Multilang::kDefaultCode, name))
+    return StringUtf8Multilang::kDefaultCode;
 
   name.clear();
   return StringUtf8Multilang::kUnsupportedLanguageCode;
