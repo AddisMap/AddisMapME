@@ -1153,7 +1153,7 @@ public class PlacePageView extends NestedScrollView
       mUgcController.clearViewsFor(mMapObject);
 
       String country = MapManager.nativeGetSelectedCountry();
-      if (!country.equals("Ethiopia") && !country.equals("Eritrea") && country != null && !RoutingController.get().isNavigating())
+      if (country != null && !country.equals("Ethiopia") && !country.equals("Eritrea") && !RoutingController.get().isNavigating())
         attachCountry(country);
     }
 
